@@ -3,11 +3,9 @@
   "firm_tagline": "U.S. Immigration Attorneys",
   "base_url": "https://results.faragallalaw.com",
   "main_site_url": "https://faragallalaw.com",
-
   "phone_display": "(713) 766-1335",
   "phone_tel": "+17137661335",
-  "phone_note": "VERIFY before launch — replace with a CallRail/tracking number pool. Keep the real number as the fallback destination.",
-
+  "phone_note": "CONFIRMED 2026-08-21: use the firm's existing number, same as faragallalaw.com and the original landing page. Optional later upgrade: CallRail pool for keyword-level call attribution (swap phone_display/phone_tel, keep this number as the destination).",
   "attorney": {
     "name": "Sam Faragalla",
     "title": "Founder & Lead Immigration Attorney",
@@ -16,46 +14,44 @@
     "photo_note": "LAUNCH BLOCKER — supply a real professional headshot as assets/img/sam-faragalla.jpg. Never use an AI-generated image on a law firm page.",
     "verify_note": "VERIFY the bio, bar admission state, and Fragomen reference with the firm before launch."
   },
-
   "stats": [
-    { "value": "27+", "label": "Years of combined immigration experience" },
-    { "value": "2,000+", "label": "Immigration cases handled" },
-    { "value": "4.8★", "label": "Average Google rating" }
+    {
+      "value": "27+",
+      "label": "Years of combined immigration experience"
+    },
+    {
+      "value": "2,000+",
+      "label": "Immigration cases handled"
+    },
+    {
+      "value": "4.8★",
+      "label": "Average Google rating"
+    }
   ],
   "stats_note": "VERIFY all three claims with the firm. These figures come from faragallalaw.com's own published copy. Never attribute firm-wide totals to a single visa type.",
-
   "google_reviews_url": "https://www.google.com/maps/search/Faragalla+Law",
   "google_reviews_note": "Replace with the firm's exact Google Business Profile review link (g.page short link).",
-
   "offices_line": "Offices in Texas and Florida — serving clients nationwide and worldwide",
   "offices_note": "Bar advertising rules in several states require a physical office address in ads. VERIFY exact street addresses and add them to the footer before launch.",
-
   "languages_line": "Se habla español — intake and consultations available in English and Spanish",
   "languages_note": "CONFIRMED by the client 2026-08-21: intake operates in both English and Spanish.",
-
   "privacy_url": "https://faragallalaw.com/privacy-policy/",
   "privacy_note": "VERIFY this URL resolves. If the firm has no privacy policy page, publishing one is a launch blocker (required for Google Ads lead forms).",
-
   "response_promise": "We respond within one business day",
   "response_note": "VERIFY the firm can actually meet this. If they respond same-day, say that instead — speed-to-lead is the single biggest lever on PPC lead conversion.",
-
   "consultation": {
     "line": "Flat-rate strategy consultations — we confirm scheduling options and any consultation fee when we reply.",
     "note": "LAUNCH BLOCKER — set the real offer. If consultations are free, change this to 'Free 30-minute consultation — no obligation.' If paid, state the fee and whether it credits toward the retainer. Vague offers were the #1 conversion killer flagged in the page review."
   },
-
   "form": {
     "endpoint": "",
     "endpoint_note": "Optional webhook/CRM endpoint (e.g. Zapier catch hook, HighLevel, Lawmatics). Leave empty to use Netlify Forms (works automatically when deployed on Netlify).",
     "netlify": true
   },
-
   "gtm_id": "",
-  "gtm_note": "Set the GTM container ID (GTM-XXXXXXX) before launch. Pages push dataLayer events either way: lead_form_submit, phone_click, generate_lead (thank-you).",
-
+  "gtm_note": "DECISION 2026-08-21: reuse the existing faragallalaw.com GTM container. To get the ID: view-source on any faragallalaw.com page and search for 'GTM-' (or GTM account → container ID, top right). Paste it here (e.g. GTM-XXXXXXX), run python3 build.py, commit. Pages render the head snippet + noscript iframe automatically. Then add GA4 + Google Ads conversion triggers on the generate_lead and phone_click dataLayer events.",
   "disclaimer_footer": "Attorney Advertising. This website is for informational purposes only and does not constitute legal advice. Submitting a form or calling the firm does not create an attorney-client relationship. Prior results do not guarantee a similar outcome. No attorney-client relationship exists until a written engagement agreement is signed.",
   "form_microcopy_privacy": "We use your contact details only to respond to your inquiry. Submitting this form does not create an attorney-client relationship.",
-
   "testimonials_note": "LAUNCH BLOCKER — replace every placeholder testimonial with a verbatim client review (with permission) from the firm's Google profile, matched to each page's practice area. Fabricated or paraphrased reviews violate bar advertising rules.",
   "testimonial_placeholder_lines": [
     "[PASTE VERBATIM GOOGLE REVIEW — pick one about this visa type. See README launch checklist.]",

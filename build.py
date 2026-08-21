@@ -579,6 +579,14 @@ def render_jsonld(site, page, canonical):
     )
 
 
+def gtm_noscript(site):
+    """GTM <noscript> iframe — rendered right after <body> when a container is set."""
+    if not site.get("gtm_id"):
+        return ""
+    return (f'<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={site["gtm_id"]}" '
+            'height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>')
+
+
 def render_head(site, title, description, canonical, jsonld=""):
     gtm = ""
     if site.get("gtm_id"):
@@ -615,6 +623,7 @@ def render_page(site_base, page):
   {head}
 </head>
 <body>
+  {gtm_noscript(site)}
   {render_header(site, page, ui)}
   <main>
   {render_hero(site, page, ui)}
@@ -660,6 +669,7 @@ def render_thank_you(site, ty, lang):
   </script>
 </head>
 <body>
+  {gtm_noscript(site)}
   <header class="lp-header">
     <div class="container lp-header__inner">
       <span class="lp-header__brand">
@@ -716,6 +726,7 @@ def render_index(site, pages):
   {head}
 </head>
 <body>
+  {gtm_noscript(site)}
   <header class="lp-header">
     <div class="container lp-header__inner">
       <span class="lp-header__brand">
