@@ -1,7 +1,7 @@
 {
   "slug": "marriage-green-card-lawyer",
   "campaign": "Marriage-Based Green Card",
-  "priority": 7,
+  "priority": 9,
   "meta_title": "Marriage Green Card Lawyer | Faragalla Law",
   "meta_description": "Married to a U.S. citizen or green card holder? Faragalla Law prepares marriage-based green card cases — filing strategy, evidence, and interview prep. Request a case review.",
   "eyebrow": "Marriage-Based Green Card Attorneys",
@@ -21,12 +21,24 @@
     {
       "name": "situation",
       "label": "Your situation",
-      "options": ["Spouse is a U.S. citizen — we're both in the U.S.", "Spouse is a green card holder", "My spouse is abroad", "We're engaged, not yet married", "Prior denial / complicated history"]
+      "options": [
+        "Spouse is a U.S. citizen — we're both in the U.S.",
+        "Spouse is a green card holder",
+        "My spouse is abroad",
+        "We're engaged, not yet married",
+        "Prior denial / complicated history"
+      ]
     },
     {
       "name": "entry",
       "label": "How did the immigrant spouse enter the U.S.?",
-      "options": ["Entered legally with a visa (any visa)", "Visa Waiver / ESTA", "Entered without inspection", "Currently outside the U.S.", "Prefer to discuss"]
+      "options": [
+        "Entered legally with a visa (any visa)",
+        "Visa Waiver / ESTA",
+        "Entered without inspection",
+        "Currently outside the U.S.",
+        "Prefer to discuss"
+      ]
     }
   ],
   "problem_heading": "Marriage cases are approved on evidence — and derailed by avoidable mistakes",

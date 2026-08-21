@@ -1,7 +1,7 @@
 {
   "slug": "k1-fiance-visa-lawyer",
   "campaign": "K-1 Fiancé(e) Visa",
-  "priority": 8,
+  "priority": 10,
   "meta_title": "K-1 Fiancé(e) Visa Lawyer | Faragalla Law",
   "meta_description": "Engaged to someone abroad? Faragalla Law prepares K-1 fiancé(e) visa cases — petition, embassy interview prep, and the green card after the wedding. Request a K-1 case review.",
   "eyebrow": "K-1 Fiancé(e) Visa Attorneys",
@@ -21,12 +21,22 @@
     {
       "name": "situation",
       "label": "Your situation",
-      "options": ["Engaged — ready to file", "Together but deciding K-1 vs marriage abroad", "Petition filed — need help with embassy stage", "Prior denial or complicated history"]
+      "options": [
+        "Engaged — ready to file",
+        "Together but deciding K-1 vs marriage abroad",
+        "Petition filed — need help with embassy stage",
+        "Prior denial or complicated history"
+      ]
     },
     {
       "name": "meeting",
       "label": "Have you met in person in the last 2 years?",
-      "options": ["Yes", "No — but we plan to", "No — meeting isn't possible (hardship/culture)", "Not sure what counts"]
+      "options": [
+        "Yes",
+        "No — but we plan to",
+        "No — meeting isn't possible (hardship/culture)",
+        "Not sure what counts"
+      ]
     }
   ],
   "problem_heading": "K-1 cases are won on relationship evidence — and lost on avoidable gaps",

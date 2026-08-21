@@ -1,7 +1,7 @@
 {
   "slug": "houston-immigration-lawyer",
   "campaign": "Houston Immigration Lawyer (Local)",
-  "priority": 10,
+  "priority": 15,
   "meta_title": "Houston Immigration Lawyer | Faragalla Law",
   "meta_description": "Houston immigration attorneys for green cards, work visas, citizenship, and family cases. Big-firm-trained counsel with flat fees. Request a case review — we respond within one business day.",
   "eyebrow": "Houston Immigration Attorneys",
@@ -21,12 +21,24 @@
     {
       "name": "matter",
       "label": "What do you need help with?",
-      "options": ["Marriage or family green card", "Work visa or employment green card", "Citizenship / naturalization", "Business or investor visa", "Deportation / removal defense", "Something else"]
+      "options": [
+        "Marriage or family green card",
+        "Work visa or employment green card",
+        "Citizenship / naturalization",
+        "Business or investor visa",
+        "Deportation / removal defense",
+        "Something else"
+      ]
     },
     {
       "name": "urgency",
       "label": "How urgent is it?",
-      "options": ["Emergency — days matter", "Soon — within a month", "Planning ahead", "Just getting information"]
+      "options": [
+        "Emergency — days matter",
+        "Soon — within a month",
+        "Planning ahead",
+        "Just getting information"
+      ]
     }
   ],
   "problem_heading": "Most immigration problems get more expensive the longer they wait",

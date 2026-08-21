@@ -1,7 +1,7 @@
 {
   "slug": "l1-visa-lawyer",
   "campaign": "L-1 Intracompany Transfer Visa",
-  "priority": 5,
+  "priority": 6,
   "meta_title": "L-1 Visa Lawyer — Intracompany Transfers | Faragalla Law",
   "meta_description": "Expanding your company into the U.S. or transferring a key employee? Faragalla Law prepares L-1A and L-1B petitions, including new-office cases. Request an L-1 case review.",
   "eyebrow": "L-1 Visa Attorneys for Intracompany Transfers",
@@ -21,12 +21,23 @@
     {
       "name": "situation",
       "label": "What best describes your situation?",
-      "options": ["Opening our first U.S. office", "U.S. office exists — transferring an employee", "I'm the owner/executive transferring myself", "L-1 extension or renewal", "Exploring options"]
+      "options": [
+        "Opening our first U.S. office",
+        "U.S. office exists — transferring an employee",
+        "I'm the owner/executive transferring myself",
+        "L-1 extension or renewal",
+        "Exploring options"
+      ]
     },
     {
       "name": "role",
       "label": "Role being transferred",
-      "options": ["Executive / senior manager", "Manager of a team or function", "Specialized-knowledge employee", "Not sure which category fits"]
+      "options": [
+        "Executive / senior manager",
+        "Manager of a team or function",
+        "Specialized-knowledge employee",
+        "Not sure which category fits"
+      ]
     }
   ],
   "problem_heading": "L-1 petitions fail on structure, not on intentions",

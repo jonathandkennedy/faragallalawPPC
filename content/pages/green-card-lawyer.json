@@ -1,0 +1,128 @@
+{
+  "slug": "green-card-lawyer",
+  "campaign": "Green Card (all paths)",
+  "priority": 11,
+  "meta_title": "Green Card Lawyer — Family, Work & Self-Petition | Faragalla Law",
+  "meta_description": "There are many roads to a green card — family, employer, self-petition, investment. Faragalla Law identifies the one your case actually supports and files it right. Request a green card assessment.",
+  "eyebrow": "Green Card Attorneys",
+  "h1": "There's More Than One Road to a Green Card. File the One You Can Actually Win.",
+  "hero_sub": "Family, employer sponsorship, self-petitions, investment — most people qualify under more than one category, and most denials trace back to filing the wrong one. Faragalla Law identifies your strongest path before anything is filed.",
+  "bullets": [
+    "Family and marriage-based petitions, inside or outside the U.S.",
+    "Employment green cards: PERM, EB-1, EB-2 NIW self-petitions",
+    "Honest path assessment before you spend on filing fees"
+  ],
+  "offer_name": "Green Card Path Assessment",
+  "cta_label": "Request My Path Assessment",
+  "cta_short": "GC Assessment",
+  "form_title": "Request Your Green Card Path Assessment",
+  "form_sub": "Tell us your situation. We'll identify your strongest category and reply with a concrete plan.",
+  "qualifiers": [
+    {
+      "name": "basis",
+      "label": "What's your likely basis?",
+      "options": ["Marriage or family in the U.S.", "My employer will sponsor me", "My own achievements (self-petition)", "Investment (EB-5)", "Not sure — that's the question"]
+    },
+    {
+      "name": "location",
+      "label": "Where are you now?",
+      "options": ["In the U.S. with valid status", "In the U.S. — status expired or complicated", "Outside the U.S.", "Prefer to discuss"]
+    }
+  ],
+  "problem_heading": "Green card cases fail on category choice more than on merit",
+  "problem_cards": [
+    {
+      "title": "The categories move at wildly different speeds",
+      "body": "An immediate-relative spouse case has no queue at all; some employment and family preference categories carry waits measured in years and vary by country of birth. Choosing between two categories you qualify for is often choosing between one year and six."
+    },
+    {
+      "title": "How you entered and stayed controls your options",
+      "body": "Adjusting status inside the U.S. requires a lawful entry, and time out of status can trigger 3- and 10-year bars the moment you leave for a consular interview. The right sequence — adjust vs. consular, waiver first or not — must be decided before filing, not after."
+    },
+    {
+      "title": "Weak filings invite RFEs, and RFEs invite denials",
+      "body": "USCIS scrutiny has tightened across categories. Missing financial documents, thin evidence, and inconsistent histories generate Requests for Evidence that stall cases for months. A complete, consistent file the first time is the cheapest speed upgrade that exists."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Every category under one roof",
+      "body": "Family, employment, self-petition, and investment cases are all part of the practice — so the recommendation you get is the strongest category for you, not the only one a narrow shop sells."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, preparing employment-based green card cases to corporate standards."
+    },
+    {
+      "title": "Sequencing is half the strategy",
+      "body": "Work permits, travel documents, priority dates, and status maintenance are planned alongside the petition itself — so you're never stranded, jobless, or unable to travel mid-case."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "Your category and complexity set a flat fee, quoted at the consultation. Government fees itemized separately. No hourly meters."
+    }
+  ],
+  "process": [
+    {
+      "title": "Path assessment",
+      "body": "Submit the form. We review your basis, history, and location, then reply within one business day with our read and consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We compare every category you plausibly qualify for — timeline, evidence burden, risk — and choose the strongest, with adjust-vs-consular and any waiver questions answered."
+    },
+    {
+      "title": "Petition and filing package",
+      "body": "We prepare the petition and, where applicable, the concurrent adjustment package — work permit and travel document included — built to survive scrutiny in one pass."
+    },
+    {
+      "title": "Interview through approval",
+      "body": "We prepare you for the interview, answer any RFE, and see the case through to the green card — including condition removal when it applies."
+    }
+  ],
+  "fees_heading": "What does a green card case cost?",
+  "fees_body": "It depends on the category: a clean family case costs far less than a PERM process or a complex waiver case. Every case gets a flat legal fee quoted at the consultation, with USCIS and consular fees itemized so you can budget the entire journey. If two categories are viable, we'll price both so the trade-off is transparent.",
+  "who_heading": "Is this the right service for you?",
+  "who_for": [
+    "You're married or engaged to a U.S. citizen or resident, or have close family in the U.S.",
+    "Your employer wants to sponsor you — or you want to know what sponsorship requires",
+    "Your achievements might support a self-petition (EB-2 NIW, EB-1) — no employer needed",
+    "You're weighing an EB-5 investment and want independent immigration counsel",
+    "You qualify under more than one category and need the trade-offs priced out"
+  ],
+  "who_not": [
+    "You need temporary work status fast — that's a visa strategy first (we handle those too, but it's a different conversation)",
+    "You have a final removal order — that's an urgent defense matter; call rather than filing anything",
+    "There's no qualifying relative, employer, achievement record, or investment — we'll say so honestly rather than file a doomed case"
+  ],
+  "faq": [
+    {
+      "q": "What are the main ways to get a green card?",
+      "a": "Four big families: relatives (spouses, parents, children, siblings of U.S. citizens; spouses and children of residents), employment (employer-sponsored PERM cases in EB-2/EB-3), self-petitions for high-achievers (EB-1A extraordinary ability, EB-2 National Interest Waiver), and investment (EB-5). There are also humanitarian routes. Most denials we're hired to fix started with someone picking the wrong family."
+    },
+    {
+      "q": "How long does a green card take?",
+      "a": "From under a year for a spouse of a U.S. citizen adjusting in the U.S., to several years where a preference category is backlogged — India- and China-born applicants in employment categories wait longest. Your category, your country of birth, and whether you process inside or outside the U.S. set the clock. We give you the current, honest timeline for your specific combination."
+    },
+    {
+      "q": "Can I stay and work in the U.S. while my case is pending?",
+      "a": "If you file adjustment of status inside the U.S., the package includes a work permit (EAD) and usually a travel document — once the EAD arrives you can work for any employer. If you process through a consulate abroad, you wait outside the U.S. This difference alone often decides the strategy."
+    },
+    {
+      "q": "What is the visa bulletin and why does it matter?",
+      "a": "It's the State Department's monthly queue report. Each preference category and country of birth has a 'priority date' line; you can only complete the final green card step when your date is current. Reading it correctly — including the two-chart system and retrogression risk — is how we decide when to file what."
+    },
+    {
+      "q": "I overstayed my visa. Can I still get a green card?",
+      "a": "Often, yes — but the path matters enormously. A spouse of a U.S. citizen who entered legally can usually adjust status despite the overstay. Others may trigger a 3- or 10-year bar by leaving for a consular interview, which is exactly when a provisional waiver (I-601A) has to come first. Do not leave the country or file anything before getting this analyzed."
+    },
+    {
+      "q": "Do I really need a lawyer for a green card?",
+      "a": "For a genuinely simple case, maybe not. The problem is knowing whether yours is simple: entry history, prior filings, arrests, employment gaps, and category choice all hide traps that only surface after filing. Our assessment tells you honestly which kind of case you have — and if it's truly simple, we'll say so."
+    }
+  ],
+  "service_name": "Green Card & Permanent Residence Services",
+  "testimonial_hint": "Use verbatim Google reviews from green card clients — family or employment",
+  "final_heading": "Find your strongest path to permanent residence",
+  "final_sub": "One form. One business day. The right category, the right sequence, a real timeline."
+}

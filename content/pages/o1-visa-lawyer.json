@@ -1,7 +1,7 @@
 {
   "slug": "o1-visa-lawyer",
   "campaign": "O-1 Extraordinary Ability Visa",
-  "priority": 4,
+  "priority": 5,
   "meta_title": "O-1 Visa Lawyer — Extraordinary Ability | Faragalla Law",
   "meta_description": "Founders, researchers, engineers, artists: Faragalla Law evaluates your O-1 evidence against the criteria USCIS actually applies, then builds the petition. Request an O-1 case assessment.",
   "eyebrow": "O-1 Visa Attorneys for Extraordinary Ability",
@@ -21,12 +21,25 @@
     {
       "name": "field",
       "label": "Your field",
-      "options": ["Tech / engineering / founder", "Sciences / research / academia", "Business / finance", "Arts / entertainment / media", "Athletics", "Other"]
+      "options": [
+        "Tech / engineering / founder",
+        "Sciences / research / academia",
+        "Business / finance",
+        "Arts / entertainment / media",
+        "Athletics",
+        "Other"
+      ]
     },
     {
       "name": "status",
       "label": "Current situation",
-      "options": ["In the U.S. — need to change or extend status", "Outside the U.S.", "Lost the H-1B lottery", "Previously denied or RFE'd", "Exploring options"]
+      "options": [
+        "In the U.S. — need to change or extend status",
+        "Outside the U.S.",
+        "Lost the H-1B lottery",
+        "Previously denied or RFE'd",
+        "Exploring options"
+      ]
     }
   ],
   "problem_heading": "The O-1 is winnable — if the evidence is framed the way USCIS reads it",

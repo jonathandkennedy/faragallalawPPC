@@ -27,6 +27,24 @@ story, and use volume clusters (family, local, citizenship) to fill capacity.
 | 8 | `/k1-fiance-visa-lawyer/` | K-1 | k-1 visa attorney 720 @ **$48.40** · k1 visa lawyer 720 @ $40.62 · fiance visa lawyer 480 @ $39.64 | Medium | US national |
 | 9 | `/citizenship-lawyer/` | Citizenship | immigration lawyer for citizenship 5,400 @ $8.82 · citizenship lawyer 1,300 @ $11.27 · naturalization lawyer 720 @ $12.04 | Low-medium | US national |
 | 10 | `/houston-immigration-lawyer/` | Houston local | immigration lawyer houston 5,400 @ $22.37 · immigration attorney houston tx 5,400 @ $20.69 · best immigration lawyer houston 880 @ $14.01 | Mixed | Houston DMA |
+| 11 | `/us-immigration-lawyer/` | Canadians catch-all | us immigration lawyer 880 @ $29.70 (CA) · us immigration lawyer near me 140 @ $20.46 (CA) · us visa lawyer 40 @ $18.14 (CA) | High | **Canada** |
+| 12 | `/eb5-visa-lawyer/` | EB-5 investor | eb5 visa lawyer 1,900 @ $20.17 · eb-5 immigration attorney 720 @ $10.95 | Very high | US + intl |
+| 13 | `/green-card-lawyer/` | Green card (all paths) | green card immigration lawyer 33,100 @ $19.38 (comp 0.01) · green card lawyer 1,600 @ $12.79 | Medium | US national |
+| 14 | `/h1b-visa-lawyer/` | H-1B | h1b visa attorney fee 4,400 @ $9.36 (+ employer-side demand) | Medium | US national |
+| 15 | `/deportation-defense-lawyer/` | Removal defense | deportation lawyer 1,300 @ $13.07 · deportation defense attorney 880 @ $11.53 | Medium | US national |
+| 16 | `/abogado-de-inmigracion-houston/` | Houston Spanish | abogado de inmigracion houston 720 @ **$30.73** (comp 0.88) · abogado de inmigracion cerca de mi 3,600 @ $20.61 | Mixed | Houston DMA (ES) |
+
+Notes on pages 11–16: `/us-immigration-lawyer/` is the bottom-funnel page for
+the recommended Canada split — the 880/mo `us immigration lawyer` (CA) term
+deserves its own message-matched destination rather than landing on the E-2
+page. The Spanish Houston page targets an auction that prices HIGHER than
+English Houston ($30.73 vs $22.37): Spanish-speaking Houston demand is fought
+over, and a natively written page (not a translation) is the message-match
+edge. Its extra launch blocker: confirm Spanish-speaking intake staff before
+spending. `/green-card-lawyer/` exists to catch the anomalous
+`green card immigration lawyer` term (33,100/mo @ $19.38 with 0.01
+competition — likely inflated by close variants, so treat it as a test-first
+ad group with tight negatives, not a budget anchor).
 
 Supporting Canadian-market signals for #1–2: `us immigration lawyer` 880/mo @
 $29.70 (CA), `us immigration lawyer near me` 140 @ $20.46 (CA), `e2 visa` 3,600

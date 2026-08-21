@@ -1,7 +1,7 @@
 {
   "slug": "eb1-visa-lawyer",
   "campaign": "EB-1 First-Preference Green Card",
-  "priority": 6,
+  "priority": 7,
   "meta_title": "EB-1 Visa Attorney — Extraordinary Ability Green Card | Faragalla Law",
   "meta_description": "EB-1A extraordinary ability, EB-1B outstanding researcher, EB-1C multinational manager. Faragalla Law assesses which first-preference category fits and builds the petition. Request an EB-1 assessment.",
   "eyebrow": "EB-1 Green Card Attorneys",
@@ -21,12 +21,22 @@
     {
       "name": "category",
       "label": "Which best describes you?",
-      "options": ["Top-of-field professional / researcher / founder (EB-1A)", "Professor or researcher with an employer offer (EB-1B)", "Executive or manager at a multinational company (EB-1C)", "Not sure which category fits"]
+      "options": [
+        "Top-of-field professional / researcher / founder (EB-1A)",
+        "Professor or researcher with an employer offer (EB-1B)",
+        "Executive or manager at a multinational company (EB-1C)",
+        "Not sure which category fits"
+      ]
     },
     {
       "name": "status",
       "label": "Current situation",
-      "options": ["In the U.S. on O-1 / H-1B / L-1 or other status", "Outside the U.S.", "Previously denied or RFE'd", "Exploring options"]
+      "options": [
+        "In the U.S. on O-1 / H-1B / L-1 or other status",
+        "Outside the U.S.",
+        "Previously denied or RFE'd",
+        "Exploring options"
+      ]
     }
   ],
   "problem_heading": "EB-1 has the highest bar — and the highest payoff",

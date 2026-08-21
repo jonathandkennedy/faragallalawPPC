@@ -1,0 +1,131 @@
+{
+  "slug": "deportation-defense-lawyer",
+  "campaign": "Deportation / Removal Defense",
+  "priority": 13,
+  "meta_title": "Deportation Defense Lawyer | Faragalla Law",
+  "meta_description": "In removal proceedings, detained, or living with an old order? Faragalla Law builds deportation defenses — relief eligibility, bond, and motions to reopen. Urgent cases: call now.",
+  "eyebrow": "Deportation & Removal Defense Attorneys",
+  "h1": "Facing Removal? What You Do in the Next Few Weeks Shapes Everything.",
+  "hero_sub": "A Notice to Appear is the start of a legal case, not the end of your options. Faragalla Law identifies every form of relief you qualify for, fights for bond when someone is detained, and shows up prepared — because deadlines in immigration court do not forgive.",
+  "bullets": [
+    "Removal proceedings, bond hearings, and detained cases",
+    "Relief: cancellation of removal, asylum, adjustment, waivers",
+    "Old orders and missed hearings — motions to reopen"
+  ],
+  "offer_name": "Defense Case Review",
+  "cta_label": "Request My Defense Review",
+  "cta_short": "Defense Review",
+  "form_title": "Request Your Defense Case Review",
+  "form_sub": "Tell us what's happening. Urgent or detained cases: call the number above right now instead.",
+  "qualifiers": [
+    {
+      "name": "situation",
+      "label": "What's the situation?",
+      "options": ["I received a Notice to Appear (NTA)", "A family member is detained", "I have a court date coming up", "I missed a hearing / have an old removal order", "ICE check-in coming up", "Something else urgent"]
+    },
+    {
+      "name": "timing",
+      "label": "When is the next date or deadline?",
+      "options": ["Within 2 weeks — urgent", "2–8 weeks", "More than 2 months out", "No date yet / not sure"]
+    }
+  ],
+  "problem_heading": "Removal cases are lost by default more often than on the merits",
+  "problem_cards": [
+    {
+      "title": "Missed hearings become removal orders automatically",
+      "body": "Skip a hearing — even because a notice went to an old address — and the judge can order removal in absentia the same day. If that already happened, a motion to reopen may still undo it, but the clock and the paper trail are everything. Bring us the notice, not a summary of it."
+    },
+    {
+      "title": "Relief exists — but only if it's claimed correctly and on time",
+      "body": "Cancellation of removal, asylum and withholding, adjustment through family, and waivers each have strict eligibility lines: years of presence, qualifying relatives, filing deadlines. Judges don't hunt for your relief. Your lawyer identifies every form you qualify for and builds the record to win it."
+    },
+    {
+      "title": "Detention decisions happen fast and set the tone",
+      "body": "Whether someone fights their case free on bond or detained for months often turns on one early hearing — and on how quickly documents proving identity, ties, and sponsorship reach the court. Families that move in the first days keep their options; families that wait lose them."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Defense is part of the practice, not a sideline",
+      "body": "The firm handles removal proceedings alongside its family and business immigration work — which matters, because the strongest defense is often an affirmative case (a marriage petition, a waiver) run in parallel."
+    },
+    {
+      "title": "Every form of relief screened, systematically",
+      "body": "We run your full history against the relief map — presence, family, fear-based claims, prior filings, criminal record analysis — before the strategy is chosen. No option gets left unclaimed because nobody asked."
+    },
+    {
+      "title": "Honest odds, in plain language",
+      "body": "We tell you what's winnable, what isn't, and what each path costs — including when the best move is buying time lawfully or when a prior lawyer's mistake gives you a reopening argument."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "Defense work is quoted in defined stages — bond, pleadings, the merits hearing — each with a flat fee, so cost never becomes a mid-case surprise."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case review",
+      "body": "Submit the form — or call if anything is urgent or someone is detained. We review the notice, the dates, and the history, and respond fast; detained and deadline cases jump the queue."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We analyze the charges, screen every form of relief, request the government's file where needed, and set the defense plan — bond first when someone is held."
+    },
+    {
+      "title": "Build the record",
+      "body": "We prepare pleadings, applications for relief, country evidence, hardship documentation, and witnesses — the record the judge actually decides on."
+    },
+    {
+      "title": "Fight the case",
+      "body": "We represent you at master calendar and individual hearings, and pursue appeals or motions when the fight isn't over — through to the safest available outcome."
+    }
+  ],
+  "fees_heading": "What does a defense cost?",
+  "fees_body": "It depends on the stage and the relief being pursued — a bond motion is priced differently from a full cancellation case with a merits hearing. Every stage carries a flat fee quoted before it begins, and we'll tell you honestly at the consultation what the realistic total looks like for the whole fight. What we won't do is quote low and revise mid-case.",
+  "who_heading": "Who this defense practice is for",
+  "who_for": [
+    "You or a family member received a Notice to Appear or has an immigration court date",
+    "Someone is detained and needs a bond fight now",
+    "You missed a hearing or carry an old removal order and want it examined for reopening",
+    "You have an ICE check-in and want counsel prepared beforehand",
+    "A criminal case — even an old or minor one — is colliding with your immigration status"
+  ],
+  "who_not": [
+    "You're outside the U.S. and were already removed — different tools apply (waivers, consular processing); we'll point you right",
+    "You want someone to promise a guaranteed outcome — no honest defense lawyer will",
+    "You only need visa or green card help with no proceedings involved — see our other services; this page is for defense"
+  ],
+  "faq": [
+    {
+      "q": "I got a Notice to Appear. What do I do first?",
+      "a": "Three things, fast: calendar every date on it, update your address with the court (form EOIR-33) so notices reach you, and get the charges analyzed by counsel before your first hearing. The first hearing (master calendar) is short but consequential — pleadings taken there frame the entire case. Do not ignore it and do not go unrepresented if you can avoid it."
+    },
+    {
+      "q": "Can you get someone out of immigration detention?",
+      "a": "Often, yes — through a bond hearing where we prove identity, community ties, a stable address, and that the person is neither a flight risk nor a danger. Some criminal history triggers mandatory detention, which we analyze immediately. Speed matters most: the sooner documents and a sponsor are ready, the sooner the hearing and the stronger the showing."
+    },
+    {
+      "q": "What defenses exist against deportation?",
+      "a": "The main families: cancellation of removal (10 years' presence plus exceptional hardship to a qualifying relative for non-residents; a separate version for green card holders), asylum, withholding, and CAT protection for those who fear return, adjustment of status through a family petition, various waivers, and prosecutorial or procedural challenges to the government's case. Most people qualify for more than they think — screening for all of it is the first job."
+    },
+    {
+      "q": "I missed my hearing years ago and have a removal order. Is it fixable?",
+      "a": "Sometimes. A motion to reopen an in-absentia order can succeed where notice was defective or exceptional circumstances caused the absence — and other reopening paths exist for changed country conditions or ineffective prior counsel. These motions are technical and fact-heavy; bring every document you have, including the old notices, before anyone files anything."
+    },
+    {
+      "q": "Will a criminal charge get me deported?",
+      "a": "It depends on the exact statute of conviction — not the story, the statute. Some offenses are removability grounds or bar relief; many are survivable with the right analysis; and how a pending criminal case is pled can decide the immigration outcome. If you have both a criminal case and immigration exposure, your criminal defense lawyer and immigration counsel need to talk before any plea."
+    },
+    {
+      "q": "Should my family member sign anything ICE gives them?",
+      "a": "Not before understanding it. Signing a stipulated removal or voluntary departure paper can waive the right to see a judge at all. Everyone has the right to say they want to speak with a lawyer. If someone is detained, call us with their full name and A-number and we'll locate them and move on the case."
+    }
+  ],
+  "service_name": "Deportation & Removal Defense Services",
+  "testimonial_hint": "Use verbatim Google reviews from defense/detention clients (the firm has these)",
+  "final_heading": "Get a defense plan before the next hearing",
+  "final_sub": "Urgent or detained? Call now. Otherwise: one form, a fast reply, and a clear-eyed read on your options.",
+  "site_overrides": {
+    "response_promise": "Detained or facing a deadline? Call now — form submissions are answered within one business day"
+  }
+}

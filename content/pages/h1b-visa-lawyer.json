@@ -1,0 +1,128 @@
+{
+  "slug": "h1b-visa-lawyer",
+  "campaign": "H-1B (employers + workers)",
+  "priority": 12,
+  "meta_title": "H-1B Visa Lawyer — Petitions, Transfers & RFEs | Faragalla Law",
+  "meta_description": "H-1B sponsorship, transfers, extensions, and RFE responses for employers and workers — plus honest advice on O-1 and NIW alternatives when the lottery doesn't cooperate. Request an H-1B case review.",
+  "eyebrow": "H-1B Visa Attorneys",
+  "h1": "H-1B Petitions, Transfers, and RFEs — Handled Like the Big Firms Do It, Priced Like They Don't.",
+  "hero_sub": "Whether you're an employer sponsoring talent or a professional protecting your status, H-1B outcomes ride on specialty-occupation strategy, clean filings, and deadlines met. Faragalla Law handles the full lifecycle — and tells you honestly when O-1 or NIW is the better play.",
+  "bullets": [
+    "Employers: registrations, petitions, LCAs, compliance",
+    "Workers: transfers, extensions, 60-day-grace strategy, RFEs",
+    "Lost the lottery? We map the real alternatives"
+  ],
+  "offer_name": "H-1B Case Review",
+  "cta_label": "Request My H-1B Review",
+  "cta_short": "H-1B Review",
+  "form_title": "Request Your H-1B Case Review",
+  "form_sub": "Tell us your side of the petition — employer or worker — and the timeline. We'll reply with a concrete plan.",
+  "qualifiers": [
+    {
+      "name": "role",
+      "label": "Which describes you?",
+      "options": ["Employer — sponsoring an employee", "Worker — transfer or extension", "Worker — lost the lottery, need options", "Worker or employer — RFE or denial", "Laid off — inside the 60-day grace window"]
+    },
+    {
+      "name": "timing",
+      "label": "How urgent is it?",
+      "options": ["Deadline within 30 days", "1–3 months", "Planning for next lottery season", "Just mapping options"]
+    }
+  ],
+  "problem_heading": "H-1B cases turn on details that look like formalities — until they deny the petition",
+  "problem_cards": [
+    {
+      "title": "\"Specialty occupation\" is argued, not assumed",
+      "body": "USCIS scrutinizes whether the role truly requires a specific degree — generic titles, mismatched duties, and third-party placement setups draw RFEs and denials. The petition must connect degree, duties, and wage level into one coherent argument before an officer ever asks."
+    },
+    {
+      "title": "The clock rules everything",
+      "body": "March registration windows, six-year maximum stays, 60-day grace periods after layoffs, 240-day work authorization on timely extensions — H-1B is a lattice of deadlines where a missed date converts a routine filing into an emergency or a departure."
+    },
+    {
+      "title": "The lottery is a coin flip — your career isn't",
+      "body": "With selection odds hovering around one in four, a plan that consists of 'hope we get picked' is not a plan. Cap-exempt employers, O-1 for strong profiles, day-1 CPT risks, TN for Canadians and Mexicans, and green card self-petitions (NIW) are the real alternatives — each fits a different profile."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Corporate-grade filings without corporate overhead",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms — the shop standard for H-1B work — and applies that playbook for startups, small employers, and individual professionals."
+    },
+    {
+      "title": "Both sides of the table",
+      "body": "We represent employers and workers, so petitions anticipate what each side's risks look like: compliance and audit exposure for the company, status continuity and green card runway for the professional."
+    },
+    {
+      "title": "Alternatives on the menu, honestly priced",
+      "body": "If your profile is stronger than your lottery luck, we'll tell you — O-1, NIW, cap-exempt routes, or TN — with the trade-offs and fees side by side."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "Registrations, petitions, transfers, and RFE responses each carry a flat fee, quoted before work begins."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case review",
+      "body": "Submit the form. We review the role, degree, status history, and deadlines, then reply within one business day with consultation options — deadline cases first."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We confirm specialty-occupation strength, wage level, and timing — or map alternatives if the H-1B path is weak — and set the filing calendar."
+    },
+    {
+      "title": "Petition build and filing",
+      "body": "We prepare the LCA, support letter, and evidence to pre-empt the common RFE grounds, and file with premium processing when speed matters."
+    },
+    {
+      "title": "Through approval and beyond",
+      "body": "We answer any RFE, manage extensions and amendments as roles change, and plan the green card process early enough to beat the six-year ceiling."
+    }
+  ],
+  "fees_heading": "What does H-1B work cost?",
+  "fees_body": "Legal fees are flat per filing — a lottery registration costs little, a full petition more, an RFE response depends on what the RFE demands. Government fees vary sharply by employer size and include registration, filing, fraud-prevention, and optional premium processing. We produce a single itemized budget at the consultation; employers should note which fees the law requires the employer to bear.",
+  "who_heading": "Who this service fits",
+  "who_for": [
+    "Employers — from startups sponsoring their first hire to companies running annual lottery cohorts",
+    "Professionals transferring employers who can't afford a status gap",
+    "Workers facing an RFE, a denial, or a layoff inside the 60-day grace window",
+    "Graduates on OPT/STEM OPT building a multi-year status plan",
+    "Strong profiles that keep losing the lottery and want the honest alternative map"
+  ],
+  "who_not": [
+    "You want a petition without a real job offer behind it — no",
+    "Your timeline can't survive the next lottery and you don't qualify for alternatives — we'll say so plainly rather than sell false hope",
+    "You're a Canadian professional in a USMCA occupation — TN is usually faster and cheaper; see our TN service"
+  ],
+  "faq": [
+    {
+      "q": "How does the H-1B lottery actually work?",
+      "a": "Employers register each candidate in early March for a small fee; USCIS randomly selects from registrations to fill the 65,000 cap plus 20,000 U.S.-master's slots; selected candidates then have a 90-day window to file full petitions for an October 1 start. Recent selection odds have run roughly 25–35%. Universities, their affiliated nonprofits, and certain research organizations are cap-exempt and can file year-round."
+    },
+    {
+      "q": "What are my options if I'm not selected in the lottery?",
+      "a": "The real menu: remain on OPT/STEM OPT and re-enter next year's lottery; move to a cap-exempt employer; qualify for O-1 if your achievements support it; TN for Canadian and Mexican citizens in USMCA occupations; L-1 if your employer has foreign offices; or pursue an EB-2 NIW green card in parallel. Which ones are real for you depends on profile — that's the review."
+    },
+    {
+      "q": "Can I change employers on an H-1B?",
+      "a": "Yes — H-1B portability lets you start with the new employer as soon as their transfer petition is properly filed, without waiting for approval. The risk sits in the details: maintaining status up to filing, matching the new role to specialty-occupation standards, and travel timing while the transfer is pending. File before you resign, not after."
+    },
+    {
+      "q": "I was laid off. How long do I have?",
+      "a": "Generally up to 60 days (or until your I-94 expires, whichever is sooner) to have a new employer file for you, change status, or depart. The window is survivable but unforgiving — a transfer, a change to B-2 to buy time, or a dependent-status move each has different filing requirements. Start counting from your last day of employment and get advice in week one, not week seven."
+    },
+    {
+      "q": "How long can I stay on H-1B, and what about a green card?",
+      "a": "Six years, in three-year grants — but time spent abroad can be recaptured, and the limit extends past six years once your green card process (PERM or an I-140) reaches the right milestones. The practical rule: start the green card conversation by year two or three. For strong profiles, an NIW self-petition can run alongside employer sponsorship as insurance."
+    },
+    {
+      "q": "What does an RFE mean — is my case dead?",
+      "a": "No. A Request for Evidence means the officer wants more proof on specific points — most often specialty occupation, the employer-employee relationship, or wage-level fit. Well-built responses succeed regularly, but the response is a one-shot brief with a hard deadline: treat it as the merits hearing of your case, because it is."
+    }
+  ],
+  "service_name": "H-1B Specialty Occupation Visa Services",
+  "testimonial_hint": "Use verbatim Google reviews from employment-based clients — worker or employer",
+  "final_heading": "Get your H-1B plan on a real calendar",
+  "final_sub": "One form. One business day. Deadlines mapped, risks flagged, alternatives priced."
+}

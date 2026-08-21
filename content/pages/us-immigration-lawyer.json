@@ -1,0 +1,128 @@
+{
+  "slug": "us-immigration-lawyer",
+  "campaign": "US Immigration Lawyer — Canadians (catch-all)",
+  "priority": 3,
+  "meta_title": "U.S. Immigration Lawyers for Canadians | Faragalla Law",
+  "meta_description": "Moving to the U.S. from Canada for work, business, love, or a green card? Faragalla Law maps every route — TN, E-2, L-1, O-1, marriage, NIW — and tells you which one your situation actually supports.",
+  "eyebrow": "U.S. Immigration Lawyers for Canadians",
+  "h1": "Moving to the U.S. from Canada? Get the Right Visa Strategy Before You File Anything.",
+  "hero_sub": "Work, business, family, or a green card — there are a dozen routes from Canada into the U.S., and picking the wrong one costs months. Faragalla Law's practice is built around Canadian cases: we map your situation to the route that actually works.",
+  "bullets": [
+    "Work visas: TN, H-1B, O-1 — matched to your job and credentials",
+    "Business routes: E-2 investor and L-1 company transfers",
+    "Family and green cards: marriage, K-1, EB-2 NIW self-petitions"
+  ],
+  "offer_name": "U.S. Immigration Strategy Review",
+  "cta_label": "Request My Strategy Review",
+  "cta_short": "Strategy Review",
+  "form_title": "Request Your U.S. Immigration Strategy Review",
+  "form_sub": "Tell us your goal. We'll identify the strongest route from Canada and reply with concrete next steps.",
+  "qualifiers": [
+    {
+      "name": "goal",
+      "label": "What's your goal in the U.S.?",
+      "options": ["Work for a U.S. employer", "Start, buy, or expand a business", "Join or marry a U.S. citizen / resident", "Permanent residence (green card)", "Not sure — need the options mapped"]
+    },
+    {
+      "name": "timing",
+      "label": "When do you want to be in the U.S.?",
+      "options": ["Within 3 months", "3–12 months", "Over a year out — planning ahead", "Already in the U.S."]
+    }
+  ],
+  "problem_heading": "The route you pick first decides everything after it",
+  "problem_cards": [
+    {
+      "title": "Canadians have shortcuts — if you use them",
+      "body": "Canadian citizens can get TN and L-1 status adjudicated the same day at the border, skip visa stamps most nationalities need, and apply for E-2 visas through the consulate in Toronto. A strategy that ignores these advantages wastes the strongest passport in the U.S. immigration system."
+    },
+    {
+      "title": "The wrong first filing follows you",
+      "body": "A border refusal, a denied petition, or an inconsistent answer becomes part of your permanent record and surfaces at every future application. The cheapest legal advice you'll ever buy is the advice you get before the first filing."
+    },
+    {
+      "title": "Temporary status and green card goals can conflict",
+      "body": "TN and E-2 require non-immigrant intent; filing for permanent residence at the wrong moment can strand you outside the country. If a green card is the real goal, the sequencing — which status first, when to file, how to travel — is the whole game."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Canadian cases are the core of the practice",
+      "body": "The firm's business immigration work centers on Canadians — E-2 investors, TN professionals, and cross-border companies — including consular filings prepared for Toronto and border applications prepared for CBP."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, before founding a practice serving individuals and businesses directly."
+    },
+    {
+      "title": "Every route weighed, not just the one we like",
+      "body": "Because the firm handles work, business, family, and green card cases, your consultation compares routes honestly — including the ones that mean less legal work for us."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "Once we've mapped your route, you get a flat fee for the work. You'll know the full cost before you commit."
+    }
+  ],
+  "process": [
+    {
+      "title": "Strategy review",
+      "body": "Submit the form. We review your goal, timeline, and situation, then reply within one business day with consultation options."
+    },
+    {
+      "title": "Route mapping consultation",
+      "body": "We compare every viable route — eligibility, timeline, cost, and risk — and recommend the strongest one, with the green card sequencing planned from the start."
+    },
+    {
+      "title": "Case preparation",
+      "body": "We prepare the filing for your chosen route — petition, evidence, employer or business documents — to the standard a border officer or consular officer expects."
+    },
+    {
+      "title": "Filing, interview, and landing",
+      "body": "We file or prepare you for the border, coach you for the interview, and stay on the case through approval — with the next stage already calendared."
+    }
+  ],
+  "fees_heading": "What does this cost?",
+  "fees_body": "The strategy consultation carries a flat rate, and every route we recommend comes with a flat fee quoted before you commit — TN preparation costs far less than an E-2 or NIW case, and we'll tell you exactly where your situation lands. Government fees are itemized separately so you can budget the whole move.",
+  "who_heading": "Which Canadians we help",
+  "who_for": [
+    "Professionals with (or expecting) a U.S. job offer — TN, H-1B, O-1",
+    "Entrepreneurs and investors buying, starting, or relocating a business — E-2, L-1",
+    "Partners of U.S. citizens and residents — K-1, marriage green cards",
+    "High-achievers seeking self-petitioned green cards — EB-2 NIW, EB-1",
+    "Canadians already in the U.S. who need to change, extend, or fix status"
+  ],
+  "who_not": [
+    "You're immigrating to Canada, not from it — we handle U.S. immigration only",
+    "You want a U.S. passive-investment residence program — the U.S. requires an active business (E-2) or the EB-5 investor program; we'll tell you which, if either, fits",
+    "You need same-week travel with no legal basis — we'll tell you honestly when there's no viable route"
+  ],
+  "faq": [
+    {
+      "q": "What's the fastest way for a Canadian to work in the U.S.?",
+      "a": "For most professionals with a job offer, TN status — Canadian citizens can apply at a port of entry or pre-clearance airport and receive a decision the same day, no petition or lottery required. If your occupation isn't on the USMCA list, O-1, H-1B, or L-1 are the usual alternatives, each with different timelines. The consultation identifies which door your credentials actually open."
+    },
+    {
+      "q": "Do Canadians need a visa to visit or work in the U.S.?",
+      "a": "For visits, no visa is required for most Canadians — but visiting is not working. Any productive work for a U.S. entity requires proper status (TN, L-1, E-2, O-1, H-1B, and so on), and 'working remotely while visiting' is a gray zone that has caught many people at the border. If you're doing anything beyond tourism or meetings, get the status question answered before you cross."
+    },
+    {
+      "q": "Can I just move to the U.S. if I buy a business there?",
+      "a": "Buying a business doesn't itself grant status — but it can qualify you for an E-2 treaty investor visa if the investment is substantial, at risk, and you'll actively run the company. The E-2 is renewable indefinitely but is not a green card. This is the firm's core specialty; see the eligibility review for the specifics."
+    },
+    {
+      "q": "How do Canadians get a U.S. green card?",
+      "a": "The main routes: marriage or close family, employer sponsorship (often after TN or L-1 time), self-petitions for high-achievers (EB-2 NIW, EB-1), and the EB-5 investment program. Canada has no country backlog, so most categories are 'current' — the route choice, not the queue, usually decides your timeline."
+    },
+    {
+      "q": "Can I apply for a green card while on TN status?",
+      "a": "Yes, but carefully. TN is a non-immigrant-intent status, so a pending green card case can cause problems at the border if the timing and travel aren't managed. The standard play is sequencing — moving to a dual-intent status like H-1B or L-1, or timing the filing and travel windows correctly. This is exactly the kind of trap the strategy consultation exists to prevent."
+    },
+    {
+      "q": "Do I need a U.S. lawyer or a Canadian one?",
+      "a": "U.S. immigration is exclusively U.S. federal law, so you need a U.S.-licensed immigration attorney — where in the U.S. they sit doesn't matter, and everything can be handled remotely from Canada. Beware of unlicensed 'consultants': only a licensed attorney (or accredited representative) can lawfully represent you before U.S. immigration agencies."
+    }
+  ],
+  "service_name": "U.S. Immigration Legal Services for Canadian Citizens",
+  "testimonial_hint": "Use verbatim Google reviews from Canadian clients — any visa type",
+  "final_heading": "Map your route before you spend a dollar on the wrong one",
+  "final_sub": "One form. One business day. The strongest path from Canada for your specific situation."
+}

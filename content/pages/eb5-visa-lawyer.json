@@ -1,0 +1,128 @@
+{
+  "slug": "eb5-visa-lawyer",
+  "campaign": "EB-5 Immigrant Investor",
+  "priority": 8,
+  "meta_title": "EB-5 Visa Lawyer — Immigrant Investor Green Cards | Faragalla Law",
+  "meta_description": "Investing $800,000+ for a U.S. green card? Faragalla Law provides independent EB-5 counsel — source-of-funds strategy, filing, and concurrent work authorization. We represent you, not the fund.",
+  "eyebrow": "EB-5 Immigrant Investor Attorneys",
+  "h1": "Investing $800,000 for a Green Card? Get Counsel That Works for You — Not the Fund.",
+  "hero_sub": "EB-5 turns a qualifying U.S. investment into permanent residence for you, your spouse, and your children under 21. Faragalla Law provides independent immigration counsel: source-of-funds strategy, the petition, and the sequencing that can put you to work in the U.S. while you wait.",
+  "bullets": [
+    "Independent of regional centers — we represent the investor",
+    "Source-of-funds documentation built to USCIS standards",
+    "Concurrent filing: live and work in the U.S. while the case is pending"
+  ],
+  "offer_name": "EB-5 Case Assessment",
+  "cta_label": "Request My EB-5 Assessment",
+  "cta_short": "EB-5 Review",
+  "form_title": "Request Your EB-5 Case Assessment",
+  "form_sub": "Tell us where your funds come from and where you are today. We'll flag the issues and reply with a plan.",
+  "qualifiers": [
+    {
+      "name": "situation",
+      "label": "Your situation",
+      "options": ["Evaluating EB-5 — haven't committed funds", "Selected a regional center project", "Planning a direct investment (own business)", "Already filed — need new counsel or RFE help", "In the U.S. on H-1B/F-1/E-2 weighing EB-5"]
+    },
+    {
+      "name": "funds",
+      "label": "Source of investment funds",
+      "options": ["Business income or sale", "Property sale", "Savings / investments", "Gift or inheritance", "Combination / prefer to discuss"]
+    }
+  ],
+  "problem_heading": "EB-5 cases are won or lost on paperwork you assemble before investing",
+  "problem_cards": [
+    {
+      "title": "Source of funds is the case",
+      "body": "Every dollar of the $800,000+ must be traced to a lawful source through documents — sale contracts, tax records, bank trails, gift affidavits. Most EB-5 RFEs and denials are source-of-funds failures, and a trace is far easier to build before the money moves than after."
+    },
+    {
+      "title": "The project decides your immigration risk",
+      "body": "A regional center's job-creation math, escrow terms, and loan structure directly determine whether your green card conditions can be removed later. We review projects through the immigration lens — job cushion, I-956F status, exit terms — so you see the visa risk before you wire funds."
+    },
+    {
+      "title": "Backlogs make set-asides and sequencing decisive",
+      "body": "Rural and high-unemployment set-aside categories have kept visas current for countries whose standard EB-5 queue is backlogged. For investors born in China or India — and anyone already in the U.S. — category choice plus concurrent filing can mean working in the U.S. years earlier."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "We represent the investor — full stop",
+      "body": "We take no referral fees from regional centers and market no projects. Our advice on a project's immigration risk is the advice you're paying for, with no one else in the room."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, and applies that documentary standard to investor filings."
+    },
+    {
+      "title": "Source-of-funds craftsmanship",
+      "body": "We build the fund trace like the evidence exhibit it is — every transfer documented, every gap explained — including complex international paths and gifted funds."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "One flat fee per stage — I-526E, adjustment or consular stage, and I-829 condition removal — quoted before you commit."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case assessment",
+      "body": "Submit the form. We review your funds, goals, and current status, then reply within one business day with consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We map your source-of-funds trace, weigh direct vs. regional-center and standard vs. set-aside categories, and sequence concurrent filing if you're in the U.S."
+    },
+    {
+      "title": "Petition build and filing",
+      "body": "We assemble the I-526E with the full fund trace and project documents — and, where eligible, file your adjustment of status, work permit, and travel document at the same time."
+    },
+    {
+      "title": "Through conditions removal",
+      "body": "We track job-creation evidence during the conditional period and prepare the I-829 that converts your family's status to permanent, unconditional residence."
+    }
+  ],
+  "fees_heading": "What does an EB-5 case cost?",
+  "fees_body": "Beyond the investment itself ($800,000 in a targeted employment area; $1,050,000 standard), budget for regional center administrative fees, USCIS filing fees — which are substantial for EB-5 — and legal fees quoted flat per stage. We itemize everything at the consultation so the full cost of the program is on one page before you commit a dollar.",
+  "who_heading": "Is EB-5 the right instrument?",
+  "who_for": [
+    "You can invest $800,000+ of lawfully-sourced, documentable funds",
+    "You want permanent residence for your whole family — spouse and children under 21 included",
+    "You're in the U.S. on H-1B, F-1, or E-2 and want out of temporary-status limbo (concurrent filing)",
+    "You were born in a backlogged country and the set-aside categories change your math",
+    "You'd rather passively invest through a regional center — or actively run your own qualifying business"
+  ],
+  "who_not": [
+    "Your capital is under $800,000 — an E-2 treaty investor visa may fit for far less (we handle those too)",
+    "Your funds can't be documented to a lawful source — this is disqualifying, and we'll tell you straight",
+    "You're chasing a promised return — EB-5 investments must be genuinely at risk; anyone guaranteeing returns is your red flag, not your partner"
+  ],
+  "faq": [
+    {
+      "q": "How much do I need to invest for EB-5?",
+      "a": "$800,000 if the project is in a targeted employment area (rural or high-unemployment) or an infrastructure project; $1,050,000 otherwise. The investment must create at least 10 full-time U.S. jobs and remain genuinely at risk — no guaranteed buy-backs. Most investors today use $800,000 TEA projects through regional centers."
+    },
+    {
+      "q": "What's the difference between a regional center and a direct EB-5 investment?",
+      "a": "Regional center projects pool investors and count indirect job creation — you invest passively and the center documents the jobs. A direct investment means your own business must itself employ 10 full-time workers. Regional centers dominate because of the passive role and easier job math; direct suits operators who want to run the company anyway."
+    },
+    {
+      "q": "Can I live and work in the U.S. while my EB-5 is pending?",
+      "a": "If you're lawfully in the U.S. and a visa number is available for your category, you can file adjustment of status concurrently with the I-526E — which brings a work permit and travel document, typically within months. This concurrent-filing option is the single biggest practical improvement of the 2022 reform, and it's why many H-1B and F-1 holders now choose EB-5."
+    },
+    {
+      "q": "How long does the EB-5 process take?",
+      "a": "I-526E adjudication commonly runs years, though rural set-aside petitions receive priority processing and have moved much faster. After approval you get two years of conditional residence, then file the I-829 to remove conditions. Country of birth matters: standard-category queues for China (and at times India) are backlogged, while set-aside categories have remained current — timing and category choice are case-specific."
+    },
+    {
+      "q": "What are the biggest risks in EB-5?",
+      "a": "Three: source-of-funds documentation failures (the top petition-stage problem), project failure — if the jobs aren't created or the project collapses, your green card and your capital are both at risk — and repayment risk at exit. Legal counsel controls the first completely and helps you see the second and third clearly before you wire anything."
+    },
+    {
+      "q": "Are you giving me investment advice?",
+      "a": "No — and be wary of anyone blending the roles. We are immigration counsel: we assess projects for immigration risk (job cushion, filing compliance, condition-removal viability) and build your petition. Financial suitability of an investment is a question for your own financial and securities advisers. EB-5 offerings are securities; diligence deserves both lenses."
+    }
+  ],
+  "service_name": "EB-5 Immigrant Investor Program Services",
+  "testimonial_hint": "Use verbatim Google reviews from investor / business immigration clients",
+  "final_heading": "Get independent eyes on your EB-5 before the money moves",
+  "final_sub": "One form. One business day. A clear read on your funds, your category, and your real timeline."
+}

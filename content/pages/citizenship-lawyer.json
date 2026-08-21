@@ -1,7 +1,7 @@
 {
   "slug": "citizenship-lawyer",
   "campaign": "Citizenship & Naturalization",
-  "priority": 9,
+  "priority": 14,
   "meta_title": "Citizenship & Naturalization Lawyer | Faragalla Law",
   "meta_description": "Ready to become a U.S. citizen — or worried something in your history could complicate it? Faragalla Law prepares N-400 cases and handles complications before they surface. Request a citizenship review.",
   "eyebrow": "Citizenship & Naturalization Attorneys",
@@ -21,12 +21,24 @@
     {
       "name": "situation",
       "label": "Your situation",
-      "options": ["Green card 5+ years — ready to apply", "Green card through marriage — 3-year rule", "Something in my history concerns me", "My N-400 was denied", "Helping a family member"]
+      "options": [
+        "Green card 5+ years — ready to apply",
+        "Green card through marriage — 3-year rule",
+        "Something in my history concerns me",
+        "My N-400 was denied",
+        "Helping a family member"
+      ]
     },
     {
       "name": "concern",
       "label": "Any of these apply?",
-      "options": ["None — clean history", "Trips abroad over 6 months", "Tax or child-support issues", "Arrest or citation (even dismissed)", "Prefer to discuss"]
+      "options": [
+        "None — clean history",
+        "Trips abroad over 6 months",
+        "Tax or child-support issues",
+        "Arrest or citation (even dismissed)",
+        "Prefer to discuss"
+      ]
     }
   ],
   "problem_heading": "The N-400 looks like a form — it's actually a full review of your immigration life",

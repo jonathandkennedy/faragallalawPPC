@@ -1,7 +1,7 @@
 {
   "slug": "eb2-niw-lawyer",
   "campaign": "EB-2 National Interest Waiver",
-  "priority": 3,
+  "priority": 4,
   "meta_title": "EB-2 NIW Lawyer — Self-Petition Green Card | Faragalla Law",
   "meta_description": "No employer sponsor, no PERM. Faragalla Law evaluates whether your work meets the EB-2 National Interest Waiver standard and builds the petition. Request an honest NIW assessment.",
   "eyebrow": "EB-2 National Interest Waiver Attorneys",
@@ -21,12 +21,23 @@
     {
       "name": "education",
       "label": "Highest qualification",
-      "options": ["PhD / doctorate", "Master's degree", "Bachelor's + 5 years progressive experience", "Bachelor's degree only", "Exceptional ability (no advanced degree)"]
+      "options": [
+        "PhD / doctorate",
+        "Master's degree",
+        "Bachelor's + 5 years progressive experience",
+        "Bachelor's degree only",
+        "Exceptional ability (no advanced degree)"
+      ]
     },
     {
       "name": "status",
       "label": "Current situation",
-      "options": ["In the U.S. on H-1B / F-1 / O-1 / TN or other status", "Outside the U.S.", "Previously filed NIW — denied or RFE", "Just exploring options"]
+      "options": [
+        "In the U.S. on H-1B / F-1 / O-1 / TN or other status",
+        "Outside the U.S.",
+        "Previously filed NIW — denied or RFE",
+        "Just exploring options"
+      ]
     }
   ],
   "problem_heading": "NIW approvals go to well-argued cases, not just strong résumés",

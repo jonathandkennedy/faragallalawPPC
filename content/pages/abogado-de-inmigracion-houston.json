@@ -1,0 +1,192 @@
+{
+  "slug": "abogado-de-inmigracion-houston",
+  "campaign": "Abogado de Inmigración — Houston (Español)",
+  "priority": 16,
+  "lang": "es",
+  "meta_title": "Abogado de Inmigración en Houston | Faragalla Law",
+  "meta_description": "Abogados de inmigración en Houston para residencias, visas de trabajo, ciudadanía y defensa de deportación. Atención en español, tarifas fijas y una respuesta honesta sobre su caso.",
+  "eyebrow": "Abogados de Inmigración en Houston",
+  "h1": "Un Abogado de Inmigración en Houston Que Le Dice la Verdad Sobre Su Caso.",
+  "hero_sub": "Residencias, visas de trabajo, peticiones familiares, ciudadanía y defensa. En Faragalla Law usted recibe primero una evaluación honesta — y después una tarifa fija y un plan claro, en español.",
+  "bullets": [
+    "Residencias por matrimonio y peticiones familiares",
+    "Ciudadanía, permisos de trabajo y visas de empleo",
+    "Defensa de deportación y casos urgentes"
+  ],
+  "offer_name": "Evaluación de Su Caso",
+  "cta_label": "Solicitar la Evaluación de Mi Caso",
+  "cta_short": "Evaluar Mi Caso",
+  "form_title": "Solicite la Evaluación de Su Caso",
+  "form_sub": "Cuéntenos su situación en una o dos frases. Le responderemos con los siguientes pasos concretos.",
+  "qualifiers": [
+    {
+      "name": "asunto",
+      "label": "¿En qué necesita ayuda?",
+      "options": ["Residencia por matrimonio o familia", "Visa de trabajo o residencia por empleo", "Ciudadanía / naturalización", "Defensa de deportación / corte", "Permiso de trabajo o renovación", "Otro asunto"]
+    },
+    {
+      "name": "urgencia",
+      "label": "¿Qué tan urgente es?",
+      "options": ["Emergencia — cuestión de días", "Pronto — dentro de un mes", "Estoy planificando con tiempo", "Solo busco información"]
+    }
+  ],
+  "problem_heading": "Los problemas migratorios se vuelven más caros cuanto más se esperan",
+  "problem_cards": [
+    {
+      "title": "Un notario no es un abogado",
+      "body": "En Estados Unidos, un 'notario' no está autorizado para dar asesoría legal ni representarlo ante inmigración. Cada semana heredamos casos dañados por notarios y preparadores de formularios: solicitudes equivocadas, respuestas inconsistentes, plazos perdidos. Si alguien que no es abogado tocó su caso, una revisión ahora puede detener el daño."
+    },
+    {
+      "title": "Los plazos mandan en inmigración",
+      "body": "Las fechas de corte, los plazos para responder a USCIS, los vencimientos de permisos y las ventanas para quitar condiciones no perdonan. Un caso que es sencillo este mes puede necesitar un perdón el mes que viene. Saber a tiempo dónde está parado cuesta solo un formulario."
+    },
+    {
+      "title": "Lo que se declara hoy lo persigue mañana",
+      "body": "Cada solicitud queda en su expediente permanente. Respuestas inconsistentes entre trámites — aunque sean errores inocentes — salen a relucir años después en entrevistas y cortes. Es mucho más barato presentar bien desde el principio que explicar después."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Atención en español, de verdad",
+      "body": "Su consulta, sus documentos explicados y sus preguntas respondidas en español — no una recepcionista bilingüe y un abogado que no le entiende."
+    },
+    {
+      "title": "Formación de firma grande, trato personal",
+      "body": "El abogado fundador Sam Faragalla se formó en Fragomen, una de las firmas de inmigración corporativa más grandes del mundo, y aplica ese estándar a las familias de Houston."
+    },
+    {
+      "title": "Primero la verdad, después el contrato",
+      "body": "En la consulta usted sabrá qué opciones tiene, cuáles son los riesgos y cuánto cuesta — incluso cuando el consejo honesto es esperar o no presentar nada todavía."
+    },
+    {
+      "title": "Tarifas fijas y claras",
+      "body": "Usted conoce el costo total de su trámite antes de contratarnos. Sin sorpresas a mitad del caso y con planes de pago disponibles en muchos casos."
+    }
+  ],
+  "process": [
+    {
+      "title": "Evaluación de su caso",
+      "body": "Envíe el formulario. Revisamos su situación y le respondemos dentro de un día hábil con las opciones de consulta."
+    },
+    {
+      "title": "Consulta de estrategia",
+      "body": "Analizamos su historial y sus metas, identificamos la vía correcta y los riesgos, y le damos una tarifa fija y un calendario realista."
+    },
+    {
+      "title": "Preparación y presentación",
+      "body": "Preparamos un expediente completo y consistente — formularios, evidencia y argumentos legales — y lo presentamos bien desde la primera vez."
+    },
+    {
+      "title": "Hasta la decisión",
+      "body": "Damos seguimiento al caso, respondemos a las solicitudes de evidencia, lo preparamos para las entrevistas y no lo soltamos hasta la decisión."
+    }
+  ],
+  "fees_heading": "¿Cuánto cuesta su trámite?",
+  "fees_body": "Cada asunto estándar — peticiones familiares, residencias, permisos, ciudadanía — se cotiza con una tarifa fija en la consulta, con las tarifas del gobierno detalladas por separado para que usted pueda presupuestar el caso completo. Los casos con complicaciones cuestan más que los casos limpios, y le diremos con franqueza cuál es el suyo antes de que gaste un dólar.",
+  "who_heading": "A quiénes ayudamos en Houston",
+  "who_for": [
+    "Familias con peticiones de matrimonio, perdones y ajustes de estatus",
+    "Trabajadores y empleadores con visas y residencias por empleo",
+    "Residentes permanentes listos para la ciudadanía",
+    "Personas con notificaciones, fechas de corte o casos negados que necesitan una respuesta clara y rápida",
+    "Casos dañados por notarios o preparadores que hay que rescatar"
+  ],
+  "who_not": [
+    "Si necesita un abogado penalista para un caso no migratorio, lo referimos con gusto",
+    "Si la respuesta honesta es que hoy no existe una vía viable para usted, se lo diremos en lugar de venderle un trámite"
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto cobra un abogado de inmigración en Houston?",
+      "a": "Depende del trámite: una petición sencilla cuesta mucho menos que un perdón o una defensa en corte. Lo que sí podemos prometer es la estructura: una tarifa fija cotizada en la consulta que cubre el trabajo definido, con las tarifas del gobierno detalladas por separado. Usted nunca descubrirá el precio a mitad del caso."
+    },
+    {
+      "q": "¿La consulta es en español? ¿Cuánto cuesta?",
+      "a": "Sí — la consulta se realiza en español si usted lo prefiere. Envíe el formulario y le responderemos dentro de un día hábil con las opciones de cita y los detalles de la consulta. Es una sesión de trabajo: usted sale sabiendo sus opciones, sus riesgos, un calendario realista y la tarifa fija de su caso."
+    },
+    {
+      "q": "¿Qué diferencia hay entre un abogado y un notario?",
+      "a": "Toda. En EE. UU., solo un abogado con licencia (o un representante acreditado por el gobierno) puede darle asesoría legal y representarlo ante USCIS o la corte de inmigración. Un 'notario' o 'preparador de formularios' no puede — y los errores que cometen quedan en su expediente permanente. Antes de firmar con cualquiera, pida su número de licencia de abogado y verifíquelo."
+    },
+    {
+      "q": "Recibí una carta de inmigración o una fecha de corte. ¿Qué hago?",
+      "a": "Marque su formulario como 'Emergencia' o llámenos directamente, y no falte a ninguna cita ni audiencia — faltar a una audiencia puede terminar en una orden de deportación automática. Traiga la carta original a la consulta: el lenguaje exacto determina la estrategia y los plazos. Los casos con fecha límite se atienden antes que las consultas de rutina."
+    },
+    {
+      "q": "¿Puedo arreglar papeles si entré sin permiso o me quedé más tiempo del permitido?",
+      "a": "A veces sí — depende de cómo entró, quién es su familiar peticionario y su historial completo. Los cónyuges de ciudadanos que entraron legalmente muchas veces pueden ajustar estatus aunque se hayan quedado de más; otras situaciones requieren un perdón antes de salir a la entrevista consular. Es exactamente el tipo de análisis que debe hacerse antes de presentar cualquier cosa — un trámite equivocado puede activar un castigo de 3 o 10 años."
+    },
+    {
+      "q": "¿Atienden casos fuera de Houston?",
+      "a": "Sí. La ley de inmigración es federal, así que representamos clientes en todo Texas, en todo el país y en el extranjero. Las consultas están disponibles por teléfono y video, y la mayoría de los trámites ante USCIS no requieren visitas a una oficina local."
+    }
+  ],
+  "service_name": "Servicios Legales de Inmigración — Houston, TX (Español)",
+  "testimonial_hint": "Reseñas textuales de Google de clientes hispanohablantes de Houston",
+  "final_heading": "Reciba una respuesta clara sobre su caso",
+  "final_sub": "Un formulario. Un día hábil. Una respuesta honesta sobre sus opciones, el costo y el calendario.",
+  "ui": {
+    "thankyou_path": "/gracias.html",
+    "hp_label": "Deje este campo vacío",
+    "full_name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "phone_hint": "Lo usamos únicamente para responder a su consulta — sin llamadas de mercadeo.",
+    "select_one": "Seleccione una opción…",
+    "msg_sending": "Enviando su solicitud…",
+    "msg_error": "Ocurrió un error al enviar el formulario. Por favor llámenos — el número está en la parte superior de la página.",
+    "see_privacy": "Consulte nuestra",
+    "privacy_policy": "Política de Privacidad",
+    "back_to_top": "volver arriba",
+    "call_firm": "Llamar a",
+    "or_call": "o llame al",
+    "avg_google": "calificación promedio en Google",
+    "k_problem": "Lo que decide estos casos",
+    "k_fit": "Califíquese en 30 segundos",
+    "fit_yes": "Este servicio probablemente es para usted si…",
+    "fit_no": "Probablemente no es lo indicado si…",
+    "k_why": "Por qué {firm}",
+    "why_h2": "Abogados que someten su caso a prueba antes que el gobierno",
+    "k_process": "Cómo funciona",
+    "process_h2": "Un proceso definido — usted siempre sabe cuál es el siguiente paso",
+    "k_fees": "Los costos, de frente",
+    "k_reviews": "Reseñas de clientes",
+    "reviews_h2": "Lo que dicen nuestros clientes",
+    "google_review_label": "Reseña de Google —",
+    "reviews_source": "Las reseñas mostradas provienen del {gbp_link} público del despacho, reproducidas textualmente con permiso. Cada caso es distinto; resultados anteriores no garantizan un resultado similar.",
+    "gbp_label": "perfil de Google Business",
+    "k_attorney": "Su abogado",
+    "photo_placeholder": "Fotografía del abogado aquí<br>(assets/img/sam-faragalla.jpg — vea la lista de verificación del README; use una fotografía real)",
+    "k_faq": "Preguntas frecuentes",
+    "faq_h2": "Preguntas que respondemos cada semana",
+    "k_final": "Cuando usted esté listo",
+    "final_call": "¿Prefiere hablar? Llame al {phone} — mencione que vio la página «{campaign}».",
+    "main_site": "Sitio web principal",
+    "call_now": "Llamar Ahora",
+    "quick_actions": "Acciones rápidas"
+  },
+  "site_overrides": {
+    "firm_tagline": "Abogados de Inmigración",
+    "response_promise": "Respondemos dentro de un día hábil",
+    "consultation": {
+      "line": "Consultas de estrategia con tarifa fija — al responderle confirmamos las opciones de cita y cualquier costo de consulta."
+    },
+    "form_microcopy_privacy": "Usamos sus datos de contacto únicamente para responder a su consulta. Enviar este formulario no crea una relación abogado-cliente.",
+    "offices_line": "Oficinas en Texas y Florida — servimos a clientes en todo el país",
+    "disclaimer_footer": "Publicidad de Abogados. Este sitio web es solo informativo y no constituye asesoría legal. Enviar un formulario o llamar al despacho no crea una relación abogado-cliente. Los resultados anteriores no garantizan un resultado similar. No existe una relación abogado-cliente hasta que se firme un acuerdo de representación por escrito.",
+    "stats": [
+      { "value": "27+", "label": "Años de experiencia migratoria combinada" },
+      { "value": "2,000+", "label": "Casos de inmigración manejados" },
+      { "value": "4.8★", "label": "Calificación promedio en Google" }
+    ],
+    "attorney": {
+      "title": "Fundador y Abogado Principal de Inmigración",
+      "bio_short": "Sam Faragalla se formó en Fragomen, una de las firmas de inmigración corporativa más grandes del mundo, antes de fundar Faragalla Law. El despacho representa a familias, trabajadores, empresarios e inversionistas en asuntos migratorios en todo Estados Unidos.",
+      "license_line": "Licenciado para ejercer la abogacía en Nueva York. La ley de inmigración es federal, lo que permite al despacho representar clientes en los 50 estados y en el extranjero."
+    },
+    "testimonial_placeholder_lines": [
+      "[PEGUE AQUÍ UNA RESEÑA TEXTUAL DE GOOGLE — en español, de un cliente de Houston. Vea el README.]",
+      "[PEGUE AQUÍ UNA SEGUNDA RESEÑA TEXTUAL EN ESPAÑOL.]"
+    ]
+  }
+}

@@ -1,8 +1,10 @@
 # Faragalla Law — PPC Landing Page Hub
 
-A self-contained hub of 10 campaign landing pages for faragallalaw.com paid
+A self-contained hub of 16 campaign landing pages for faragallalaw.com paid
 traffic (the `results.goldbergloren.com` pattern: one focused, noindexed page
-per campaign, no site navigation, one offer per page).
+per campaign, no site navigation, one offer per page) — including a fully
+localized Spanish page for Houston (`/abogado-de-inmigracion-houston/`, with
+its own thank-you page `/gracias.html`).
 
 - **Campaign strategy, keyword data, ad structure:** [STRATEGY.md](STRATEGY.md)
 - **Raw keyword research exports:** `research/keywords-us.tsv`, `research/keywords-canada.tsv`
@@ -21,16 +23,19 @@ cd public && python3 -m http.server 8000   # preview at http://localhost:8000
 ## Structure
 
 ```
-build.py                  generator (all shared page template logic)
+build.py                  generator (all shared page template logic + i18n strings)
 content/site.json         firm-wide config: phone, stats, offer, disclaimers, GTM, form endpoint
-content/pages/*.json      one file per campaign: all copy, FAQs, form qualifiers, meta
+content/pages/*.json      one file per campaign: all copy, FAQs, form qualifiers, meta;
+                          optional "lang", "ui" (template-string overrides), and
+                          "site_overrides" (per-page firm copy, e.g. Spanish stats/attorney bio)
 assets/css/lp.css         design system (mobile-first, system fonts, WCAG-checked buttons)
 assets/js/lp.js           ~3KB runtime: UTM/gclid capture, form submit, dataLayer events
 public/                   generated output — the deployable site
   index.html              internal hub directory (never an ad destination)
   thank-you.html          conversion page (fires generate_lead)
-  <campaign>/index.html   10 landing pages
-research/                 keyword research exports (Aug 2026)
+  gracias.html            Spanish conversion page (same event)
+  <campaign>/index.html   16 landing pages
+research/                 keyword research exports + US-vs-Canada analysis (Aug 2026)
 ```
 
 To edit copy: change the JSON, run `python3 build.py`, commit both.
@@ -87,11 +92,20 @@ posts URL-encoded form data there and redirects to the thank-you page on 2xx.
 - [ ] Real-device pass: iPhone Safari + Android Chrome — sticky bar doesn't
   cover the form's submit button, tel: links dial, forms submit.
 
+**Spanish page (`/abogado-de-inmigracion-houston/`) extra blockers:**
+- [ ] Confirm Spanish-speaking intake — who answers the phone and replies to
+  form leads in Spanish? Do not spend on this campaign until that's real.
+- [ ] Native-speaker review of the page copy (written in professional formal
+  Spanish; a quick read by a native speaker is cheap insurance).
+- [ ] Spanish testimonials: paste verbatim Spanish-language Google reviews.
+
 **Nice-to-have before scale:**
 - [ ] Favicon/logo files replacing the inline SVG "F".
-- [ ] A Spanish-language Houston page (real demand; see STRATEGY.md).
 - [ ] Speed sanity check (PageSpeed Insights) — pages are ~35KB with system
   fonts and no libraries, so scores should be green out of the box.
+- [ ] If the firm has a real NYC or Miami office, clone the Houston page for
+  those metros (verify the office claim first — location pages without a real
+  presence are a bar-rules and Google Ads policy risk).
 
 ## Review fixes implemented
 

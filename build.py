@@ -5,6 +5,11 @@ Zero dependencies (Python 3.8+ stdlib). Reads content/site.json and
 content/pages/*.json, writes deploy-ready HTML into public/.
 
     python3 build.py
+
+Localization: a page JSON may set "lang" (default "en"), override any template
+string via "ui": {...} (keys in UI_EN), and override firm-wide copy via
+"site_overrides": {...} (shallow-merged over site.json, dicts merged one level).
+A page with lang "es" gets the Spanish thank-you page (/gracias.html).
 """
 import html
 import json
@@ -28,6 +33,101 @@ def load():
         pages.append(json.loads(f.read_text(encoding="utf-8")))
     pages.sort(key=lambda p: p.get("priority", 99))
     return site, pages
+
+
+def merge_site(site, page):
+    """Apply a page's site_overrides (one level of dict merge)."""
+    eff = dict(site)
+    for k, v in page.get("site_overrides", {}).items():
+        if isinstance(v, dict) and isinstance(eff.get(k), dict):
+            eff[k] = {**eff[k], **v}
+        else:
+            eff[k] = v
+    return eff
+
+
+# ---------------------------------------------------------------- UI strings
+
+UI_EN = {
+    "thankyou_path": "/thank-you.html",
+    "hp_label": "Leave this field empty",
+    "full_name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "phone_hint": "Used only to follow up about your inquiry — no marketing calls.",
+    "select_one": "Select one…",
+    "msg_sending": "Sending your request…",
+    "msg_error": "Something went wrong sending the form. Please call us instead — the number is at the top of the page.",
+    "see_privacy": "See our",
+    "privacy_policy": "Privacy Policy",
+    "back_to_top": "back to top",
+    "call_firm": "Call",
+    "or_call": "or call",
+    "avg_google": "average rating on Google",
+    "k_problem": "What decides these cases",
+    "k_fit": "Qualify yourself in 30 seconds",
+    "fit_yes": "This service is likely a fit if…",
+    "fit_no": "It's probably not the right fit if…",
+    "k_why": "Why {firm}",
+    "why_h2": "Counsel that pressure-tests your case before the government does",
+    "k_process": "How it works",
+    "process_h2": "A defined process — you always know the next step",
+    "k_fees": "Costs, addressed head-on",
+    "k_reviews": "Client reviews",
+    "reviews_h2": "What clients say",
+    "google_review_label": "Google review —",
+    "reviews_source": "Reviews shown are from the firm's public {gbp_link}, reproduced verbatim with permission. Individual results vary; prior results do not guarantee a similar outcome.",
+    "gbp_label": "Google Business Profile",
+    "k_attorney": "Your attorney",
+    "photo_placeholder": "Attorney headshot goes here<br>(assets/img/sam-faragalla.jpg — see README launch checklist; use a real photograph)",
+    "k_faq": "Common questions",
+    "faq_h2": "Questions we answer every week",
+    "k_final": "Ready when you are",
+    "final_call": "Prefer to talk? Call {phone} — tell us you're calling about the {campaign} page.",
+    "main_site": "Main website",
+    "call_now": "Call Now",
+    "quick_actions": "Quick actions",
+}
+
+TY_EN = {
+    "path": "/thank-you.html",
+    "title": "Request Received",
+    "h1": "Your request was received.",
+    "lead": "{response_promise} — usually sooner. Here's exactly what happens next.",
+    "steps": [
+        ("We review your submission",
+         "An attorney-supervised team member reads your answers and matches your case to the right review track."),
+        ("You get a reply within one business day",
+         "We email you consultation options, the consultation details, and anything we need from you — check your spam folder just in case."),
+        ("Worth gathering meanwhile",
+         "Your passport, any prior U.S. visa or immigration paperwork, and — for business cases — basic numbers on your investment or company. Don't worry if something is missing; we'll tell you exactly what matters for your case."),
+    ],
+    "callout_strong": "Need to talk sooner?",
+    "callout_rest": "and mention that you've already submitted the form.",
+    "meta_description": "Your request was received. Here's what happens next.",
+}
+
+TY_ES = {
+    "path": "/gracias.html",
+    "title": "Solicitud Recibida",
+    "h1": "Recibimos su solicitud.",
+    "lead": "{response_promise} — generalmente antes. Esto es exactamente lo que sigue.",
+    "steps": [
+        ("Revisamos su información",
+         "Un miembro del equipo, supervisado por un abogado, lee sus respuestas y dirige su caso a la vía de evaluación correcta."),
+        ("Recibirá respuesta dentro de un día hábil",
+         "Le enviaremos por correo las opciones de consulta, los detalles y cualquier cosa que necesitemos de usted — revise su carpeta de spam por si acaso."),
+        ("Mientras tanto, vale la pena reunir",
+         "Su pasaporte, cualquier documento migratorio anterior y cualquier notificación que haya recibido del gobierno. No se preocupe si le falta algo; le diremos exactamente qué importa en su caso."),
+    ],
+    "callout_strong": "¿Necesita hablar antes?",
+    "callout_rest": "y mencione que ya envió el formulario.",
+    "meta_description": "Recibimos su solicitud. Esto es lo que sigue.",
+}
+
+
+def ui_for(page):
+    return {**UI_EN, **page.get("ui", {})}
 
 
 # ---------------------------------------------------------------- SVG icons
@@ -65,8 +165,8 @@ HIDDEN_TRACKING_FIELDS = [
 
 # ---------------------------------------------------------------- components
 
-def render_form(site, page, location):
-    """One consistent form used in the hero and the final section (review fix #16)."""
+def render_form(site, page, ui, location):
+    """One consistent form used in the hero and the final section."""
     slug = page["slug"]
     endpoint = site["form"].get("endpoint", "")
     netlify_attrs = ' data-netlify="true" netlify-honeypot="company_website"' if site["form"].get("netlify") else ""
@@ -82,47 +182,48 @@ def render_form(site, page, location):
       <div>
         <label for="{location}-{q['name']}">{e(q['label'])}</label>
         <select id="{location}-{q['name']}" name="{q['name']}" required>
-          <option value="" selected disabled>Select one…</option>{opts}
+          <option value="" selected disabled>{e(ui['select_one'])}</option>{opts}
         </select>
       </div>"""
 
-    return f"""<form class="lp-form" method="POST" action="/thank-you.html" name="lead-{slug}"
-      data-form-location="{location}" data-endpoint="{e(endpoint)}"{netlify_attrs}>
+    return f"""<form class="lp-form" method="POST" action="{ui['thankyou_path']}" name="lead-{slug}"
+      data-form-location="{location}" data-endpoint="{e(endpoint)}" data-thankyou="{ui['thankyou_path']}"
+      data-msg-sending="{e(ui['msg_sending'])}" data-msg-error="{e(ui['msg_error'])}"{netlify_attrs}>
       <input type="hidden" name="form-name" value="lead-{slug}">
       <input type="hidden" name="campaign_page" value="{slug}">
       {hidden}
-      <p class="hp-field" aria-hidden="true"><label>Leave this field empty <input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></p>
+      <p class="hp-field" aria-hidden="true"><label>{e(ui['hp_label'])} <input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></p>
       <div>
-        <label for="{location}-name">Full name</label>
+        <label for="{location}-name">{e(ui['full_name'])}</label>
         <input id="{location}-name" type="text" name="name" autocomplete="name" required>
       </div>
       <div>
-        <label for="{location}-email">Email</label>
+        <label for="{location}-email">{e(ui['email'])}</label>
         <input id="{location}-email" type="email" name="email" autocomplete="email" inputmode="email" required>
       </div>
       <div>
-        <label for="{location}-phone">Phone</label>
+        <label for="{location}-phone">{e(ui['phone'])}</label>
         <input id="{location}-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" required>
-        <div class="field-hint">Used only to follow up about your inquiry — no marketing calls.</div>
+        <div class="field-hint">{e(ui['phone_hint'])}</div>
       </div>{qualifiers}
       <div class="lp-form__status" role="status" aria-live="polite"></div>
       <button class="btn btn--primary btn--block" type="submit">{e(page['cta_label'])}</button>
       <p class="lp-form__microcopy">{e(site['response_promise'])}. {e(site['consultation']['line'])}
-      {e(site['form_microcopy_privacy'])} See our <a href="{e(site['privacy_url'])}" target="_blank" rel="noopener">Privacy&nbsp;Policy</a>.</p>
+      {e(site['form_microcopy_privacy'])} {e(ui['see_privacy'])} <a href="{e(site['privacy_url'])}" target="_blank" rel="noopener">{e(ui['privacy_policy']).replace(' ', '&nbsp;')}</a>.</p>
     </form>"""
 
 
-def render_header(site, page):
+def render_header(site, page, ui):
     return f"""<header class="lp-header">
     <div class="container lp-header__inner">
-      <a class="lp-header__brand" href="#top" aria-label="{e(site['firm_name'])} — back to top">
+      <a class="lp-header__brand" href="#top" aria-label="{e(site['firm_name'])} — {e(ui['back_to_top'])}">
         <span class="lp-header__name">{e(site['firm_name'])}</span>
         <span class="lp-header__tag">{e(site['firm_tagline'])}</span>
       </a>
       <div class="lp-header__actions">
         <a class="lp-header__phone" href="tel:{e(site['phone_tel'])}" data-call-location="header">
           {ICON_PHONE}<span class="lp-header__phone-num">{e(site['phone_display'])}</span>
-          <span class="visually-hidden">Call {e(site['firm_name'])}</span>
+          <span class="visually-hidden">{e(ui['call_firm'])} {e(site['firm_name'])}</span>
         </a>
         <a class="btn btn--primary btn--sm lp-header__cta" href="#lead-form" data-jump-form>{e(page['cta_short'])}</a>
       </div>
@@ -130,7 +231,7 @@ def render_header(site, page):
   </header>"""
 
 
-def render_hero(site, page):
+def render_hero(site, page, ui):
     bullets = "\n          ".join(
         f"<li>{ICON_CHECK}<span>{e(b)}</span></li>" for b in page["bullets"]
     )
@@ -146,32 +247,32 @@ def render_hero(site, page):
         </ul>
         <div class="hero__cta-wrap">
           <a class="btn btn--primary" href="#lead-form" data-jump-form>{e(page['cta_label'])}</a>
-          <p class="hero__call">or call <a href="tel:{e(site['phone_tel'])}" data-call-location="hero">{e(site['phone_display'])}</a></p>
+          <p class="hero__call">{e(ui['or_call'])} <a href="tel:{e(site['phone_tel'])}" data-call-location="hero">{e(site['phone_display'])}</a></p>
         </div>
         <div class="hero__trust">
           <span><strong>{e(stats[0]['value'])}</strong> {e(stats[0]['label'].lower())}</span>
           <span><strong>{e(stats[1]['value'])}</strong> {e(stats[1]['label'].lower())}</span>
           <span><span class="stars" aria-hidden="true">★★★★★</span>
-            <a href="{e(site['google_reviews_url'])}" target="_blank" rel="noopener"><strong>{e(stats[2]['value'].replace('★',''))}</strong> average rating on Google</a></span>
+            <a href="{e(site['google_reviews_url'])}" target="_blank" rel="noopener"><strong>{e(stats[2]['value'].replace('★',''))}</strong> {e(ui['avg_google'])}</a></span>
         </div>
       </div>
       <div class="form-card" id="lead-form">
         <h2>{e(page['form_title'])}</h2>
         <p class="form-card__sub">{e(page['form_sub'])}</p>
-        {render_form(site, page, 'hero')}
+        {render_form(site, page, ui, 'hero')}
       </div>
     </div>
   </section>"""
 
 
-def render_problem(page):
+def render_problem(page, ui):
     cards = "\n        ".join(
         f'<div class="card"><h3>{e(c["title"])}</h3><p>{e(c["body"])}</p></div>'
         for c in page["problem_cards"]
     )
     return f"""<section class="section">
     <div class="container">
-      <p class="section__kicker">What decides these cases</p>
+      <p class="section__kicker">{e(ui['k_problem'])}</p>
       <h2>{e(page['problem_heading'])}</h2>
       <div class="cards">
         {cards}
@@ -180,7 +281,7 @@ def render_problem(page):
   </section>"""
 
 
-def render_fit(site, page):
+def render_fit(site, page, ui):
     fors = "\n            ".join(
         f"<li>{ICON_CHECK_GREEN}<span>{e(x)}</span></li>" for x in page["who_for"]
     )
@@ -189,17 +290,17 @@ def render_fit(site, page):
     )
     return f"""<section class="section section--alt">
     <div class="container">
-      <p class="section__kicker">Qualify yourself in 30 seconds</p>
+      <p class="section__kicker">{e(ui['k_fit'])}</p>
       <h2>{e(page['who_heading'])}</h2>
       <div class="fit">
         <div class="fit__col">
-          <h3>This service is likely a fit if…</h3>
+          <h3>{e(ui['fit_yes'])}</h3>
           <ul>
             {fors}
           </ul>
         </div>
         <div class="fit__col fit__col--no">
-          <h3>It's probably not the right fit if…</h3>
+          <h3>{e(ui['fit_no'])}</h3>
           <ul>
             {nots}
           </ul>
@@ -209,7 +310,7 @@ def render_fit(site, page):
   </section>"""
 
 
-def render_why(site, page):
+def render_why(site, page, ui):
     cards = "\n        ".join(
         f'<div class="card"><h3>{e(c["title"])}</h3><p>{e(c["body"])}</p></div>'
         for c in page["why_points"]
@@ -220,14 +321,14 @@ def render_why(site, page):
     )
     return f"""<section class="section section--navy">
     <div class="container">
-      <p class="section__kicker">Why {e(site['firm_name'])}</p>
-      <h2>Counsel that pressure-tests your case before the government does</h2>
+      <p class="section__kicker">{e(ui['k_why'].format(firm=site['firm_name']))}</p>
+      <h2>{e(ui['why_h2'])}</h2>
       <div class="cards cards--4">
         {cards}
       </div>
     </div>
   </section>
-  <section aria-label="Firm statistics">
+  <section aria-label="{e(site['firm_name'])}">
     <div class="container">
       <div class="stats">
         {stats}
@@ -236,15 +337,15 @@ def render_why(site, page):
   </section>"""
 
 
-def render_process(site, page):
+def render_process(site, page, ui):
     steps = "\n        ".join(
         f'<div class="step"><h3>{e(s["title"])}</h3><p>{e(s["body"])}</p></div>'
         for s in page["process"]
     )
     return f"""<section class="section section--alt">
     <div class="container">
-      <p class="section__kicker">How it works</p>
-      <h2>A defined process — you always know the next step</h2>
+      <p class="section__kicker">{e(ui['k_process'])}</p>
+      <h2>{e(ui['process_h2'])}</h2>
       <div class="steps">
         {steps}
       </div>
@@ -252,48 +353,48 @@ def render_process(site, page):
   </section>"""
 
 
-def render_fees(page):
+def render_fees(page, ui):
     return f"""<section class="section">
     <div class="container">
-      <p class="section__kicker">Costs, addressed head-on</p>
+      <p class="section__kicker">{e(ui['k_fees'])}</p>
       <h2>{e(page['fees_heading'])}</h2>
       <p class="section__lead" style="margin-bottom:0">{e(page['fees_body'])}</p>
     </div>
   </section>"""
 
 
-def render_testimonials(site, page):
+def render_testimonials(site, page, ui):
     quotes = "\n        ".join(
         f"""<figure class="quote">
           <div class="stars" aria-hidden="true">★★★★★</div>
           <blockquote>{e(line)}</blockquote>
-          <figcaption>Google review — {e(page['testimonial_hint'])}</figcaption>
+          <figcaption>{e(ui['google_review_label'])} {e(page['testimonial_hint'])}</figcaption>
         </figure>"""
         for line in site["testimonial_placeholder_lines"]
     )
+    gbp_link = f'<a href="{e(site["google_reviews_url"])}" target="_blank" rel="noopener">{e(ui["gbp_label"])}</a>'
+    source = e(ui["reviews_source"]).replace("{gbp_link}", gbp_link)
     return f"""<section class="section section--alt">
     <div class="container">
-      <p class="section__kicker">Client reviews</p>
-      <h2>What clients say</h2>
+      <p class="section__kicker">{e(ui['k_reviews'])}</p>
+      <h2>{e(ui['reviews_h2'])}</h2>
       <div class="quotes">
         {quotes}
       </div>
-      <p class="quotes__source">Reviews shown are from the firm's public
-        <a href="{e(site['google_reviews_url'])}" target="_blank" rel="noopener">Google Business Profile</a>,
-        reproduced verbatim with permission. Individual results vary; prior results do not guarantee a similar outcome.</p>
+      <p class="quotes__source">{source}</p>
     </div>
   </section>"""
 
 
-def render_attorney(site):
+def render_attorney(site, ui):
     a = site["attorney"]
     return f"""<section class="section">
     <div class="container attorney">
       <div class="attorney__photo">
-        <span>Attorney headshot goes here<br>(assets/img/sam-faragalla.jpg — see README launch checklist; use a real photograph)</span>
+        <span>{ui['photo_placeholder']}</span>
       </div>
       <div>
-        <p class="section__kicker">Your attorney</p>
+        <p class="section__kicker">{e(ui['k_attorney'])}</p>
         <h3>{e(a['name'])}</h3>
         <p class="attorney__role">{e(a['title'])}</p>
         <p>{e(a['bio_short'])}</p>
@@ -303,7 +404,7 @@ def render_attorney(site):
   </section>"""
 
 
-def render_faq(page):
+def render_faq(page, ui):
     items = "\n        ".join(
         f"""<details>
           <summary>{e(f['q'])}</summary>
@@ -313,8 +414,8 @@ def render_faq(page):
     )
     return f"""<section class="section section--alt">
     <div class="container">
-      <p class="section__kicker">Common questions</p>
-      <h2>Questions we answer every week</h2>
+      <p class="section__kicker">{e(ui['k_faq'])}</p>
+      <h2>{e(ui['faq_h2'])}</h2>
       <div class="faq">
         {items}
       </div>
@@ -322,42 +423,42 @@ def render_faq(page):
   </section>"""
 
 
-def render_final(site, page):
+def render_final(site, page, ui):
+    phone_link = f'<a href="tel:{e(site["phone_tel"])}" data-call-location="final">{e(site["phone_display"])}</a>'
+    call_line = e(ui["final_call"]).replace("{phone}", phone_link).replace("{campaign}", e(page["campaign"]))
     return f"""<section class="section section--navy final">
     <div class="container">
-      <p class="section__kicker">Ready when you are</p>
+      <p class="section__kicker">{e(ui['k_final'])}</p>
       <h2>{e(page['final_heading'])}</h2>
       <p class="section__lead">{e(page['final_sub'])}</p>
       <div class="form-card" id="lead-form-bottom">
         <h3>{e(page['form_title'])}</h3>
         <p class="form-card__sub">{e(page['form_sub'])}</p>
-        {render_form(site, page, 'bottom')}
+        {render_form(site, page, ui, 'bottom')}
       </div>
-      <p class="final__call">Prefer to talk? Call
-        <a href="tel:{e(site['phone_tel'])}" data-call-location="final">{e(site['phone_display'])}</a>
-        — tell us you're calling about the {e(page['campaign'])} page.</p>
+      <p class="final__call">{call_line}</p>
     </div>
   </section>"""
 
 
-def render_footer(site):
+def render_footer(site, ui):
     return f"""<footer class="lp-footer">
     <div class="container">
       <div class="lp-footer__firm">{e(site['firm_name'])} — {e(site['firm_tagline'])}</div>
       <div>{e(site['offices_line'])}</div>
       <div class="lp-footer__row">
         <a href="tel:{e(site['phone_tel'])}" data-call-location="footer">{e(site['phone_display'])}</a>
-        &nbsp;·&nbsp; <a href="{e(site['privacy_url'])}" target="_blank" rel="noopener">Privacy Policy</a>
-        &nbsp;·&nbsp; <a href="{e(site['main_site_url'])}" target="_blank" rel="noopener">Main website</a>
+        &nbsp;·&nbsp; <a href="{e(site['privacy_url'])}" target="_blank" rel="noopener">{e(ui['privacy_policy'])}</a>
+        &nbsp;·&nbsp; <a href="{e(site['main_site_url'])}" target="_blank" rel="noopener">{e(ui['main_site'])}</a>
       </div>
       <p class="lp-footer__disclaimer">{e(site['disclaimer_footer'])}</p>
     </div>
   </footer>"""
 
 
-def render_stickybar(site, page):
-    return f"""<div class="stickybar" role="navigation" aria-label="Quick actions">
-    <a class="btn btn--call" href="tel:{e(site['phone_tel'])}" data-call-location="stickybar">{ICON_PHONE} Call Now</a>
+def render_stickybar(site, page, ui):
+    return f"""<div class="stickybar" role="navigation" aria-label="{e(ui['quick_actions'])}">
+    <a class="btn btn--call" href="tel:{e(site['phone_tel'])}" data-call-location="stickybar">{ICON_PHONE} {e(ui['call_now'])}</a>
     <a class="btn btn--primary" href="#lead-form" data-jump-form>{e(page['cta_short'])}</a>
   </div>"""
 
@@ -424,51 +525,59 @@ def render_head(site, title, description, canonical, jsonld=""):
   <script src="/assets/js/lp.js" defer></script>"""
 
 
-def render_page(site, page):
+def render_page(site_base, page):
+    site = merge_site(site_base, page)
+    ui = ui_for(page)
+    lang = page.get("lang", "en")
     canonical = f"{site['base_url'].rstrip('/')}/{page['slug']}/"
     jsonld = render_jsonld(site, page, canonical)
     head = render_head(site, page["meta_title"], page["meta_description"], canonical, jsonld)
     return f"""<!doctype html>
-<html lang="en">
+<html lang="{lang}">
 <head>
   {head}
 </head>
 <body>
-  {render_header(site, page)}
+  {render_header(site, page, ui)}
   <main>
-  {render_hero(site, page)}
-  {render_problem(page)}
-  {render_fit(site, page)}
-  {render_why(site, page)}
-  {render_process(site, page)}
-  {render_fees(page)}
-  {render_testimonials(site, page)}
-  {render_attorney(site)}
-  {render_faq(page)}
-  {render_final(site, page)}
+  {render_hero(site, page, ui)}
+  {render_problem(page, ui)}
+  {render_fit(site, page, ui)}
+  {render_why(site, page, ui)}
+  {render_process(site, page, ui)}
+  {render_fees(page, ui)}
+  {render_testimonials(site, page, ui)}
+  {render_attorney(site, ui)}
+  {render_faq(page, ui)}
+  {render_final(site, page, ui)}
   </main>
-  {render_footer(site)}
-  {render_stickybar(site, page)}
+  {render_footer(site, ui)}
+  {render_stickybar(site, page, ui)}
 </body>
 </html>
 """
 
 
-def render_thank_you(site):
+def render_thank_you(site, ty, lang):
     head = render_head(
         site,
-        f"Request Received | {site['firm_name']}",
-        "Your request was received. Here's what happens next.",
-        f"{site['base_url'].rstrip('/')}/thank-you.html",
+        f"{ty['title']} | {site['firm_name']}",
+        ty["meta_description"],
+        f"{site['base_url'].rstrip('/')}{ty['path']}",
     )
+    steps = "\n      ".join(
+        f'<div class="card"><h3><span>{i}.</span> {e(t)}</h3><p>{e(b)}</p></div>'
+        for i, (t, b) in enumerate(ty["steps"], 1)
+    )
+    lead = e(ty["lead"].format(response_promise=site["response_promise"]))
     return f"""<!doctype html>
-<html lang="en">
+<html lang="{lang}">
 <head>
   {head}
   <script>
     window.dataLayer.push({{
       event: 'generate_lead',
-      page_path: '/thank-you.html',
+      page_path: '{ty['path']}',
       from_page: new URLSearchParams(location.search).get('from') || 'direct'
     }});
   </script>
@@ -491,21 +600,19 @@ def render_thank_you(site):
     <div class="ty-check" aria-hidden="true">
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M4 12.5 9.5 18 20 6.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </div>
-    <h1>Your request was received.</h1>
-    <p class="ty-lead">{e(site['response_promise'])} — usually sooner. Here's exactly what happens next.</p>
+    <h1>{e(ty['h1'])}</h1>
+    <p class="ty-lead">{lead}</p>
     <div class="ty-steps">
-      <div class="card"><h3><span>1.</span> We review your submission</h3><p>An attorney-supervised team member reads your answers and matches your case to the right review track.</p></div>
-      <div class="card"><h3><span>2.</span> You get a reply within one business day</h3><p>We email you consultation options, the consultation details, and anything we need from you — check your spam folder just in case.</p></div>
-      <div class="card"><h3><span>3.</span> Worth gathering meanwhile</h3><p>Your passport, any prior U.S. visa or immigration paperwork, and — for business cases — basic numbers on your investment or company. Don't worry if something is missing; we'll tell you exactly what matters for your case.</p></div>
+      {steps}
     </div>
     <div class="ty-callout">
-      <strong>Need to talk sooner?</strong> Call
+      <strong>{e(ty['callout_strong'])}</strong>
       <a href="tel:{e(site['phone_tel'])}" data-call-location="thankyou">{e(site['phone_display'])}</a>
-      and mention that you've already submitted the form.
+      {e(ty['callout_rest'])}
     </div>
     <p class="lp-form__microcopy">{e(site['form_microcopy_privacy'])}</p>
   </main>
-  {render_footer(site)}
+  {render_footer(site, {**UI_EN} if lang == 'en' else {**UI_EN, 'privacy_policy': 'Política de Privacidad', 'main_site': 'Sitio web principal'})}
 </body>
 </html>
 """
@@ -549,10 +656,10 @@ def render_index(site, pages):
       <div class="hub-list">
       {cards}
       </div>
-      <p class="section__lead" style="font-size:14px">Conversion page: <a href="/thank-you.html">/thank-you.html</a> · Strategy &amp; launch checklist: see README.md and STRATEGY.md in the repository.</p>
+      <p class="section__lead" style="font-size:14px">Conversion pages: <a href="/thank-you.html">/thank-you.html</a> · <a href="/gracias.html">/gracias.html</a> (ES) · Strategy &amp; launch checklist: see README.md and STRATEGY.md in the repository.</p>
     </div>
   </main>
-  {render_footer(site)}
+  {render_footer(site, UI_EN)}
 </body>
 </html>
 """
@@ -573,10 +680,17 @@ def main():
         out = PUBLIC / page["slug"]
         out.mkdir(parents=True)
         (out / "index.html").write_text(render_page(site, page), encoding="utf-8")
-        print(f"  built /{page['slug']}/")
+        print(f"  built /{page['slug']}/  [{page.get('lang', 'en')}]")
 
-    (PUBLIC / "thank-you.html").write_text(render_thank_you(site), encoding="utf-8")
+    (PUBLIC / "thank-you.html").write_text(render_thank_you(site, TY_EN, "en"), encoding="utf-8")
     print("  built /thank-you.html")
+
+    # Spanish thank-you whenever any page is Spanish
+    es_pages = [p for p in pages if p.get("lang") == "es"]
+    if es_pages:
+        site_es = merge_site(site, es_pages[0])
+        (PUBLIC / "gracias.html").write_text(render_thank_you(site_es, TY_ES, "es"), encoding="utf-8")
+        print("  built /gracias.html")
 
     (PUBLIC / "index.html").write_text(render_index(site, pages), encoding="utf-8")
     print("  built /index.html (hub directory)")
@@ -586,7 +700,7 @@ def main():
     (PUBLIC / "robots.txt").write_text("User-agent: *\nAllow: /\n", encoding="utf-8")
     print("  built /robots.txt")
 
-    print(f"\nDone — {len(pages)} campaign pages + thank-you + index in public/")
+    print(f"\nDone — {len(pages)} campaign pages + thank-you pages + index in public/")
 
 
 if __name__ == "__main__":

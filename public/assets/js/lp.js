@@ -71,6 +71,9 @@
       var status = form.querySelector('.lp-form__status');
       var btn = form.querySelector('button[type="submit"]');
       var location_id = form.getAttribute('data-form-location') || 'unknown';
+      var msgSending = form.getAttribute('data-msg-sending') || 'Sending your request…';
+      var msgError = form.getAttribute('data-msg-error') || 'Something went wrong sending the form. Please call us instead — the number is at the top of the page.';
+      var thankYou = form.getAttribute('data-thankyou') || '/thank-you.html';
 
       fillHidden(form); // refresh in case params arrived late
 
@@ -80,8 +83,8 @@
         page_path: window.location.pathname
       });
 
-      if (btn) { btn.disabled = true; btn.setAttribute('data-label', btn.textContent); btn.textContent = 'Sending…'; }
-      if (status) { status.className = 'lp-form__status lp-form__status--sending'; status.textContent = 'Sending your request…'; }
+      if (btn) { btn.disabled = true; btn.setAttribute('data-label', btn.textContent); btn.textContent = msgSending; }
+      if (status) { status.className = 'lp-form__status lp-form__status--sending'; status.textContent = msgSending; }
 
       var endpoint = form.getAttribute('data-endpoint');
       var body = new URLSearchParams(new FormData(form)).toString();
@@ -96,12 +99,12 @@
         var qs = new URLSearchParams();
         qs.set('from', window.location.pathname);
         if (attribution.last && attribution.last.gclid) qs.set('gclid', attribution.last.gclid);
-        window.location.assign('/thank-you.html?' + qs.toString());
+        window.location.assign(thankYou + '?' + qs.toString());
       }).catch(function () {
         if (btn) { btn.disabled = false; btn.textContent = btn.getAttribute('data-label'); }
         if (status) {
           status.className = 'lp-form__status lp-form__status--error';
-          status.textContent = 'Something went wrong sending the form. Please call us instead — the number is at the top of the page.';
+          status.textContent = msgError;
         }
         window.dataLayer.push({ event: 'lead_form_error', form_location: location_id });
       });
