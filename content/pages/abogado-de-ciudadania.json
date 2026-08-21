@@ -1,0 +1,128 @@
+{
+  "slug": "abogado-de-ciudadania",
+  "campaign": "Ciudadanía / Naturalización (Español)",
+  "priority": 21,
+  "lang": "es",
+  "meta_title": "Abogado de Ciudadanía Americana | Faragalla Law",
+  "meta_description": "¿Listo(a) para la ciudadanía americana — o con algo en su historial que le preocupa? Preparamos su N-400, lo preparamos para el examen y resolvemos los problemas antes de presentar. En español.",
+  "eyebrow": "Abogados de Ciudadanía y Naturalización",
+  "h1": "Hágase Ciudadano(a) — Sin Que un Detalle del Pasado Se Convierta en un Problema Legal.",
+  "hero_sub": "La mayoría de las solicitudes de ciudadanía son sencillas. Las que no lo son — viajes largos, taxes, arrestos viejos, cómo obtuvo su residencia — son exactamente donde una revisión legal antes de presentar vale cada centavo.",
+  "bullets": [
+    "Preparación completa del N-400 y del examen",
+    "Historiales con viajes largos, taxes o arrestos — revisados antes de presentar",
+    "Mayores de 50 años: puede calificar para el examen en español"
+  ],
+  "offer_name": "Revisión de Ciudadanía",
+  "cta_label": "Solicitar Mi Revisión de Ciudadanía",
+  "cta_short": "Mi Ciudadanía",
+  "form_title": "Solicite Su Revisión de Ciudadanía",
+  "form_sub": "Cuéntenos dónde está en el proceso. Le señalaremos cualquier detalle que deba resolverse antes de presentar.",
+  "qualifiers": [
+    {
+      "name": "situacion",
+      "label": "Su situación",
+      "options": ["5+ años con residencia — listo(a) para aplicar", "Residencia por matrimonio — regla de 3 años", "Algo en mi historial me preocupa", "Me negaron el N-400", "Ayudo a un familiar con su proceso"]
+    },
+    {
+      "name": "detalle",
+      "label": "¿Alguno de estos aplica?",
+      "options": ["Ninguno — historial limpio", "Viajes fuera de EE. UU. de más de 6 meses", "Taxes o manutención de hijos pendientes", "Arresto o cargo (aunque fuera desestimado)", "El inglés me preocupa", "Prefiero hablarlo en privado"]
+    }
+  ],
+  "problem_heading": "El N-400 parece un formulario — en realidad es una revisión de toda su vida migratoria",
+  "problem_cards": [
+    {
+      "title": "La solicitud reabre su expediente completo",
+      "body": "USCIS revisa cómo obtuvo su residencia, cada viaje que ha hecho, sus taxes y su récord. Presentar con un problema sin resolver no solo arriesga la negación — en los peores casos pone en juego la residencia misma. Por eso se revisa antes, no después."
+    },
+    {
+      "title": "Los viajes largos rompen la residencia continua",
+      "body": "Viajes de más de 6 meses crean la presunción de que usted rompió su residencia; de más de un año, generalmente la rompen. Quien pasa temporadas en su país necesita el análisis de viajes antes de aplicar — no una explicación improvisada frente al oficial."
+    },
+    {
+      "title": "El 'buen carácter moral' cubre más que delitos",
+      "body": "Taxes sin declarar, manutención de hijos atrasada, respuestas distintas a las de solicitudes anteriores — todo puede salir en la entrevista. Casi todo tiene solución si se revela correctamente y se documenta antes. Ocultarlo es el único error sin arreglo: USCIS revisa las huellas de todo."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Revisamos primero, presentamos después",
+      "body": "Analizamos su historial como lo hará el oficial — viajes, taxes, récord y cómo obtuvo la residencia — y arreglamos lo arreglable antes de que USCIS vea el expediente."
+    },
+    {
+      "title": "Preparación real para el examen",
+      "body": "Le entregamos el material de estudio, hacemos entrevista de práctica en el formato real, y verificamos si usted califica para las excepciones de edad — incluido el derecho a examinarse en español."
+    },
+    {
+      "title": "Atención en español, de verdad",
+      "body": "Todo el proceso explicado en su idioma — y si su caso lo amerita, lo acompañamos a la entrevista."
+    },
+    {
+      "title": "Tarifas fijas y claras",
+      "body": "Un N-400 sencillo cuesta menos que uno con complicaciones — pero siempre es una tarifa fija que usted conoce antes de empezar."
+    }
+  ],
+  "process": [
+    {
+      "title": "Revisión de ciudadanía",
+      "body": "Envíe el formulario. Confirmamos su fecha de elegibilidad y detectamos cualquier factor de riesgo, y le respondemos dentro de un día hábil."
+    },
+    {
+      "title": "Consulta de estrategia",
+      "body": "Analizamos viajes, taxes y récord, confirmamos su regla (5 años o 3 por matrimonio) y resolvemos lo que deba arreglarse antes de presentar."
+    },
+    {
+      "title": "Solicitud completa",
+      "body": "Preparamos el N-400 con respuestas completas y consistentes con todo su expediente anterior, y la evidencia correcta para cualquier detalle revelado."
+    },
+    {
+      "title": "Examen, entrevista y juramento",
+      "body": "Lo preparamos para el examen y la entrevista — con práctica real — respondemos cualquier solicitud extra y lo acompañamos hasta el juramento."
+    }
+  ],
+  "fees_heading": "¿Cuánto cuesta el trámite de ciudadanía?",
+  "fees_body": "Los honorarios son una tarifa fija: un N-400 limpio cuesta menos que un caso con viajes, taxes o récord que documentar. La tarifa del gobierno va aparte — y existen descuentos y exenciones de tarifa para quien califica por ingresos; lo revisamos automáticamente. El número exacto se lo damos en la consulta.",
+  "who_heading": "¿Está listo(a) para naturalizarse?",
+  "who_for": [
+    "Tiene 5 años con la residencia — o 3 años casado(a) y viviendo con ciudadano(a)",
+    "Ha estado físicamente en EE. UU. al menos la mitad de ese tiempo",
+    "Puede pasar el examen — o podría calificar para las excepciones de edad o el examen en español",
+    "Algo del pasado (un arresto, taxes, viajes) le hace dudar y quiere revisarlo antes"
+  ],
+  "who_not": [
+    "Aún no es residente permanente — primero vea nuestros servicios de residencia",
+    "Está en proceso de deportación — eso es urgente y distinto; llámenos",
+    "Ha pasado la mayor parte de los últimos años fuera de EE. UU. — quizás haya que reparar la residencia primero"
+  ],
+  "faq": [
+    {
+      "q": "¿Cuándo puedo aplicar para la ciudadanía?",
+      "a": "A los 5 años de tener la residencia — o a los 3 si la obtuvo por matrimonio y sigue casado(a) y viviendo con su esposo(a) ciudadano(a). Se puede presentar hasta 90 días antes de cumplir el plazo. También cuentan la presencia física (la mitad del período) y la residencia en su estado. En la consulta confirmamos su fecha exacta más temprana."
+    },
+    {
+      "q": "¿Puedo hacer el examen en español?",
+      "a": "Sí, si califica por edad y años de residencia: con 50 años de edad y 20 de residente — o 55 de edad y 15 de residente — usted tiene derecho a hacer la entrevista y el examen cívico en español con intérprete. Con 65 y 20, además estudia una lista reducida de preguntas. Para muchas personas mayores esta regla convierte un proceso temido en uno completamente alcanzable."
+    },
+    {
+      "q": "¿Qué viene en el examen de ciudadanía?",
+      "a": "Dos partes: inglés (leer, escribir y conversar — salvo que califique para la excepción por edad) y el examen cívico: el oficial hace hasta 10 preguntas de la lista oficial de 100 y hay que contestar 6 bien. Le damos el material oficial de estudio y hacemos práctica en formato real antes de su cita."
+    },
+    {
+      "q": "¿Un arresto viejo o un cargo desestimado afecta mi solicitud?",
+      "a": "Depende del delito, el resultado y las fechas — pero esconderlo es el único error garantizado, porque USCIS revisa antecedentes con huellas. Muchos récords solo requieren revelarse con sus documentos y no causan negación; algunos piden estrategia legal primero; unos pocos significan que no conviene presentar todavía. Exactamente para esto existe la revisión previa."
+    },
+    {
+      "q": "Paso temporadas en mi país. ¿Sigo siendo elegible?",
+      "a": "Los viajes de menos de 6 meses generalmente no afectan. Entre 6 y 12 meses crean una presunción de ruptura que se puede rebatir con pruebas de arraigo — casa, trabajo, taxes. De más de un año, normalmente reinician parte de su reloj. Analizamos su historial real de viajes y le decimos su verdadera fecha de elegibilidad — antes de que un oficial lo haga."
+    },
+    {
+      "q": "¿Me negaron el N-400 — se puede arreglar?",
+      "a": "Generalmente sí. Las opciones incluyen pedir una audiencia (N-336), volver a presentar cuando el problema de fondo esté resuelto, o atacar la causa específica — taxes, residencia insuficiente, un documento faltante. Una negación normalmente no le quita la residencia, pero volver a presentar sin entender la causa solo quema dinero. Haga revisar la carta de negación antes de actuar."
+    }
+  ],
+  "service_name": "Servicios de Ciudadanía y Naturalización (Español)",
+  "testimonial_hint": "Reseñas textuales de Google en español — casos de ciudadanía",
+  "final_heading": "Presente su ciudadanía sin dejar nada al azar",
+  "final_sub": "Un formulario. Un día hábil. Su fecha real de elegibilidad y cualquier detalle a resolver primero."
+}

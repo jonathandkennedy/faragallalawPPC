@@ -36,13 +36,19 @@ def load():
 
 
 def merge_site(site, page):
-    """Apply a page's site_overrides (one level of dict merge)."""
+    """Apply locale defaults (for lang="es") then the page's site_overrides,
+    each with one level of dict merge."""
     eff = dict(site)
-    for k, v in page.get("site_overrides", {}).items():
-        if isinstance(v, dict) and isinstance(eff.get(k), dict):
-            eff[k] = {**eff[k], **v}
-        else:
-            eff[k] = v
+    layers = []
+    if page.get("lang") == "es":
+        layers.append(SITE_ES)
+    layers.append(page.get("site_overrides", {}))
+    for layer in layers:
+        for k, v in layer.items():
+            if isinstance(v, dict) and isinstance(eff.get(k), dict):
+                eff[k] = {**eff[k], **v}
+            else:
+                eff[k] = v
     return eff
 
 
@@ -107,6 +113,74 @@ TY_EN = {
     "meta_description": "Your request was received. Here's what happens next.",
 }
 
+UI_ES = {
+    "thankyou_path": "/gracias.html",
+    "hp_label": "Deje este campo vacío",
+    "full_name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "phone_hint": "Lo usamos únicamente para responder a su consulta — sin llamadas de mercadeo.",
+    "select_one": "Seleccione una opción…",
+    "msg_sending": "Enviando su solicitud…",
+    "msg_error": "Ocurrió un error al enviar el formulario. Por favor llámenos — el número está en la parte superior de la página.",
+    "see_privacy": "Consulte nuestra",
+    "privacy_policy": "Política de Privacidad",
+    "back_to_top": "volver arriba",
+    "call_firm": "Llamar a",
+    "or_call": "o llame al",
+    "avg_google": "calificación promedio en Google",
+    "k_problem": "Lo que decide estos casos",
+    "k_fit": "Califíquese en 30 segundos",
+    "fit_yes": "Este servicio probablemente es para usted si…",
+    "fit_no": "Probablemente no es lo indicado si…",
+    "k_why": "Por qué {firm}",
+    "why_h2": "Abogados que someten su caso a prueba antes que el gobierno",
+    "k_process": "Cómo funciona",
+    "process_h2": "Un proceso definido — usted siempre sabe cuál es el siguiente paso",
+    "k_fees": "Los costos, de frente",
+    "k_reviews": "Reseñas de clientes",
+    "reviews_h2": "Lo que dicen nuestros clientes",
+    "google_review_label": "Reseña de Google —",
+    "reviews_source": "Las reseñas mostradas provienen del {gbp_link} público del despacho, reproducidas textualmente con permiso. Cada caso es distinto; resultados anteriores no garantizan un resultado similar.",
+    "gbp_label": "perfil de Google Business",
+    "k_attorney": "Su abogado",
+    "photo_placeholder": "Fotografía del abogado aquí<br>(assets/img/sam-faragalla.jpg — vea la lista de verificación del README; use una fotografía real)",
+    "k_faq": "Preguntas frecuentes",
+    "faq_h2": "Preguntas que respondemos cada semana",
+    "k_final": "Cuando usted esté listo",
+    "final_call": "¿Prefiere hablar? Llame al {phone} — mencione que vio la página «{campaign}».",
+    "main_site": "Sitio web principal",
+    "call_now": "Llamar Ahora",
+    "quick_actions": "Acciones rápidas",
+}
+
+# Firm-wide copy defaults applied to every lang="es" page (a page's own
+# site_overrides still wins on top of these).
+SITE_ES = {
+    "firm_tagline": "Abogados de Inmigración",
+    "response_promise": "Respondemos dentro de un día hábil",
+    "consultation": {
+        "line": "Consultas de estrategia con tarifa fija — al responderle confirmamos las opciones de cita y cualquier costo de consulta."
+    },
+    "form_microcopy_privacy": "Usamos sus datos de contacto únicamente para responder a su consulta. Enviar este formulario no crea una relación abogado-cliente.",
+    "offices_line": "Oficinas en Texas y Florida — servimos a clientes en todo el país",
+    "disclaimer_footer": "Publicidad de Abogados. Este sitio web es solo informativo y no constituye asesoría legal. Enviar un formulario o llamar al despacho no crea una relación abogado-cliente. Los resultados anteriores no garantizan un resultado similar. No existe una relación abogado-cliente hasta que se firme un acuerdo de representación por escrito.",
+    "stats": [
+        {"value": "27+", "label": "Años de experiencia migratoria combinada"},
+        {"value": "2,000+", "label": "Casos de inmigración manejados"},
+        {"value": "4.8★", "label": "Calificación promedio en Google"},
+    ],
+    "attorney": {
+        "title": "Fundador y Abogado Principal de Inmigración",
+        "bio_short": "Sam Faragalla se formó en Fragomen, una de las firmas de inmigración corporativa más grandes del mundo, antes de fundar Faragalla Law. El despacho representa a familias, trabajadores, empresarios e inversionistas en asuntos migratorios en todo Estados Unidos.",
+        "license_line": "Licenciado para ejercer la abogacía en Nueva York. La ley de inmigración es federal, lo que permite al despacho representar clientes en los 50 estados y en el extranjero.",
+    },
+    "testimonial_placeholder_lines": [
+        "[PEGUE AQUÍ UNA RESEÑA TEXTUAL DE GOOGLE — en español, de un caso similar. Vea el README.]",
+        "[PEGUE AQUÍ UNA SEGUNDA RESEÑA TEXTUAL EN ESPAÑOL.]",
+    ],
+}
+
 TY_ES = {
     "path": "/gracias.html",
     "title": "Solicitud Recibida",
@@ -127,7 +201,8 @@ TY_ES = {
 
 
 def ui_for(page):
-    return {**UI_EN, **page.get("ui", {})}
+    base = {**UI_EN, **UI_ES} if page.get("lang") == "es" else dict(UI_EN)
+    return {**base, **page.get("ui", {})}
 
 
 # ---------------------------------------------------------------- SVG icons

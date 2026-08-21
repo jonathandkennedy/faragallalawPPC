@@ -1,0 +1,129 @@
+{
+  "slug": "visa-e2-para-mexicanos",
+  "campaign": "Visa E-2 para Mexicanos (Español)",
+  "priority": 22,
+  "lang": "es",
+  "meta_title": "Visa E-2 para Mexicanos — Abogados de Inversión | Faragalla Law",
+  "meta_description": "¿Va a invertir en un negocio en Estados Unidos? México es país del tratado E-2. Evaluamos su inversión, la estructura y el origen de los fondos antes de solicitar. Asesoría en español.",
+  "eyebrow": "Visa E-2 de Inversionista para Mexicanos",
+  "h1": "¿Va a Comprar o Abrir un Negocio en Estados Unidos? Conozca Su Vía con la Visa E-2.",
+  "hero_sub": "México es país del tratado E-2: un inversionista mexicano que compra o abre un negocio real en EE. UU. puede vivir allá dirigiéndolo — con su familia. Faragalla Law evalúa su inversión, la estructura y el origen de los fondos antes de que usted se comprometa.",
+  "bullets": [
+    "Ciudadanos mexicanos invirtiendo en un negocio activo en EE. UU.",
+    "Compra de negocio, franquicia, apertura o expansión",
+    "Análisis caso por caso — no existe un monto mínimo universal"
+  ],
+  "offer_name": "Evaluación de Elegibilidad E-2",
+  "cta_label": "Solicitar Mi Evaluación E-2",
+  "cta_short": "Evaluación E-2",
+  "form_title": "Solicite Su Evaluación de Elegibilidad E-2",
+  "form_sub": "Cuéntenos sobre su inversión. Evaluamos su elegibilidad y le respondemos con pasos concretos.",
+  "qualifiers": [
+    {
+      "name": "etapa",
+      "label": "¿En qué etapa está?",
+      "options": ["Investigando mis opciones", "Ya identifiqué un negocio para comprar o abrir", "Fondos comprometidos / compra en proceso", "Ya tengo un negocio en EE. UU.", "Renovación o caso E-2 negado"]
+    },
+    {
+      "name": "inversion",
+      "label": "Inversión aproximada (USD)",
+      "options": ["Menos de $100,000", "$100,000 – $250,000", "$250,000 – $500,000", "Más de $500,000", "Prefiero hablarlo en la consulta"]
+    }
+  ],
+  "problem_heading": "La visa E-2 premia la preparación — y castiga la improvisación",
+  "problem_cards": [
+    {
+      "title": "La \"inversión sustancial\" no tiene número fijo",
+      "body": "El oficial consular pesa su inversión contra el costo del negocio específico. Comprar un restaurante con US$120,000 puede calificar mientras una participación pasiva de US$300,000 no. Evaluamos si su monto y su estructura funcionan antes de que comprometa el dinero."
+    },
+    {
+      "title": "El origen de los fondos hunde más casos que el monto",
+      "body": "Cada peso debe rastrearse a una fuente lícita — la venta de una propiedad en México, las utilidades de su empresa, ahorros o una donación documentada — con papeles: contratos, facturas, estados de cuenta, declaraciones fiscales. Los huecos en el rastro documental son de las causas más comunes de rechazo."
+    },
+    {
+      "title": "El negocio debe ser real, activo y en riesgo",
+      "body": "Los fondos deben estar comprometidos y en riesgo, no esperando en una cuenta. La empresa debe operar o estar lista para operar, y los negocios marginales que solo mantienen a la familia reciben escrutinio extra. La entrevista consular evalúa todo esto — y se prepara."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "La E-2 es el corazón de nuestra práctica",
+      "body": "La práctica de inmigración de negocios del despacho está construida alrededor de casos E-2 de inversionistas extranjeros — incluyendo solicitudes consulares preparadas para entrevista."
+    },
+    {
+      "title": "Asesoría en español, del análisis a la entrevista",
+      "body": "Su evaluación, el plan de negocios, el rastro de fondos y la preparación de la entrevista consular — todo explicado en su idioma."
+    },
+    {
+      "title": "Sometemos el caso a prueba antes de presentarlo",
+      "body": "Revisamos monto, porcentaje de propiedad, origen de fondos y plan de negocios contra el estándar consular — y le decimos qué falta antes de que se lo diga un oficial."
+    },
+    {
+      "title": "Tarifas fijas y claras",
+      "body": "Usted conoce el alcance del trabajo y los honorarios antes de contratarnos. Sin sorpresas a mitad del caso."
+    }
+  ],
+  "process": [
+    {
+      "title": "Evaluación de elegibilidad",
+      "body": "Envíe el formulario. Evaluamos su plan de inversión, el monto y los tiempos, y le respondemos dentro de un día hábil con las opciones de consulta."
+    },
+    {
+      "title": "Consulta de estrategia",
+      "body": "Mapeamos su inversión, la estructura de propiedad, el origen de los fondos y el plan de negocios contra los requisitos E-2, e identificamos cada documento faltante."
+    },
+    {
+      "title": "Preparación del caso",
+      "body": "Preparamos la solicitud completa: el expediente de evidencia, el plan de negocios con proyecciones de empleo y el rastro documental de los fondos."
+    },
+    {
+      "title": "Presentación y entrevista",
+      "body": "Presentamos ante el consulado de EE. UU. y lo preparamos para las preguntas que los oficiales realmente hacen — hasta la decisión."
+    }
+  ],
+  "fees_heading": "¿Cuánto cuesta un caso E-2?",
+  "fees_body": "Los honorarios dependen de si el plan de negocios ya existe o hay que desarrollarlo, y de qué tan complejo es documentar el origen de los fondos. Aparte van las tarifas del gobierno y, en la mayoría de los casos, un plan de negocios profesional. En la consulta le cotizamos una tarifa fija para su caso específico — antes de que se comprometa a nada.",
+  "who_heading": "¿La E-2 es para usted?",
+  "who_for": [
+    "Es ciudadano(a) mexicano(a) — México es país del tratado E-2",
+    "Va a comprar, abrir o expandir un negocio real y activo en EE. UU.",
+    "Tendrá al menos el 50% de la propiedad o el control operativo",
+    "Puede documentar el origen lícito de los fondos de inversión",
+    "Va a dirigir y desarrollar el negocio — no solo invertir de lejos"
+  ],
+  "who_not": [
+    "Busca inversión pasiva (bienes raíces para rentar, acciones) sin rol activo — eso no califica para la E-2",
+    "Busca la residencia permanente directa — la E-2 es renovable indefinidamente pero no es green card (el programa EB-5, desde US$800,000, sí lo es; también lo manejamos)",
+    "No puede documentar de dónde salieron los fondos — eso es descalificante y se lo decimos con franqueza"
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto tengo que invertir para la visa E-2?",
+      "a": "No existe un mínimo legal fijo. La inversión debe ser 'sustancial' en proporción al costo del negocio específico. En la práctica muchos casos aprobados invierten US$100,000 o más, pero montos menores pueden funcionar para negocios de bajo costo cuando los fondos cubren la mayor parte de la compra o apertura. Evaluamos su número contra su negocio real antes de solicitar."
+    },
+    {
+      "q": "¿Los mexicanos califican para la visa E-2?",
+      "a": "Sí — México tiene tratado de comercio y navegación con Estados Unidos, así que los ciudadanos mexicanos califican tanto para la E-2 (inversionista) como para la E-1 (comerciante). La solicitud se hace normalmente ante el consulado de EE. UU., con una entrevista donde se presenta el negocio, la inversión y el origen de los fondos."
+    },
+    {
+      "q": "¿Puedo llevar a mi familia?",
+      "a": "Sí. Su cónyuge y sus hijos solteros menores de 21 años reciben estatus de dependientes E-2. Su cónyuge queda autorizado(a) para trabajar en EE. UU. con cualquier empleador, y sus hijos pueden estudiar. Para muchas familias, este es el beneficio decisivo de la E-2."
+    },
+    {
+      "q": "¿Cuánto dura la visa E-2 y se puede renovar?",
+      "a": "La visa se emite según la tabla de reciprocidad vigente para México y cada entrada otorga un período de estadía de dos años. Se puede renovar indefinidamente mientras el negocio siga operando y cumpliendo los requisitos — hay inversionistas que viven décadas en EE. UU. con estatus E-2."
+    },
+    {
+      "q": "¿La E-2 me lleva a la residencia permanente (green card)?",
+      "a": "No directamente — la E-2 es una visa de no inmigrante renovable, sin camino automático a la residencia. Algunos inversionistas después usan el programa EB-5 (inversión desde US$800,000 con creación de empleos), una petición familiar o vías de empleo. Si su meta real es la green card, dígalo desde el principio: cambia la estrategia completa."
+    },
+    {
+      "q": "¿Qué pasa en la entrevista consular?",
+      "a": "Usted presenta su caso ante un oficial: qué negocio es, cuánto invirtió, de dónde salió el dinero, cuántos empleos genera y cómo lo va a dirigir. Los expedientes bien armados — con el plan de negocios y el rastro de fondos completos — tienen entrevistas cortas. Lo preparamos con las preguntas reales que hacen los oficiales, en español y con el vocabulario del caso en inglés cuando hace falta."
+    }
+  ],
+  "service_name": "Servicios de Visa E-2 para Inversionistas Mexicanos",
+  "testimonial_hint": "Reseñas textuales de Google en español — inversionistas / negocios",
+  "final_heading": "Sepa si su inversión sostiene un caso E-2",
+  "final_sub": "Un formulario. Un día hábil. Una lectura clara de su elegibilidad y de lo que hará falta."
+}

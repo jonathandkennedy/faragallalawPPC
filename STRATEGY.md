@@ -33,6 +33,42 @@ story, and use volume clusters (family, local, citizenship) to fill capacity.
 | 14 | `/h1b-visa-lawyer/` | H-1B | h1b visa attorney fee 4,400 @ $9.36 (+ employer-side demand) | Medium | US national |
 | 15 | `/deportation-defense-lawyer/` | Removal defense | deportation lawyer 1,300 @ $13.07 · deportation defense attorney 880 @ $11.53 | Medium | US national |
 | 16 | `/abogado-de-inmigracion-houston/` | Houston Spanish | abogado de inmigracion houston 720 @ **$30.73** (comp 0.88) · abogado de inmigracion cerca de mi 3,600 @ $20.61 | Mixed | Houston DMA (ES) |
+| 17 | `/abogado-de-inmigracion/` | Spanish national anchor | abogado de inmigración **18,100/mo @ $31.67** (comp 0.77) · abogado en español 1,000 @ $44.55 | Mixed | US national (ES) |
+| 18 | `/abogado-para-arreglar-papeles/` | Arreglar papeles | abogado para arreglar papeles 90 @ $22.78 · cuánto cobra… variants · "puedo arreglar papeles si…" long tail (DUI 280, salida voluntaria 880, orden 60) | Medium | US national (ES) |
+| 19 | `/residencia-por-matrimonio/` | Marriage GC Spanish | residencia por matrimonio cluster ~1,200/mo · qué pasa si me niegan… 320 · arreglar papeles por matrimonio 30 @ $11.71 | Medium | US national (ES) |
+| 20 | `/abogado-de-deportacion/` | Removal defense Spanish | abogado(s) de deportacion 180 @ $16–26 | Medium | US national (ES) |
+| 21 | `/abogado-de-ciudadania/` | Citizenship Spanish | abogado de ciudadania 50 @ **$87.41** · ciudadania estadounidense 210 @ $15.54 · exam-prep tail ~14,000/mo (cheap, top-funnel) | Low-medium | US national (ES) |
+| 22 | `/visa-e2-para-mexicanos/` | E-2 Mexico | visa e2 480 @ $2.70 (MX) · visa e2 para mexicanos 90 @ $3.54 (MX) · visa e2 requisitos 70 (MX) | Very high | **Mexico** (ES) |
+
+## The Spanish market (pages 16–22)
+
+Spanish legal PPC in the US is dominated by personal-injury auctions at
+$300–600 CPCs; immigration Spanish terms at $16–45 are the affordable corner
+of an otherwise expensive language market — with `abogado de inmigración` at
+18,100/mo the single biggest keyword in the entire account, English included.
+Three structural notes:
+
+- **Write-for-the-query beats translate-the-page.** The Spanish demand has its
+  own vocabulary ("arreglar papeles", "perdón", complication-shaped questions
+  like "puedo arreglar papeles si tengo un DUI"). Pages 17–21 are written
+  natively around those queries — including FAQ answers that literally answer
+  the long-tail questions people type, which is also a quality-score play.
+- **The notario problem is a positioning asset.** Every Spanish page carries
+  the "un notario no es un abogado" warning — it converts because it names the
+  bad experience much of this audience has already had.
+- **E-2 Mexico is a near-free experiment.** Mexico is an E-2 treaty country
+  and a top E-2 nationality; MX-geo clicks cost $2.70–3.54 against the same
+  $8–12k retainers as the Canadian campaign. Tiny volume, extraordinary ratio
+  — run it at a small daily cap and let it surprise you.
+- **Ciudadanía is a two-layer campaign:** bid the $87 lawyer term exact, and
+  separately test the giant cheap exam-prep tail (`examen de ciudadania`
+  ~14,000/mo combined at ~$1) only as a remarketing-pool builder with a
+  study-guide offer — never at case-level CPAs.
+
+**Launch blockers for ALL Spanish campaigns:** Spanish-speaking intake staff
+confirmed; native-speaker copy review; Spanish-language Google reviews pasted
+into the testimonial slots. Forms on ES pages redirect to `/gracias.html`
+(same `generate_lead` event — no extra GTM work needed).
 
 Notes on pages 11–16: `/us-immigration-lawyer/` is the bottom-funnel page for
 the recommended Canada split — the 880/mo `us immigration lawyer` (CA) term

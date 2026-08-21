@@ -1,17 +1,17 @@
 {
-  "slug": "abogado-de-inmigracion-houston",
-  "campaign": "Abogado de Inmigración — Houston (Español)",
-  "priority": 16,
+  "slug": "abogado-de-inmigracion",
+  "campaign": "Abogado de Inmigración — Nacional (Español)",
+  "priority": 17,
   "lang": "es",
-  "meta_title": "Abogado de Inmigración en Houston | Faragalla Law",
-  "meta_description": "Abogados de inmigración en Houston para residencias, visas de trabajo, ciudadanía y defensa de deportación. Atención en español, tarifas fijas y una respuesta honesta sobre su caso.",
-  "eyebrow": "Abogados de Inmigración en Houston",
-  "h1": "Un Abogado de Inmigración en Houston Que Le Dice la Verdad Sobre Su Caso.",
-  "hero_sub": "Residencias, visas de trabajo, peticiones familiares, ciudadanía y defensa. En Faragalla Law usted recibe primero una evaluación honesta — y después una tarifa fija y un plan claro, en español.",
+  "meta_title": "Abogado de Inmigración | Faragalla Law",
+  "meta_description": "Abogados de inmigración que atienden en español en todo Estados Unidos: residencias, peticiones familiares, ciudadanía, permisos de trabajo y defensa. Tarifas fijas y una respuesta honesta sobre su caso.",
+  "eyebrow": "Abogados de Inmigración — Atención en Español",
+  "h1": "Un Abogado de Inmigración Que Le Dice la Verdad Sobre Su Caso.",
+  "hero_sub": "Residencias, peticiones familiares, ciudadanía, permisos de trabajo y defensa. La ley de inmigración es federal — podemos representarlo en cualquier estado del país, con consultas por teléfono o video, en español.",
   "bullets": [
     "Residencias por matrimonio y peticiones familiares",
     "Ciudadanía, permisos de trabajo y visas de empleo",
-    "Defensa de deportación y casos urgentes"
+    "Defensa de deportación, perdones y casos complicados"
   ],
   "offer_name": "Evaluación de Su Caso",
   "cta_label": "Solicitar la Evaluación de Mi Caso",
@@ -22,24 +22,12 @@
     {
       "name": "asunto",
       "label": "¿En qué necesita ayuda?",
-      "options": [
-        "Residencia por matrimonio o familia",
-        "Visa de trabajo o residencia por empleo",
-        "Ciudadanía / naturalización",
-        "Defensa de deportación / corte",
-        "Permiso de trabajo o renovación",
-        "Otro asunto"
-      ]
+      "options": ["Residencia por matrimonio o familia", "Arreglar papeles — no sé por dónde empezar", "Ciudadanía / naturalización", "Defensa de deportación / corte", "Visa o permiso de trabajo", "Otro asunto"]
     },
     {
       "name": "urgencia",
       "label": "¿Qué tan urgente es?",
-      "options": [
-        "Emergencia — cuestión de días",
-        "Pronto — dentro de un mes",
-        "Estoy planificando con tiempo",
-        "Solo busco información"
-      ]
+      "options": ["Emergencia — cuestión de días", "Pronto — dentro de un mes", "Estoy planificando con tiempo", "Solo busco información"]
     }
   ],
   "problem_heading": "Los problemas migratorios se vuelven más caros cuanto más se esperan",
@@ -64,7 +52,7 @@
     },
     {
       "title": "Formación de firma grande, trato personal",
-      "body": "El abogado fundador Sam Faragalla se formó en Fragomen, una de las firmas de inmigración corporativa más grandes del mundo, y aplica ese estándar a las familias de Houston."
+      "body": "El abogado fundador Sam Faragalla se formó en Fragomen, una de las firmas de inmigración corporativa más grandes del mundo, y aplica ese estándar a cada familia que representa."
     },
     {
       "title": "Primero la verdad, después el contrato",
@@ -82,7 +70,7 @@
     },
     {
       "title": "Consulta de estrategia",
-      "body": "Analizamos su historial y sus metas, identificamos la vía correcta y los riesgos, y le damos una tarifa fija y un calendario realista."
+      "body": "Analizamos su historial completo y sus metas, identificamos la vía correcta y los riesgos, y le damos una tarifa fija y un calendario realista."
     },
     {
       "title": "Preparación y presentación",
@@ -95,12 +83,13 @@
   ],
   "fees_heading": "¿Cuánto cuesta su trámite?",
   "fees_body": "Cada asunto estándar — peticiones familiares, residencias, permisos, ciudadanía — se cotiza con una tarifa fija en la consulta, con las tarifas del gobierno detalladas por separado para que usted pueda presupuestar el caso completo. Los casos con complicaciones cuestan más que los casos limpios, y le diremos con franqueza cuál es el suyo antes de que gaste un dólar.",
-  "who_heading": "A quiénes ayudamos en Houston",
+  "who_heading": "A quiénes ayudamos",
   "who_for": [
     "Familias con peticiones de matrimonio, perdones y ajustes de estatus",
-    "Trabajadores y empleadores con visas y residencias por empleo",
+    "Personas que quieren arreglar papeles y necesitan saber si existe una vía",
     "Residentes permanentes listos para la ciudadanía",
-    "Personas con notificaciones, fechas de corte o casos negados que necesitan una respuesta clara y rápida",
+    "Trabajadores y empleadores con visas y residencias por empleo",
+    "Personas con notificaciones, fechas de corte o casos negados",
     "Casos dañados por notarios o preparadores que hay que rescatar"
   ],
   "who_not": [
@@ -109,8 +98,12 @@
   ],
   "faq": [
     {
-      "q": "¿Cuánto cobra un abogado de inmigración en Houston?",
+      "q": "¿Cuánto cobra un abogado de inmigración?",
       "a": "Depende del trámite: una petición sencilla cuesta mucho menos que un perdón o una defensa en corte. Lo que sí podemos prometer es la estructura: una tarifa fija cotizada en la consulta que cubre el trabajo definido, con las tarifas del gobierno detalladas por separado. Usted nunca descubrirá el precio a mitad del caso."
+    },
+    {
+      "q": "¿Atienden en mi estado?",
+      "a": "Sí. La ley de inmigración es federal — no cambia de estado a estado — así que un abogado de inmigración con licencia puede representarlo ante USCIS y las cortes de inmigración en todo el país. Las consultas se hacen por teléfono o video, y la gran mayoría de los trámites no requieren ninguna visita a una oficina."
     },
     {
       "q": "¿La consulta es en español? ¿Cuánto cuesta?",
@@ -121,26 +114,16 @@
       "a": "Toda. En EE. UU., solo un abogado con licencia (o un representante acreditado por el gobierno) puede darle asesoría legal y representarlo ante USCIS o la corte de inmigración. Un 'notario' o 'preparador de formularios' no puede — y los errores que cometen quedan en su expediente permanente. Antes de firmar con cualquiera, pida su número de licencia de abogado y verifíquelo."
     },
     {
+      "q": "¿Es seguro hablar con ustedes sobre mi situación si no tengo papeles?",
+      "a": "Lo que usted nos cuente para buscar asesoría legal está protegido por la confidencialidad profesional — no trabajamos para inmigración, trabajamos para usted. Para poder ayudarle necesitamos la historia completa y verdadera: entradas, salidas, trámites anteriores y cualquier problema con la ley. Con la historia real encontramos opciones; con una historia a medias solo encontramos problemas después."
+    },
+    {
       "q": "Recibí una carta de inmigración o una fecha de corte. ¿Qué hago?",
-      "a": "Marque su formulario como 'Emergencia' o llámenos directamente, y no falte a ninguna cita ni audiencia — faltar a una audiencia puede terminar en una orden de deportación automática. Traiga la carta original a la consulta: el lenguaje exacto determina la estrategia y los plazos. Los casos con fecha límite se atienden antes que las consultas de rutina."
-    },
-    {
-      "q": "¿Puedo arreglar papeles si entré sin permiso o me quedé más tiempo del permitido?",
-      "a": "A veces sí — depende de cómo entró, quién es su familiar peticionario y su historial completo. Los cónyuges de ciudadanos que entraron legalmente muchas veces pueden ajustar estatus aunque se hayan quedado de más; otras situaciones requieren un perdón antes de salir a la entrevista consular. Es exactamente el tipo de análisis que debe hacerse antes de presentar cualquier cosa — un trámite equivocado puede activar un castigo de 3 o 10 años."
-    },
-    {
-      "q": "¿Atienden casos fuera de Houston?",
-      "a": "Sí. La ley de inmigración es federal, así que representamos clientes en todo Texas, en todo el país y en el extranjero. Las consultas están disponibles por teléfono y video, y la mayoría de los trámites ante USCIS no requieren visitas a una oficina local."
+      "a": "Marque su formulario como 'Emergencia' o llámenos directamente, y no falte a ninguna cita ni audiencia — faltar a una audiencia puede terminar en una orden de deportación automática. Tenga la carta original a la mano para la consulta: el lenguaje exacto determina la estrategia y los plazos."
     }
   ],
-  "service_name": "Servicios Legales de Inmigración — Houston, TX (Español)",
-  "testimonial_hint": "Reseñas textuales de Google de clientes hispanohablantes de Houston",
+  "service_name": "Servicios Legales de Inmigración (Español)",
+  "testimonial_hint": "Reseñas textuales de Google en español — cualquier tipo de caso",
   "final_heading": "Reciba una respuesta clara sobre su caso",
-  "final_sub": "Un formulario. Un día hábil. Una respuesta honesta sobre sus opciones, el costo y el calendario.",
-  "site_overrides": {
-    "testimonial_placeholder_lines": [
-      "[PEGUE AQUÍ UNA RESEÑA TEXTUAL DE GOOGLE — en español, de un cliente de Houston. Vea el README.]",
-      "[PEGUE AQUÍ UNA SEGUNDA RESEÑA TEXTUAL EN ESPAÑOL.]"
-    ]
-  }
+  "final_sub": "Un formulario. Un día hábil. Una respuesta honesta sobre sus opciones, el costo y el calendario."
 }

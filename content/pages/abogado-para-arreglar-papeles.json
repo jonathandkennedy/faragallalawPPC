@@ -1,0 +1,130 @@
+{
+  "slug": "abogado-para-arreglar-papeles",
+  "campaign": "Arreglar Papeles (Español)",
+  "priority": 18,
+  "lang": "es",
+  "meta_title": "Abogado para Arreglar Papeles | Faragalla Law",
+  "meta_description": "¿Quiere arreglar papeles pero no sabe si su caso califica? Con DUI, salida voluntaria, entrada sin permiso u orden antigua — un abogado le dice la verdad sobre su vía legal, en español.",
+  "eyebrow": "Abogados para Arreglar Papeles",
+  "h1": "¿Se Pueden Arreglar Sus Papeles? Averígüelo Antes de Gastar en un Trámite Equivocado.",
+  "hero_sub": "Para algunas personas sí existe una vía legal — por matrimonio, por un hijo ciudadano, por el trabajo o con un perdón. Para otras, todavía no. La diferencia está en los detalles de su historia, y conocerla a tiempo evita errores que cuestan años.",
+  "bullets": [
+    "Por matrimonio, hijos ciudadanos u otros familiares",
+    "Casos con complicaciones: DUI, salida voluntaria, entrada sin permiso",
+    "Análisis honesto y confidencial — si no hay vía, se lo decimos"
+  ],
+  "offer_name": "Análisis de Su Caso",
+  "cta_label": "Solicitar el Análisis de Mi Caso",
+  "cta_short": "Analizar Mi Caso",
+  "form_title": "Solicite el Análisis de Su Caso",
+  "form_sub": "Cuéntenos su situación con confianza. Le responderemos con una evaluación honesta de sus opciones.",
+  "qualifiers": [
+    {
+      "name": "familiar",
+      "label": "¿Tiene un familiar ciudadano o residente?",
+      "options": ["Sí — esposo(a) ciudadano(a) o residente", "Sí — hijo(a) ciudadano(a) mayor de 21 años", "Sí — otro familiar", "No", "No estoy seguro(a) de quién puede pedirme"]
+    },
+    {
+      "name": "situacion",
+      "label": "¿Alguna de estas situaciones aplica?",
+      "options": ["Entré sin permiso", "Entré con visa y me quedé", "Tengo una salida voluntaria u orden antigua", "Tengo un arresto o DUI", "Ninguna — historial limpio", "Prefiero hablarlo en privado"]
+    }
+  ],
+  "problem_heading": "\"Arreglar papeles\" depende de tres detalles de su historia",
+  "problem_cards": [
+    {
+      "title": "Cómo entró a Estados Unidos",
+      "body": "Quien entró con visa o permiso — aunque se haya quedado más tiempo — muchas veces puede ajustar su estatus aquí adentro si tiene quién lo pida. Quien entró sin inspección generalmente necesita otro camino, a menudo con un perdón y una entrevista en el consulado. Este solo detalle cambia toda la estrategia."
+    },
+    {
+      "title": "Quién puede pedirlo",
+      "body": "Un(a) esposo(a) ciudadano(a), un hijo o hija ciudadano(a) mayor de 21 años, ciertos familiares y algunos empleadores pueden iniciar el proceso. Quién lo pide determina la rapidez, si hay fila de espera y si usted puede quedarse aquí mientras tanto."
+    },
+    {
+      "title": "Su historial completo",
+      "body": "Salidas y entradas, órdenes antiguas, salidas voluntarias, arrestos y trámites anteriores no impiden todo — pero deciden si necesita un perdón y cuál. Presentar un trámite sin analizar el historial es la forma más cara de descubrir un problema: a veces activa castigos de 3 o 10 años."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "La verdad primero — con confidencialidad",
+      "body": "Lo que nos cuente para buscar asesoría está protegido. Analizamos su historia completa y le decimos con franqueza si hoy existe una vía, si conviene esperar, o si un perdón la abre."
+    },
+    {
+      "title": "Especialistas en casos con complicaciones",
+      "body": "DUI, salida voluntaria, entradas múltiples, órdenes antiguas — son exactamente los casos donde un notario dice 'no se puede' o, peor, presenta algo que no debía. Nosotros los analizamos todos los días."
+    },
+    {
+      "title": "Formación de firma grande, trato personal",
+      "body": "El abogado fundador Sam Faragalla se formó en Fragomen, una de las firmas de inmigración corporativa más grandes del mundo, y aplica ese estándar a cada familia."
+    },
+    {
+      "title": "Tarifas fijas y claras",
+      "body": "Antes de contratarnos, usted sabe exactamente cuánto cuesta su trámite — perdón incluido si hace falta. Sin sorpresas y con planes de pago en muchos casos."
+    }
+  ],
+  "process": [
+    {
+      "title": "Análisis de su caso",
+      "body": "Envíe el formulario. Revisamos su situación con discreción y le respondemos dentro de un día hábil con las opciones de consulta."
+    },
+    {
+      "title": "Consulta de estrategia",
+      "body": "Reconstruimos su historia migratoria completa — entradas, salidas, trámites, historial — y le decimos qué vía existe, qué perdones necesita y qué riesgos hay."
+    },
+    {
+      "title": "Preparación del expediente",
+      "body": "Preparamos la petición, el ajuste o el proceso consular con perdón, con toda la evidencia organizada para que el caso pase a la primera."
+    },
+    {
+      "title": "Hasta la residencia",
+      "body": "Lo acompañamos en cada paso — huellas, entrevista, respuestas a USCIS — hasta la decisión, y le preparamos para lo que sigue después."
+    }
+  ],
+  "fees_heading": "¿Cuánto cuesta arreglar papeles?",
+  "fees_body": "Depende de la vía: un ajuste de estatus por matrimonio cuesta menos que un proceso con perdón I-601A y entrevista consular. En la consulta le damos la tarifa fija completa de su caso — honorarios legales y tarifas del gobierno detalladas por separado — para que su familia pueda planificar. Desconfíe de cualquiera que le cotice sin conocer su historial: el precio real depende de su historia.",
+  "who_heading": "¿Su caso puede calificar?",
+  "who_for": [
+    "Está casado(a) con un(a) ciudadano(a) o residente permanente",
+    "Tiene un hijo o hija ciudadano(a) que ya cumplió 21 años",
+    "Entró con visa (aunque se haya vencido) y tiene quién lo pida",
+    "Entró sin permiso pero tiene familiares que califican — la vía del perdón puede existir",
+    "Tiene años trabajando aquí y quiere saber si el trabajo abre alguna puerta",
+    "Le dijeron que 'no se puede' y quiere una segunda opinión profesional"
+  ],
+  "who_not": [
+    "Si hoy no existe ninguna vía para usted, se lo diremos con respeto — y le explicaremos qué cambios (matrimonio, hijos que cumplen 21, nuevas leyes) podrían abrirla mañana",
+    "No presentamos trámites sin fundamento 'para intentar': un trámite mal fundado puede ponerlo en riesgo de deportación",
+    "Si su caso es de corte o detención, es urgente — llame en lugar de llenar el formulario"
+  ],
+  "faq": [
+    {
+      "q": "¿Puedo arreglar papeles si entré sin permiso?",
+      "a": "A veces sí. La vía más común es a través de un familiar directo — por ejemplo un(a) esposo(a) ciudadano(a) — usando un perdón provisional (I-601A) por la presencia ilegal, seguido de una entrevista en el consulado de su país. Es un proceso serio que debe analizarse completo antes de empezar, pero miles de familias lo completan cada año. Lo que no debe hacer es presentar algo o salir del país sin ese análisis."
+    },
+    {
+      "q": "¿Puedo arreglar papeles si tengo un DUI?",
+      "a": "Un DUI no cierra automáticamente la puerta, pero cambia el análisis: cuenta el número de casos, las fechas, si hubo agravantes y cómo terminó cada uno. Un solo DUI simple y antiguo muchas veces se supera con la documentación correcta; casos múltiples o recientes requieren más estrategia. Traiga los documentos de la corte penal — el papel exacto importa más que el recuerdo."
+    },
+    {
+      "q": "¿Puedo arreglar papeles si tuve una salida voluntaria?",
+      "a": "Depende de qué pasó realmente: si usted cumplió y salió a tiempo, si la salida se convirtió en orden de deportación por no salir, y cuánto tiempo ha pasado. Cada variante tiene consecuencias distintas — algunas necesitan perdones adicionales, otras una moción antes que nada. Es exactamente el tipo de historial que debe revisarse con los documentos en mano antes de intentar cualquier trámite."
+    },
+    {
+      "q": "¿Puedo arreglar papeles si tengo una orden de deportación antigua?",
+      "a": "Una orden antigua no siempre es el final — en ciertos casos se puede pedir reabrir el caso (por ejemplo, si nunca le llegó la notificación) o buscar perdones que la superen. Pero también es la situación de mayor riesgo para moverse sin abogado: un trámite mal presentado puede alertar sobre una orden ejecutable. Este análisis se hace primero, con calma y en privado."
+    },
+    {
+      "q": "¿Mis hijos me pueden arreglar papeles?",
+      "a": "Un hijo o hija ciudadano(a) puede pedir a sus padres al cumplir 21 años, y como familiares directos de ciudadano no hay fila de espera para la visa. Que la petición termine en residencia depende de lo mismo de siempre: cómo entró usted, su historial y si necesita perdón y proceso consular. La petición del hijo es la llave; el análisis dice qué puerta abre."
+    },
+    {
+      "q": "¿Cuánto cobra un abogado para arreglar papeles?",
+      "a": "En este despacho: una tarifa fija cotizada en la consulta, que depende de la vía de su caso — un ajuste sencillo cuesta menos que un proceso con perdón. Las tarifas del gobierno van detalladas por separado y existen planes de pago en muchos casos. La consulta misma tiene un costo fijo que le confirmamos al responderle — y en ella usted recibe el mapa completo de su caso, califique o no."
+    }
+  ],
+  "service_name": "Servicios de Residencia y Ajuste de Estatus (Español)",
+  "testimonial_hint": "Reseñas textuales de Google en español — casos de residencia/perdones",
+  "final_heading": "Sepa de una vez si su caso tiene vía — y cuál es",
+  "final_sub": "Un formulario confidencial. Un día hábil. La verdad sobre sus opciones, dicha con respeto."
+}

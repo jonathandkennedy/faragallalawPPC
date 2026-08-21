@@ -1,0 +1,132 @@
+{
+  "slug": "abogado-de-deportacion",
+  "campaign": "Abogado de Deportación (Español)",
+  "priority": 20,
+  "lang": "es",
+  "meta_title": "Abogado de Deportación | Faragalla Law",
+  "meta_description": "¿En proceso de deportación, con un familiar detenido o con una orden antigua? Defensa migratoria en español: fianzas, cancelación, asilo y mociones. Casos urgentes: llame ahora.",
+  "eyebrow": "Abogados de Defensa de Deportación",
+  "h1": "¿En Proceso de Deportación? Lo Que Haga en las Próximas Semanas Define Todo.",
+  "hero_sub": "Recibir una Notificación de Comparecencia es el inicio de un caso legal — no el final de sus opciones. Identificamos cada defensa que usted califica, peleamos la fianza cuando hay un detenido, y llegamos a la corte preparados. En español.",
+  "bullets": [
+    "Corte de inmigración, fianzas y familiares detenidos",
+    "Defensas: cancelación de deportación, asilo, ajuste, perdones",
+    "Órdenes antiguas y audiencias perdidas — mociones para reabrir"
+  ],
+  "offer_name": "Evaluación de Defensa",
+  "cta_label": "Solicitar Mi Evaluación de Defensa",
+  "cta_short": "Mi Defensa",
+  "form_title": "Solicite Su Evaluación de Defensa",
+  "form_sub": "Cuéntenos qué está pasando. Si hay un detenido o una fecha encima: llame ahora al número de arriba.",
+  "qualifiers": [
+    {
+      "name": "situacion",
+      "label": "¿Cuál es la situación?",
+      "options": ["Recibí una Notificación de Comparecencia (NTA)", "Un familiar está detenido", "Tengo fecha de corte próxima", "Falté a una audiencia / tengo orden antigua", "Tengo cita de control con ICE", "Otra situación urgente"]
+    },
+    {
+      "name": "plazo",
+      "label": "¿Cuándo es la próxima fecha o plazo?",
+      "options": ["Dentro de 2 semanas — urgente", "De 2 a 8 semanas", "En más de 2 meses", "No hay fecha aún / no sé"]
+    }
+  ],
+  "problem_heading": "Más casos se pierden por abandono que por falta de defensa",
+  "problem_cards": [
+    {
+      "title": "Faltar a la audiencia = orden automática",
+      "body": "Si falta a una audiencia — aunque sea porque la notificación llegó a una dirección vieja — el juez puede ordenar la deportación ese mismo día, en ausencia. Si ya pasó, una moción para reabrir todavía puede revertirlo, pero el reloj y los documentos lo son todo. Tráiganos la notificación, no el resumen."
+    },
+    {
+      "title": "Las defensas existen — si se reclaman a tiempo y bien",
+      "body": "Cancelación de deportación (10 años de presencia y familiares que sufrirían), asilo y protecciones por miedo, ajuste por matrimonio o familia, y perdones — cada una tiene requisitos y plazos estrictos. El juez no busca su defensa por usted. Ese es el trabajo de su abogado."
+    },
+    {
+      "title": "La fianza se gana en los primeros días",
+      "body": "Que su familiar pelee el caso libre o encerrado meses se decide muchas veces en una sola audiencia temprana — y en qué tan rápido llegan las pruebas de identidad, arraigo y patrocinio. Las familias que se mueven la primera semana conservan opciones; las que esperan, las pierden."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Defensa en español, con la familia informada",
+      "body": "La estrategia explicada en su idioma, cada audiencia preparada con usted, y la familia sabiendo qué sigue — porque un caso de corte lo vive toda la casa."
+    },
+    {
+      "title": "Todas las defensas, revisadas sistemáticamente",
+      "body": "Años de presencia, familiares ciudadanos, miedo de regresar, peticiones familiares en paralelo, errores del gobierno en su caso — revisamos el mapa completo antes de elegir la estrategia."
+    },
+    {
+      "title": "La verdad sobre sus probabilidades",
+      "body": "Le decimos qué se puede ganar, qué no, y cuánto cuesta cada camino — incluso cuando lo honesto es ganar tiempo legalmente o cuando el error de un abogado anterior abre una puerta."
+    },
+    {
+      "title": "Tarifas fijas por etapa",
+      "body": "Fianza, presentaciones y audiencia final se cotizan por etapas con tarifa fija — el costo nunca se convierte en sorpresa a mitad del caso."
+    }
+  ],
+  "process": [
+    {
+      "title": "Evaluación urgente",
+      "body": "Envíe el formulario — o llame si hay un detenido o una fecha encima. Los casos con plazo saltan la fila."
+    },
+    {
+      "title": "Estrategia de defensa",
+      "body": "Analizamos los cargos, revisamos cada defensa posible, pedimos el expediente del gobierno cuando hace falta, y definimos el plan — la fianza primero si hay un detenido."
+    },
+    {
+      "title": "Construcción del caso",
+      "body": "Preparamos las solicitudes de defensa, la evidencia del país, las pruebas de arraigo y sufrimiento, y los testigos — el expediente sobre el que el juez decide."
+    },
+    {
+      "title": "Pelear el caso",
+      "body": "Lo representamos en cada audiencia, y cuando la pelea no termina ahí, seguimos con apelaciones o mociones — hasta el resultado más seguro disponible."
+    }
+  ],
+  "fees_heading": "¿Cuánto cuesta la defensa?",
+  "fees_body": "Depende de la etapa y de la defensa: una moción de fianza se cotiza distinto que un caso completo de cancelación con audiencia final. Cada etapa tiene tarifa fija cotizada antes de empezar, y en la consulta le decimos con franqueza cómo se ve el costo total de la pelea completa. Lo que no hacemos es cotizar barato y subir el precio a mitad del caso.",
+  "who_heading": "Para quién es esta defensa",
+  "who_for": [
+    "Usted o un familiar recibió una Notificación de Comparecencia o tiene fecha de corte",
+    "Hay un familiar detenido y necesita pelear la fianza ya",
+    "Faltó a una audiencia o carga una orden antigua y quiere saber si se puede reabrir",
+    "Tiene cita de control con ICE y quiere llegar con abogado preparado",
+    "Un caso penal — aunque sea viejo o menor — está chocando con su estatus migratorio"
+  ],
+  "who_not": [
+    "Si ya fue deportado y está fuera del país, aplican otras herramientas (perdones, proceso consular) — lo orientamos hacia la vía correcta",
+    "Si busca a alguien que le garantice el resultado — ningún abogado honesto lo hace",
+    "Si su asunto es un trámite sin corte de por medio, vea nuestros otros servicios; esta página es de defensa"
+  ],
+  "faq": [
+    {
+      "q": "Recibí una Notificación de Comparecencia (NTA). ¿Qué hago primero?",
+      "a": "Tres cosas, rápido: apunte cada fecha del documento, actualice su dirección con la corte (formulario EOIR-33) para que las notificaciones le lleguen, y haga analizar los cargos con un abogado antes de la primera audiencia. La primera audiencia es corta pero importante: lo que se responde ahí define el caso. No falte y no vaya solo si puede evitarlo."
+    },
+    {
+      "q": "¿Pueden sacar a mi familiar de detención?",
+      "a": "Muchas veces sí — con una audiencia de fianza donde se demuestra identidad, arraigo, un domicilio estable y que la persona no es peligro ni riesgo de fuga. Algunos antecedentes penales activan detención obligatoria, y eso se analiza de inmediato. La velocidad importa más que nada: mientras más rápido estén los documentos y el patrocinador, más pronto la audiencia. Llámenos con el nombre completo y el número A del detenido."
+    },
+    {
+      "q": "¿Qué defensas existen contra la deportación?",
+      "a": "Las principales familias: cancelación de deportación (10 años de presencia más sufrimiento extremo de un familiar ciudadano o residente — con una versión aparte para residentes), asilo y protecciones para quien teme regresar, ajuste de estatus por matrimonio o familia, varios perdones, y ataques al caso del gobierno cuando hay errores. La mayoría de las personas califica para más de lo que cree — revisarlo todo es el primer trabajo."
+    },
+    {
+      "q": "Falté a mi audiencia hace años y tengo orden de deportación. ¿Tiene arreglo?",
+      "a": "A veces. Una moción para reabrir puede prosperar cuando la notificación fue defectuosa o hubo circunstancias excepcionales — y existen otras vías por cambios en su país o por errores del abogado anterior. Son mociones técnicas donde cada documento cuenta: traiga todo lo que tenga, incluidas las notificaciones viejas, antes de que nadie presente nada."
+    },
+    {
+      "q": "¿Un cargo penal me hace deportable?",
+      "a": "Depende de la ley exacta de la condena — no de la historia, sino del estatuto. Algunos delitos son causa de deportación o bloquean defensas; muchos otros se superan con el análisis correcto; y cómo se negocia un caso penal pendiente puede decidir el resultado migratorio. Si tiene un caso penal abierto y exposición migratoria, su abogado penalista y nosotros debemos hablar antes de cualquier declaración de culpabilidad."
+    },
+    {
+      "q": "¿Mi familiar debe firmar lo que le da ICE?",
+      "a": "No antes de entenderlo. Firmar una salida voluntaria o una orden estipulada puede renunciar al derecho de ver a un juez. Toda persona tiene derecho a decir que quiere hablar con un abogado. Si hay un detenido, llámenos con su nombre completo y número A: lo localizamos y nos movemos sobre el caso."
+    }
+  ],
+  "service_name": "Servicios de Defensa de Deportación (Español)",
+  "testimonial_hint": "Reseñas textuales de Google en español — casos de defensa/detención",
+  "final_heading": "Llegue a la próxima audiencia con un plan de defensa",
+  "final_sub": "¿Detenido o con plazo encima? Llame ahora. Si no: un formulario, una respuesta rápida y una lectura honesta de sus opciones.",
+  "site_overrides": {
+    "response_promise": "¿Detenido o con fecha límite? Llame ahora — los formularios se responden dentro de un día hábil"
+  }
+}

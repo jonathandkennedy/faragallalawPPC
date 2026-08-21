@@ -1,0 +1,128 @@
+{
+  "slug": "residencia-por-matrimonio",
+  "campaign": "Residencia por Matrimonio (Español)",
+  "priority": 19,
+  "lang": "es",
+  "meta_title": "Residencia por Matrimonio — Abogados | Faragalla Law",
+  "meta_description": "¿Casado(a) con ciudadano(a) o residente? Prepare su residencia por matrimonio bien desde la primera vez: la vía correcta, la evidencia y la entrevista. Atención en español.",
+  "eyebrow": "Abogados de Residencia por Matrimonio",
+  "h1": "¿Casado(a) con Ciudadano(a) o Residente? Presente el Caso Bien la Primera Vez.",
+  "hero_sub": "Un expediente débil puede costar un año de espera — o una entrevista separados frente a un oficial. Faragalla Law prepara residencias por matrimonio completas: la vía correcta, la evidencia del matrimonio real y la preparación para la entrevista.",
+  "bullets": [
+    "Ajuste de estatus si su esposo(a) está en EE. UU.",
+    "Proceso consular si está en su país",
+    "Historiales complicados bienvenidos: entradas sin permiso, casos negados"
+  ],
+  "offer_name": "Evaluación de Su Caso de Matrimonio",
+  "cta_label": "Solicitar la Evaluación de Mi Caso",
+  "cta_short": "Evaluar Mi Caso",
+  "form_title": "Solicite la Evaluación de Su Caso",
+  "form_sub": "Cuéntenos su situación. Le señalaremos los riesgos y le responderemos con un plan claro.",
+  "qualifiers": [
+    {
+      "name": "situacion",
+      "label": "Su situación",
+      "options": ["Mi esposo(a) es ciudadano(a) — ambos en EE. UU.", "Mi esposo(a) es residente permanente", "Mi esposo(a) está en otro país", "Estamos comprometidos, aún no casados", "Caso negado o historial complicado"]
+    },
+    {
+      "name": "entrada",
+      "label": "¿Cómo entró a EE. UU. el (la) esposo(a) inmigrante?",
+      "options": ["Con visa (aunque ya venció)", "Con permiso / parole", "Sin inspección", "Está fuera de EE. UU.", "Prefiero hablarlo en privado"]
+    }
+  ],
+  "problem_heading": "Los casos de matrimonio se aprueban con evidencia — y se caen por errores evitables",
+  "problem_cards": [
+    {
+      "title": "El matrimonio real se demuestra, no se supone",
+      "body": "USCIS busca finanzas juntas, domicilio compartido, seguros, fotos a lo largo del tiempo, declaraciones de personas que los conocen y respuestas consistentes. Un expediente flaco provoca entrevistas separadas (tipo Stokes) y meses de retraso. Nosotros armamos la evidencia bien desde el principio."
+    },
+    {
+      "title": "Cómo entró cambia toda la vía",
+      "body": "Quien entró con visa generalmente puede ajustar estatus aquí — incluso con el permiso vencido, si está casado(a) con ciudadano(a). Quien entró sin inspección suele necesitar perdón y entrevista consular. Escoger la vía equivocada puede activar un castigo de 3 o 10 años: este análisis va primero."
+    },
+    {
+      "title": "La entrevista decide — y se prepara",
+      "body": "Preguntas sobre su relación, su casa, sus rutinas; documentos originales; un oficial comparando respuestas. Las parejas preparadas tienen entrevistas cortas y tranquilas. Las que llegan a improvisar, no. Preparamos a los dos — también para el escenario de preguntas separadas."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Casos de familia con disciplina de firma grande",
+      "body": "La misma organización documental que el despacho aplica a casos corporativos va en cada residencia por matrimonio: evidencia ordenada, declaraciones consistentes, cero cabos sueltos."
+    },
+    {
+      "title": "Atención en español, de verdad",
+      "body": "Su consulta, su lista de evidencia y su preparación de entrevista — todo en español, con los dos esposos entendiendo cada paso."
+    },
+    {
+      "title": "Historiales complicados, sin juicios",
+      "body": "Entradas sin permiso, casos anteriores negados, matrimonios previos, diferencias de edad o de religión — sabemos qué mira el oficial y cómo se documenta la verdad."
+    },
+    {
+      "title": "Tarifas fijas y claras",
+      "body": "Una tarifa fija que cubre el paquete completo — petición, ajuste, permiso de trabajo — cotizada antes de empezar. Con planes de pago en muchos casos."
+    }
+  ],
+  "process": [
+    {
+      "title": "Evaluación del caso",
+      "body": "Envíe el formulario. Revisamos la entrada, el estatus de su esposo(a) y cualquier complicación, y le respondemos dentro de un día hábil."
+    },
+    {
+      "title": "Consulta de estrategia",
+      "body": "Elegimos la vía correcta — ajuste aquí o proceso consular — detectamos si hace falta perdón, y le damos su lista de evidencia personalizada."
+    },
+    {
+      "title": "Expediente completo",
+      "body": "Preparamos la petición I-130 con el ajuste I-485 (o el paquete consular), los documentos financieros del patrocinador, el permiso de trabajo y la carpeta de evidencia del matrimonio."
+    },
+    {
+      "title": "Entrevista y aprobación",
+      "body": "Preparamos a los dos para la entrevista, respondemos cualquier solicitud de evidencia y seguimos el caso hasta la residencia — incluyendo quitar condiciones a los dos años cuando aplica."
+    }
+  ],
+  "fees_heading": "¿Cuánto cuesta la residencia por matrimonio?",
+  "fees_body": "Los honorarios son una tarifa fija que depende de la vía — ajuste de estatus aquí o proceso consular — y de si hace falta un perdón. Las tarifas del gobierno para un ajuste típico suman más de mil dólares, más el examen médico. En la consulta le entregamos el presupuesto completo, honorarios y gobierno por separado, antes de que se comprometa a nada.",
+  "who_heading": "¿Este servicio es para ustedes?",
+  "who_for": [
+    "Está casado(a) — o por casarse — con un(a) ciudadano(a) o residente permanente",
+    "Su esposo(a) está aquí, o está en su país y va a inmigrar por el consulado",
+    "Entró sin permiso o le negaron un caso antes y quiere hacerlo bien esta vez",
+    "Quieren permiso de trabajo y protección mientras el caso avanza"
+  ],
+  "who_not": [
+    "El matrimonio existe solo para los papeles — ese caso no lo tomamos",
+    "Aún no hay compromiso ni matrimonio y busca otra categoría familiar — también la manejamos, pero es otra conversación",
+    "Su prometido(a) está en el extranjero y quieren la visa de prometidos — pregunte por el proceso K-1"
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto tarda la residencia por matrimonio?",
+      "a": "Para esposos(as) de ciudadanos que ajustan estatus dentro de EE. UU., la mayoría de los casos hoy corre entre 9 y 16 meses según la oficina local — con el permiso de trabajo llegando antes. Los procesos consulares toman un rango parecido. Con un(a) residente permanente como peticionario hay además fila de visa. En la consulta le damos el estimado actual para su oficina y su vía."
+    },
+    {
+      "q": "¿Qué pasa si me niegan la residencia por matrimonio?",
+      "a": "Primero se lee POR QUÉ: falta de evidencia del matrimonio, un problema de elegibilidad, o inconsistencias en la entrevista tienen soluciones distintas — desde volver a presentar con expediente fuerte hasta mociones o, en algunos casos, defensa en corte. Una negación no siempre es el final, pero sí es la señal de dejar de improvisar. Traiga la carta de negación completa: ahí está el mapa."
+    },
+    {
+      "q": "¿Puedo quedarme en EE. UU. mientras el caso avanza?",
+      "a": "Si entró legalmente y está casado(a) con un(a) ciudadano(a), presentar el ajuste de estatus generalmente protege su permanencia aunque la visa ya se haya vencido — la estadía de más se perdona para esposos de ciudadanos. Las entradas sin inspección y algunos historiales son diferentes: pida el análisis antes de presentar nada."
+    },
+    {
+      "q": "¿Puedo trabajar mientras espero?",
+      "a": "Sí — el paquete de ajuste incluye la solicitud del permiso de trabajo (EAD) y normalmente el permiso de viaje. Cuando llega el permiso, puede trabajar con cualquier empleador. Lo presentamos todo junto para que nada espere en una segunda fila."
+    },
+    {
+      "q": "¿Qué evidencia demuestra un matrimonio real?",
+      "a": "Contratos de renta o escrituras juntos, cuentas de banco y taxes en conjunto, seguros donde aparece el otro, fotos a lo largo de la relación, viajes, declaraciones de familiares y amigos, y actas de hijos cuando los hay. Ningún documento es obligatorio por sí solo — el expediente debe contar una sola historia consistente. Le damos una lista adaptada a su vida real."
+    },
+    {
+      "q": "¿Qué preguntas hacen en la entrevista?",
+      "a": "Sobre cómo se conocieron, su casa, sus rutinas, sus familias y sus planes — el oficial compara sus respuestas entre sí y con el expediente. Si algo no cuadra, pueden separarlos y preguntar con detalle. La preparación consiste en repasar su propia historia real y llevar los documentos correctos: las parejas preparadas salen en minutos. De eso nos encargamos juntos antes de la cita."
+    }
+  ],
+  "service_name": "Servicios de Residencia por Matrimonio (Español)",
+  "testimonial_hint": "Reseñas textuales de Google en español — casos de matrimonio/familia",
+  "final_heading": "Empiecen su caso con el expediente bien hecho",
+  "final_sub": "Un formulario. Un día hábil. Un plan claro para su historia específica."
+}

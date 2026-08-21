@@ -1,10 +1,11 @@
 # Faragalla Law — PPC Landing Page Hub
 
-A self-contained hub of 16 campaign landing pages for faragallalaw.com paid
+A self-contained hub of 22 campaign landing pages for faragallalaw.com paid
 traffic (the `results.goldbergloren.com` pattern: one focused, noindexed page
-per campaign, no site navigation, one offer per page) — including a fully
-localized Spanish page for Houston (`/abogado-de-inmigracion-houston/`, with
-its own thank-you page `/gracias.html`).
+per campaign, no site navigation, one offer per page) — 15 English pages plus
+a 7-page Spanish set (national anchor, arreglar papeles, residencia por
+matrimonio, deportación, ciudadanía, Houston, and E-2 para mexicanos), all
+sharing the Spanish thank-you page `/gracias.html`.
 
 - **Campaign strategy, keyword data, ad structure:** [STRATEGY.md](STRATEGY.md)
 - **Raw keyword research exports:** `research/keywords-us.tsv`, `research/keywords-canada.tsv`
@@ -34,7 +35,7 @@ public/                   generated output — the deployable site
   index.html              internal hub directory (never an ad destination)
   thank-you.html          conversion page (fires generate_lead)
   gracias.html            Spanish conversion page (same event)
-  <campaign>/index.html   16 landing pages
+  <campaign>/index.html   22 landing pages (15 EN + 7 ES)
 research/                 keyword research exports + US-vs-Canada analysis (Aug 2026)
 ```
 
@@ -92,9 +93,9 @@ posts URL-encoded form data there and redirects to the thank-you page on 2xx.
 - [ ] Real-device pass: iPhone Safari + Android Chrome — sticky bar doesn't
   cover the form's submit button, tel: links dial, forms submit.
 
-**Spanish page (`/abogado-de-inmigracion-houston/`) extra blockers:**
+**Spanish pages (all 7) extra blockers:**
 - [ ] Confirm Spanish-speaking intake — who answers the phone and replies to
-  form leads in Spanish? Do not spend on this campaign until that's real.
+  form leads in Spanish? Do not spend on ANY Spanish campaign until that's real.
 - [ ] Native-speaker review of the page copy (written in professional formal
   Spanish; a quick read by a native speaker is cheap insurance).
 - [ ] Spanish testimonials: paste verbatim Spanish-language Google reviews.
