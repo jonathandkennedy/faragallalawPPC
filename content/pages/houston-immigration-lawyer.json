@@ -1,0 +1,127 @@
+{
+  "slug": "houston-immigration-lawyer",
+  "campaign": "Houston Immigration Lawyer (Local)",
+  "priority": 10,
+  "meta_title": "Houston Immigration Lawyer | Faragalla Law",
+  "meta_description": "Houston immigration attorneys for green cards, work visas, citizenship, and family cases. Big-firm-trained counsel with flat fees. Request a case review — we respond within one business day.",
+  "eyebrow": "Houston Immigration Attorneys",
+  "h1": "A Houston Immigration Lawyer Who Tells You Where Your Case Actually Stands.",
+  "hero_sub": "Green cards, work visas, family petitions, citizenship. Faragalla Law gives Houstonians a straight assessment first — then a flat fee and a plan.",
+  "bullets": [
+    "Family and marriage green cards, citizenship, and waivers",
+    "Business and work visas: E-2, L-1, TN, O-1, NIW",
+    "Flat fees quoted before you commit"
+  ],
+  "offer_name": "Case Review",
+  "cta_label": "Request My Case Review",
+  "cta_short": "Case Review",
+  "form_title": "Request Your Case Review",
+  "form_sub": "Tell us what you need in a sentence or two. We'll route it to the right strategy and reply with next steps.",
+  "qualifiers": [
+    {
+      "name": "matter",
+      "label": "What do you need help with?",
+      "options": ["Marriage or family green card", "Work visa or employment green card", "Citizenship / naturalization", "Business or investor visa", "Deportation / removal defense", "Something else"]
+    },
+    {
+      "name": "urgency",
+      "label": "How urgent is it?",
+      "options": ["Emergency — days matter", "Soon — within a month", "Planning ahead", "Just getting information"]
+    }
+  ],
+  "problem_heading": "Most immigration problems get more expensive the longer they wait",
+  "problem_cards": [
+    {
+      "title": "Deadlines control immigration law",
+      "body": "Response windows on RFEs and NOIDs, status expirations, condition-removal windows, and court dates are unforgiving. A case that's cheap to handle this month can be a waiver case next month. Getting a read early costs you one form."
+    },
+    {
+      "title": "The wrong first filing follows you",
+      "body": "Every application becomes part of your permanent record. Inconsistent answers across filings — even innocent ones — surface years later at interviews. It's far cheaper to file right than to explain later."
+    },
+    {
+      "title": "Notario and DIY damage is real",
+      "body": "We regularly inherit cases harmed by non-lawyer preparers and template services. If someone else touched your case and something feels off, a review now can stop compounding damage."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "A full-service immigration practice",
+      "body": "Family, employment, business, citizenship, and defense work under one roof — so your case gets the right vehicle, not the only one a narrow shop sells."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, and brings that standard to individual and family cases."
+    },
+    {
+      "title": "Straight answers first",
+      "body": "The consultation tells you where your case stands, what it costs, and what the realistic timeline is — including when the honest advice is to wait or do nothing."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "You'll know the full legal fee for your matter before you retain us. No hourly meters on standard cases."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case review",
+      "body": "Submit the form. We review your situation and reply within one business day with consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We assess your history and goals, identify the right category and any risks, and give you a flat fee and timeline."
+    },
+    {
+      "title": "Preparation and filing",
+      "body": "We prepare a complete, consistent filing package — forms, evidence, and legal argument where needed — and file it right the first time."
+    },
+    {
+      "title": "Through to decision",
+      "body": "We track the case, respond to RFEs, prepare you for interviews, and stay on it until the decision — with the next stage already planned."
+    }
+  ],
+  "fees_heading": "What will your case cost?",
+  "fees_body": "Every standard matter — family petitions, work visas, citizenship, green cards — is quoted as a flat fee at the consultation, with government filing fees itemized separately so you can budget the whole case. Complicated histories cost more than clean ones, and we'll tell you which you have before you spend anything.",
+  "who_heading": "Who we help in Houston",
+  "who_for": [
+    "Families filing marriage and relative petitions, waivers, and adjustments",
+    "Professionals and employers handling work visas and employment green cards",
+    "Entrepreneurs and investors — E-2, L-1, and business immigration",
+    "Permanent residents ready for citizenship",
+    "People with notices, deadlines, or prior denials who need a straight answer fast"
+  ],
+  "who_not": [
+    "If you need a criminal defense attorney for a non-immigration matter, we'll refer you",
+    "If the honest answer is that you have no viable path right now, we'll tell you that instead of selling a filing"
+  ],
+  "faq": [
+    {
+      "q": "How much does an immigration lawyer cost in Houston?",
+      "a": "It depends on the matter: simple filings cost far less than waiver or defense work. What we can promise is the structure — a flat fee quoted at the consultation covering the defined scope, with government fees itemized separately. You'll never discover the price mid-case."
+    },
+    {
+      "q": "Do you offer consultations, and what do they cost?",
+      "a": "Yes — submit the form and we'll reply within one business day with scheduling options and the consultation details. The consultation is a working session: you leave knowing your options, risks, realistic timeline, and the flat fee for your case."
+    },
+    {
+      "q": "Do you handle cases outside Houston?",
+      "a": "Yes. Immigration is federal law, so the firm represents clients throughout Texas, across the U.S., and abroad. Consultations are available by phone and video; USCIS filings and most interviews don't require a local office visit."
+    },
+    {
+      "q": "What languages does the firm work in?",
+      "a": "The firm serves Houston's international community daily and can arrange consultations with interpretation when needed — tell us your preferred language on the form and we'll accommodate it."
+    },
+    {
+      "q": "I received a notice (RFE, NOID, or hearing date). How fast can you act?",
+      "a": "Mark your form 'Emergency — days matter' or call us directly. Deadline cases get scheduled ahead of routine consultations, and we triage the response window on the first call. Bring the notice itself — the exact language determines the strategy."
+    },
+    {
+      "q": "Can you take over a case another preparer or lawyer started?",
+      "a": "Yes — this is common. We review the complete file, tell you honestly what was done well and what needs repair, and either fix the pending case or restructure it. Bring copies of everything previously filed; consistency with the old record is half the strategy."
+    }
+  ],
+  "service_name": "Immigration Legal Services — Houston, TX",
+  "testimonial_hint": "Use verbatim Google reviews from Houston-area clients across practice areas",
+  "final_heading": "Get a straight answer on your case",
+  "final_sub": "One form. One business day. A clear read on your options, cost, and timeline."
+}

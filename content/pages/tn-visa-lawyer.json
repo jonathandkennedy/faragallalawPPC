@@ -1,0 +1,127 @@
+{
+  "slug": "tn-visa-lawyer",
+  "campaign": "TN Visa — Canadian Professionals",
+  "priority": 2,
+  "meta_title": "TN Visa Lawyer for Canadian Professionals | Faragalla Law",
+  "meta_description": "Canadian professional with a U.S. job offer? Faragalla Law prepares TN visa applications that hold up at the border — occupation fit, degree evidence, and employer letters done right. Request a case review.",
+  "eyebrow": "TN Visa Lawyer for Canadian Professionals",
+  "h1": "Have a U.S. Job Offer? Get Your TN Application Border-Ready.",
+  "hero_sub": "Faragalla Law prepares TN applications for Canadian professionals — matching your degree and job duties to the USMCA occupation list so you don't learn about a problem from a CBP officer.",
+  "bullets": [
+    "Canadian citizens with a U.S. job offer in a USMCA profession",
+    "First-time applications, renewals, and prior refusals",
+    "Employer support letters drafted to CBP standards"
+  ],
+  "offer_name": "TN Case Review",
+  "cta_label": "Request My TN Case Review",
+  "cta_short": "TN Review",
+  "form_title": "Request Your TN Case Review",
+  "form_sub": "Tell us about your job offer. We'll flag any occupation-fit issues and reply with next steps.",
+  "qualifiers": [
+    {
+      "name": "situation",
+      "label": "What best describes you?",
+      "options": ["Canadian citizen with a U.S. job offer", "Canadian citizen — offer expected soon", "TN renewal or extension", "I was refused TN at the border", "U.S. employer hiring a Canadian"]
+    },
+    {
+      "name": "timing",
+      "label": "When do you need to start work?",
+      "options": ["Within 30 days", "1–3 months", "3+ months", "Not sure yet"]
+    }
+  ],
+  "problem_heading": "TN looks simple — until the officer says no",
+  "problem_cards": [
+    {
+      "title": "Your job title isn't what matters",
+      "body": "CBP approves the duties, not the title. A \"Software Engineer\" offer letter with management-heavy duties, or a consultant role that reads like general business, can be refused on the spot. We match your actual duties to the USMCA occupation list before you travel."
+    },
+    {
+      "title": "Degree mismatches kill applications",
+      "body": "Most TN occupations require a specific baccalaureate or credentials. A related-but-different degree, a three-year Canadian degree, or experience in place of education all need to be argued correctly — with evidence, not hope."
+    },
+    {
+      "title": "A refusal follows you",
+      "body": "A border refusal goes in your record and makes every future attempt harder. The cheapest time to get legal review is before your first application — the second-cheapest is right after a refusal, before you try again."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Canadian business immigration is our specialty",
+      "body": "TN and E-2 matters for Canadians are the core of the firm's business immigration practice — we know what CBP officers at land borders and pre-clearance airports expect to see."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, preparing employment-based cases to corporate compliance standards."
+    },
+    {
+      "title": "We write the letter that gets read",
+      "body": "The employer support letter decides most TN cases. We draft it — occupation classification, duties, credentials, and wage details — so your employer just signs."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "TN preparation is quoted as a flat fee. You'll know the full cost before we start."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case review",
+      "body": "Submit the form. We review your occupation, degree, and job offer, then reply within one business day with consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We confirm the right USMCA occupation category, identify credential or duties risks, and choose port-of-entry or mail-in (I-129) strategy."
+    },
+    {
+      "title": "Application package",
+      "body": "We draft the employer support letter, assemble degree evaluations and licenses, and build a clean application package with a table of contents an officer can process in minutes."
+    },
+    {
+      "title": "Border preparation",
+      "body": "We prep you for the inspection interview — what officers ask, what answers create problems, and what to do if anything goes sideways."
+    }
+  ],
+  "fees_heading": "What does a TN case cost?",
+  "fees_body": "TN legal fees are flat and depend on whether this is a straightforward first application, a case with credential or duties complications, or a strategy reset after a refusal. Government fees are modest — the TN application fee at a port of entry is a fraction of most visa filings. We quote your exact fee during the consultation, before you commit.",
+  "who_heading": "Is the TN route right for you?",
+  "who_for": [
+    "You are a Canadian citizen (Mexican citizens use a different TN process we also handle)",
+    "You have — or expect — a job offer from a U.S. employer",
+    "The role fits a USMCA/NAFTA professional occupation (engineer, accountant, scientist, computer systems analyst, management consultant, and ~60 more)",
+    "You hold the required degree, license, or qualifying experience"
+  ],
+  "who_not": [
+    "You want to work for your own company — TN generally doesn't allow self-employment (ask us about E-2 instead)",
+    "Your role isn't on the USMCA occupation list (H-1B, O-1, or L-1 may fit)",
+    "You're seeking permanent residence as the immediate goal — TN is non-immigrant intent (we can plan the green card path separately)"
+  ],
+  "faq": [
+    {
+      "q": "How fast can a Canadian get a TN visa?",
+      "a": "Canadian citizens can apply directly at a U.S. port of entry or pre-clearance airport and receive a decision the same day — no petition or consulate appointment required. The real timeline is the preparation: a well-documented application typically takes one to two weeks to assemble properly."
+    },
+    {
+      "q": "What occupations qualify for TN status?",
+      "a": "The USMCA lists roughly 60 professions, including engineers, computer systems analysts, accountants, management consultants, scientists, teachers (college/university), and many medical roles. Each has specific degree or license requirements. If your title isn't a clean match, classification strategy decides the case — that's the core of what we do."
+    },
+    {
+      "q": "Can I apply for TN with a three-year Canadian degree or without a degree?",
+      "a": "Sometimes. Several occupations accept alternative credentials — for example, Management Consultant allows five years of relevant experience in place of a degree, and Scientific Technician/Technologist has its own standard. These cases are more scrutinized and benefit most from legal preparation."
+    },
+    {
+      "q": "What happens if I'm refused at the border?",
+      "a": "You're sent back the same day, the refusal is recorded, and future applications face more scrutiny. A refusal is not a ban — most refused applicants can reapply with a corrected package. If you've been refused, don't retry with the same documents; have the file reviewed first."
+    },
+    {
+      "q": "How long does TN status last, and can I renew it?",
+      "a": "TN status is granted for up to three years at a time and can be renewed indefinitely in three-year increments, as long as the professional role and your qualifications continue. Renewals can be done at the border or by mail through USCIS."
+    },
+    {
+      "q": "Can TN lead to a green card?",
+      "a": "TN is a non-immigrant status without dual intent, so pursuing permanent residence while on TN requires careful sequencing — commonly through employer sponsorship (PERM) or self-petitions like EB-2 NIW. If a green card is the long-term goal, we plan the transition so a pending case doesn't jeopardize your TN entries."
+    }
+  ],
+  "service_name": "TN Visa (USMCA Professional) Services",
+  "testimonial_hint": "Use verbatim Google reviews from TN / employment-based clients — ideally Canadian",
+  "final_heading": "Get your TN application reviewed before an officer does",
+  "final_sub": "One form. One business day. A clear read on your occupation fit and what your package needs."
+}

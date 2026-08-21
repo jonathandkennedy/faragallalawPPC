@@ -1,0 +1,127 @@
+{
+  "slug": "eb2-niw-lawyer",
+  "campaign": "EB-2 National Interest Waiver",
+  "priority": 3,
+  "meta_title": "EB-2 NIW Lawyer — Self-Petition Green Card | Faragalla Law",
+  "meta_description": "No employer sponsor, no PERM. Faragalla Law evaluates whether your work meets the EB-2 National Interest Waiver standard and builds the petition. Request an honest NIW assessment.",
+  "eyebrow": "EB-2 National Interest Waiver Attorneys",
+  "h1": "A Green Card Based on Your Work — No Employer Sponsor Required.",
+  "hero_sub": "The EB-2 National Interest Waiver lets qualified professionals self-petition for permanent residence. Faragalla Law tells you honestly whether your profile meets the standard — and builds the petition if it does.",
+  "bullets": [
+    "Advanced-degree professionals and exceptional-ability applicants",
+    "STEM researchers, engineers, physicians, entrepreneurs, analysts",
+    "Honest case assessment before you spend a dollar on filing"
+  ],
+  "offer_name": "NIW Case Assessment",
+  "cta_label": "Request My NIW Assessment",
+  "cta_short": "NIW Review",
+  "form_title": "Request Your NIW Case Assessment",
+  "form_sub": "Tell us about your field and credentials. We'll give you a straight answer on whether NIW is viable.",
+  "qualifiers": [
+    {
+      "name": "education",
+      "label": "Highest qualification",
+      "options": ["PhD / doctorate", "Master's degree", "Bachelor's + 5 years progressive experience", "Bachelor's degree only", "Exceptional ability (no advanced degree)"]
+    },
+    {
+      "name": "status",
+      "label": "Current situation",
+      "options": ["In the U.S. on H-1B / F-1 / O-1 / TN or other status", "Outside the U.S.", "Previously filed NIW — denied or RFE", "Just exploring options"]
+    }
+  ],
+  "problem_heading": "NIW approvals go to well-argued cases, not just strong résumés",
+  "problem_cards": [
+    {
+      "title": "The three-prong test is a legal argument",
+      "body": "Under Matter of Dhanasar, you must show your work has substantial merit and national importance, that you're well positioned to advance it, and that waiving the job-offer requirement benefits the U.S. Each prong is an evidentiary argument — not a checkbox."
+    },
+    {
+      "title": "Recommendation letters make or break the file",
+      "body": "Generic praise letters get petitions denied. Letters must explain — in an examiner-readable way — what you did, why it matters nationally, and how independent experts know your work. We plan, outline, and edit every letter."
+    },
+    {
+      "title": "RFE rates punish template petitions",
+      "body": "USCIS scrutiny of NIW filings has tightened sharply. Mass-produced petitions from high-volume mills draw Requests for Evidence and denials. Your petition should read like a case built for you — because it is."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Straight answers before you file",
+      "body": "Not every strong professional is an NIW case. Our assessment tells you whether to file now, strengthen your profile first, or use a different category — before you spend on filing fees."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, preparing employment-based petitions to corporate standards."
+    },
+    {
+      "title": "We build the argument, not just the binder",
+      "body": "Your petition gets a legal brief tying your evidence to each Dhanasar prong — citations, exhibits, and letters organized so an examiner can approve it efficiently."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "One flat fee for the petition, quoted after your assessment. You'll know the full cost before we start."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case assessment",
+      "body": "Submit the form. We review your field, credentials, and evidence profile, then reply within one business day with our read and consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We map your accomplishments to the three Dhanasar prongs, identify evidence gaps, and give you a realistic filing plan and timeline."
+    },
+    {
+      "title": "Petition build",
+      "body": "We outline and edit recommendation letters, assemble citations, funding, patents, and impact evidence, and draft the legal brief for your I-140."
+    },
+    {
+      "title": "Filing and follow-through",
+      "body": "We file the I-140 (with premium processing where it fits your strategy), respond to any RFE, and coordinate the green card stage — adjustment of status or consular processing."
+    }
+  ],
+  "fees_heading": "What does an NIW case cost?",
+  "fees_body": "NIW legal fees are flat and depend on the strength of your existing evidence and how much letter and brief work your case needs. Government costs include the I-140 filing fee, optional premium processing, and later green-card-stage fees. We quote your exact flat fee at the consultation — and if we don't think your case is viable, we tell you that instead.",
+  "who_heading": "Is the NIW a fit for your profile?",
+  "who_for": [
+    "You hold an advanced degree (master's or higher) — or a bachelor's plus five years of progressive experience",
+    "Your work has national importance: research, critical technologies, health care, energy, infrastructure, or entrepreneurship with U.S. impact",
+    "You have evidence others rely on your work — citations, adoption, funding, patents, press, or expert recognition",
+    "You want to self-petition without employer sponsorship or PERM"
+  ],
+  "who_not": [
+    "Your work's impact is limited to one employer's ordinary business",
+    "You have no independent evidence of recognition yet — we'll tell you what to build first",
+    "You need work authorization in weeks — NIW is a green card strategy, not a fast work permit (we can pair it with O-1 or other status)"
+  ],
+  "faq": [
+    {
+      "q": "What is the EB-2 National Interest Waiver?",
+      "a": "It's an employment-based green card category where USCIS waives the usual job-offer and PERM labor certification requirements because your work is in the national interest. You can self-petition — no employer needed — under the three-prong test from Matter of Dhanasar."
+    },
+    {
+      "q": "Do I need a PhD or publications to qualify?",
+      "a": "No. A master's degree — or a bachelor's with five years of progressive experience — meets the EB-2 baseline. Publications help but aren't mandatory; entrepreneurs, engineers, and clinicians qualify through adoption of their work, funding, critical-field impact, and expert letters. What matters is evidence that your specific work is nationally important and that you're well positioned to advance it."
+    },
+    {
+      "q": "How long does the NIW process take?",
+      "a": "Petition preparation typically takes six to ten weeks — recommendation letters drive the timeline. I-140 processing varies; premium processing (45 business days) is available for NIW. The green card stage afterward depends on your country's visa bulletin backlog: current for most countries, with significant waits for India and China."
+    },
+    {
+      "q": "Can I file NIW while on H-1B, F-1 OPT, TN, or O-1?",
+      "a": "Yes — NIW is filed alongside your current status. H-1B and O-1 allow immigrant intent. F-1 and TN require timing care because they are single-intent statuses; we sequence the filing and your travel so the pending petition doesn't create re-entry problems."
+    },
+    {
+      "q": "What's my honest chance of approval?",
+      "a": "It depends entirely on evidence, which is why we assess before we agree to file. USCIS has tightened NIW adjudication since 2025, and weak or templated filings are being denied at much higher rates. If your profile isn't ready, we tell you exactly what to build — more letters won't fix a case that needs stronger underlying evidence."
+    },
+    {
+      "q": "Can my spouse work while my green card is pending?",
+      "a": "Once you reach the adjustment-of-status stage (I-485) in the U.S., your spouse can apply for an employment authorization document and work for any employer while the case is pending. Dependents are included in your NIW case."
+    }
+  ],
+  "service_name": "EB-2 National Interest Waiver Petition Services",
+  "testimonial_hint": "Use verbatim Google reviews from employment-based / green card clients",
+  "final_heading": "Get a straight answer on your NIW case",
+  "final_sub": "One form. One business day. An honest read on whether your profile meets the standard."
+}

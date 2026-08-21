@@ -1,0 +1,128 @@
+{
+  "slug": "l1-visa-lawyer",
+  "campaign": "L-1 Intracompany Transfer Visa",
+  "priority": 5,
+  "meta_title": "L-1 Visa Lawyer — Intracompany Transfers | Faragalla Law",
+  "meta_description": "Expanding your company into the U.S. or transferring a key employee? Faragalla Law prepares L-1A and L-1B petitions, including new-office cases. Request an L-1 case review.",
+  "eyebrow": "L-1 Visa Attorneys for Intracompany Transfers",
+  "h1": "Expand Your Company Into the U.S. — and Move Your Key People With It.",
+  "hero_sub": "The L-1 visa transfers executives, managers, and specialized-knowledge employees from your foreign company to a U.S. office — including a brand-new one. Faragalla Law builds petitions that survive USCIS scrutiny.",
+  "bullets": [
+    "Executives and managers (L-1A) and specialized-knowledge staff (L-1B)",
+    "New-office L-1s for companies opening their first U.S. location",
+    "Canadian applicants can file directly at the border"
+  ],
+  "offer_name": "L-1 Case Review",
+  "cta_label": "Request My L-1 Case Review",
+  "cta_short": "L-1 Review",
+  "form_title": "Request Your L-1 Case Review",
+  "form_sub": "Tell us about your company and the transfer. We'll flag the risks and reply with next steps.",
+  "qualifiers": [
+    {
+      "name": "situation",
+      "label": "What best describes your situation?",
+      "options": ["Opening our first U.S. office", "U.S. office exists — transferring an employee", "I'm the owner/executive transferring myself", "L-1 extension or renewal", "Exploring options"]
+    },
+    {
+      "name": "role",
+      "label": "Role being transferred",
+      "options": ["Executive / senior manager", "Manager of a team or function", "Specialized-knowledge employee", "Not sure which category fits"]
+    }
+  ],
+  "problem_heading": "L-1 petitions fail on structure, not on intentions",
+  "problem_cards": [
+    {
+      "title": "The corporate relationship must be provable",
+      "body": "USCIS requires a qualifying relationship — parent, subsidiary, branch, or affiliate — shown through ownership and control documents. Sloppy cap tables and undocumented share transfers are a leading cause of denials."
+    },
+    {
+      "title": "\"Manager\" means what USCIS says it means",
+      "body": "Managing a function or a team of professionals qualifies; being a hands-on doer with a manager title does not. The petition must prove what the transferee will actually manage in the U.S. — org charts, staffing plans, and duty breakdowns."
+    },
+    {
+      "title": "New-office L-1s get one year to prove out",
+      "body": "First-year approvals for new U.S. offices are granted for 12 months, and the extension is where cases die: USCIS expects real premises, hiring, and revenue trajectory. We build the business plan and evidence with the extension in mind from day one."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Business immigration is our core practice",
+      "body": "The firm's practice centers on entrepreneurs and companies moving into the U.S. — E-2, L-1, and TN matters — including cross-border Canadian businesses."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, where intracompany transfer petitions are the daily bread."
+    },
+    {
+      "title": "We build for the extension, not just the approval",
+      "body": "New-office cases are structured so the one-year extension — the real test — is winnable: staffing plans, financial projections, and duties that graduate from doing to managing."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "One flat fee per petition, quoted after your case review. You'll know the full cost before we start."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case review",
+      "body": "Submit the form. We review the corporate relationship, the role, and your timeline, then reply within one business day with consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We confirm the qualifying relationship, choose L-1A vs L-1B, solve new-office questions (premises, capitalization, staffing), and set the filing route — USCIS, or the border for Canadians."
+    },
+    {
+      "title": "Petition build",
+      "body": "We assemble corporate documents, org charts, duty statements, and the business plan, and draft a support letter that proves the managerial or specialized-knowledge standard."
+    },
+    {
+      "title": "Filing and follow-through",
+      "body": "We file (premium processing available), prepare the transferee for consular or border processing, respond to any RFE, and calendar the extension strategy."
+    }
+  ],
+  "fees_heading": "What does an L-1 case cost?",
+  "fees_body": "L-1 legal fees are flat and depend on whether the U.S. entity is established or new-office, and how much corporate documentation needs to be built. Government costs include the I-129 fee, the fraud-prevention fee, and optional premium processing. We quote your exact flat fee during the consultation — before you commit.",
+  "who_heading": "Is the L-1 the right vehicle?",
+  "who_for": [
+    "Your company has operated abroad and will keep operating there after the transfer",
+    "The transferee worked for the foreign entity at least one continuous year in the last three",
+    "The U.S. and foreign entities share qualifying ownership/control (parent, subsidiary, affiliate, branch)",
+    "The U.S. role is executive, managerial, or requires specialized knowledge",
+    "You're opening a first U.S. office and can show premises and a credible plan"
+  ],
+  "who_not": [
+    "You're an individual investor without a foreign operating company — the E-2 likely fits better",
+    "The transferee hasn't completed one year with the foreign entity yet",
+    "The foreign company will shut down after the move — the relationship must continue"
+  ],
+  "faq": [
+    {
+      "q": "What's the difference between L-1A and L-1B?",
+      "a": "L-1A covers executives and managers — people who direct the organization, a function, or professional staff — with a seven-year maximum stay and a direct line to the EB-1C green card. L-1B covers employees with specialized knowledge of the company's products, processes, or methods, with a five-year maximum. Category choice shapes both approval odds and your green card path."
+    },
+    {
+      "q": "Can I get an L-1 for a brand-new U.S. office?",
+      "a": "Yes. New-office L-1 petitions are approved for one year initially and require secured premises, adequate capitalization, and a credible business plan showing the U.S. entity will support a managerial role within a year. The extension at month 12 is the real hurdle — USCIS expects hiring and operations, not just plans. We structure cases for that from the start."
+    },
+    {
+      "q": "Can the owner of the company transfer themselves on an L-1?",
+      "a": "Owner-beneficiaries are allowed but scrutinized: USCIS looks hard at whether a real employer-employee relationship and a genuinely managerial U.S. role exist. Clean corporate governance and a staffing plan matter more than in ordinary cases. For solo Canadian owner-operators, we often compare L-1 against E-2 and recommend the stronger route."
+    },
+    {
+      "q": "How fast can an L-1 be approved?",
+      "a": "With premium processing, USCIS decides within 15 business days. Canadian citizens have a faster option: presenting the L-1 petition directly at a port of entry or pre-clearance airport for same-day adjudication. Preparation — corporate documents and the business plan — typically takes three to six weeks."
+    },
+    {
+      "q": "Does the L-1 lead to a green card?",
+      "a": "L-1A is the classic path: it maps onto the EB-1C multinational manager green card, which requires no PERM labor certification. L-1B holders typically pursue PERM-based EB-2/EB-3 or reposition into managerial roles. L-1 allows dual intent, so pursuing the green card doesn't jeopardize your status."
+    },
+    {
+      "q": "Can my spouse work in the U.S.?",
+      "a": "Yes — L-2 spouses are considered employment-authorized incident to status and can work for any employer without applying for a separate work permit. Children under 21 can attend school. This makes the L-1 one of the most family-friendly work visas."
+    }
+  ],
+  "service_name": "L-1 Intracompany Transferee Visa Services",
+  "testimonial_hint": "Use verbatim Google reviews from business/corporate clients",
+  "final_heading": "Get your transfer structure reviewed before you file",
+  "final_sub": "One form. One business day. A clear read on your corporate setup and the right category."
+}

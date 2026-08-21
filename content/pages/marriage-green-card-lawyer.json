@@ -1,0 +1,127 @@
+{
+  "slug": "marriage-green-card-lawyer",
+  "campaign": "Marriage-Based Green Card",
+  "priority": 7,
+  "meta_title": "Marriage Green Card Lawyer | Faragalla Law",
+  "meta_description": "Married to a U.S. citizen or green card holder? Faragalla Law prepares marriage-based green card cases — filing strategy, evidence, and interview prep. Request a case review.",
+  "eyebrow": "Marriage-Based Green Card Attorneys",
+  "h1": "Married to a U.S. Citizen or Resident? File It Right the First Time.",
+  "hero_sub": "One weak filing can add a year of separation. Faragalla Law prepares marriage-based green card cases end to end — the right forms, real bona fides evidence, and interview preparation.",
+  "bullets": [
+    "Adjustment of status for spouses inside the U.S.",
+    "Consular processing for spouses abroad",
+    "Complicated histories welcome: overstays, prior denials, prior marriages"
+  ],
+  "offer_name": "Marriage Case Review",
+  "cta_label": "Request My Case Review",
+  "cta_short": "Case Review",
+  "form_title": "Request Your Marriage Case Review",
+  "form_sub": "Tell us about your situation. We'll flag any risks and reply with a clear filing plan.",
+  "qualifiers": [
+    {
+      "name": "situation",
+      "label": "Your situation",
+      "options": ["Spouse is a U.S. citizen — we're both in the U.S.", "Spouse is a green card holder", "My spouse is abroad", "We're engaged, not yet married", "Prior denial / complicated history"]
+    },
+    {
+      "name": "entry",
+      "label": "How did the immigrant spouse enter the U.S.?",
+      "options": ["Entered legally with a visa (any visa)", "Visa Waiver / ESTA", "Entered without inspection", "Currently outside the U.S.", "Prefer to discuss"]
+    }
+  ],
+  "problem_heading": "Marriage cases are approved on evidence — and derailed by avoidable mistakes",
+  "problem_cards": [
+    {
+      "title": "\"Bona fide marriage\" is proven, not assumed",
+      "body": "USCIS looks for combined finances, shared residence, insurance, photos across time, affidavits, and consistent interview answers. Thin evidence triggers Stokes-style separated interviews and long delays. We build the evidence file properly the first time."
+    },
+    {
+      "title": "How you entered changes everything",
+      "body": "A spouse who entered legally can usually adjust status inside the U.S. — even after an overstay, if married to a citizen. An entry without inspection may require a waiver and consular processing. Filing the wrong path can trigger a 3- or 10-year bar."
+    },
+    {
+      "title": "RFEs and interviews are where DIY cases stall",
+      "body": "Missed medical exams, wrong fee combinations, incomplete I-864 financials, and inconsistent answers cause months of delay. A prepared case moves through in one pass; a patched case can drag past a year."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Family cases, handled like federal cases",
+      "body": "The same documentary discipline the firm applies to corporate immigration filings goes into every marriage case — organized exhibits, consistent declarations, no loose ends."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, before building a practice serving families directly."
+    },
+    {
+      "title": "Interview preparation that matters",
+      "body": "We prepare both spouses for the questions officers actually ask, attend interviews where appropriate, and get ahead of any inconsistency before it becomes a problem."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "Marriage-based cases are quoted as a single flat fee covering the full filing package. You'll know the cost before we start."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case review",
+      "body": "Submit the form. We review your entry history, spouse's status, and any complications, then reply within one business day with consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We choose the correct path — adjustment of status or consular processing — flag waiver needs, and give you a document checklist tailored to your marriage."
+    },
+    {
+      "title": "Filing package",
+      "body": "We prepare the I-130 and I-485 (or NVC/consular package), the I-864 financials, work and travel permits, and a bona fides evidence binder built to survive scrutiny."
+    },
+    {
+      "title": "Interview and approval",
+      "body": "We prepare you for the marriage interview, respond to any RFE, and see the case through to the green card — including the two-year condition removal when it applies."
+    }
+  ],
+  "fees_heading": "What does a marriage green card case cost?",
+  "fees_body": "Legal fees are flat and depend on whether you're adjusting status in the U.S. or processing through a consulate, and whether waivers are involved. Government fees run over a thousand dollars for a typical adjustment case, plus the medical exam. We quote your exact flat fee — legal and government costs itemized — during the consultation.",
+  "who_heading": "Does your case fit this service?",
+  "who_for": [
+    "You're married to (or engaged to) a U.S. citizen or lawful permanent resident",
+    "Your spouse is in the U.S. — or abroad and immigrating through a consulate",
+    "You have an overstay, a prior denial, or a prior marriage and want it handled correctly",
+    "You want work and travel authorization while the case is pending"
+  ],
+  "who_not": [
+    "The marriage exists only for immigration purposes — we will not take the case",
+    "You're not yet engaged or married and need a different family category",
+    "You need fiancé(e) processing from abroad — see our K-1 visa service instead"
+  ],
+  "faq": [
+    {
+      "q": "How long does a marriage green card take?",
+      "a": "For spouses of U.S. citizens adjusting status inside the U.S., most cases currently run around 9–16 months depending on the field office, with work authorization arriving earlier. Consular cases through the NVC typically take a similar range. Spouses of green card holders wait longer due to visa bulletin movement. We give you a current, field-office-specific estimate at the consultation."
+    },
+    {
+      "q": "Can I stay in the U.S. while my case is pending?",
+      "a": "If you entered legally and are married to a U.S. citizen, filing adjustment of status generally protects your stay even if your visa has since expired — the overstay is forgiven for spouses of citizens. Entries without inspection and some visa histories are different; get advice before filing anything."
+    },
+    {
+      "q": "Can I work while the green card is pending?",
+      "a": "Yes — the adjustment package includes an application for an employment authorization document (EAD), and typically a travel permit. Once the EAD arrives you can work for any employer. We file everything together so nothing waits in a second queue."
+    },
+    {
+      "q": "What evidence proves a real marriage?",
+      "a": "Joint leases or deeds, combined bank accounts and taxes, insurance naming each other, photos across your relationship's timeline, travel records, affidavits from people who know you, and children's records where applicable. No single item is required — the file must tell one consistent story. We give you a checklist matched to your circumstances."
+    },
+    {
+      "q": "What happens at the marriage interview?",
+      "a": "An officer reviews your file and asks both spouses about your relationship, household, and history. If evidence is thin or answers conflict, couples can be separated and questioned in detail (a Stokes interview). Preparation and a well-documented file make interviews short and uneventful — that's the goal."
+    },
+    {
+      "q": "My green card would be conditional — what does that mean?",
+      "a": "If your marriage is under two years old at approval, you receive a two-year conditional card and must jointly file an I-751 with updated evidence in the 90 days before it expires. Missing that window creates removal risk. We calendar and handle condition removal for our clients."
+    }
+  ],
+  "service_name": "Marriage-Based Green Card Services",
+  "testimonial_hint": "Use verbatim Google reviews from family/marriage green card clients",
+  "final_heading": "Start your marriage case with the file done right",
+  "final_sub": "One form. One business day. A clear filing plan for your specific history."
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "eb1-visa-lawyer",
+  "campaign": "EB-1 First-Preference Green Card",
+  "priority": 6,
+  "meta_title": "EB-1 Visa Attorney — Extraordinary Ability Green Card | Faragalla Law",
+  "meta_description": "EB-1A extraordinary ability, EB-1B outstanding researcher, EB-1C multinational manager. Faragalla Law assesses which first-preference category fits and builds the petition. Request an EB-1 assessment.",
+  "eyebrow": "EB-1 Green Card Attorneys",
+  "h1": "The Fastest Green Card Category — for Those Who Can Prove They Qualify.",
+  "hero_sub": "EB-1 is the first-preference employment green card: no PERM, current priority dates for most countries, and self-petition available for extraordinary ability. Faragalla Law tells you which EB-1 category — if any — your evidence supports.",
+  "bullets": [
+    "EB-1A extraordinary ability — self-petition, no employer needed",
+    "EB-1B outstanding professors and researchers",
+    "EB-1C multinational executives and managers (the L-1A path)"
+  ],
+  "offer_name": "EB-1 Case Assessment",
+  "cta_label": "Request My EB-1 Assessment",
+  "cta_short": "EB-1 Review",
+  "form_title": "Request Your EB-1 Case Assessment",
+  "form_sub": "Tell us about your achievements or corporate role. We'll tell you which category fits — and whether the evidence is there yet.",
+  "qualifiers": [
+    {
+      "name": "category",
+      "label": "Which best describes you?",
+      "options": ["Top-of-field professional / researcher / founder (EB-1A)", "Professor or researcher with an employer offer (EB-1B)", "Executive or manager at a multinational company (EB-1C)", "Not sure which category fits"]
+    },
+    {
+      "name": "status",
+      "label": "Current situation",
+      "options": ["In the U.S. on O-1 / H-1B / L-1 or other status", "Outside the U.S.", "Previously denied or RFE'd", "Exploring options"]
+    }
+  ],
+  "problem_heading": "EB-1 has the highest bar — and the highest payoff",
+  "problem_cards": [
+    {
+      "title": "Extraordinary means top of the field, argued in evidence",
+      "body": "EB-1A requires a major international award or at least three of ten criteria plus a final-merits showing of sustained acclaim. Strong professionals fail here when evidence is listed instead of argued. The brief is the case."
+    },
+    {
+      "title": "EB-1C rises or falls on corporate proof",
+      "body": "Multinational managers need a qualifying corporate relationship, one year of qualifying foreign employment, and a genuinely managerial U.S. role. USCIS dissects org charts and payroll — a title is not a case."
+    },
+    {
+      "title": "Category choice is half the outcome",
+      "body": "Many applicants straddle EB-1A, EB-1B, EB-2 NIW, and EB-1C. Filing the wrong category wastes a year and creates a denial record. An honest comparative assessment up front is the cheapest insurance available."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Comparative strategy, not category shopping",
+      "body": "We assess you across EB-1A, EB-1B, EB-1C, and EB-2 NIW and recommend the category your evidence actually supports — including 'strengthen first, file later' when that's the truth."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, preparing first-preference and multinational-manager cases to corporate standards."
+    },
+    {
+      "title": "Brief-driven petitions",
+      "body": "Every filing includes a legal brief that maps each exhibit to the regulatory criteria and pre-argues the final-merits determination — the part template shops skip."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "One flat fee for the petition, quoted after your assessment. You'll know the full cost before we start."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case assessment",
+      "body": "Submit the form. We review your achievements or corporate history, then reply within one business day with our category read and consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We map your evidence to the criteria for the strongest category, identify gaps, and set the filing plan — including whether to pair with O-1 or file NIW in parallel."
+    },
+    {
+      "title": "Petition build",
+      "body": "We outline and edit expert letters, assemble awards, citations, media, and corporate documents, and draft the legal brief for your I-140."
+    },
+    {
+      "title": "Filing and follow-through",
+      "body": "We file the I-140 (premium processing available), respond to any RFE, and coordinate the final green card stage — adjustment of status or consular processing — for you and your family."
+    }
+  ],
+  "fees_heading": "What does an EB-1 case cost?",
+  "fees_body": "EB-1 legal fees are flat and vary by category — EB-1A/EB-1B evidence-building differs from EB-1C corporate documentation. Government costs include the I-140 fee, optional premium processing, and green-card-stage fees for your family. We quote your exact flat fee at the consultation, and if EB-2 NIW is the smarter first filing for your profile, we'll say so.",
+  "who_heading": "Is EB-1 within reach?",
+  "who_for": [
+    "You have national or international recognition: major awards, significant press, high citations, or industry-shaping work (EB-1A)",
+    "You're a researcher with international recognition and a qualifying U.S. employer offer (EB-1B)",
+    "You've been an executive or manager abroad for a company with a qualifying U.S. entity — including current L-1A holders (EB-1C)",
+    "You're on O-1 status and want the permanent version of your case"
+  ],
+  "who_not": [
+    "Your recognition is regional or employer-internal so far — EB-2 NIW may be the right first step",
+    "Your management experience is with unrelated companies — EB-1C requires the same corporate group",
+    "You need work authorization fast — EB-1 is a green card strategy; we pair it with O-1/L-1 for status"
+  ],
+  "faq": [
+    {
+      "q": "What are the three EB-1 categories?",
+      "a": "EB-1A: extraordinary ability in sciences, arts, education, business, or athletics — self-petition allowed. EB-1B: outstanding professors and researchers with a qualifying job offer. EB-1C: multinational executives and managers transferring into a related U.S. entity. All three skip PERM labor certification, which typically saves a year or more."
+    },
+    {
+      "q": "Why is EB-1 considered the fastest green card?",
+      "a": "Two reasons: no PERM labor certification stage, and first-preference priority dates that are current for most countries most of the time (India and China see waits, though far shorter than EB-2/EB-3). With premium processing on the I-140 and a current date, some applicants go from filing to green card in under a year."
+    },
+    {
+      "q": "What's the difference between EB-1A and the O-1 visa?",
+      "a": "O-1 is a temporary work visa; EB-1A is permanent residence with a similar-but-stricter standard — EB-1A adds a 'sustained acclaim' final-merits test. The classic sequence is O-1 first for work authorization, then EB-1A once the record deepens. Holding an O-1 does not guarantee EB-1A approval, and USCIS decides them independently."
+    },
+    {
+      "q": "Can I go from L-1A directly to an EB-1C green card?",
+      "a": "That's the designed path. If you were a manager or executive abroad for at least one of the three years before transfer and now serve in a managerial role at the qualifying U.S. entity, your employer can file EB-1C without PERM. The petition must document both the foreign and U.S. roles in detail — payroll, org charts, and duties."
+    },
+    {
+      "q": "What evidence do the EB-1A criteria require?",
+      "a": "A one-time major achievement (Nobel-level), or at least three of ten criteria: lesser awards, selective memberships, media coverage about you, judging others' work, original contributions of major significance, scholarly articles, exhibitions, leading roles at distinguished organizations, high remuneration, or commercial success in the arts. USCIS then weighs everything in a final-merits determination — which is where the brief earns its keep."
+    },
+    {
+      "q": "What happens if my EB-1 is denied?",
+      "a": "A denial doesn't bar you from refiling or from other categories — but it creates a record, so the response matters. Options include a motion, appeal, refiling with stronger evidence, or pivoting to EB-2 NIW. Our assessment-first approach exists precisely to avoid filing cases that aren't ready."
+    }
+  ],
+  "service_name": "EB-1 First-Preference Green Card Services",
+  "testimonial_hint": "Use verbatim Google reviews from employment-based / green card clients",
+  "final_heading": "Find out which EB-1 category your evidence supports",
+  "final_sub": "One form. One business day. A category-by-category read on your strongest path."
+}

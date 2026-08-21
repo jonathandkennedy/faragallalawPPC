@@ -1,0 +1,21 @@
+# Netlify config — publish the committed static output.
+# Forms: every lead form carries data-netlify="true" and posts URL-encoded,
+# so submissions land in the Netlify Forms dashboard with all hidden
+# attribution fields (utm_*, gclid, landing_page, ...) included.
+
+[build]
+  publish = "public"
+  command = "python3 build.py"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

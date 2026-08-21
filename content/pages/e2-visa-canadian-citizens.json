@@ -1,0 +1,128 @@
+{
+  "slug": "e2-visa-canadian-citizens",
+  "campaign": "E-2 Treaty Investor Visa — Canadian Citizens",
+  "priority": 1,
+  "meta_title": "E-2 Visa Lawyer for Canadian Citizens | Faragalla Law",
+  "meta_description": "Canadian citizen buying or starting a U.S. business? Faragalla Law assesses your investment, ownership structure, and source of funds before you pursue an E-2 visa. Request an eligibility review.",
+  "eyebrow": "E-2 Visa Lawyer for Canadian Entrepreneurs",
+  "h1": "Planning to Buy or Start a U.S. Business? Explore Your E-2 Visa Options.",
+  "hero_sub": "Faragalla Law helps Canadian citizens assess their investment, ownership structure, source of funds, and business plan before pursuing an E-2 treaty investor visa.",
+  "bullets": [
+    "Canadian citizens investing in an active U.S. business",
+    "Startups, acquisitions, franchises, and expansions",
+    "Case-specific guidance — there is no universal investment minimum"
+  ],
+  "offer_name": "E-2 Eligibility Review",
+  "cta_label": "Request My E-2 Eligibility Review",
+  "cta_short": "E-2 Review",
+  "form_title": "Request Your E-2 Eligibility Review",
+  "form_sub": "Tell us about your investment. We'll assess your eligibility and reply with concrete next steps.",
+  "qualifiers": [
+    {
+      "name": "citizenship",
+      "label": "Are you a Canadian citizen?",
+      "options": ["Yes — Canadian citizen", "No — citizen of another treaty country", "No — not sure if my country qualifies"]
+    },
+    {
+      "name": "stage",
+      "label": "Where are you in the process?",
+      "options": ["Researching my options", "Identified a business to buy or start", "Funds committed / purchase in progress", "Already own a U.S. business", "Renewing or fixing a denied E-2"]
+    }
+  ],
+  "problem_heading": "The E-2 visa rewards preparation — and punishes guesswork",
+  "problem_cards": [
+    {
+      "title": "\"Substantial investment\" has no fixed number",
+      "body": "Consular officers weigh your investment against the cost of the specific business. A $120,000 restaurant purchase can qualify while a $300,000 passive stake fails. We assess whether your amount and structure fit before you commit funds."
+    },
+    {
+      "title": "Source of funds sinks more cases than money does",
+      "body": "Every dollar must be traced to a lawful source — sale of a Canadian home, business income, savings, or a documented gift. Gaps in the paper trail are among the most common reasons E-2 applications are refused."
+    },
+    {
+      "title": "The business must be real, active, and at risk",
+      "body": "Funds must be committed and at risk, not sitting in an account. The enterprise must be operating or ready to operate, and marginal businesses that only support your family draw extra scrutiny."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Canadian E-2 cases are our core work",
+      "body": "The firm's business immigration practice is built around E-2 and TN matters for Canadians — including consular filings prepared for interview at the U.S. consulate in Toronto and other posts."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, and applies that standard of case preparation to individual investors."
+    },
+    {
+      "title": "We pressure-test before we file",
+      "body": "We review your investment amount, ownership percentage, source-of-funds documentation, and business plan against consular standards — and tell you what's missing before an officer does."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "You'll know the scope of work and legal fees before you retain us. No hourly surprises mid-case."
+    }
+  ],
+  "process": [
+    {
+      "title": "Eligibility review",
+      "body": "Submit the form. We assess your citizenship, investment plans, and timing, then reply within one business day with consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We map your investment amount, ownership structure, source of funds, and business plan against E-2 requirements and identify every documentation gap."
+    },
+    {
+      "title": "Case preparation",
+      "body": "We prepare the application, assemble the evidence binder, work with you on the business plan, and organize your source-of-funds trace."
+    },
+    {
+      "title": "Filing and interview preparation",
+      "body": "We file with the consulate (or USCIS for change of status), prepare you for the interview questions officers actually ask, and support you through decision."
+    }
+  ],
+  "fees_heading": "What does an E-2 case cost?",
+  "fees_body": "Legal fees depend on whether you're filing at a consulate or with USCIS, whether a business plan needs to be prepared, and how complex your source-of-funds documentation is. Beyond legal fees, expect government filing fees and, for most cases, a professional business plan. During your consultation we quote a flat fee for your specific case — before you commit to anything.",
+  "who_heading": "Is the E-2 visa a fit for you?",
+  "who_for": [
+    "You are a Canadian citizen (or a citizen of another E-2 treaty country)",
+    "You plan to buy, start, or expand a real, active U.S. business",
+    "You will own at least 50% or hold operational control",
+    "You can document a lawful source for your investment funds",
+    "You intend to direct and develop the business — not passively invest"
+  ],
+  "who_not": [
+    "You want a passive investment (real estate holdings, stocks) with no active role",
+    "You're seeking a green card — the E-2 is a renewable non-immigrant visa (we can discuss long-term paths like EB-5 or EB-2 NIW separately)",
+    "You cannot document where the investment funds came from"
+  ],
+  "faq": [
+    {
+      "q": "How much do I need to invest for an E-2 visa?",
+      "a": "There is no fixed legal minimum. The investment must be \"substantial\" relative to the total cost of purchasing or creating the specific business. In practice, many approved cases involve US$100,000 or more, but smaller amounts can succeed for lower-cost businesses when the funds cover most of the startup or purchase cost. We assess your number against your actual business before you file."
+    },
+    {
+      "q": "Can Canadians apply for the E-2 at the consulate in Canada?",
+      "a": "Yes. Canadian citizens typically apply through a U.S. consulate — Toronto handles most E-2 cases in Canada — and attend an in-person interview. Consular processing gives you a visa in your passport for travel, which most Canadian investors prefer over a U.S.-side change of status."
+    },
+    {
+      "q": "How long does the E-2 process take?",
+      "a": "Preparation usually takes several weeks — the business plan and source-of-funds documentation drive the timeline. After filing, consular scheduling varies by post and season. During your consultation we give you a realistic timeline for your specific consulate and case."
+    },
+    {
+      "q": "How long can I stay in the U.S. on an E-2 visa?",
+      "a": "For Canadian citizens, E-2 visas are typically issued with five-year validity, and each entry grants a two-year period of stay. The visa can be renewed indefinitely as long as the business continues to operate and meet E-2 requirements."
+    },
+    {
+      "q": "Can my spouse and children come with me?",
+      "a": "Yes. Your spouse and unmarried children under 21 can receive E-2 dependent status. Your spouse is considered work-authorized in the U.S., and your children can attend school."
+    },
+    {
+      "q": "Does the E-2 visa lead to a green card?",
+      "a": "Not directly — the E-2 is a non-immigrant visa you can renew indefinitely, but it has no built-in path to permanent residence. Some investors later pursue EB-5, EB-2 NIW, or employer- or family-based options. If a green card is your real goal, tell us — it changes the strategy."
+    }
+  ],
+  "service_name": "E-2 Treaty Investor Visa Services",
+  "testimonial_hint": "Use verbatim Google reviews from E-2 / business immigration clients — ideally Canadian",
+  "final_heading": "Find out if your investment supports an E-2 case",
+  "final_sub": "One form. One business day. A clear read on your eligibility and what it will take."
+}

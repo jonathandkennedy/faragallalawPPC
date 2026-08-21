@@ -1,0 +1,128 @@
+{
+  "slug": "o1-visa-lawyer",
+  "campaign": "O-1 Extraordinary Ability Visa",
+  "priority": 4,
+  "meta_title": "O-1 Visa Lawyer — Extraordinary Ability | Faragalla Law",
+  "meta_description": "Founders, researchers, engineers, artists: Faragalla Law evaluates your O-1 evidence against the criteria USCIS actually applies, then builds the petition. Request an O-1 case assessment.",
+  "eyebrow": "O-1 Visa Attorneys for Extraordinary Ability",
+  "h1": "Built a Track Record? The O-1 Visa Turns It Into U.S. Work Authorization.",
+  "hero_sub": "The O-1 is for people at the top of their field — founders, researchers, engineers, creatives. Faragalla Law maps your evidence to the USCIS criteria and tells you honestly whether your case is ready.",
+  "bullets": [
+    "Startup founders, scientists, engineers, artists, and athletes",
+    "No lottery, no annual cap, approvals in weeks with premium processing",
+    "Honest criteria-by-criteria assessment before you file"
+  ],
+  "offer_name": "O-1 Case Assessment",
+  "cta_label": "Request My O-1 Assessment",
+  "cta_short": "O-1 Review",
+  "form_title": "Request Your O-1 Case Assessment",
+  "form_sub": "Tell us about your field and achievements. We'll map them to the O-1 criteria and reply with a straight answer.",
+  "qualifiers": [
+    {
+      "name": "field",
+      "label": "Your field",
+      "options": ["Tech / engineering / founder", "Sciences / research / academia", "Business / finance", "Arts / entertainment / media", "Athletics", "Other"]
+    },
+    {
+      "name": "status",
+      "label": "Current situation",
+      "options": ["In the U.S. — need to change or extend status", "Outside the U.S.", "Lost the H-1B lottery", "Previously denied or RFE'd", "Exploring options"]
+    }
+  ],
+  "problem_heading": "The O-1 is winnable — if the evidence is framed the way USCIS reads it",
+  "problem_cards": [
+    {
+      "title": "You need 3 of 8 criteria — argued, not listed",
+      "body": "Awards, press, judging, original contributions, critical roles, high salary, memberships, publications. Most strong professionals technically touch several criteria; petitions fail when the evidence isn't framed to match how officers evaluate each one."
+    },
+    {
+      "title": "Founders need structure before filing",
+      "body": "You can't simply self-petition an O-1 — you need a U.S. petitioner or agent. For founders, the company-as-petitioner setup (ownership, control, agent arrangements) must be structured correctly or the case fails on employment grounds, not merit."
+    },
+    {
+      "title": "RFEs are the default for thin petitions",
+      "body": "USCIS issues Requests for Evidence on a large share of O-1 filings. A petition that anticipates the objections — with a brief that pre-argues comparability and criteria fit — is the difference between weeks and months."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Criteria-first honesty",
+      "body": "We assess your profile against the eight criteria before agreeing to file. If you're two criteria short, we tell you what to build and how long it takes — not just take the fee."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, preparing employment petitions to corporate standards."
+    },
+    {
+      "title": "Founder-literate casework",
+      "body": "We handle agent and company petitioner structures for founders and freelancers, itineraries for multi-project work, and the advisory opinion (peer letter) requirement."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "One flat fee for the petition, quoted after your assessment — including RFE response strategy."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case assessment",
+      "body": "Submit the form. We review your field, achievements, and timing, then reply within one business day with our read and consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We map your evidence to the strongest three-plus criteria, solve the petitioner question (employer, agent, or your company), and set the filing plan."
+    },
+    {
+      "title": "Petition build",
+      "body": "We outline and edit expert letters, assemble exhibits for each criterion, obtain the advisory opinion, and draft a brief that pre-argues the weak points."
+    },
+    {
+      "title": "Filing and follow-through",
+      "body": "We file the I-129 — premium processing gives a decision within 15 business days — handle any RFE, and plan extensions or your longer-term green card path (EB-1A/NIW)."
+    }
+  ],
+  "fees_heading": "What does an O-1 case cost?",
+  "fees_body": "O-1 legal fees are flat and depend on evidence readiness and whether an agent or company petitioner structure is needed. Government costs include the I-129 filing fee and optional premium processing. Expect additional cost only if you choose expedited handling. We quote your exact flat fee at the consultation — before you commit.",
+  "who_heading": "Is the O-1 a fit for your profile?",
+  "who_for": [
+    "You've won recognized awards, or your work has been covered in major or trade media",
+    "You've judged others' work, hold memberships that require achievement, or command a high salary",
+    "You've made original contributions — products, research, or methods others use",
+    "You have (or can arrange) a U.S. employer, agent, or your own company to petition",
+    "You lost the H-1B lottery and have a stronger-than-average profile"
+  ],
+  "who_not": [
+    "You're early-career with no independent recognition yet — we'll tell you what to build first",
+    "You want permanent residence immediately — O-1 is temporary, but it's the classic bridge to EB-1A/NIW",
+    "You have no U.S. work lined up and no agent structure available"
+  ],
+  "faq": [
+    {
+      "q": "What are the O-1 visa requirements?",
+      "a": "O-1A (sciences, business, education, athletics) requires sustained national or international acclaim shown by a major award or at least three of eight criteria — awards, press, judging, original contributions, scholarly articles, critical roles, high salary, or selective memberships. O-1B covers arts and entertainment with its own distinction standard. You also need a U.S. petitioner and a peer advisory opinion."
+    },
+    {
+      "q": "Can a startup founder get an O-1 through their own company?",
+      "a": "Yes, with the right structure. Your U.S. company can petition for you if the arrangement shows a real employer relationship or a properly papered agent structure is used. USCIS's 2025 guidance explicitly contemplates founder petitions. Getting the corporate and control details right up front is most of the battle — we structure this routinely."
+    },
+    {
+      "q": "How fast can I get an O-1?",
+      "a": "With premium processing, USCIS decides within 15 business days of filing. Preparation is the real timeline — typically four to eight weeks to build letters and exhibits properly. End to end, a prepared case can be approved in under three months; rushed filings that draw RFEs take longer than careful ones."
+    },
+    {
+      "q": "Is the O-1 better than the H-1B?",
+      "a": "Different tools. O-1 has no lottery, no annual cap, no prevailing wage regime, and unlimited extensions — but a much higher evidence bar. If you lost the H-1B lottery or your role doesn't fit H-1B, the O-1 is the main alternative for high-achievers. We'll tell you which category your profile actually supports."
+    },
+    {
+      "q": "Does the O-1 lead to a green card?",
+      "a": "The O-1 itself is temporary, but it's the standard stepping stone: the same evidence base, strengthened during your O-1 years, supports an EB-1A extraordinary ability or EB-2 NIW self-petition. We plan the green card path from the start so your O-1 evidence does double duty."
+    },
+    {
+      "q": "Can my spouse and children join me?",
+      "a": "Yes — O-3 status covers your spouse and unmarried children under 21. O-3 dependents can study in the U.S. but cannot work; if spousal work authorization matters, we factor that into the strategy (for example, timing the green card stage)."
+    }
+  ],
+  "service_name": "O-1 Extraordinary Ability Visa Services",
+  "testimonial_hint": "Use verbatim Google reviews from employment-based / professional clients",
+  "final_heading": "Find out if your track record supports an O-1",
+  "final_sub": "One form. One business day. A criteria-by-criteria read on your case."
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "k1-fiance-visa-lawyer",
+  "campaign": "K-1 Fiancé(e) Visa",
+  "priority": 8,
+  "meta_title": "K-1 Fiancé(e) Visa Lawyer | Faragalla Law",
+  "meta_description": "Engaged to someone abroad? Faragalla Law prepares K-1 fiancé(e) visa cases — petition, embassy interview prep, and the green card after the wedding. Request a K-1 case review.",
+  "eyebrow": "K-1 Fiancé(e) Visa Attorneys",
+  "h1": "Engaged to Someone Abroad? Bring Your Fiancé(e) Home the Right Way.",
+  "hero_sub": "The K-1 visa brings your fiancé(e) to the U.S. to marry within 90 days. Faragalla Law handles the petition, the embassy stage, and the green card that follows — one plan, no gaps.",
+  "bullets": [
+    "U.S. citizens engaged to a partner abroad",
+    "Petition through embassy interview through green card",
+    "Long-distance and online-relationship evidence done right"
+  ],
+  "offer_name": "K-1 Case Review",
+  "cta_label": "Request My K-1 Case Review",
+  "cta_short": "K-1 Review",
+  "form_title": "Request Your K-1 Case Review",
+  "form_sub": "Tell us about your relationship and timeline. We'll flag any risks and reply with a clear plan.",
+  "qualifiers": [
+    {
+      "name": "situation",
+      "label": "Your situation",
+      "options": ["Engaged — ready to file", "Together but deciding K-1 vs marriage abroad", "Petition filed — need help with embassy stage", "Prior denial or complicated history"]
+    },
+    {
+      "name": "meeting",
+      "label": "Have you met in person in the last 2 years?",
+      "options": ["Yes", "No — but we plan to", "No — meeting isn't possible (hardship/culture)", "Not sure what counts"]
+    }
+  ],
+  "problem_heading": "K-1 cases are won on relationship evidence — and lost on avoidable gaps",
+  "problem_cards": [
+    {
+      "title": "The two-year meeting rule trips up real couples",
+      "body": "You must prove you met in person within two years of filing — with passport stamps, tickets, and photos — or qualify for a rare waiver. Online-only relationships need a meeting plan before filing, not after a denial."
+    },
+    {
+      "title": "Embassy interviews are the real gate",
+      "body": "USCIS approval is only step one. The beneficiary faces a consular interview where thin evidence, inconsistent answers, or red flags (age gaps, short courtships, prior petitions) get cases refused under 221(g) or returned. Preparation is everything."
+    },
+    {
+      "title": "The 90-day clock has no snooze button",
+      "body": "After entry you must marry within 90 days and then file adjustment of status — a second full case. Couples who treat the wedding as the finish line get stuck without work authorization or travel ability for months. We plan both stages from day one."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "One plan from petition to green card",
+      "body": "We scope the K-1 and the post-marriage adjustment together, so you know the full timeline and cost of getting your spouse to permanent residence — not just to the airport."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, before building a practice serving families directly."
+    },
+    {
+      "title": "Interview preparation for the beneficiary",
+      "body": "We prepare your fiancé(e) for the embassy interview — the documents to carry, the questions asked at their specific post, and how to handle red-flag topics honestly and clearly."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "K-1 cases are quoted as a flat fee, with the post-marriage green card stage quoted up front too. No surprises mid-process."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case review",
+      "body": "Submit the form. We review your relationship history, meeting evidence, and any red flags, then reply within one business day with consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We confirm K-1 is the right vehicle (versus marrying abroad and filing a spousal case), build your evidence checklist, and set the timeline."
+    },
+    {
+      "title": "Petition and embassy stage",
+      "body": "We prepare and file the I-129F, assemble relationship evidence, guide the beneficiary through DS-160, medical, and document collection, and prep them for the interview."
+    },
+    {
+      "title": "Arrival, marriage, green card",
+      "body": "After entry and your wedding, we file the full adjustment package — green card, work permit, travel permit — and prepare you both for the marriage interview."
+    }
+  ],
+  "fees_heading": "What does a K-1 case cost?",
+  "fees_body": "Legal fees are flat for the K-1 stage, with the post-marriage adjustment stage quoted separately up front so you can budget the entire journey. Government costs include the I-129F fee, the embassy visa fee, the medical exam, and later the adjustment filing fees. We itemize everything at the consultation — before you commit.",
+  "who_heading": "Is the K-1 the right route for you?",
+  "who_for": [
+    "You're a U.S. citizen (green card holders can't file K-1 — we'll map your options)",
+    "You're legally free to marry and plan to marry in the U.S. within 90 days of arrival",
+    "You've met in person in the last two years — or need advice on the meeting requirement",
+    "You want your fiancé(e) here sooner rather than after a full spousal case abroad"
+  ],
+  "who_not": [
+    "You're already married — you need a spousal case (CR-1/IR-1 or adjustment), not a K-1",
+    "You're a lawful permanent resident — the K-1 isn't available; we'll discuss alternatives",
+    "The relationship can't be documented at all yet — we'll tell you what to build first"
+  ],
+  "faq": [
+    {
+      "q": "How long does the K-1 visa take?",
+      "a": "Most cases currently run roughly 9–14 months from filing to visa in hand: USCIS petition processing, then National Visa Center transfer, then the embassy interview. Timelines vary meaningfully by consulate. We give you a current estimate for your fiancé(e)'s specific post at the consultation."
+    },
+    {
+      "q": "K-1 or get married abroad and file a spousal visa — which is better?",
+      "a": "K-1 usually gets your partner to the U.S. somewhat faster, but the total cost is higher (two filing stages) and they can't work immediately on arrival. A CR-1 spousal visa takes longer up front but arrives as a green card holder, work-ready. The right answer depends on your timeline, budget, and where you want the wedding — this is exactly what the consultation resolves."
+    },
+    {
+      "q": "We met online — can we still get a K-1?",
+      "a": "Online-origin relationships are approved every day, but the in-person meeting requirement still applies: at least one meeting within two years before filing, documented with travel records and photos. If meeting is genuinely impossible for cultural or hardship reasons, a waiver exists but is narrowly granted. Don't file without solving this first."
+    },
+    {
+      "q": "Can my fiancé(e) work after arriving on the K-1?",
+      "a": "Not immediately in practice. K-1 holders technically can apply for a short-lived work permit, but it usually expires before it's useful. Real work authorization comes with the EAD filed in the adjustment package after your marriage — typically a few months after filing. We file adjustment quickly after the wedding precisely to start that clock."
+    },
+    {
+      "q": "What happens at the embassy interview?",
+      "a": "Your fiancé(e) attends alone at the U.S. embassy or consulate in their country, with the medical exam completed and originals in hand. The officer tests whether the relationship is genuine: how you met, visits, families, wedding plans. Refusals under 221(g) usually mean missing documents or unresolved doubts — both preventable with preparation."
+    },
+    {
+      "q": "What if we don't marry within 90 days?",
+      "a": "The K-1 can't be extended and doesn't convert to anything else — if you don't marry, your fiancé(e) must depart, and overstaying creates serious problems for future cases. There is no changing status to a work or student visa from K-1. If plans are uncertain, tell us before filing and we'll structure around it."
+    }
+  ],
+  "service_name": "K-1 Fiancé(e) Visa Services",
+  "testimonial_hint": "Use verbatim Google reviews from K-1 / family clients",
+  "final_heading": "Start your K-1 with both stages planned",
+  "final_sub": "One form. One business day. A clear plan from petition to green card."
+}

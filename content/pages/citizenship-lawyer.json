@@ -1,0 +1,127 @@
+{
+  "slug": "citizenship-lawyer",
+  "campaign": "Citizenship & Naturalization",
+  "priority": 9,
+  "meta_title": "Citizenship & Naturalization Lawyer | Faragalla Law",
+  "meta_description": "Ready to become a U.S. citizen — or worried something in your history could complicate it? Faragalla Law prepares N-400 cases and handles complications before they surface. Request a citizenship review.",
+  "eyebrow": "Citizenship & Naturalization Attorneys",
+  "h1": "Become a U.S. Citizen — Without Letting a Paperwork Problem Become a Legal One.",
+  "hero_sub": "Most naturalization cases are straightforward. The ones that aren't — travel gaps, tax issues, old arrests, expired green cards — are exactly where legal review before filing pays for itself.",
+  "bullets": [
+    "N-400 preparation, interview coaching, and civics test guidance",
+    "Complicated histories: long trips abroad, taxes, arrests, prior denials",
+    "Green card renewals and replacements handled alongside"
+  ],
+  "offer_name": "Citizenship Review",
+  "cta_label": "Request My Citizenship Review",
+  "cta_short": "Citizenship Review",
+  "form_title": "Request Your Citizenship Review",
+  "form_sub": "Tell us where you are in the process. We'll flag anything that needs handling before you file.",
+  "qualifiers": [
+    {
+      "name": "situation",
+      "label": "Your situation",
+      "options": ["Green card 5+ years — ready to apply", "Green card through marriage — 3-year rule", "Something in my history concerns me", "My N-400 was denied", "Helping a family member"]
+    },
+    {
+      "name": "concern",
+      "label": "Any of these apply?",
+      "options": ["None — clean history", "Trips abroad over 6 months", "Tax or child-support issues", "Arrest or citation (even dismissed)", "Prefer to discuss"]
+    }
+  ],
+  "problem_heading": "The N-400 looks like a form — it's actually a full review of your immigration life",
+  "problem_cards": [
+    {
+      "title": "The application re-opens your entire file",
+      "body": "USCIS reviews how you got your green card, every trip you've taken, your taxes, and your record. Filing with an unresolved issue doesn't just risk denial — in the worst cases it can put the green card itself in jeopardy. Know before you file."
+    },
+    {
+      "title": "Continuous residence trips up frequent travelers",
+      "body": "Trips over six months presume a break in residence; trips over a year usually break it outright. Snowbirds, cross-border families, and international businesspeople need the travel history analyzed before filing, not explained after an accusation."
+    },
+    {
+      "title": "\"Good moral character\" covers more than crimes",
+      "body": "Unfiled taxes, unpaid child support, misstatements on old applications, even certain traffic patterns can be raised. Most issues are solvable — with disclosure handled correctly and documentation prepared in advance."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Review first, file second",
+      "body": "We screen your full history the way an officer will — travel, taxes, record, and how you got your green card — and fix what's fixable before USCIS ever sees the file."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, and brings that documentary discipline to individual cases."
+    },
+    {
+      "title": "Interview preparation included",
+      "body": "We prepare you for the naturalization interview and the English and civics tests, and can appear with you when the history warrants it."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "Straightforward N-400s and complicated ones are quoted differently — but always as a flat fee you know before we start."
+    }
+  ],
+  "process": [
+    {
+      "title": "Citizenship review",
+      "body": "Submit the form. We review your eligibility timeline and any risk factors, then reply within one business day with consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We analyze your travel history, tax posture, and record, confirm your eligibility date (5-year or 3-year rule), and resolve anything that should be handled pre-filing."
+    },
+    {
+      "title": "Application package",
+      "body": "We prepare the N-400 with complete, consistent answers, assemble supporting documents, and file with the right evidence for any disclosed issue."
+    },
+    {
+      "title": "Interview through oath",
+      "body": "We prepare you for the interview and tests, respond to any RFE, and see the case through to your oath ceremony."
+    }
+  ],
+  "fees_heading": "What does a citizenship case cost?",
+  "fees_body": "Legal fees are flat: a straightforward N-400 costs less than a case involving travel, tax, or record complications. The USCIS filing fee applies on top, with reduced-fee and fee-waiver options for qualifying applicants — we screen you for those automatically. You'll get the exact number at the consultation.",
+  "who_heading": "Are you ready to naturalize?",
+  "who_for": [
+    "You've held a green card for 5 years — or 3 years married to and living with a U.S. citizen",
+    "You've been physically in the U.S. at least half of that period",
+    "You can pass the English and civics tests, or qualify for an age/disability exemption",
+    "Something in your history needs review before you're comfortable filing"
+  ],
+  "who_not": [
+    "You're not yet a permanent resident — see our green card services first",
+    "You're currently in removal proceedings — that's a different, urgent conversation; call us",
+    "Your travel has kept you outside the U.S. most of recent years — we may need to repair residence first"
+  ],
+  "faq": [
+    {
+      "q": "When can I apply for U.S. citizenship?",
+      "a": "Five years after becoming a permanent resident — or three years if you got your green card through marriage and are still married to and living with your U.S. citizen spouse. You can file up to 90 days before the anniversary. Physical presence, continuous residence, and state residency requirements all apply; we confirm your exact earliest filing date."
+    },
+    {
+      "q": "How long does naturalization take?",
+      "a": "Most field offices currently run several months to around a year from filing to oath, varying significantly by city. Your local office's queue — not the form — sets the pace. We give you the current estimate for your field office at the consultation."
+    },
+    {
+      "q": "Will an old arrest or dismissed charge hurt my application?",
+      "a": "It depends on the offense, the outcome, and the timing — but hiding it is the one guaranteed mistake, since USCIS runs full background checks. Many records need disclosure with documentation and cause no denial; some require legal strategy first; a few mean you should not file until resolved. This is exactly what the pre-filing review is for."
+    },
+    {
+      "q": "I've spent long periods outside the U.S. — am I still eligible?",
+      "a": "Trips under six months are generally fine. Six-to-twelve-month trips create a presumption you broke continuous residence, which can be rebutted with ties like a home, job, and taxes. Trips over a year typically restart part of your clock. We analyze your actual travel record and tell you your real eligibility date."
+    },
+    {
+      "q": "What's on the citizenship test?",
+      "a": "An English reading, writing, and speaking assessment, plus a civics test: the officer asks up to 10 questions from the official list of 100, and you must answer 6 correctly. Applicants over certain age/residence thresholds qualify for exemptions or native-language testing. We provide study materials and mock-interview preparation."
+    },
+    {
+      "q": "Can my N-400 denial be fixed?",
+      "a": "Usually, yes. Options include a hearing request (N-336), refiling once the underlying issue is cured, or addressing the specific ground — unpaid taxes, insufficient residence, a documentation gap. A denial does not take away your green card in most cases, but repeated uncounseled filings waste fees and build a bad record. Have the denial reviewed before acting."
+    }
+  ],
+  "service_name": "Citizenship & Naturalization Services",
+  "testimonial_hint": "Use verbatim Google reviews from citizenship/naturalization clients — the firm has these",
+  "final_heading": "File your citizenship case with nothing left to chance",
+  "final_sub": "One form. One business day. A clear read on your eligibility and any issues to resolve first."
+}
