@@ -65,10 +65,13 @@ Three structural notes:
   ~14,000/mo combined at ~$1) only as a remarketing-pool builder with a
   study-guide offer — never at case-level CPAs.
 
-**Launch blockers for ALL Spanish campaigns:** Spanish-speaking intake staff
-confirmed; native-speaker copy review; Spanish-language Google reviews pasted
-into the testimonial slots. Forms on ES pages redirect to `/gracias.html`
-(same `generate_lead` event — no extra GTM work needed).
+**Launch blockers for ALL Spanish campaigns:** ~~Spanish-speaking intake~~
+✅ CONFIRMED (2026-08-21) — intake operates in English and Spanish, and the
+pages now say so. Remaining: native-speaker copy review; Spanish-language
+Google reviews pasted into the testimonial slots. Forms on ES pages redirect
+to `/gracias.html` (same `generate_lead` event — no extra GTM work needed).
+Bonus: bilingual intake also unlocks "se habla español" ad assets on the
+ENGLISH Houston campaign — add it as a callout extension there.
 
 Notes on pages 11–16: `/us-immigration-lawyer/` is the bottom-funnel page for
 the recommended Canada split — the 880/mo `us immigration lawyer` (CA) term

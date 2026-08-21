@@ -94,8 +94,9 @@ posts URL-encoded form data there and redirects to the thank-you page on 2xx.
   cover the form's submit button, tel: links dial, forms submit.
 
 **Spanish pages (all 7) extra blockers:**
-- [ ] Confirm Spanish-speaking intake — who answers the phone and replies to
-  form leads in Spanish? Do not spend on ANY Spanish campaign until that's real.
+- [x] ~~Confirm Spanish-speaking intake~~ — **CONFIRMED (2026-08-21): intake
+  operates in both English and Spanish.** Pages and footers now state it
+  (`site.json → languages_line`).
 - [ ] Native-speaker review of the page copy (written in professional formal
   Spanish; a quick read by a native speaker is cheap insurance).
 - [ ] Spanish testimonials: paste verbatim Spanish-language Google reviews.

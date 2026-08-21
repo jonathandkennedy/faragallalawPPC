@@ -179,6 +179,7 @@ SITE_ES = {
         "[PEGUE AQUÍ UNA RESEÑA TEXTUAL DE GOOGLE — en español, de un caso similar. Vea el README.]",
         "[PEGUE AQUÍ UNA SEGUNDA RESEÑA TEXTUAL EN ESPAÑOL.]",
     ],
+    "languages_line": "Atendemos en español e inglés — todo su caso puede llevarse en su idioma",
 }
 
 TY_ES = {
@@ -521,6 +522,7 @@ def render_footer(site, ui):
     <div class="container">
       <div class="lp-footer__firm">{e(site['firm_name'])} — {e(site['firm_tagline'])}</div>
       <div>{e(site['offices_line'])}</div>
+      <div>{e(site.get('languages_line', ''))}</div>
       <div class="lp-footer__row">
         <a href="tel:{e(site['phone_tel'])}" data-call-location="footer">{e(site['phone_display'])}</a>
         &nbsp;·&nbsp; <a href="{e(site['privacy_url'])}" target="_blank" rel="noopener">{e(ui['privacy_policy'])}</a>
