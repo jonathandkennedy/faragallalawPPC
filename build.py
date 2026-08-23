@@ -251,18 +251,23 @@ def render_form(site, page, ui, location):
     endpoint = site["form"].get("endpoint", "")
     if not endpoint and site["form"].get("formspree_id"):
         endpoint = f"https://formspree.io/f/{site['form']['formspree_id']}"
-    netlify_attrs = ' data-netlify="true" netlify-honeypot="company_website"' if site["form"].get("netlify") else ""
+    # Netlify attributes only when Netlify is actually the backend — an active
+    # endpoint would otherwise leave ghost forms in the Netlify dashboard.
+    netlify_attrs = ' data-netlify="true" netlify-honeypot="company_website"' if site["form"].get("netlify") and not endpoint else ""
     action = endpoint if endpoint else ui["thankyou_path"]
 
     hidden = "\n      ".join(
         f'<input type="hidden" name="{name}" value="">' for name in HIDDEN_TRACKING_FIELDS
     )
+    # Baked at build time so the source page is named on every submission,
+    # including no-JS posts (JS-filled fields like landing_page need JS).
+    hidden += f'\n      <input type="hidden" name="page_name" value="{e(page["campaign"])}">'
     if endpoint:
         # Formspree conveniences (harmless for generic webhooks): per-page email
         # subject, paid-plan no-JS redirect, and the native _gotcha honeypot.
         next_url = f"{site['base_url'].rstrip('/')}{ui['thankyou_path']}?from=/{slug}/"
         hidden += (
-            f'\n      <input type="hidden" name="_subject" value="New lead — {e(page["campaign"])}">'
+            f'\n      <input type="hidden" name="_subject" value="New lead — {e(page["campaign"])} — /{slug}/">'
             f'\n      <input type="hidden" name="_next" value="{e(next_url)}">'
             f'\n      <input class="hp-field" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">'
         )

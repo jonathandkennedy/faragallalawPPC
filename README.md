@@ -103,9 +103,15 @@ campaign_page, form_location).
   conversion triggers on `generate_lead` (thank-you view) and `phone_click`,
   scope hub triggers by hostname if the container also serves the main site,
   and verify with GTM preview mode.
-- [ ] Form backend chosen (Netlify Forms or `form.endpoint`) and a **test lead
-  submitted end-to-end**: form → thank-you redirect → notification email
-  received → hidden fields (gclid/utm) present in the lead payload.
+- [x] ~~Form backend chosen~~ — **SET (2026-08-21): Formspree form
+  `mzepqygr`** (`https://formspree.io/f/mzepqygr`). Every submission names its
+  source page three ways: email subject ("New lead — <campaign> — /<slug>/"),
+  the build-baked `page_name` field, and `campaign_page`/`landing_page`/
+  `page_url`. Note: free tier = 50 submissions/mo — upgrade before real spend.
+- [ ] **Test lead end-to-end** (do this from a browser once deployed — this
+  couldn't be sent from the build environment): submit a form → confirm the
+  thank-you redirect → confirm the Formspree notification email arrives with
+  the page name in the subject and the gclid/utm fields in the body.
 - [x] ~~Phone number~~ — **SET (2026-08-21): (866) 655-3729 on every page**
   (header, hero, final CTA, sticky bar, footer, thank-you pages, and
   LegalService schema). Optional later: CallRail pool for keyword-level call
