@@ -242,14 +242,30 @@ HIDDEN_TRACKING_FIELDS = [
 # ---------------------------------------------------------------- components
 
 def render_form(site, page, ui, location):
-    """One consistent form used in the hero and the final section."""
+    """One consistent form used in the hero and the final section.
+
+    Backend resolution: form.endpoint wins; else form.formspree_id builds a
+    Formspree URL; else Netlify Forms handles the POST. With an endpoint, the
+    form's native action targets it too, so leads survive even without JS."""
     slug = page["slug"]
     endpoint = site["form"].get("endpoint", "")
+    if not endpoint and site["form"].get("formspree_id"):
+        endpoint = f"https://formspree.io/f/{site['form']['formspree_id']}"
     netlify_attrs = ' data-netlify="true" netlify-honeypot="company_website"' if site["form"].get("netlify") else ""
+    action = endpoint if endpoint else ui["thankyou_path"]
 
     hidden = "\n      ".join(
         f'<input type="hidden" name="{name}" value="">' for name in HIDDEN_TRACKING_FIELDS
     )
+    if endpoint:
+        # Formspree conveniences (harmless for generic webhooks): per-page email
+        # subject, paid-plan no-JS redirect, and the native _gotcha honeypot.
+        next_url = f"{site['base_url'].rstrip('/')}{ui['thankyou_path']}?from=/{slug}/"
+        hidden += (
+            f'\n      <input type="hidden" name="_subject" value="New lead — {e(page["campaign"])}">'
+            f'\n      <input type="hidden" name="_next" value="{e(next_url)}">'
+            f'\n      <input class="hp-field" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">'
+        )
 
     qualifiers = ""
     for q in page.get("qualifiers", []):
@@ -262,7 +278,7 @@ def render_form(site, page, ui, location):
         </select>
       </div>"""
 
-    return f"""<form class="lp-form" method="POST" action="{ui['thankyou_path']}" name="lead-{slug}"
+    return f"""<form class="lp-form" method="POST" action="{e(action)}" name="lead-{slug}"
       data-form-location="{location}" data-endpoint="{e(endpoint)}" data-thankyou="{ui['thankyou_path']}"
       data-msg-sending="{e(ui['msg_sending'])}" data-msg-error="{e(ui['msg_error'])}"{netlify_attrs}>
       <input type="hidden" name="form-name" value="lead-{slug}">

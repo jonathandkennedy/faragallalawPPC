@@ -45,7 +45,9 @@
   },
   "form": {
     "endpoint": "",
-    "endpoint_note": "Optional webhook/CRM endpoint (e.g. Zapier catch hook, HighLevel, Lawmatics). Leave empty to use Netlify Forms (works automatically when deployed on Netlify).",
+    "endpoint_note": "Full custom POST URL (CRM webhook, Zapier, HighLevel, Lawmatics). Takes precedence over formspree_id. Leave both empty to use Netlify Forms (automatic on Netlify).",
+    "formspree_id": "",
+    "formspree_note": "TO USE FORMSPREE: create a form at formspree.io, copy the ID from the endpoint URL (formspree.io/f/THIS-PART, e.g. 'mqkrjabc'), paste it here, run python3 build.py. Forms then POST to Formspree with per-page email subjects, the _gotcha honeypot, and a no-JS fallback; JS still redirects to the thank-you page so conversion tracking is unaffected. Free tier = 50 submissions/mo (fine for testing; upgrade before real traffic). The _next redirect for no-JS visitors requires a paid Formspree plan — with JS on (virtually everyone) it's irrelevant.",
     "netlify": true
   },
   "gtm_id": "GTM-T88G9RDN",

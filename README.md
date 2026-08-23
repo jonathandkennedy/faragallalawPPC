@@ -51,9 +51,23 @@ Any static host works. Netlify is the zero-config path:
    appear in the Netlify Forms dashboard. Add email notifications there.
 3. Point DNS: `results.faragallalaw.com` (or `go.` / `lp.`) → Netlify.
 
-Using a CRM/webhook instead (Zapier, HighLevel, Lawmatics): set
-`form.endpoint` in `content/site.json` to the POST URL and rebuild. The JS
-posts URL-encoded form data there and redirects to the thank-you page on 2xx.
+### Form backend — three options, pick one in `content/site.json`
+
+1. **Netlify Forms** (default, zero config): deploy on Netlify and forms just
+   work — submissions in the Netlify dashboard, email notifications available.
+2. **Formspree**: create a form at formspree.io, copy the ID from the endpoint
+   URL (`formspree.io/f/THIS-PART`), set `form.formspree_id`, rebuild. You get
+   per-page email subjects ("New lead — E-2 Treaty Investor Visa…"), the
+   `_gotcha` server-side honeypot, reply-to set from the lead's email, and a
+   no-JS fallback straight to Formspree. Free tier is 50 submissions/month —
+   fine for testing, upgrade before sending traffic. JS still redirects to the
+   local thank-you page, so conversion tracking is unaffected.
+3. **CRM/webhook** (Zapier, HighLevel, Lawmatics): set `form.endpoint` to the
+   POST URL, rebuild. URL-encoded form data is posted there; thank-you
+   redirect on any 2xx. `endpoint` takes precedence over `formspree_id`.
+
+All three receive every hidden attribution field (utm_*, gclid, first-touch,
+campaign_page, form_location).
 
 ## 🚨 Launch checklist — do not send paid traffic until every box is checked
 

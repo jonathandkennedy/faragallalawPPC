@@ -92,7 +92,10 @@
 
       fetch(target, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Accept': 'application/json' /* Formspree returns JSON for AJAX posts */
+        },
         body: body
       }).then(function (res) {
         if (!res.ok) throw new Error('HTTP ' + res.status);
