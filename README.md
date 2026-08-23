@@ -83,20 +83,18 @@ posts URL-encoded form data there and redirects to the thank-you page on 2xx.
   Maps search with the firm's exact review short-link.
 
 **Plumbing:**
-- [ ] `site.json → gtm_id` — **DECISION (2026-08-21): reuse the existing
-  faragallalaw.com GTM container.** Get the ID via view-source on any
-  faragallalaw.com page (search "GTM-"), paste it into `site.json`, rebuild.
-  Pages render the head snippet + noscript iframe automatically (render path
-  tested). Then add GA4 + Ads conversion triggers on `generate_lead`
-  (thank-you view) and `phone_click`, and verify with GTM preview mode.
-  Scope hub-specific triggers by hostname if the container also serves the
-  main site.
+- [x] ~~`site.json → gtm_id`~~ — **SET (2026-08-21): `GTM-T88G9RDN`
+  (GTM account 6249382821), rendered on every page (head snippet + noscript
+  iframe).** Remaining GTM work happens inside the container: add GA4 + Ads
+  conversion triggers on `generate_lead` (thank-you view) and `phone_click`,
+  scope hub triggers by hostname if the container also serves the main site,
+  and verify with GTM preview mode.
 - [ ] Form backend chosen (Netlify Forms or `form.endpoint`) and a **test lead
   submitted end-to-end**: form → thank-you redirect → notification email
   received → hidden fields (gclid/utm) present in the lead payload.
-- [x] ~~Call tracking number~~ — **DECISION (2026-08-21): use the firm's
-  existing number (713) 766-1335**, same as the original landing page; already
-  wired on every page. Optional later: CallRail pool for keyword-level call
+- [x] ~~Phone number~~ — **SET (2026-08-21): (866) 655-3729 on every page**
+  (header, hero, final CTA, sticky bar, footer, thank-you pages, and
+  LegalService schema). Optional later: CallRail pool for keyword-level call
   attribution (see STRATEGY.md).
 - [ ] Custom domain + HTTPS live; `curl -I` each page returns 200.
 - [ ] Real-device pass: iPhone Safari + Android Chrome — sticky bar doesn't
