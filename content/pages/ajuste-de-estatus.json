@@ -1,0 +1,129 @@
+{
+  "slug": "ajuste-de-estatus",
+  "campaign": "Ajuste de Estatus (Español)",
+  "priority": 22,
+  "lang": "es",
+  "meta_title": "Ajuste de Estatus — Abogados de I-485 | Faragalla Law",
+  "meta_description": "¿Va a pedir su residencia sin salir de Estados Unidos? El ajuste de estatus es un paquete de varios trámites que avanzan juntos — y un solo hueco detiene todo. Solicite su evaluación en español.",
+  "eyebrow": "Abogados de Ajuste de Estatus",
+  "h1": "¿Su Residencia Sin Salir de Estados Unidos? Eso Es el Ajuste de Estatus — Hágalo Bien a la Primera.",
+  "hero_sub": "El ajuste de estatus (formulario I-485) no es un solo trámite: es su análisis de elegibilidad, el permiso de trabajo, el permiso de viaje, el patrocinio económico y el examen médico avanzando juntos. Un solo hueco detiene todo el paquete. En Faragalla Law lo presentamos completo, consistente y en español.",
+  "bullets": [
+    "Por matrimonio, familia, visa K-1, empleo o asilo",
+    "Permiso de trabajo y de viaje presentados junto con el I-485",
+    "Visas vencidas, entradas sin permiso e historiales complicados — analizados antes de presentar"
+  ],
+  "offer_name": "Evaluación de Ajuste de Estatus",
+  "cta_label": "Solicitar Mi Evaluación de Ajuste",
+  "cta_short": "Mi Ajuste",
+  "form_title": "Solicite Su Evaluación de Ajuste de Estatus",
+  "form_sub": "Cuéntenos quién lo pide y cómo entró a EE. UU. Le señalaremos cualquier problema de elegibilidad y le responderemos con un plan.",
+  "qualifiers": [
+    {
+      "name": "base",
+      "label": "¿Cuál es la base de su ajuste?",
+      "options": ["Matrimonio o petición familiar", "Visa K-1 — ya casados, sigue la residencia", "Empleo (petición del empleador)", "Asilo aprobado hace un año o más", "No estoy seguro(a) — esa es mi pregunta"]
+    },
+    {
+      "name": "entrada",
+      "label": "¿Cómo entró a EE. UU.?",
+      "options": ["Con visa — todavía vigente", "Con visa — ya vencida", "Con permiso / parole", "Sin inspección", "Prefiero hablarlo en privado"]
+    }
+  ],
+  "problem_heading": "Los ajustes se atoran por detalles que se podían saber antes de presentar",
+  "problem_cards": [
+    {
+      "title": "La elegibilidad vive en cómo entró y en su historial",
+      "body": "Ajustar dentro de EE. UU. generalmente exige una entrada legal — y fuera de las reglas especiales para familiares directos de ciudadanos, también haber mantenido estatus. Una visa vencida, trabajo sin permiso, una entrada sin inspección o un trámite viejo cambian todo el análisis. Veinte minutos de revisión deciden si usted puede ajustar aquí o si su vía pasa por el consulado — donde un mal cálculo puede activar un castigo de 3 o 10 años."
+    },
+    {
+      "title": "Son cinco o más trámites moviéndose como uno",
+      "body": "El I-485 viaja con la petición (I-130 o I-140), el permiso de trabajo (I-765), el permiso de viaje (I-131), el patrocinio económico (I-864) y — bajo las reglas actuales — el examen médico (I-693), que debe ir con la solicitud o el paquete corre riesgo de rechazo. Una firma faltante o una tarifa desactualizada en cualquiera de ellos puede regresar el paquete completo."
+    },
+    {
+      "title": "Los errores de medio camino matan aprobaciones",
+      "body": "Salir del país sin el permiso de viaje (advance parole) se considera abandono de la mayoría de los ajustes pendientes. Cambiar de trabajo antes de tiempo en un caso de empleo tiene sus propias reglas. Mientras su caso está pendiente — un año o más — hay reglas de camino, y se las explicamos todas el día que presentamos."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Paquete completo, historia consistente",
+      "body": "Cada formulario se cruza contra los demás — nombres, fechas, domicilios, historial — para que su caso cuente una sola historia y no invite la solicitud de evidencia que agrega meses."
+    },
+    {
+      "title": "La elegibilidad se responde antes de gastar",
+      "body": "Si su entrada o su historial significan proceso consular, un perdón primero, o esperar una fecha de prioridad, se lo decimos en la evaluación — presentar un ajuste que no se puede ganar solo financia una negación."
+    },
+    {
+      "title": "Atención en español, de verdad",
+      "body": "Su evaluación, su lista de documentos, las reglas del camino y la preparación de la entrevista — todo explicado en su idioma, para los dos esposos cuando es un caso de matrimonio."
+    },
+    {
+      "title": "Tarifas fijas y claras",
+      "body": "Una sola tarifa fija por el paquete completo — petición, I-485, permisos de trabajo y viaje, preparación de entrevista — cotizada antes de empezar, con las tarifas del gobierno detalladas aparte."
+    }
+  ],
+  "process": [
+    {
+      "title": "Evaluación del caso",
+      "body": "Envíe el formulario. Revisamos su base, su entrada y su historial de estatus, y le respondemos dentro de un día hábil con nuestra lectura de elegibilidad."
+    },
+    {
+      "title": "Consulta de estrategia",
+      "body": "Confirmamos ajuste vs. proceso consular, revisamos su fecha de prioridad cuando aplica, resolvemos cualquier problema del historial y le entregamos su lista de documentos."
+    },
+    {
+      "title": "El paquete completo",
+      "body": "Preparamos y presentamos todo junto — petición, I-485, permiso de trabajo I-765, permiso de viaje I-131, patrocinio I-864 y el examen médico I-693 coordinado con un médico autorizado."
+    },
+    {
+      "title": "Entrevista y residencia",
+      "body": "Lo preparamos para la entrevista de USCIS, respondemos cualquier solicitud de evidencia, lo mantenemos legal para trabajar y viajar durante la espera, y seguimos el caso hasta la residencia en mano."
+    }
+  ],
+  "fees_heading": "¿Cuánto cuesta el ajuste de estatus?",
+  "fees_body": "Los honorarios son una tarifa fija que depende de la base (matrimonio, familia, K-1, empleo, asilo) y de si su historial necesita trabajo adicional — un perdón, un análisis 245(i) o reparar un trámite anterior. Las tarifas de USCIS para un paquete típico de ajuste superan los mil dólares, más el examen médico. En la consulta ponemos el presupuesto completo — legal y gobierno — en una sola página.",
+  "who_heading": "¿El ajuste de estatus aplica en su caso?",
+  "who_for": [
+    "Está en EE. UU. y su esposo(a) ciudadano(a) o residente (u otro familiar) lo puede pedir",
+    "Entró con visa K-1, se casó dentro de los 90 días y sigue la etapa de la residencia",
+    "Su empleador tiene una petición aprobada y su fecha de prioridad está vigente",
+    "Le aprobaron asilo hace un año o más",
+    "Entró legalmente pero su visa se venció — los familiares directos de ciudadanos normalmente todavía pueden ajustar"
+  ],
+  "who_not": [
+    "Está fuera de EE. UU. — esa vía es el proceso consular, que también manejamos de principio a fin",
+    "Entró sin inspección y no tiene base 245(i) ni parole — su vía probablemente pasa por un perdón y el consulado; se la trazamos con honestidad (vea también nuestra página de arreglar papeles)",
+    "Su fecha de prioridad aún no está vigente — presentar ahora sería rechazado; lo calendarizamos para el momento en que abra"
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es el ajuste de estatus?",
+      "a": "Es el trámite (formulario I-485) para obtener la residencia permanente — la green card — sin salir de Estados Unidos. Usted se queda aquí durante todo el proceso y puede recibir permiso de trabajo y de viaje mientras espera. La alternativa es el proceso consular, que termina con una entrevista en el consulado de su país. Cuando usted califica para ajustar, casi siempre es la vía preferible."
+    },
+    {
+      "q": "¿Quién califica para ajustar estatus dentro de EE. UU.?",
+      "a": "Los grupos principales: esposos(as), padres e hijos solteros menores de 21 de ciudadanos que entraron legalmente (aunque la visa ya se haya vencido); beneficiarios de peticiones familiares o de empleo que mantuvieron estatus y tienen fecha de prioridad vigente; quienes entraron con visa K-1 y se casaron con quien los pidió; asilados un año después de la aprobación; y algunas personas protegidas por la ley antigua 245(i) a pesar de problemas de entrada. Cada grupo tiene sus trampas — su historial específico importa más que la etiqueta."
+    },
+    {
+      "q": "Me quedé más tiempo de lo que permitía mi visa. ¿Todavía puedo ajustar?",
+      "a": "Si entró legalmente y es esposo(a), padre/madre o hijo(a) soltero(a) menor de 21 de un(a) ciudadano(a) — normalmente sí: para familiares directos de ciudadanos, la estadía vencida e incluso el trabajo sin permiso se perdonan. Las categorías de preferencia y de empleo tienen reglas de estatus más estrictas. Y si entró sin inspección, el ajuste generalmente no está disponible sin una base especial — no presente nada antes de ese análisis."
+    },
+    {
+      "q": "¿Puedo trabajar y viajar mientras mi ajuste está pendiente?",
+      "a": "Sí — el paquete incluye el permiso de trabajo (I-765) y el permiso de viaje (I-131), que suelen llegar en unos meses, y el permiso de trabajo sirve para cualquier empleador. Advertencia crítica: salir del país sin el permiso de viaje (advance parole) se considera abandono de la mayoría de los ajustes pendientes. Por eso presentamos todo junto desde el primer día — para que nada espere en una segunda fila."
+    },
+    {
+      "q": "¿Cuánto tarda el ajuste de estatus?",
+      "a": "Los casos de matrimonio y familia en la mayoría de las oficinas locales corren hoy entre 9 y 16 meses hasta la residencia, con el permiso de trabajo llegando mucho antes. Los casos de empleo dependen de su fecha de prioridad. La palanca más grande es evitar la solicitud de evidencia: un paquete completo y consistente pasa en una sola vuelta; uno parchado puede arrastrarse más de dos años."
+    },
+    {
+      "q": "¿Qué pasa en la entrevista — y me va a tocar una?",
+      "a": "Los casos de matrimonio casi siempre tienen entrevista — los dos esposos, preguntas sobre la relación y los originales en mano. Algunos casos de familia y empleo se aprueban sin entrevista. Si lo citan, la preparación es directa: conocer su propio expediente, llevar lo que pide la cita y responder consistente con todo lo presentado antes — lo cual es fácil cuando el paquete se armó consistente desde el principio. Lo preparamos juntos antes de la cita."
+    }
+  ],
+  "service_name": "Servicios de Ajuste de Estatus / I-485 (Español)",
+  "testimonial_hint": "Reseñas textuales de Google en español — casos de residencia/ajuste",
+  "final_heading": "Presente su ajuste una sola vez, completo y correcto",
+  "final_sub": "Un formulario. Un día hábil. Su lectura de elegibilidad y el plan completo de presentación."
+}

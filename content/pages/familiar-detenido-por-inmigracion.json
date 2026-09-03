@@ -1,7 +1,7 @@
 {
   "slug": "familiar-detenido-por-inmigracion",
   "campaign": "Familiar Detenido por Inmigración (Español)",
-  "priority": 23,
+  "priority": 24,
   "lang": "es",
   "meta_title": "¿Un Familiar Detenido por Inmigración? | Faragalla Law",
   "meta_description": "¿Su esposo, hijo o familiar está detenido por ICE? Lo localizamos, peleamos la fianza y tomamos el caso — rápido. Usted puede contratar abogado desde afuera, sin importar su propio estatus. Llame ya.",
@@ -22,12 +22,24 @@
     {
       "name": "parentesco",
       "label": "¿Quién está detenido?",
-      "options": ["Mi esposo(a) o pareja", "Mi padre, madre o hijo(a)", "Hermano(a) u otro familiar", "Un(a) amigo(a) o miembro de la comunidad", "Yo mismo(a) estoy en riesgo (cita con ICE / temor de arresto)"]
+      "options": [
+        "Mi esposo(a) o pareja",
+        "Mi padre, madre o hijo(a)",
+        "Hermano(a) u otro familiar",
+        "Un(a) amigo(a) o miembro de la comunidad",
+        "Yo mismo(a) estoy en riesgo (cita con ICE / temor de arresto)"
+      ]
     },
     {
       "name": "situacion",
       "label": "¿Cómo está la situación?",
-      "options": ["Se lo acaban de llevar — en los últimos días", "Está en un centro de detención ahora", "Detenido y con fecha de corte próxima", "No sé dónde lo tienen", "No estoy seguro(a) — necesito ayuda para entender"]
+      "options": [
+        "Se lo acaban de llevar — en los últimos días",
+        "Está en un centro de detención ahora",
+        "Detenido y con fecha de corte próxima",
+        "No sé dónde lo tienen",
+        "No estoy seguro(a) — necesito ayuda para entender"
+      ]
     }
   ],
   "problem_heading": "Los casos de detención los ganan las familias que se mueven la primera semana",

@@ -42,6 +42,7 @@ story, and use volume clusters (family, local, citizenship) to fill capacity.
 | 23 | `/adjustment-of-status-lawyer/` | Adjustment of status | adjustment of status lawyer/attorney 640 @ $13.18 · i-485 lawyer 90 @ $16.80 · research tail ~1,900/mo (cheap) | Medium | US national |
 | 24 | `/immigration-detention-lawyer/` | Detention & bond (family) | **ice detainee locator 135,000/mo @ $6.14 (KD 14)** · immigration detention center 9,900 · immigration bond lawyer 390 @ $13.77 | Medium-high, urgent | US national |
 | 25 | `/familiar-detenido-por-inmigracion/` | Detención (Español, family) | localizador de detenidos ice 2,900 @ **$16.43** · detenido por inmigracion 1,000 @ $11.67 · localizador de detenidos 720 | Medium-high, urgent | US national (ES) |
+| 26 | `/ajuste-de-estatus/` | Ajuste de estatus (Español) | ajuste de estatus 1,000 @ $5.69 · ajuste de estatus por matrimonio 260 @ $4.80 | Medium | US national (ES) |
 
 ### The detention finding (Sept 2026 data)
 
@@ -64,9 +65,9 @@ enforcement environment. How to run it:
 - **Capacity warning**: detention leads demand same-day response. Do not turn
   this campaign on unless intake can return detention calls within hours —
   speed-to-lead is the whole product for this audience.
-- Also surfaced: `ajuste de estatus` 1,000/mo @ $5.69 (ES) — route it to
-  `/abogado-para-arreglar-papeles/` or `/residencia-por-matrimonio/` ad
-  groups; a dedicated ES AOS page is a future option.
+- `ajuste de estatus` (1,000/mo @ $5.69 ES) now has its dedicated page:
+  `/ajuste-de-estatus/` — exact-match the formal term there; keep the
+  colloquial "arreglar papeles" queries on their own page.
 
 ## The Spanish market (pages 16–22)
 
