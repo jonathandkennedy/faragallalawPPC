@@ -96,8 +96,11 @@ campaign_page, form_location).
 - [ ] **Attorney-ad review**: have the firm's ethics/advertising counsel review
   the pages (headlines and FAQ answers are written to avoid outcome promises —
   keep it that way).
-- [ ] **Google reviews link** (`site.json → google_reviews_url`): replace the
-  Maps search with the firm's exact review short-link.
+- [x] ~~Google reviews link~~ — **SET (2026-09-03):
+  `https://share.google/xm8QIinurlCWwjkgy`** (client-supplied share link),
+  rendered as the starred-rating link in every hero and the "Google Business
+  Profile" source link under the testimonials. Sanity check after deploy:
+  click it once and confirm it opens the firm's profile with reviews.
 
 **Plumbing:**
 - [x] ~~`site.json → gtm_id`~~ — **SET (2026-08-21): `GTM-T88G9RDN`

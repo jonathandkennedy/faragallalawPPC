@@ -29,8 +29,8 @@
     }
   ],
   "stats_note": "VERIFY all three claims with the firm. These figures come from faragallalaw.com's own published copy. Never attribute firm-wide totals to a single visa type.",
-  "google_reviews_url": "https://www.google.com/maps/search/Faragalla+Law",
-  "google_reviews_note": "Replace with the firm's exact Google Business Profile review link (g.page short link).",
+  "google_reviews_url": "https://share.google/xm8QIinurlCWwjkgy",
+  "google_reviews_note": "SET 2026-09-03 per client: Google share link for the firm's Business Profile. Couldn't be opened from the build environment (egress blocked) — after deploy, click the starred rating link on any page and confirm it lands on Faragalla Law's Google profile with reviews visible.",
   "offices_line": "Offices in Texas and Florida — serving clients nationwide and worldwide",
   "offices_note": "Bar advertising rules in several states require a physical office address in ads. VERIFY exact street addresses and add them to the footer before launch.",
   "languages_line": "Se habla español — intake and consultations available in English and Spanish",
