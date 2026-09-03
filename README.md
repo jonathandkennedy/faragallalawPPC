@@ -1,11 +1,11 @@
 # Faragalla Law — PPC Landing Page Hub
 
-A self-contained hub of 22 campaign landing pages for faragallalaw.com paid
+A self-contained hub of 25 campaign landing pages for faragallalaw.com paid
 traffic (the `results.goldbergloren.com` pattern: one focused, noindexed page
-per campaign, no site navigation, one offer per page) — 15 English pages plus
-a 7-page Spanish set (national anchor, arreglar papeles, residencia por
-matrimonio, deportación, ciudadanía, Houston, and E-2 para mexicanos), all
-sharing the Spanish thank-you page `/gracias.html`.
+per campaign, no site navigation, one offer per page) — 17 English pages plus
+an 8-page Spanish set (national anchor, arreglar papeles, residencia por
+matrimonio, deportación, familiar detenido, ciudadanía, Houston, and E-2 para
+mexicanos), all sharing the Spanish thank-you page `/gracias.html`.
 
 - **Campaign strategy, keyword data, ad structure:** [STRATEGY.md](STRATEGY.md)
 - **Raw keyword research exports:** `research/keywords-us.tsv`, `research/keywords-canada.tsv`
@@ -35,7 +35,7 @@ public/                   generated output — the deployable site
   index.html              internal hub directory (never an ad destination)
   thank-you.html          conversion page (fires generate_lead)
   gracias.html            Spanish conversion page (same event)
-  <campaign>/index.html   22 landing pages (15 EN + 7 ES)
+  <campaign>/index.html   25 landing pages (17 EN + 8 ES)
 research/                 keyword research exports + US-vs-Canada analysis (Aug 2026)
 ```
 
@@ -120,7 +120,7 @@ campaign_page, form_location).
 - [ ] Real-device pass: iPhone Safari + Android Chrome — sticky bar doesn't
   cover the form's submit button, tel: links dial, forms submit.
 
-**Spanish pages (all 7) extra blockers:**
+**Spanish pages (all 8) extra blockers:**
 - [x] ~~Confirm Spanish-speaking intake~~ — **CONFIRMED (2026-08-21): intake
   operates in both English and Spanish.** Pages and footers now state it
   (`site.json → languages_line`).

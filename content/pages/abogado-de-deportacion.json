@@ -1,7 +1,7 @@
 {
   "slug": "abogado-de-deportacion",
   "campaign": "Abogado de Deportación (Español)",
-  "priority": 20,
+  "priority": 22,
   "lang": "es",
   "meta_title": "Abogado de Deportación | Faragalla Law",
   "meta_description": "¿En proceso de deportación, con un familiar detenido o con una orden antigua? Defensa migratoria en español: fianzas, cancelación, asilo y mociones. Casos urgentes: llame ahora.",
@@ -22,12 +22,24 @@
     {
       "name": "situacion",
       "label": "¿Cuál es la situación?",
-      "options": ["Recibí una Notificación de Comparecencia (NTA)", "Un familiar está detenido", "Tengo fecha de corte próxima", "Falté a una audiencia / tengo orden antigua", "Tengo cita de control con ICE", "Otra situación urgente"]
+      "options": [
+        "Recibí una Notificación de Comparecencia (NTA)",
+        "Un familiar está detenido",
+        "Tengo fecha de corte próxima",
+        "Falté a una audiencia / tengo orden antigua",
+        "Tengo cita de control con ICE",
+        "Otra situación urgente"
+      ]
     },
     {
       "name": "plazo",
       "label": "¿Cuándo es la próxima fecha o plazo?",
-      "options": ["Dentro de 2 semanas — urgente", "De 2 a 8 semanas", "En más de 2 meses", "No hay fecha aún / no sé"]
+      "options": [
+        "Dentro de 2 semanas — urgente",
+        "De 2 a 8 semanas",
+        "En más de 2 meses",
+        "No hay fecha aún / no sé"
+      ]
     }
   ],
   "problem_heading": "Más casos se pierden por abandono que por falta de defensa",

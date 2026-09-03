@@ -1,7 +1,7 @@
 {
   "slug": "visa-e2-para-mexicanos",
   "campaign": "Visa E-2 para Mexicanos (Español)",
-  "priority": 22,
+  "priority": 25,
   "lang": "es",
   "meta_title": "Visa E-2 para Mexicanos — Abogados de Inversión | Faragalla Law",
   "meta_description": "¿Va a invertir en un negocio en Estados Unidos? México es país del tratado E-2. Evaluamos su inversión, la estructura y el origen de los fondos antes de solicitar. Asesoría en español.",
@@ -22,12 +22,24 @@
     {
       "name": "etapa",
       "label": "¿En qué etapa está?",
-      "options": ["Investigando mis opciones", "Ya identifiqué un negocio para comprar o abrir", "Fondos comprometidos / compra en proceso", "Ya tengo un negocio en EE. UU.", "Renovación o caso E-2 negado"]
+      "options": [
+        "Investigando mis opciones",
+        "Ya identifiqué un negocio para comprar o abrir",
+        "Fondos comprometidos / compra en proceso",
+        "Ya tengo un negocio en EE. UU.",
+        "Renovación o caso E-2 negado"
+      ]
     },
     {
       "name": "inversion",
       "label": "Inversión aproximada (USD)",
-      "options": ["Menos de $100,000", "$100,000 – $250,000", "$250,000 – $500,000", "Más de $500,000", "Prefiero hablarlo en la consulta"]
+      "options": [
+        "Menos de $100,000",
+        "$100,000 – $250,000",
+        "$250,000 – $500,000",
+        "Más de $500,000",
+        "Prefiero hablarlo en la consulta"
+      ]
     }
   ],
   "problem_heading": "La visa E-2 premia la preparación — y castiga la improvisación",

@@ -1,7 +1,7 @@
 {
   "slug": "abogado-para-arreglar-papeles",
   "campaign": "Arreglar Papeles (Español)",
-  "priority": 18,
+  "priority": 20,
   "lang": "es",
   "meta_title": "Abogado para Arreglar Papeles | Faragalla Law",
   "meta_description": "¿Quiere arreglar papeles pero no sabe si su caso califica? Con DUI, salida voluntaria, entrada sin permiso u orden antigua — un abogado le dice la verdad sobre su vía legal, en español.",
@@ -22,12 +22,25 @@
     {
       "name": "familiar",
       "label": "¿Tiene un familiar ciudadano o residente?",
-      "options": ["Sí — esposo(a) ciudadano(a) o residente", "Sí — hijo(a) ciudadano(a) mayor de 21 años", "Sí — otro familiar", "No", "No estoy seguro(a) de quién puede pedirme"]
+      "options": [
+        "Sí — esposo(a) ciudadano(a) o residente",
+        "Sí — hijo(a) ciudadano(a) mayor de 21 años",
+        "Sí — otro familiar",
+        "No",
+        "No estoy seguro(a) de quién puede pedirme"
+      ]
     },
     {
       "name": "situacion",
       "label": "¿Alguna de estas situaciones aplica?",
-      "options": ["Entré sin permiso", "Entré con visa y me quedé", "Tengo una salida voluntaria u orden antigua", "Tengo un arresto o DUI", "Ninguna — historial limpio", "Prefiero hablarlo en privado"]
+      "options": [
+        "Entré sin permiso",
+        "Entré con visa y me quedé",
+        "Tengo una salida voluntaria u orden antigua",
+        "Tengo un arresto o DUI",
+        "Ninguna — historial limpio",
+        "Prefiero hablarlo en privado"
+      ]
     }
   ],
   "problem_heading": "\"Arreglar papeles\" depende de tres detalles de su historia",

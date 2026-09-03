@@ -33,6 +33,34 @@ story, and use volume clusters (family, local, citizenship) to fill capacity.
 | 14 | `/h1b-visa-lawyer/` | H-1B | h1b visa attorney fee 4,400 @ $9.36 (+ employer-side demand) | Medium | US national |
 | 15 | `/deportation-defense-lawyer/` | Removal defense | deportation lawyer 1,300 @ $13.07 · deportation defense attorney 880 @ $11.53 | Medium | US national |
 | 16 | `/abogado-de-inmigracion-houston/` | Houston Spanish | abogado de inmigracion houston 720 @ **$30.73** (comp 0.88) · abogado de inmigracion cerca de mi 3,600 @ $20.61 | Mixed | Houston DMA (ES) |
+| 23 | `/adjustment-of-status-lawyer/` | Adjustment of status | adjustment of status lawyer/attorney 640 @ $13.18 · i-485 lawyer 90 @ $16.80 · research tail ~1,900/mo (cheap) | Medium | US national |
+| 24 | `/immigration-detention-lawyer/` | Detention & bond (family) | **ice detainee locator 135,000/mo @ $6.14 (KD 14)** · immigration detention center 9,900 · immigration bond lawyer 390 @ $13.77 | Medium-high, urgent | US national |
+| 25 | `/familiar-detenido-por-inmigracion/` | Detención (Español, family) | localizador de detenidos ice 2,900 @ **$16.43** · detenido por inmigracion 1,000 @ $11.67 · localizador de detenidos 720 | Medium-high, urgent | US national (ES) |
+
+### The detention finding (Sept 2026 data)
+
+`ice detainee locator` at **135,000 searches/mo** is the largest keyword in
+the entire account — larger than every lawyer-term cluster combined. It's the
+desperate-family search at the exact moment of detention, reflecting the 2026
+enforcement environment. How to run it:
+
+- **Dedicated campaign, modest CPCs ($6 range), helpful-first ad copy**: the
+  ad should offer what the searcher needs *right now* ("Find where they're
+  held — and get a lawyer moving on bond today"). The landing pages lead with
+  locator instructions before the pitch — that's both ethical and what
+  converts this audience.
+- **Bottom-funnel exact terms** (`immigration bond lawyer`,
+  `ice detention lawyer`, Spanish `detenido por inmigracion`) get their own
+  ad groups at higher bids.
+- **Spanish side prices HIGHER** ($16.43 vs $6.14 on the locator term) —
+  advertisers already know Spanish-speaking families convert on these
+  searches. The ES page is not optional here.
+- **Capacity warning**: detention leads demand same-day response. Do not turn
+  this campaign on unless intake can return detention calls within hours —
+  speed-to-lead is the whole product for this audience.
+- Also surfaced: `ajuste de estatus` 1,000/mo @ $5.69 (ES) — route it to
+  `/abogado-para-arreglar-papeles/` or `/residencia-por-matrimonio/` ad
+  groups; a dedicated ES AOS page is a future option.
 | 17 | `/abogado-de-inmigracion/` | Spanish national anchor | abogado de inmigración **18,100/mo @ $31.67** (comp 0.77) · abogado en español 1,000 @ $44.55 | Mixed | US national (ES) |
 | 18 | `/abogado-para-arreglar-papeles/` | Arreglar papeles | abogado para arreglar papeles 90 @ $22.78 · cuánto cobra… variants · "puedo arreglar papeles si…" long tail (DUI 280, salida voluntaria 880, orden 60) | Medium | US national (ES) |
 | 19 | `/residencia-por-matrimonio/` | Marriage GC Spanish | residencia por matrimonio cluster ~1,200/mo · qué pasa si me niegan… 320 · arreglar papeles por matrimonio 30 @ $11.71 | Medium | US national (ES) |

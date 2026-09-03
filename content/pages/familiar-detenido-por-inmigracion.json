@@ -1,0 +1,132 @@
+{
+  "slug": "familiar-detenido-por-inmigracion",
+  "campaign": "Familiar Detenido por Inmigración (Español)",
+  "priority": 23,
+  "lang": "es",
+  "meta_title": "¿Un Familiar Detenido por Inmigración? | Faragalla Law",
+  "meta_description": "¿Su esposo, hijo o familiar está detenido por ICE? Lo localizamos, peleamos la fianza y tomamos el caso — rápido. Usted puede contratar abogado desde afuera, sin importar su propio estatus. Llame ya.",
+  "eyebrow": "Abogados para Familiares Detenidos por ICE",
+  "h1": "¿Un Ser Querido Detenido por Inmigración? Los Primeros Días Deciden Casi Todo.",
+  "hero_sub": "Usted puede actuar desde afuera: localizarlo, meter a un abogado al caso y pelear la fianza antes de que lo trasladen lejos. En Faragalla Law nos movemos de inmediato en casos de detención — llame ahora, o envíe el formulario y nosotros seguimos.",
+  "bullets": [
+    "Localizamos a su familiar y entramos al caso rápido",
+    "Audiencias de fianza peleadas con un expediente completo",
+    "Usted puede contratarnos sin importar su propio estatus"
+  ],
+  "offer_name": "Respuesta de Detención",
+  "cta_label": "Obtener Ayuda para Mi Familiar Ya",
+  "cta_short": "Ayuda Ya",
+  "form_title": "Cuéntenos de Su Familiar Detenido",
+  "form_sub": "¿Es urgente? Llame ahora al número de arriba. Si no: envíe su nombre y lo que sepa — número A, centro de detención, cuándo se lo llevaron — y nos ponemos en marcha.",
+  "qualifiers": [
+    {
+      "name": "parentesco",
+      "label": "¿Quién está detenido?",
+      "options": ["Mi esposo(a) o pareja", "Mi padre, madre o hijo(a)", "Hermano(a) u otro familiar", "Un(a) amigo(a) o miembro de la comunidad", "Yo mismo(a) estoy en riesgo (cita con ICE / temor de arresto)"]
+    },
+    {
+      "name": "situacion",
+      "label": "¿Cómo está la situación?",
+      "options": ["Se lo acaban de llevar — en los últimos días", "Está en un centro de detención ahora", "Detenido y con fecha de corte próxima", "No sé dónde lo tienen", "No estoy seguro(a) — necesito ayuda para entender"]
+    }
+  ],
+  "problem_heading": "Los casos de detención los ganan las familias que se mueven la primera semana",
+  "problem_cards": [
+    {
+      "title": "Los traslados dispersan a la gente rápido",
+      "body": "A los detenidos los mueven — muchas veces en cuestión de días — a centros a cientos de millas, en otras cortes, más difíciles de visitar y de defender. Meter a un abogado al expediente (formulario G-28) y arrancar la solicitud de fianza antes del traslado es el paso más urgente que una familia puede dar."
+    },
+    {
+      "title": "La fianza se gana con un expediente, no con súplicas",
+      "body": "El juez pesa los lazos familiares, un domicilio estable, el historial de trabajo, las raíces en la comunidad, cualquier antecedente y si hay un patrocinador responsable. Las familias que llegan con cartas, comprobantes de domicilio y documentos ganan fianzas; las que llegan solo con angustia, normalmente no. Ese expediente lo armamos con usted en días."
+    },
+    {
+      "title": "El mayor daño se hace con una firma",
+      "body": "A los detenidos les ponen papeles enfrente — órdenes de salida estipulada, salidas voluntarias — que pueden renunciar al derecho de ver a un juez. Firmar para \"salir más rápido\" puede significar salir más rápido... del país, y para siempre. El mensaje que su familiar necesita hoy: no firme nada y diga que quiere hablar con un abogado."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Hecho para la familia que está afuera",
+      "body": "Usted es quien puede actuar. Trabajamos a través de usted: usted nos contrata, nosotros entramos al expediente ante el centro y la corte, y le informamos cada paso — en español."
+    },
+    {
+      "title": "De la localización a la libertad, un solo equipo",
+      "body": "Encontramos dónde lo tienen, entramos al caso, pedimos la audiencia de fianza, armamos el expediente de libertad y lo acompañamos ante el juez — y después seguimos defendiendo el caso."
+    },
+    {
+      "title": "La verdad, aun bajo presión",
+      "body": "Alguna detención es obligatoria por ley, y ningún abogado honesto le dirá lo contrario. En la primera revisión le decimos si la fianza es realista, qué se necesita y cuáles son las alternativas."
+    },
+    {
+      "title": "Tarifas fijas, por etapa",
+      "body": "La etapa de fianza se cotiza con una tarifa fija antes de empezar. La defensa que sigue se cotiza aparte — una familia en crisis nunca firma un cheque en blanco."
+    }
+  ],
+  "process": [
+    {
+      "title": "Localizar y entrar al caso",
+      "body": "Con el nombre, el país de nacimiento y de preferencia el número A, encontramos el centro, presentamos el G-28 y hacemos contacto — normalmente dentro de un día hábil."
+    },
+    {
+      "title": "Estrategia de fianza",
+      "body": "Analizamos la elegibilidad (incluyendo si algún antecedente activa detención obligatoria), definimos al patrocinador y armamos el expediente: cartas, domicilio, lazos, trabajo."
+    },
+    {
+      "title": "La audiencia de fianza",
+      "body": "Pedimos la audiencia más pronta posible, presentamos el expediente, preparamos al patrocinador y a su familiar para responder al juez, y peleamos por la fianza más baja realista."
+    },
+    {
+      "title": "Después de la libertad: el caso de verdad",
+      "body": "Salir es el comienzo, no el final — el caso de deportación sigue en corte. Revisamos cada defensa posible y seguimos peleando, con su familiar en casa mientras tanto."
+    }
+  ],
+  "fees_heading": "¿Cuánto cuesta un caso de detención?",
+  "fees_body": "La etapa de fianza — localizar, entrar al caso, armar el expediente y la audiencia — es una sola tarifa fija, cotizada en la primera llamada. La defensa que continúa después se cotiza aparte, por etapas. La fianza en sí la fija el juez (el mínimo legal es $1,500; es común que sea más alta) y se devuelve al final del caso si su familiar asiste a todas sus audiencias. Le detallamos todo para que la familia pueda planificar.",
+  "who_heading": "¿Esta página es para su situación?",
+  "who_for": [
+    "Se llevaron a su esposo(a), padre, madre, hijo(a) u otro ser querido",
+    "Alguien que usted quiere está en un centro de detención con audiencia próxima",
+    "No sabe dónde lo tienen — localizarlo es el primer paso",
+    "Lo acaban de trasladar y la familia perdió el rastro del caso",
+    "Tiene una cita de control con ICE y la familia quiere abogado listo antes"
+  ],
+  "who_not": [
+    "Si está preso por cargos penales (cárcel del condado, no ICE), primero manda el abogado penalista — pero llámenos de todas formas: puede venir una retención migratoria y el acuerdo penal importa muchísimo",
+    "Si ya fue deportado y está fuera del país, aplican otras herramientas (perdones, proceso consular) — lo orientamos a la vía correcta",
+    "Ningún abogado puede garantizar honestamente la libertad — quien se la garantice, le está vendiendo algo"
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo encuentro a alguien detenido por ICE?",
+      "a": "Use el Localizador de Detenidos de ICE en internet (locator.ice.gov): busque con el número A y el país de nacimiento, o con nombre, fecha de nacimiento y país. El número A — 9 dígitos que aparecen en cualquier papel de inmigración — es la llave de todo; busque documentos viejos. Las personas recién detenidas pueden tardar en aparecer, y a los detenidos los trasladan sin aviso. Si no lo encuentra, eso es exactamente lo primero que hacemos nosotros."
+    },
+    {
+      "q": "¿Puede salir bajo fianza?",
+      "a": "Muchos detenidos sí — el juez pesa los lazos familiares, el domicilio, el trabajo, las raíces y los antecedentes, y un buen expediente con patrocinador mueve todos esos factores a favor. Pero ciertos antecedentes penales activan detención obligatoria sin fianza, y quien fue detenido al entrar al país enfrenta un proceso distinto. En la primera revisión le decimos con franqueza en cuál categoría está su familiar."
+    },
+    {
+      "q": "¿Cuánto cuesta la fianza de inmigración y cómo se paga?",
+      "a": "El mínimo legal es $1,500; los jueces comúnmente fijan fianzas de varios miles de dólares según el caso. Se paga completa en una oficina de fianzas de ICE — y este es el detalle que toda familia debe planear: quien paga debe demostrar que está legalmente en EE. UU. Si usted no tiene estatus, prepare a un familiar o amigo que sí lo tenga. El dinero se devuelve al final del caso si su familiar asiste a todas sus audiencias."
+    },
+    {
+      "q": "¿Qué tan rápido puede haber una audiencia de fianza?",
+      "a": "La fianza se puede pedir en la primera audiencia o por escrito, y las cortes suelen programarla en días o pocas semanas — varía según la corte. Lo que la familia controla es estar lista: el patrocinador, el comprobante de domicilio y las cartas. Cuando el expediente está listo en el momento en que la corte lo está, no se pierde ni un día. Por eso lo empezamos a armar desde el primer día."
+    },
+    {
+      "q": "¿Debe firmar los papeles que le da ICE?",
+      "a": "No antes de que un abogado los lea. Las órdenes estipuladas y las salidas voluntarias pueden renunciar al derecho de ver a un juez — la gente firma creyendo que saldrá más rápido y lo que acelera es la deportación. Toda persona detenida tiene derecho a decir dos cosas: \"no quiero firmar\" y \"quiero hablar con un abogado\". Hágale llegar ese mensaje por teléfono lo antes posible."
+    },
+    {
+      "q": "Yo no tengo papeles. ¿Es seguro contratar abogado o visitar el centro?",
+      "a": "Contratar abogado es seguro — trabajamos para su familiar, no para el gobierno, y lo que usted nos cuente buscando ayuda legal es confidencial. Dos precauciones prácticas: quien pague la fianza debe tener estatus legal (planee quién será), y visitar un centro generalmente exige identificación — muchas familias mandan de visita a un pariente con papeles mientras usted sigue al frente de todo a través de nosotros."
+    }
+  ],
+  "service_name": "Representación de Detención y Fianzas Migratorias (Español)",
+  "testimonial_hint": "Reseñas textuales de Google en español — casos de detención/fianza",
+  "final_heading": "Que alguien pelee por su familiar desde hoy",
+  "final_sub": "Si es urgente, llame ahora. Si no: envíe lo que sepa — nombre, número A, centro — y empezamos a localizarlo y a mover la fianza.",
+  "site_overrides": {
+    "response_promise": "Un familiar detenido es motivo para llamar ya — los formularios se responden dentro de un día hábil, las llamadas primero"
+  }
+}

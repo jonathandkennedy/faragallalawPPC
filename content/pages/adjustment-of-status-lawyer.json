@@ -1,0 +1,128 @@
+{
+  "slug": "adjustment-of-status-lawyer",
+  "campaign": "Adjustment of Status (I-485)",
+  "priority": 12,
+  "meta_title": "Adjustment of Status Lawyer — I-485 Done Right | Faragalla Law",
+  "meta_description": "Filing the I-485? Adjustment of status is five filings moving together — and one gap stalls them all. Faragalla Law builds complete packages: eligibility, work permit, travel, interview. Request a review.",
+  "eyebrow": "Adjustment of Status Attorneys",
+  "h1": "Adjusting Status Inside the U.S.? File the Whole Package Right the First Time.",
+  "hero_sub": "The I-485 isn't one form — it's your eligibility analysis, work permit, travel document, financial sponsorship, and medical exam moving together. One gap stalls everything. Faragalla Law files complete packages built to pass in one round.",
+  "bullets": [
+    "Family, marriage, K-1, employment, and asylee-based adjustment",
+    "Work permit and travel document filed together with the I-485",
+    "Overstays, status gaps, and prior denials analyzed before filing"
+  ],
+  "offer_name": "Adjustment Case Review",
+  "cta_label": "Request My Adjustment Review",
+  "cta_short": "AOS Review",
+  "form_title": "Request Your Adjustment Case Review",
+  "form_sub": "Tell us your basis and how you entered. We'll flag any eligibility issues and reply with a filing plan.",
+  "qualifiers": [
+    {
+      "name": "basis",
+      "label": "Your basis for adjusting",
+      "options": ["Marriage or family petition", "Employment (I-140 approved or pending)", "K-1 — married, ready for the next stage", "Asylum granted a year ago or more", "Other / not sure — that's the question"]
+    },
+    {
+      "name": "entry",
+      "label": "How did you enter the U.S.?",
+      "options": ["With a visa — still in status", "With a visa — overstayed", "Visa Waiver / ESTA", "Entered without inspection", "Prefer to discuss"]
+    }
+  ],
+  "problem_heading": "Adjustment cases stall on details that were knowable before filing",
+  "problem_cards": [
+    {
+      "title": "Eligibility lives in your entry and status history",
+      "body": "Adjusting inside the U.S. generally requires a lawful entry, and — outside the immediate-relative rules — maintained status. Old overstays, unauthorized work, Visa Waiver entries, and prior filings each change the analysis. Twenty minutes of history review decides whether you can adjust here or must process abroad — where a wrong guess can trigger a 3- or 10-year bar."
+    },
+    {
+      "title": "It's five-plus filings moving as one",
+      "body": "The I-485 travels with the petition (I-130 or I-140), the work permit (I-765), the travel document (I-131), the financial sponsorship (I-864), and — under current rules — the medical exam (I-693), which must be submitted with the filing or risk rejection. A missing signature or an outdated fee on any one of them can bounce the entire package."
+    },
+    {
+      "title": "Mid-case moves are where approvals die",
+      "body": "Leave the country without advance parole and most pending adjustments are considered abandoned (H-1B and L-1 holders get a narrow exception). Change jobs too early in an employment case and portability rules decide your fate. The case has rules of the road for the entire year-plus it's pending — we brief you on all of them at filing."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Complete-package discipline",
+      "body": "Every filing cross-checked against every other — names, dates, addresses, histories — so your case reads as one consistent story and doesn't invite the RFE that adds months."
+    },
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Founding attorney Sam Faragalla trained at Fragomen, one of the world's largest corporate immigration firms, where adjustment packages are filed to compliance standards daily."
+    },
+    {
+      "title": "Eligibility answered before a dollar is spent",
+      "body": "If your entry or status history means consular processing, a waiver first, or waiting for a priority date, we tell you at the review — filing an adjustment you can't win only funds a denial."
+    },
+    {
+      "title": "Flat-fee clarity",
+      "body": "One flat fee for the full package — petition, I-485, work permit, travel document, interview prep — quoted before we start, with government fees itemized."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case review",
+      "body": "Submit the form. We review your basis, entry, and status history, then reply within one business day with our eligibility read and consultation options."
+    },
+    {
+      "title": "Strategy consultation",
+      "body": "We confirm adjustment vs. consular processing, check your priority date where one applies, resolve any history issues, and hand you a document checklist."
+    },
+    {
+      "title": "The complete package",
+      "body": "We prepare and file everything together — petition, I-485, I-765 work permit, I-131 travel document, I-864 sponsorship, and the I-693 medical coordinated with a civil surgeon."
+    },
+    {
+      "title": "Interview through green card",
+      "body": "We prepare you for the USCIS interview, respond to any RFE, keep you legal on work and travel throughout, and see the case to the green card in hand."
+    }
+  ],
+  "fees_heading": "What does an adjustment of status case cost?",
+  "fees_body": "Legal fees are flat and depend on the basis (family, employment, K-1 stage-two, asylee) and whether your history needs extra work — a waiver, a 245(i) analysis, or repair of a prior filing. USCIS fees for a typical adjustment package run well over a thousand dollars, plus the medical exam. We put the whole budget — legal and government — on one page at the consultation.",
+  "who_heading": "Does adjustment of status fit your case?",
+  "who_for": [
+    "You're in the U.S. and married to (or petitioned by) a U.S. citizen or resident",
+    "Your employer's I-140 is approved or ready and your priority date is current",
+    "You entered on a K-1, married within 90 days, and need the green card stage",
+    "You were granted asylum at least one year ago",
+    "You entered legally but overstayed — immediate relatives of citizens usually can still adjust"
+  ],
+  "who_not": [
+    "You're outside the U.S. — that's consular processing, which we also handle end to end",
+    "You entered without inspection and have no 245(i) or parole basis — the path likely runs through a waiver and a consulate; we'll map it honestly",
+    "Your priority date isn't current yet — filing now would be rejected; we'll calendar the moment it opens"
+  ],
+  "faq": [
+    {
+      "q": "What's the difference between adjustment of status and consular processing?",
+      "a": "Adjustment (I-485) gets you the green card without leaving the U.S. — you stay, and can get a work permit and travel document while it's pending. Consular processing finishes at a U.S. consulate abroad. Adjustment is usually preferable when you're eligible for it; the catch is that eligibility depends on how you entered and your status history, which is exactly what the review determines."
+    },
+    {
+      "q": "Who is eligible to adjust status inside the U.S.?",
+      "a": "The main groups: spouses, parents, and minor children of U.S. citizens who entered lawfully (even after an overstay); family- and employment-based applicants who maintained status with a current priority date; K-1 entrants who married their petitioner; asylees a year after grant; and some people grandfathered under old 245(i) rules despite entry problems. Each group has its own traps — the label matters less than your specific history."
+    },
+    {
+      "q": "Can I work and travel while my I-485 is pending?",
+      "a": "Yes — the package includes the I-765 work permit and I-131 travel document, typically arriving within a few months, and the work permit is valid for any employer. Critical warning: leaving the U.S. without advance parole abandons most pending adjustments (H-1B and L-1 holders traveling on valid visas are the main exception). We file everything together on day one so nothing waits in a second line."
+    },
+    {
+      "q": "I overstayed my visa. Can I still adjust?",
+      "a": "If you entered lawfully and you're the spouse, parent, or unmarried under-21 child of a U.S. citizen — usually yes: the overstay and even unauthorized work are forgiven for immediate relatives. Preference-category and employment applicants face stricter status rules. And if you entered without inspection, adjustment generally isn't available without a special basis — do not file anything before that analysis."
+    },
+    {
+      "q": "How long does adjustment of status take?",
+      "a": "Marriage and family cases at most field offices currently run roughly 9–16 months to the green card, with the work permit arriving well before. Employment cases depend on your priority date and service center. The bigger lever is avoiding the RFE: a complete, consistent package moves through in one pass; a patched one can drag past two years."
+    },
+    {
+      "q": "What happens at the adjustment interview — and will I even have one?",
+      "a": "Marriage cases almost always interview — both spouses, questions about the relationship, originals in hand. Employment and some family cases are increasingly waived into approval without one. If you're called in, preparation is straightforward: know your own file, bring what the notice lists, and stay consistent with everything previously filed — which is easy when the filing was built consistently to begin with."
+    }
+  ],
+  "service_name": "Adjustment of Status (I-485) Services",
+  "testimonial_hint": "Use verbatim Google reviews from green card / adjustment clients",
+  "final_heading": "File your adjustment once, completely, correctly",
+  "final_sub": "One form. One business day. Your eligibility read and the full filing plan."
+}

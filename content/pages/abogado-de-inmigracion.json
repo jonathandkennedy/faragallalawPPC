@@ -1,7 +1,7 @@
 {
   "slug": "abogado-de-inmigracion",
   "campaign": "Abogado de Inmigración — Nacional (Español)",
-  "priority": 17,
+  "priority": 19,
   "lang": "es",
   "meta_title": "Abogado de Inmigración | Faragalla Law",
   "meta_description": "Abogados de inmigración que atienden en español en todo Estados Unidos: residencias, peticiones familiares, ciudadanía, permisos de trabajo y defensa. Tarifas fijas y una respuesta honesta sobre su caso.",
@@ -22,12 +22,24 @@
     {
       "name": "asunto",
       "label": "¿En qué necesita ayuda?",
-      "options": ["Residencia por matrimonio o familia", "Arreglar papeles — no sé por dónde empezar", "Ciudadanía / naturalización", "Defensa de deportación / corte", "Visa o permiso de trabajo", "Otro asunto"]
+      "options": [
+        "Residencia por matrimonio o familia",
+        "Arreglar papeles — no sé por dónde empezar",
+        "Ciudadanía / naturalización",
+        "Defensa de deportación / corte",
+        "Visa o permiso de trabajo",
+        "Otro asunto"
+      ]
     },
     {
       "name": "urgencia",
       "label": "¿Qué tan urgente es?",
-      "options": ["Emergencia — cuestión de días", "Pronto — dentro de un mes", "Estoy planificando con tiempo", "Solo busco información"]
+      "options": [
+        "Emergencia — cuestión de días",
+        "Pronto — dentro de un mes",
+        "Estoy planificando con tiempo",
+        "Solo busco información"
+      ]
     }
   ],
   "problem_heading": "Los problemas migratorios se vuelven más caros cuanto más se esperan",

@@ -1,7 +1,7 @@
 {
   "slug": "abogado-de-ciudadania",
   "campaign": "Ciudadanía / Naturalización (Español)",
-  "priority": 21,
+  "priority": 24,
   "lang": "es",
   "meta_title": "Abogado de Ciudadanía Americana | Faragalla Law",
   "meta_description": "¿Listo(a) para la ciudadanía americana — o con algo en su historial que le preocupa? Preparamos su N-400, lo preparamos para el examen y resolvemos los problemas antes de presentar. En español.",
@@ -22,12 +22,25 @@
     {
       "name": "situacion",
       "label": "Su situación",
-      "options": ["5+ años con residencia — listo(a) para aplicar", "Residencia por matrimonio — regla de 3 años", "Algo en mi historial me preocupa", "Me negaron el N-400", "Ayudo a un familiar con su proceso"]
+      "options": [
+        "5+ años con residencia — listo(a) para aplicar",
+        "Residencia por matrimonio — regla de 3 años",
+        "Algo en mi historial me preocupa",
+        "Me negaron el N-400",
+        "Ayudo a un familiar con su proceso"
+      ]
     },
     {
       "name": "detalle",
       "label": "¿Alguno de estos aplica?",
-      "options": ["Ninguno — historial limpio", "Viajes fuera de EE. UU. de más de 6 meses", "Taxes o manutención de hijos pendientes", "Arresto o cargo (aunque fuera desestimado)", "El inglés me preocupa", "Prefiero hablarlo en privado"]
+      "options": [
+        "Ninguno — historial limpio",
+        "Viajes fuera de EE. UU. de más de 6 meses",
+        "Taxes o manutención de hijos pendientes",
+        "Arresto o cargo (aunque fuera desestimado)",
+        "El inglés me preocupa",
+        "Prefiero hablarlo en privado"
+      ]
     }
   ],
   "problem_heading": "El N-400 parece un formulario — en realidad es una revisión de toda su vida migratoria",

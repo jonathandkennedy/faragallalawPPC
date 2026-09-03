@@ -1,7 +1,7 @@
 {
   "slug": "residencia-por-matrimonio",
   "campaign": "Residencia por Matrimonio (Español)",
-  "priority": 19,
+  "priority": 21,
   "lang": "es",
   "meta_title": "Residencia por Matrimonio — Abogados | Faragalla Law",
   "meta_description": "¿Casado(a) con ciudadano(a) o residente? Prepare su residencia por matrimonio bien desde la primera vez: la vía correcta, la evidencia y la entrevista. Atención en español.",
@@ -22,12 +22,24 @@
     {
       "name": "situacion",
       "label": "Su situación",
-      "options": ["Mi esposo(a) es ciudadano(a) — ambos en EE. UU.", "Mi esposo(a) es residente permanente", "Mi esposo(a) está en otro país", "Estamos comprometidos, aún no casados", "Caso negado o historial complicado"]
+      "options": [
+        "Mi esposo(a) es ciudadano(a) — ambos en EE. UU.",
+        "Mi esposo(a) es residente permanente",
+        "Mi esposo(a) está en otro país",
+        "Estamos comprometidos, aún no casados",
+        "Caso negado o historial complicado"
+      ]
     },
     {
       "name": "entrada",
       "label": "¿Cómo entró a EE. UU. el (la) esposo(a) inmigrante?",
-      "options": ["Con visa (aunque ya venció)", "Con permiso / parole", "Sin inspección", "Está fuera de EE. UU.", "Prefiero hablarlo en privado"]
+      "options": [
+        "Con visa (aunque ya venció)",
+        "Con permiso / parole",
+        "Sin inspección",
+        "Está fuera de EE. UU.",
+        "Prefiero hablarlo en privado"
+      ]
     }
   ],
   "problem_heading": "Los casos de matrimonio se aprueban con evidencia — y se caen por errores evitables",

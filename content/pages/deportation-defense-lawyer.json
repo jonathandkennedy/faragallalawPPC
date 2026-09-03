@@ -1,7 +1,7 @@
 {
   "slug": "deportation-defense-lawyer",
   "campaign": "Deportation / Removal Defense",
-  "priority": 13,
+  "priority": 14,
   "meta_title": "Deportation Defense Lawyer | Faragalla Law",
   "meta_description": "In removal proceedings, detained, or living with an old order? Faragalla Law builds deportation defenses — relief eligibility, bond, and motions to reopen. Urgent cases: call now.",
   "eyebrow": "Deportation & Removal Defense Attorneys",
@@ -21,12 +21,24 @@
     {
       "name": "situation",
       "label": "What's the situation?",
-      "options": ["I received a Notice to Appear (NTA)", "A family member is detained", "I have a court date coming up", "I missed a hearing / have an old removal order", "ICE check-in coming up", "Something else urgent"]
+      "options": [
+        "I received a Notice to Appear (NTA)",
+        "A family member is detained",
+        "I have a court date coming up",
+        "I missed a hearing / have an old removal order",
+        "ICE check-in coming up",
+        "Something else urgent"
+      ]
     },
     {
       "name": "timing",
       "label": "When is the next date or deadline?",
-      "options": ["Within 2 weeks — urgent", "2–8 weeks", "More than 2 months out", "No date yet / not sure"]
+      "options": [
+        "Within 2 weeks — urgent",
+        "2–8 weeks",
+        "More than 2 months out",
+        "No date yet / not sure"
+      ]
     }
   ],
   "problem_heading": "Removal cases are lost by default more often than on the merits",
