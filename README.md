@@ -114,8 +114,13 @@ campaign_page, form_location).
   the page name in the subject and the gclid/utm fields in the body.
 - [x] ~~Phone number~~ — **SET (2026-08-21): (866) 655-3729 on every page**
   (header, hero, final CTA, sticky bar, footer, thank-you pages, and
-  LegalService schema). Optional later: CallRail pool for keyword-level call
-  attribution (see STRATEGY.md).
+  LegalService schema).
+- [x] ~~Call tracking~~ — **SET (2026-09-03): CallRail swap.js (company
+  854671427) on every page before `</body>`** (`site.json →
+  callrail_swap_url`). Verify in CallRail: the swap target matches
+  (866) 655-3729, the pool is sized for the traffic, and Google Ads
+  integration is on for keyword-level call attribution. Test after deploy:
+  visit a page with `?gclid=test` and confirm the displayed number swaps.
 - [ ] Custom domain + HTTPS live; `curl -I` each page returns 200.
 - [ ] Real-device pass: iPhone Safari + Android Chrome — sticky bar doesn't
   cover the form's submit button, tel: links dial, forms submit.

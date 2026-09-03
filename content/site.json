@@ -5,7 +5,7 @@
   "main_site_url": "https://faragallalaw.com",
   "phone_display": "(866) 655-3729",
   "phone_tel": "+18666553729",
-  "phone_note": "SET 2026-08-21 per client: (866) 655-3729 on all pages.",
+  "phone_note": "SET 2026-08-21 per client: (866) 655-3729 on all pages. 2026-09-03: CallRail swap.js added — this number is the swap target CallRail replaces with per-session tracking numbers.",
   "attorney": {
     "name": "Sam Faragalla",
     "title": "Founder & Lead Immigration Attorney",
@@ -58,5 +58,7 @@
   "testimonial_placeholder_lines": [
     "[PASTE VERBATIM GOOGLE REVIEW — pick one about this visa type. See README launch checklist.]",
     "[PASTE VERBATIM GOOGLE REVIEW — second review for this practice area.]"
-  ]
+  ],
+  "callrail_swap_url": "https://cdn.calltrk.com/companies/854671427/7797451931b808e7df78/12/swap.js",
+  "callrail_note": "SET 2026-09-03 per client: CallRail swap.js (company 854671427), rendered before </body> on every page. Stored with explicit https: (CallRail issues it protocol-relative; identical on the live site, and this way it also works in local previews). VERIFY in CallRail that the swap target matches the displayed number (866) 655-3729 so DNI fires, and that the pool covers Google Ads keyword-level attribution."
 }

@@ -600,6 +600,13 @@ def render_jsonld(site, page, canonical):
     )
 
 
+def callrail_script(site):
+    """CallRail dynamic number insertion (swap.js) — placed before </body>.
+    Swaps the displayed phone number for per-session tracking numbers."""
+    url = site.get("callrail_swap_url", "")
+    return f'<script type="text/javascript" src="{url}"></script>' if url else ""
+
+
 def gtm_noscript(site):
     """GTM <noscript> iframe — rendered right after <body> when a container is set."""
     if not site.get("gtm_id"):
@@ -660,6 +667,7 @@ def render_page(site_base, page):
   </main>
   {render_footer(site, ui)}
   {render_stickybar(site, page, ui)}
+  {callrail_script(site)}
 </body>
 </html>
 """
@@ -721,6 +729,7 @@ def render_thank_you(site, ty, lang):
     <p class="lp-form__microcopy">{e(site['form_microcopy_privacy'])}</p>
   </main>
   {render_footer(site, {**UI_EN} if lang == 'en' else {**UI_EN, 'privacy_policy': 'Política de Privacidad', 'main_site': 'Sitio web principal'})}
+  {callrail_script(site)}
 </body>
 </html>
 """
@@ -769,6 +778,7 @@ def render_index(site, pages):
     </div>
   </main>
   {render_footer(site, UI_EN)}
+  {callrail_script(site)}
 </body>
 </html>
 """
