@@ -77,8 +77,11 @@ campaign_page, form_location).
   practice area. Edit `testimonial_placeholder_lines` handling per page or the
   quotes in `build.py::render_testimonials`. Fabricated/paraphrased reviews
   violate bar advertising rules.
-- [ ] **Attorney photo**: add a real professional headshot (no AI images) and
-  swap the placeholder block in `build.py::render_attorney`.
+- [x] ~~Attorney photo~~ — **SET (2026-09-03): client-supplied headshot,
+  background removed, at `assets/img/sam-faragalla.webp`** (37KB WebP with
+  alpha, localized alt text, lazy-loaded). Rendered on all 26 pages on a
+  brand-navy panel. Remaining sanity check: confirm with the firm this is
+  Sam Faragalla's actual likeness (no AI/stock imagery on a law firm page).
 - [ ] **Consultation offer** (`site.json → consultation.line`): state plainly
   whether the consultation is free or paid, its length, and what it includes.
 - [ ] **Verify all claims** with the firm: 27+ years / 2,000+ cases / 4.8

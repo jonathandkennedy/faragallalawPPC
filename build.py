@@ -483,13 +483,21 @@ def render_testimonials(site, page, ui):
   </section>"""
 
 
+ATTORNEY_PHOTO = "img/sam-faragalla.webp"  # relative to assets/; placeholder renders if absent
+
+
 def render_attorney(site, ui):
     a = site["attorney"]
+    photo_file = ROOT / "assets" / ATTORNEY_PHOTO
+    if photo_file.exists():
+        photo = (f'<div class="attorney__photo attorney__photo--real">'
+                 f'<img src="/assets/{ATTORNEY_PHOTO}" alt="{e(a["name"])} — {e(a["title"])}" '
+                 f'width="412" height="598" loading="lazy" decoding="async"></div>')
+    else:
+        photo = f'<div class="attorney__photo"><span>{ui["photo_placeholder"]}</span></div>'
     return f"""<section class="section">
     <div class="container attorney">
-      <div class="attorney__photo">
-        <span>{ui['photo_placeholder']}</span>
-      </div>
+      {photo}
       <div>
         <p class="section__kicker">{e(ui['k_attorney'])}</p>
         <h3>{e(a['name'])}</h3>
