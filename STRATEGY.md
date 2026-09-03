@@ -33,6 +33,12 @@ story, and use volume clusters (family, local, citizenship) to fill capacity.
 | 14 | `/h1b-visa-lawyer/` | H-1B | h1b visa attorney fee 4,400 @ $9.36 (+ employer-side demand) | Medium | US national |
 | 15 | `/deportation-defense-lawyer/` | Removal defense | deportation lawyer 1,300 @ $13.07 · deportation defense attorney 880 @ $11.53 | Medium | US national |
 | 16 | `/abogado-de-inmigracion-houston/` | Houston Spanish | abogado de inmigracion houston 720 @ **$30.73** (comp 0.88) · abogado de inmigracion cerca de mi 3,600 @ $20.61 | Mixed | Houston DMA (ES) |
+| 17 | `/abogado-de-inmigracion/` | Spanish national anchor | abogado de inmigración **18,100/mo @ $31.67** (comp 0.77) · abogado en español 1,000 @ $44.55 | Mixed | US national (ES) |
+| 18 | `/abogado-para-arreglar-papeles/` | Arreglar papeles | abogado para arreglar papeles 90 @ $22.78 · cuánto cobra… variants · "puedo arreglar papeles si…" long tail (DUI 280, salida voluntaria 880, orden 60) | Medium | US national (ES) |
+| 19 | `/residencia-por-matrimonio/` | Marriage GC Spanish | residencia por matrimonio cluster ~1,200/mo · qué pasa si me niegan… 320 · arreglar papeles por matrimonio 30 @ $11.71 | Medium | US national (ES) |
+| 20 | `/abogado-de-deportacion/` | Removal defense Spanish | abogado(s) de deportacion 180 @ $16–26 | Medium | US national (ES) |
+| 21 | `/abogado-de-ciudadania/` | Citizenship Spanish | abogado de ciudadania 50 @ **$87.41** · ciudadania estadounidense 210 @ $15.54 · exam-prep tail ~14,000/mo (cheap, top-funnel) | Low-medium | US national (ES) |
+| 22 | `/visa-e2-para-mexicanos/` | E-2 Mexico | visa e2 480 @ $2.70 (MX) · visa e2 para mexicanos 90 @ $3.54 (MX) · visa e2 requisitos 70 (MX) | Very high | **Mexico** (ES) |
 | 23 | `/adjustment-of-status-lawyer/` | Adjustment of status | adjustment of status lawyer/attorney 640 @ $13.18 · i-485 lawyer 90 @ $16.80 · research tail ~1,900/mo (cheap) | Medium | US national |
 | 24 | `/immigration-detention-lawyer/` | Detention & bond (family) | **ice detainee locator 135,000/mo @ $6.14 (KD 14)** · immigration detention center 9,900 · immigration bond lawyer 390 @ $13.77 | Medium-high, urgent | US national |
 | 25 | `/familiar-detenido-por-inmigracion/` | Detención (Español, family) | localizador de detenidos ice 2,900 @ **$16.43** · detenido por inmigracion 1,000 @ $11.67 · localizador de detenidos 720 | Medium-high, urgent | US national (ES) |
@@ -61,12 +67,6 @@ enforcement environment. How to run it:
 - Also surfaced: `ajuste de estatus` 1,000/mo @ $5.69 (ES) — route it to
   `/abogado-para-arreglar-papeles/` or `/residencia-por-matrimonio/` ad
   groups; a dedicated ES AOS page is a future option.
-| 17 | `/abogado-de-inmigracion/` | Spanish national anchor | abogado de inmigración **18,100/mo @ $31.67** (comp 0.77) · abogado en español 1,000 @ $44.55 | Mixed | US national (ES) |
-| 18 | `/abogado-para-arreglar-papeles/` | Arreglar papeles | abogado para arreglar papeles 90 @ $22.78 · cuánto cobra… variants · "puedo arreglar papeles si…" long tail (DUI 280, salida voluntaria 880, orden 60) | Medium | US national (ES) |
-| 19 | `/residencia-por-matrimonio/` | Marriage GC Spanish | residencia por matrimonio cluster ~1,200/mo · qué pasa si me niegan… 320 · arreglar papeles por matrimonio 30 @ $11.71 | Medium | US national (ES) |
-| 20 | `/abogado-de-deportacion/` | Removal defense Spanish | abogado(s) de deportacion 180 @ $16–26 | Medium | US national (ES) |
-| 21 | `/abogado-de-ciudadania/` | Citizenship Spanish | abogado de ciudadania 50 @ **$87.41** · ciudadania estadounidense 210 @ $15.54 · exam-prep tail ~14,000/mo (cheap, top-funnel) | Low-medium | US national (ES) |
-| 22 | `/visa-e2-para-mexicanos/` | E-2 Mexico | visa e2 480 @ $2.70 (MX) · visa e2 para mexicanos 90 @ $3.54 (MX) · visa e2 requisitos 70 (MX) | Very high | **Mexico** (ES) |
 
 ## The Spanish market (pages 16–22)
 
