@@ -1,0 +1,141 @@
+{
+  "slug": "ice-detention-lawyer-texas",
+  "campaign": "ICE Detention — Texas",
+  "priority": 27,
+  "section": "Texas landers — detention & removal",
+  "meta_title": "ICE Detention Lawyers in Texas — Bond & Release | Faragalla Law",
+  "meta_description": "Is a loved one in ICE detention in Texas? We locate them, get on record fast, and fight the bond hearing with a full evidence package. You can hire us from outside, whatever your own status. Call now.",
+  "eyebrow": "ICE Detention & Bond Attorneys — Texas",
+  "h1": "ICE Detention Lawyers in Texas: Get Your Loved One Released on Bond",
+  "hero_sub": "Is a loved one locked up by ICE? The first days decide the most.",
+  "bullets": [
+    "We locate detainees in Texas facilities and get on record fast",
+    "Bond hearings argued with a full evidence package — not a plea",
+    "You can hire us for them regardless of your own status"
+  ],
+  "offer_name": "Detention Response",
+  "cta_label": "Get Help for My Loved One Now",
+  "cta_short": "Get Help Now",
+  "form_title": "Tell Us Who's Detained. An Immigration Detention Attorney Will Call You Back",
+  "form_sub": "Urgent? Call the number above right now. Otherwise: their name and anything you know — A-number, facility, when they were picked up — and we'll move.",
+  "form_title_bottom": "Tell Us About Your Detained Loved One",
+  "qualifiers": [
+    {
+      "name": "relationship",
+      "label": "Who is detained?",
+      "options": ["My spouse or partner", "My parent or my child", "Sibling or other family member", "A friend or community member", "I'm at risk myself (check-in / fear of arrest)"]
+    },
+    {
+      "name": "situation",
+      "label": "Where do things stand?",
+      "options": ["Just picked up — within the last few days", "In a Texas detention facility now", "Detained with a court date coming", "I can't find where they're being held", "They were transferred to Texas from another state", "Not sure — need help figuring it out"]
+    }
+  ],
+  "problem_heading": "Families Who Act in the First Week Win ICE Detention Cases",
+  "problem_cards": [
+    {
+      "title": "Find an ICE Detainee Before They're Transferred",
+      "body": "Texas holds more people in ICE custody than any other state, and detainees are moved constantly — between Texas facilities and into Texas from across the country, often within days and without notice. Every transfer can mean a new court, a longer drive, and lost time. Locating your loved one and getting a lawyer on record (Form G-28) before the next transfer is the single most time-sensitive move a family can make."
+    },
+    {
+      "title": "Immigration Bond Is Won With Evidence, Not a Plea",
+      "body": "The judge weighs family ties, a stable address, work history, community roots, any record, and whether a sponsor will take responsibility. Families who show up with sponsor letters, proof of address, and documents win bonds; families who show up with only love and worry usually don't. We build that evidence package with you in days, so it's ready the moment the court is."
+    },
+    {
+      "title": "Don't Let Them Sign Anything in ICE Detention",
+      "body": "Detained people are handed papers — stipulated removal orders, voluntary departure agreements — that can waive the right to ever see a judge. Signing to \"get out faster\" can mean leaving faster, permanently. The message to get to your loved one today, in any facility: sign nothing, and say you want to speak with a lawyer."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Built for the Family on the Outside",
+      "body": "You're the one who can act. We work through you: you hire us — from anywhere in Texas or out of state — we get on record with the facility and the court, and we keep you informed at every step, in English or Spanish."
+    },
+    {
+      "title": "From Locating Them to Release, One Team",
+      "body": "We find which Texas facility is holding them, enter appearance, request the bond hearing, build the release package, and stand next to them before the judge — then keep defending the removal case after they're out."
+    },
+    {
+      "title": "Straight Answers Under Pressure",
+      "body": "Some detention is mandatory by law, and no honest lawyer pretends otherwise. We tell you within the first review whether bond is realistic for your loved one, what it will take, and what the alternatives are."
+    },
+    {
+      "title": "Flat Fees for Each Stage",
+      "body": "The bond stage is quoted as one flat fee before we start. The removal defense that follows is quoted separately — so a family in crisis is never signing a blank check."
+    }
+  ],
+  "process": [
+    {
+      "title": "Step 1: Locate Them and Get on Record (G-28)",
+      "body": "With a name, country of birth, and ideally the A-number, we find the facility — Texas has dozens, from Conroe and Pearsall to Anson, Alvarado, Laredo, and Port Isabel — file the G-28 attorney appearance, and make contact, usually within a business day."
+    },
+    {
+      "title": "Step 2: Build the Immigration Bond Case",
+      "body": "We analyze eligibility (including whether any record triggers mandatory detention), identify the sponsor, and assemble the evidence: support letters, proof of address, family ties, employment, community roots."
+    },
+    {
+      "title": "Step 3: Win the Bond Hearing",
+      "body": "We request the earliest possible hearing, present the package, prepare the sponsor and your loved one to answer the judge, and argue for release at the lowest realistic bond."
+    },
+    {
+      "title": "Step 4: Fight the Removal Case After Release",
+      "body": "Release is the beginning, not the end — the removal case continues in immigration court. We screen every form of relief and keep defending, with your family member home while we fight."
+    }
+  ],
+  "fees_heading": "What Does an ICE Detention Lawyer Cost?",
+  "fees_body": "The bond stage — locating your loved one, entering appearance, building the evidence package, and the hearing — is one flat fee, quoted on the first call. The removal defense that continues after release is quoted separately by stage. The bond itself is set by the judge (the legal minimum is $1,500; grants commonly run higher) and is refunded at the end of the case when your loved one attends every hearing. We itemize all of it so a family in crisis can plan.",
+  "who_heading": "Is This the Right Help for Someone Detained by ICE?",
+  "who_for": [
+    "Your spouse, parent, child, or other loved one was picked up by ICE in Texas",
+    "Someone you love is being held in a Texas detention facility — Montgomery (Conroe), South Texas (Pearsall), Bluebonnet (Anson), Prairieland (Alvarado), Port Isabel, Karnes, Laredo, or anywhere else",
+    "They were transferred into Texas from another state and the family lost track of the case",
+    "You don't know where they're being held — locating them is step one",
+    "They have an ICE check-in coming and the family wants counsel ready first"
+  ],
+  "who_not": [
+    "If they're in criminal custody (county jail on charges, not an ICE hold), a criminal defense lawyer leads first — but call us anyway: an immigration hold may follow and the plea deal matters enormously",
+    "If they were already deported and are outside the U.S., different tools apply (waivers, consular processing) — we'll point you to the right path",
+    "No lawyer can honestly guarantee release — anyone who does is selling you something"
+  ],
+  "ui": {
+    "fit_yes": "This Is Likely a Fit If…",
+    "fit_no": "It's Probably Not the Right Fit If…",
+    "why_h2": "ICE Detention Attorneys Who Build the Case Before the Bond Hearing",
+    "process_h2": "How We Get Someone Released From ICE Detention",
+    "reviews_h2": "What Families Say",
+    "faq_h2": "ICE Detention & Immigration Bond Questions We Answer Every Week"
+  },
+  "faq": [
+    {
+      "q": "How do I find someone in ICE detention in Texas?",
+      "a": "Use ICE's Online Detainee Locator (locator.ice.gov): search by A-number and country of birth, or by name, date of birth, and country. The A-number — 9 digits on any immigration paperwork — is the key, so look for old documents. Two Texas realities: people booked in the last day or two may not appear yet, and detainees are transferred between facilities — and into Texas from other states — without notice, so a location can go stale overnight. If you can't find them, that's exactly the first thing we do."
+    },
+    {
+      "q": "Can my loved one get out on bond?",
+      "a": "Many detainees can — an immigration judge weighs family ties, a stable address, work history, community roots, and any record, and a strong sponsor package moves every one of those factors. But certain criminal history triggers mandatory detention with no bond, and people stopped at the border face a different process. We analyze which category applies in the first review and tell you straight."
+    },
+    {
+      "q": "How much is immigration bond, and how is it paid?",
+      "a": "The legal minimum is $1,500; judges commonly set bonds in the several-thousand range or higher depending on the case. It's paid in full at an ICE bond office — and here's the detail families must plan for: the person who pays must show they're lawfully present in the U.S. If you don't have status yourself, line up a relative or friend who does. The money is refunded at the end of the case as long as your loved one attends every hearing."
+    },
+    {
+      "q": "How fast can a bond hearing happen in Texas?",
+      "a": "A bond request can be made at the first hearing or by written motion, and courts often schedule bond hearings within days to a few weeks — the wait varies by court, and Texas's detained dockets move fast. What the family controls is readiness: the sponsor, the address proof, and the letters. When the package is ready the moment the court is, no time is wasted. That's why we start building it on day one."
+    },
+    {
+      "q": "Should they sign anything ICE gives them?",
+      "a": "Not before a lawyer reads it. Stipulated removal orders and voluntary departure papers can waive the right to see a judge at all — people sign thinking it speeds up release and instead it speeds up removal. Everyone in detention has the right to say two things: \"I do not want to sign\" and \"I want to speak with a lawyer.\" Get that message to your loved one through the facility phone as soon as you can."
+    },
+    {
+      "q": "We don't live in Texas — our loved one was transferred there. Can you still help?",
+      "a": "Yes. Immigration law is federal, so we can represent detainees held in Texas facilities and appear in the courts that serve them regardless of where the family lives — many detained hearings are also conducted by video. Families work with us by phone, in English or Spanish, from anywhere. What we need from you is what you know: name, A-number if you have it, and where they were picked up."
+    }
+  ],
+  "service_name": "ICE Detention & Immigration Bond Representation — Texas",
+  "testimonial_hint": "Use verbatim Google reviews from detention/bond clients (the firm has detention defense reviews)",
+  "final_heading": "Get an Immigration Detention Lawyer Working on This Today",
+  "final_sub": "Call now if it's urgent. Otherwise send what you know — name, A-number, facility — and we'll start locating and moving on bond.",
+  "site_overrides": {
+    "response_promise": "A loved one in detention is a call-now situation — forms are answered within one business day, calls come first"
+  }
+}

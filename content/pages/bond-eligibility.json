@@ -1,0 +1,62 @@
+{
+  "slug": "bond-eligibility",
+  "campaign": "Sitelink — Bond Eligibility",
+  "priority": 32,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "meta_title": "Check Immigration Bond Eligibility | Faragalla Law",
+  "meta_description": "Can your loved one get out of ICE detention on bond? Tell us the situation and an attorney will give you a straight eligibility read — fast. Urgent cases: call now.",
+  "eyebrow": "Immigration Bond Eligibility",
+  "h1": "Find Out If Your Loved One Qualifies for Immigration Bond",
+  "hero_sub": "Many detainees can be released on bond — but some detention is mandatory by law, and no honest lawyer pretends otherwise. Tell us the situation and we'll give you a straight answer on eligibility and what a winning bond case takes.",
+  "bullets": [
+    "Straight eligibility read, including mandatory-detention analysis",
+    "Flat fee for the bond stage, quoted before we start",
+    "We can locate them first if you don't know where they're held"
+  ],
+  "offer_name": "Bond Eligibility Check",
+  "cta_label": "Check Bond Eligibility Now",
+  "cta_short": "Check Eligibility",
+  "form_title": "Tell Us About the Person Detained",
+  "form_sub": "Urgent? Call the number above. Otherwise: their name and anything you know — A-number, facility, any criminal history — and we'll respond fast.",
+  "qualifiers": [
+    {
+      "name": "situation",
+      "label": "Where do things stand?",
+      "options": [
+        "In a detention facility now",
+        "Just picked up — within the last few days",
+        "Detained with a court date coming",
+        "I can't find where they're being held",
+        "Not sure — need help figuring it out"
+      ]
+    },
+    {
+      "name": "record",
+      "label": "Any criminal history?",
+      "options": [
+        "No criminal history",
+        "Old or minor record",
+        "Pending criminal case",
+        "Prior conviction — not sure of details",
+        "Not sure"
+      ]
+    }
+  ],
+  "problem_heading": "What the judge weighs at a bond hearing",
+  "problem_cards": [
+    {
+      "title": "Ties, stability, and a sponsor",
+      "body": "The judge weighs family ties, a stable address, work history, community roots, and whether a sponsor with lawful status will take responsibility. A documented package — letters, proof of address, employment — moves every one of those factors in your loved one's favor."
+    },
+    {
+      "title": "The record decides the category",
+      "body": "Certain criminal history triggers mandatory detention with no bond at all, and people stopped at the border face a different process. This is the first thing we analyze — so the family knows within the first review whether bond is realistic or the fight is a different one."
+    },
+    {
+      "title": "The bond itself: $1,500 minimum, refunded at the end",
+      "body": "The legal minimum is $1,500; judges commonly set more depending on the case. It's paid in full at an ICE bond office by someone who can show lawful presence, and refunded at the end of the case when your loved one attends every hearing."
+    }
+  ],
+  "service_name": "Immigration Bond Eligibility Assessment"
+}

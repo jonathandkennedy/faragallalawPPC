@@ -43,6 +43,17 @@ story, and use volume clusters (family, local, citizenship) to fill capacity.
 | 24 | `/immigration-detention-lawyer/` | Detention & bond (family) | **ice detainee locator 135,000/mo @ $6.14 (KD 14)** · immigration detention center 9,900 · immigration bond lawyer 390 @ $13.77 | Medium-high, urgent | US national |
 | 25 | `/familiar-detenido-por-inmigracion/` | Detención (Español, family) | localizador de detenidos ice 2,900 @ **$16.43** · detenido por inmigracion 1,000 @ $11.67 · localizador de detenidos 720 | Medium-high, urgent | US national (ES) |
 | 26 | `/ajuste-de-estatus/` | Ajuste de estatus (Español) | ajuste de estatus 1,000 @ $5.69 · ajuste de estatus por matrimonio 260 @ $4.80 | Medium | US national (ES) |
+| 27 | `/ice-detention-lawyer-texas/` | ICE detention — Texas (geo lander) | Texas slice of the detention cluster (TX holds more ICE detainees than any state); ice detention lawyer + facility/bond terms, geo-modified | Medium-high, urgent | **Texas** |
+| 28 | `/texas-deportation-defense-lawyer/` | Deportation defense — Texas (geo lander) | texas deportation lawyer / deportation lawyer houston-dallas-san antonio-el paso tail; TX courts run the busiest dockets | Medium | **Texas** |
+| 29–34 | six `/…/` sitelink pages | Conversion sitelinks (see below) | Not bid on directly — they receive sitelink clicks from all campaigns | — | Inherit campaign geo |
+
+### Texas landers (pages 27–28)
+
+Client-supplied heading structures, implemented verbatim. These are **geo
+variants** of the national detention (24) and deportation (14) pages: run them
+in Texas-geo campaigns so ad → H1 message match is exact ("in Texas" in the
+headline), and keep the national pages for everywhere else. Don't run both
+into the same Texas auction — split by location targeting.
 
 ### The detention finding (Sept 2026 data)
 
@@ -166,8 +177,37 @@ Campaign: NIW-US
   - Desc: "Buying or starting a U.S. business? Get your investment, ownership and source of funds assessed before you file. Request an E-2 eligibility review."
   - Never use: "guaranteed", "approval", "98% success" (bar-rule risk; the
     landing pages deliberately avoid outcome promises — ads must match).
-- Assets: sitelinks → page anchor sections (#lead-form, FAQ), call asset with
-  tracked number, structured snippets (Services: E-2, TN, L-1…).
+- Assets: sitelinks → the dedicated conversion pages below (Google requires
+  distinct final URLs per sitelink — anchors on the same URL get disapproved),
+  call asset with tracked number, structured snippets (Services: E-2, TN, L-1…).
+
+## Sitelink conversion pages (29–34)
+
+Six slim, form-first pages built exclusively to serve as **sitelink assets**
+across all campaigns. Each has a distinct URL (Google's requirement), loads the
+form immediately below one screen of pitch, and carries the full tracking
+stack (GTM, Formspree with page name, CallRail, attribution fields). Don't bid
+keywords on these; attach them at account or campaign level.
+
+| Sitelink text (≤25 chars) | Final URL | Description lines (≤35 chars each) | Attach to |
+|---|---|---|---|
+| Case Review | `/case-review/` | "One business day response" / "Flat-fee quote before you commit" | All EN campaigns |
+| Speak to a Lawyer | `/speak-to-a-lawyer/` | "Call now or get a callback" / "English and Spanish" | All EN campaigns |
+| Se Habla Español | `/se-habla-espanol/` | "Todo su caso en español" / "Llame o pida una llamada" | All campaigns (EN + ES) |
+| Check Bond Eligibility | `/bond-eligibility/` | "Straight answer on bond" / "Flat fee for the bond stage" | Detention + deportation (14, 15, 23, 24, 27, 28) |
+| Find a Detainee | `/find-a-detainee/` | "Locator steps that work" / "Lawyer on record before transfer" | Detention campaigns + the 135k/mo locator campaign |
+| Our Flat Fees | `/fees/` | "No hourly billing" / "Know the cost before you start" | All campaigns |
+
+Notes:
+- "Case Review" — **not** "Free Case Review" — until the free-vs-paid
+  consultation question is settled (open launch item). If the firm confirms
+  free consultations, update the sitelink text, the page H1/offer, and
+  `site.json`'s consultation line together.
+- `/se-habla-espanol/` doubles as the language sitelink on English campaigns —
+  Spanish-speaking searchers often click English ads; give them a Spanish exit.
+- `/find-a-detainee/` is also a legitimate **landing page** for the helpful-first
+  ad group of the `ice detainee locator` (135k/mo) campaign — it leads with
+  locator instructions, which is what that searcher needs and what converts.
 
 ## Negative keywords (shared list, all campaigns)
 

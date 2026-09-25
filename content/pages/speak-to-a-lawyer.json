@@ -1,0 +1,42 @@
+{
+  "slug": "speak-to-a-lawyer",
+  "campaign": "Sitelink — Speak to a Lawyer",
+  "priority": 30,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "meta_title": "Speak to an Immigration Lawyer | Faragalla Law",
+  "meta_description": "Talk to an immigration attorney about your situation — in English or Spanish. Call now, or send the form and we'll call you back within one business day.",
+  "eyebrow": "Talk to an Attorney",
+  "h1": "Speak to an Immigration Lawyer About Your Situation",
+  "hero_sub": "The fastest way to get answers is a conversation. Call now — or send the form and an attorney's office will call you back. English and Spanish.",
+  "call_first": "Call (866) 655-3729 Now",
+  "offer_name": "Attorney Callback",
+  "cta_label": "Request My Callback",
+  "cta_short": "Get a Callback",
+  "form_title": "Prefer We Call You? Request a Callback",
+  "form_sub": "Leave your number and the best time to reach you. Detained and deadline situations jump the queue.",
+  "qualifiers": [
+    {
+      "name": "topic",
+      "label": "What do you want to talk about?",
+      "options": [
+        "A visa or green card case",
+        "Citizenship",
+        "Someone detained or in immigration court",
+        "A denial, RFE, or delay",
+        "Not sure — I just need direction"
+      ]
+    },
+    {
+      "name": "best_time",
+      "label": "Best time to call you",
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Any time — call as soon as you can"
+      ]
+    }
+  ],
+  "service_name": "Immigration Attorney Consultation"
+}

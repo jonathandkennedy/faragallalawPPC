@@ -1,0 +1,50 @@
+{
+  "slug": "find-a-detainee",
+  "campaign": "Sitelink — Find a Detainee",
+  "priority": 33,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "meta_title": "Find Someone in ICE Detention | Faragalla Law",
+  "meta_description": "Can't find a loved one detained by ICE? How the ICE detainee locator works, what to do if they're not listed — and how to get a lawyer on their case before a transfer.",
+  "eyebrow": "Locate a Detained Loved One",
+  "h1": "Find Someone in ICE Detention — and Get a Lawyer on Their Case",
+  "hero_sub": "Locating your loved one is step one. Getting an attorney on record before they're transferred is step two — and it's the one that changes the case. If you can't find them, that's exactly the first thing we do.",
+  "bullets": [
+    "We locate detainees and file the attorney appearance (G-28) fast",
+    "Then we move on bond — before a transfer scatters the case",
+    "You can hire us for them regardless of your own status"
+  ],
+  "offer_name": "Locate & Respond",
+  "cta_label": "Help Me Find My Loved One",
+  "cta_short": "Get Help Now",
+  "form_title": "Tell Us Who You're Looking For",
+  "form_sub": "Urgent? Call the number above. Otherwise: their name and anything you know — A-number, country of birth, where they were picked up — and we'll start looking.",
+  "qualifiers": [
+    {
+      "name": "info",
+      "label": "What do you have?",
+      "options": [
+        "Their A-number (9 digits from immigration paperwork)",
+        "Name, date of birth, and country of birth",
+        "Only their name and where they were picked up",
+        "Very little — it just happened"
+      ]
+    }
+  ],
+  "problem_heading": "How to search for an ICE detainee yourself",
+  "problem_cards": [
+    {
+      "title": "1. Try the ICE Online Detainee Locator",
+      "body": "Go to locator.ice.gov and search by A-number and country of birth — or by name, date of birth, and country. The A-number is 9 digits printed on almost any immigration paperwork (old notices, work permits, prior applications), and it's the key that unlocks everything. Names must match booking records exactly, so try spelling variations."
+    },
+    {
+      "title": "2. If they're not listed, don't assume the worst",
+      "body": "People booked in the last day or two often don't appear yet, transfers between facilities happen without notice, and some local holds precede ICE custody entirely. Check again after a few hours, try the name variations — and note when and where they were picked up, because that's what a lawyer uses to track them down."
+    },
+    {
+      "title": "3. Get an attorney on record before the transfer",
+      "body": "Once located, the clock matters: detainees are routinely moved to facilities hundreds of miles away, in different courts, harder to visit and defend. Filing the G-28 attorney appearance and starting the bond request before a transfer is the single most time-sensitive move a family can make. That's the part we do."
+    }
+  ],
+  "service_name": "ICE Detainee Location & Detention Response"
+}

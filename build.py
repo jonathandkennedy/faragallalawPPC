@@ -531,13 +531,14 @@ def render_faq(page, ui):
 def render_final(site, page, ui):
     phone_link = f'<a href="tel:{e(site["phone_tel"])}" data-call-location="final">{e(site["phone_display"])}</a>'
     call_line = e(ui["final_call"]).replace("{phone}", phone_link).replace("{campaign}", e(page["campaign"]))
+    bottom_title = page.get("form_title_bottom", page["form_title"])
     return f"""<section class="section section--navy final">
     <div class="container">
       <p class="section__kicker">{e(ui['k_final'])}</p>
       <h2>{e(page['final_heading'])}</h2>
       <p class="section__lead">{e(page['final_sub'])}</p>
       <div class="form-card" id="lead-form-bottom">
-        <h3>{e(page['form_title'])}</h3>
+        <h3>{e(bottom_title)}</h3>
         <p class="form-card__sub">{e(page['form_sub'])}</p>
         {render_form(site, page, ui, 'bottom')}
       </div>
@@ -743,6 +744,84 @@ def render_thank_you(site, ty, lang):
 """
 
 
+def render_sitelink_page(site_base, page):
+    """Slim conversion page for Google Ads sitelink assets: H1 + short pitch +
+    the form immediately, optional supporting cards below. No long scroll."""
+    site = merge_site(site_base, page)
+    ui = ui_for(page)
+    lang = page.get("lang", "en")
+    canonical = f"{site['base_url'].rstrip('/')}/{page['slug']}/"
+    service = {
+        "@context": "https://schema.org", "@type": "LegalService",
+        "name": site["firm_name"], "url": canonical, "telephone": site["phone_tel"],
+        "description": page["meta_description"], "areaServed": ["US", "CA"],
+        "serviceType": page["service_name"],
+    }
+    jsonld = f'<script type="application/ld+json">{json.dumps(service, ensure_ascii=False)}</script>'
+    head = render_head(site, page["meta_title"], page["meta_description"], canonical, jsonld)
+
+    bullets = ""
+    if page.get("bullets"):
+        items = "\n          ".join(f"<li>{ICON_CHECK}<span>{e(b)}</span></li>" for b in page["bullets"])
+        bullets = f'<ul class="hero__bullets">\n          {items}\n        </ul>'
+
+    call_first = ""
+    if page.get("call_first"):
+        call_first = (f'<p class="hero__callfirst"><a class="btn btn--call-big" href="tel:{e(site["phone_tel"])}" '
+                      f'data-call-location="hero">{ICON_PHONE} {e(page["call_first"])}</a></p>')
+
+    cards = ""
+    if page.get("problem_cards"):
+        card_html = "\n        ".join(
+            f'<div class="card"><h3>{e(c["title"])}</h3><p>{e(c["body"])}</p></div>'
+            for c in page["problem_cards"]
+        )
+        cards = f"""<section class="section">
+    <div class="container container--slim">
+      <h2>{e(page['problem_heading'])}</h2>
+      <div class="cards cards--stack">
+        {card_html}
+      </div>
+    </div>
+  </section>"""
+
+    return f"""<!doctype html>
+<html lang="{lang}">
+<head>
+  {head}
+</head>
+<body>
+  {gtm_noscript(site)}
+  {render_header(site, page, ui)}
+  <main>
+  <section class="hero hero--slim" id="top">
+    <div class="container">
+      <p class="hero__eyebrow">{e(page['eyebrow'])}</p>
+      <h1>{e(page['h1'])}</h1>
+      <p class="hero__sub">{e(page['hero_sub'])}</p>
+      {bullets}
+      {call_first}
+      <div class="form-card" id="lead-form">
+        <h2>{e(page['form_title'])}</h2>
+        <p class="form-card__sub">{e(page['form_sub'])}</p>
+        {render_form(site, page, ui, 'hero')}
+      </div>
+    </div>
+  </section>
+  {cards}
+  </main>
+  {render_footer(site, ui)}
+  {render_stickybar(site, page, ui)}
+  {callrail_script(site)}
+</body>
+</html>
+"""
+
+
+DEFAULT_SECTION = "Campaign landing pages"
+SECTION_ORDER = [DEFAULT_SECTION, "Texas landers — detention & removal", "Sitelink conversion pages"]
+
+
 def render_index(site, pages):
     head = render_head(
         site,
@@ -750,14 +829,29 @@ def render_index(site, pages):
         "Internal directory of campaign landing pages.",
         f"{site['base_url'].rstrip('/')}/",
     )
-    cards = "\n      ".join(
-        f"""<a class="hub-card" href="/{p['slug']}/">
+    # group pages into sections, keeping priority order within each
+    sections = {}
+    for p in pages:
+        sections.setdefault(p.get("section", DEFAULT_SECTION), []).append(p)
+    ordered = [s for s in SECTION_ORDER if s in sections]
+    ordered += [s for s in sections if s not in ordered]
+
+    def card(p):
+        return f"""<a class="hub-card" href="/{p['slug']}/">
         <span class="hub-card__slug">/{p['slug']}/</span>
         <h3>{e(p['campaign'])}</h3>
         <p>{e(p['h1'])}</p>
       </a>"""
-        for p in pages
-    )
+
+    blocks = []
+    for name in ordered:
+        cards = "\n      ".join(card(p) for p in sections[name])
+        blocks.append(f"""<h2 class="hub-section">{e(name)}</h2>
+      <div class="hub-list">
+      {cards}
+      </div>""")
+    section_html = "\n      ".join(blocks)
+
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -779,9 +873,7 @@ def render_index(site, pages):
       <h2>Campaign landing pages</h2>
       <p class="section__lead">Each page below is a self-contained ad destination for one campaign.
       Point ads at the page URLs directly — never at this index. All pages are noindexed.</p>
-      <div class="hub-list">
-      {cards}
-      </div>
+      {section_html}
       <p class="section__lead" style="font-size:14px">Conversion pages: <a href="/thank-you.html">/thank-you.html</a> · <a href="/gracias.html">/gracias.html</a> (ES) · Strategy &amp; launch checklist: see README.md and STRATEGY.md in the repository.</p>
     </div>
   </main>
@@ -806,8 +898,13 @@ def main():
     for page in pages:
         out = PUBLIC / page["slug"]
         out.mkdir(parents=True)
-        (out / "index.html").write_text(render_page(site, page), encoding="utf-8")
-        print(f"  built /{page['slug']}/  [{page.get('lang', 'en')}]")
+        if page.get("template") == "sitelink":
+            html = render_sitelink_page(site, page)
+        else:
+            html = render_page(site, page)
+        (out / "index.html").write_text(html, encoding="utf-8")
+        kind = " (sitelink)" if page.get("template") == "sitelink" else ""
+        print(f"  built /{page['slug']}/  [{page.get('lang', 'en')}]{kind}")
 
     (PUBLIC / "thank-you.html").write_text(render_thank_you(site, TY_EN, "en"), encoding="utf-8")
     print("  built /thank-you.html")

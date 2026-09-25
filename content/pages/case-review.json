@@ -1,0 +1,37 @@
+{
+  "slug": "case-review",
+  "campaign": "Sitelink — Case Review",
+  "priority": 29,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "meta_title": "Request a Case Review | Faragalla Law",
+  "meta_description": "One form, one business day, a straight answer from an immigration attorney on where your case stands and what it will take. Request your case review now.",
+  "eyebrow": "Immigration Case Review",
+  "h1": "Get Your Case Reviewed by an Immigration Attorney",
+  "hero_sub": "One form. One business day. A straight answer on where your case stands, what's realistic, and what it will cost — before you commit to anything.",
+  "bullets": [
+    "Visas, green cards, citizenship, and removal defense",
+    "Honest read — including when the answer is \"wait\" or \"don't file\"",
+    "Flat-fee quote before any work begins"
+  ],
+  "offer_name": "Case Review",
+  "cta_label": "Request My Case Review",
+  "cta_short": "Case Review",
+  "form_title": "Request Your Case Review",
+  "form_sub": "Tell us the basics and how to reach you. We respond within one business day — detained and deadline cases jump the queue.",
+  "qualifiers": [
+    {
+      "name": "case_type",
+      "label": "What is this about?",
+      "options": [
+        "Work or investor visa (E-2, TN, L-1, O-1, H-1B)",
+        "Green card — family or marriage",
+        "Green card — employment (NIW, EB-1, EB-5)",
+        "Citizenship / naturalization",
+        "Deportation, detention, or immigration court",
+        "Something else / not sure"
+      ]
+    }
+  ],
+  "service_name": "Immigration Case Review"
+}

@@ -1,11 +1,20 @@
 # Faragalla Law — PPC Landing Page Hub
 
-A self-contained hub of 26 campaign landing pages for faragallalaw.com paid
+A self-contained hub of 34 campaign landing pages for faragallalaw.com paid
 traffic (the `results.goldbergloren.com` pattern: one focused, noindexed page
-per campaign, no site navigation, one offer per page) — 17 English pages plus
-a 9-page Spanish set (national anchor, arreglar papeles, ajuste de estatus,
-residencia por matrimonio, deportación, familiar detenido, ciudadanía,
-Houston, and E-2 para mexicanos), all sharing the Spanish thank-you page `/gracias.html`.
+per campaign, no site navigation, one offer per page), in three sections:
+
+- **26 campaign pages** — 17 English plus a 9-page Spanish set (national
+  anchor, arreglar papeles, ajuste de estatus, residencia por matrimonio,
+  deportación, familiar detenido, ciudadanía, Houston, and E-2 para
+  mexicanos), all sharing the Spanish thank-you page `/gracias.html`.
+- **2 Texas landers** — ICE detention and deportation defense geo variants
+  built to client-supplied heading structures (run in Texas-geo campaigns;
+  the national versions cover everywhere else).
+- **6 sitelink conversion pages** — slim, form-first pages with distinct URLs
+  for Google Ads sitelink assets (case review, callback, Se Habla Español,
+  bond eligibility, find-a-detainee, flat fees); see the sitelink table in
+  STRATEGY.md for link texts and descriptions.
 
 - **Campaign strategy, keyword data, ad structure:** [STRATEGY.md](STRATEGY.md)
 - **Raw keyword research exports:** `research/keywords-us.tsv`, `research/keywords-canada.tsv`
@@ -27,15 +36,18 @@ cd public && python3 -m http.server 8000   # preview at http://localhost:8000
 build.py                  generator (all shared page template logic + i18n strings)
 content/site.json         firm-wide config: phone, stats, offer, disclaimers, GTM, form endpoint
 content/pages/*.json      one file per campaign: all copy, FAQs, form qualifiers, meta;
-                          optional "lang", "ui" (template-string overrides), and
-                          "site_overrides" (per-page firm copy, e.g. Spanish stats/attorney bio)
+                          optional "lang", "ui" (template-string overrides),
+                          "site_overrides" (per-page firm copy, e.g. Spanish stats/attorney bio),
+                          "section" (hub-index grouping), "template": "sitelink" (slim
+                          form-first layout), "call_first" (big call button above the form),
+                          and "form_title_bottom" (final-CTA form heading override)
 assets/css/lp.css         design system (mobile-first, system fonts, WCAG-checked buttons)
 assets/js/lp.js           ~3KB runtime: UTM/gclid capture, form submit, dataLayer events
 public/                   generated output — the deployable site
   index.html              internal hub directory (never an ad destination)
   thank-you.html          conversion page (fires generate_lead)
   gracias.html            Spanish conversion page (same event)
-  <campaign>/index.html   26 landing pages (17 EN + 9 ES)
+  <campaign>/index.html   34 landing pages (24 EN + 10 ES)
 research/                 keyword research exports + US-vs-Canada analysis (Aug 2026)
 ```
 
@@ -79,7 +91,8 @@ campaign_page, form_location).
   violate bar advertising rules.
 - [x] ~~Attorney photo~~ — **SET (2026-09-03): client-supplied headshot,
   background removed, at `assets/img/sam-faragalla.webp`** (37KB WebP with
-  alpha, localized alt text, lazy-loaded). Rendered on all 26 pages on a
+  alpha, localized alt text, lazy-loaded). Rendered on all 28 full-template
+  pages (the 6 slim sitelink pages skip the attorney section) on a
   brand-navy panel. Remaining sanity check: confirm with the firm this is
   Sam Faragalla's actual likeness (no AI/stock imagery on a law firm page).
 - [ ] **Consultation offer** (`site.json → consultation.line`): state plainly
@@ -131,7 +144,7 @@ campaign_page, form_location).
 - [ ] Real-device pass: iPhone Safari + Android Chrome — sticky bar doesn't
   cover the form's submit button, tel: links dial, forms submit.
 
-**Spanish pages (all 9) extra blockers:**
+**Spanish pages (all 10) extra blockers:**
 - [x] ~~Confirm Spanish-speaking intake~~ — **CONFIRMED (2026-08-21): intake
   operates in both English and Spanish.** Pages and footers now state it
   (`site.json → languages_line`).

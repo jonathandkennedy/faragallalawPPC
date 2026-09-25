@@ -1,0 +1,38 @@
+{
+  "slug": "se-habla-espanol",
+  "campaign": "Sitelink — Se Habla Español",
+  "priority": 31,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "lang": "es",
+  "meta_title": "Se Habla Español — Abogados de Inmigración | Faragalla Law",
+  "meta_description": "Hable con un abogado de inmigración en español. Visas, residencia, ciudadanía y defensa de deportación. Llame ahora o envíe el formulario y le llamamos.",
+  "eyebrow": "Atención en Español",
+  "h1": "Hable con un Abogado de Inmigración — en Español",
+  "hero_sub": "Todo el proceso en su idioma: la consulta, los documentos y cada llamada. Llame ahora, o envíe el formulario y nosotros le llamamos.",
+  "call_first": "Llame Ahora: (866) 655-3729",
+  "bullets": [
+    "Consultas y trámites completos en español",
+    "Visas, residencia, ciudadanía y defensa de deportación",
+    "Respuesta dentro de un día hábil — casos urgentes primero"
+  ],
+  "offer_name": "Consulta en Español",
+  "cta_label": "Pedir Mi Llamada",
+  "cta_short": "Que Me Llamen",
+  "form_title": "¿Prefiere que le llamemos? Deje sus datos",
+  "form_sub": "Envíe su número y el mejor horario para llamarle. Los casos de detención y con fechas de corte tienen prioridad.",
+  "qualifiers": [
+    {
+      "name": "tema",
+      "label": "¿De qué se trata su caso?",
+      "options": [
+        "Visa o permiso de trabajo",
+        "Residencia (green card) por familia o matrimonio",
+        "Ciudadanía",
+        "Un familiar detenido o en corte de inmigración",
+        "Arreglar papeles / no estoy seguro(a)"
+      ]
+    }
+  ],
+  "service_name": "Servicios de Inmigración en Español"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "fees",
+  "campaign": "Sitelink — Flat Fees",
+  "priority": 34,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "meta_title": "Flat-Fee Immigration Representation | Faragalla Law",
+  "meta_description": "Know the full cost before you commit. Faragalla Law quotes one flat fee per case or stage — no hourly billing, no mid-case surprises. Request your exact quote.",
+  "eyebrow": "Flat-Fee Pricing",
+  "h1": "Flat Fees. Know the Full Cost Before You Commit.",
+  "hero_sub": "Immigration cases are stressful enough without an open-ended bill. We quote one flat fee for your case — or per stage on defense work — before any work begins. Tell us about your case and we'll quote it.",
+  "bullets": [
+    "One flat fee, quoted up front — no hourly billing",
+    "Defense and detention work priced stage by stage",
+    "Government filing fees itemized separately, never hidden"
+  ],
+  "offer_name": "Flat-Fee Quote",
+  "cta_label": "Request My Flat-Fee Quote",
+  "cta_short": "Get My Quote",
+  "form_title": "Request Your Flat-Fee Quote",
+  "form_sub": "Tell us the case type and we'll come back with your exact flat fee — and an honest read on whether the case is worth filing at all.",
+  "qualifiers": [
+    {
+      "name": "case_type",
+      "label": "What kind of case?",
+      "options": [
+        "Work or investor visa (E-2, TN, L-1, O-1, H-1B)",
+        "Green card — family or marriage",
+        "Green card — employment (NIW, EB-1, EB-5)",
+        "Citizenship / naturalization",
+        "Deportation, detention, or bond",
+        "Something else / not sure"
+      ]
+    }
+  ],
+  "problem_heading": "How our flat fees work",
+  "problem_cards": [
+    {
+      "title": "One number, before we start",
+      "body": "Your quote depends on the case type and how much work your situation actually needs — then it's fixed. The fee covers the preparation, filings, and follow-through for that case or stage, and it doesn't change mid-case because a form took longer than expected."
+    },
+    {
+      "title": "Defense work is priced by stage",
+      "body": "Removal and detention cases are quoted in defined stages — the bond fight, pleadings, the merits hearing — each with its own flat fee. A family in crisis is never signing a blank check for an open-ended fight."
+    },
+    {
+      "title": "Government fees are separate and itemized",
+      "body": "USCIS and court filing fees are set by the government and paid to the government — we itemize them alongside your quote so the full cost of the case is on one page. If we don't think your case is worth filing, we tell you that instead of quoting it."
+    }
+  ],
+  "service_name": "Flat-Fee Immigration Representation"
+}

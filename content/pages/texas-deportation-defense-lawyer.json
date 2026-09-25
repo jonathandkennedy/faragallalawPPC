@@ -1,0 +1,153 @@
+{
+  "slug": "texas-deportation-defense-lawyer",
+  "campaign": "Deportation Defense — Texas",
+  "priority": 28,
+  "section": "Texas landers — detention & removal",
+  "meta_title": "Texas Deportation Defense Lawyer | Faragalla Law",
+  "meta_description": "In removal proceedings in a Texas immigration court — Houston, Dallas, San Antonio, El Paso, Harlingen? Faragalla Law screens every form of relief and builds the defense before your next hearing. Urgent cases: call now.",
+  "eyebrow": "Deportation & Removal Defense — Texas",
+  "h1": "Texas Deportation Defense Lawyer: Stop Removal Before Your Next Hearing",
+  "hero_sub": "Facing removal? What you do in the next few weeks shapes everything.",
+  "bullets": [
+    "Removal cases in Houston, Dallas, San Antonio, El Paso, and Harlingen courts",
+    "Relief screening: cancellation of removal, asylum, adjustment, waivers",
+    "Detained cases and bond hearings across Texas"
+  ],
+  "offer_name": "Defense Case Review",
+  "cta_label": "Request My Defense Review",
+  "cta_short": "Defense Review",
+  "form_title": "Request a Case Review From a Deportation Lawyer",
+  "form_sub": "Tell us what's happening. Urgent or detained cases: call the number above right now instead.",
+  "form_title_bottom": "Request Your Defense Case Review",
+  "qualifiers": [
+    {
+      "name": "situation",
+      "label": "What's the situation?",
+      "options": [
+        "I received a Notice to Appear (NTA)",
+        "A family member is detained",
+        "I have a Texas immigration court date coming up",
+        "I missed a hearing / have an old removal order",
+        "ICE check-in coming up",
+        "Something else urgent"
+      ]
+    },
+    {
+      "name": "timing",
+      "label": "When is the next date or deadline?",
+      "options": [
+        "Within 2 weeks — urgent",
+        "2–8 weeks",
+        "More than 2 months out",
+        "No date yet / not sure"
+      ]
+    }
+  ],
+  "problem_heading": "Most Deportation Cases Are Lost by Default, Not on the Merits",
+  "problem_cards": [
+    {
+      "title": "A Missed Hearing Becomes a Removal Order Automatically",
+      "body": "Skip a hearing — even because a notice went to an old address — and the judge can order removal in absentia the same day. Texas dockets are among the busiest in the country, and they do not wait. If a hearing was already missed, a motion to reopen may still undo the order, but the clock and the paper trail are everything. Bring us the notice, not a summary of it."
+    },
+    {
+      "title": "Relief From Deportation Only Works If It's Claimed on Time",
+      "body": "Cancellation of removal, asylum and withholding, adjustment through family, and waivers each have strict eligibility lines: years of presence, qualifying relatives, filing deadlines. Judges don't hunt for your relief. Your lawyer identifies every form you qualify for and builds the record to win it — before the deadline to claim it passes."
+    },
+    {
+      "title": "Detention and Bond Decisions Happen Fast",
+      "body": "Whether someone fights their case free on bond or detained for months often turns on one early hearing — and on how quickly documents proving identity, ties, and sponsorship reach the court. With more people held in Texas facilities than in any other state, families here who move in the first days keep their options; families that wait lose them."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Removal Defense Is Our Practice, Not a Sideline",
+      "body": "The firm handles removal proceedings alongside its family and business immigration work — which matters, because the strongest defense is often an affirmative case (a marriage petition, a waiver) run in parallel."
+    },
+    {
+      "title": "Every Form of Relief From Removal, Screened",
+      "body": "We run your full history against the relief map — presence, family, fear-based claims, prior filings, criminal record analysis — before the strategy is chosen. No option gets left unclaimed because nobody asked."
+    },
+    {
+      "title": "Honest Odds in Plain Language",
+      "body": "We tell you what's winnable, what isn't, and what each path costs — including when the best move is buying time lawfully or when a prior lawyer's mistake gives you a reopening argument."
+    },
+    {
+      "title": "Flat-Fee Deportation Defense",
+      "body": "Defense work is quoted in defined stages — bond, pleadings, the merits hearing — each with a flat fee, so cost never becomes a mid-case surprise."
+    }
+  ],
+  "process": [
+    {
+      "title": "Case Review",
+      "body": "Submit the form — or call if anything is urgent or someone is detained. We review the notice, the dates, and the history, and respond fast; detained and deadline cases jump the queue."
+    },
+    {
+      "title": "Strategy Consultation",
+      "body": "We analyze the charges, screen every form of relief, request the government's file where needed, and set the defense plan — bond first when someone is held."
+    },
+    {
+      "title": "Build the Record",
+      "body": "We prepare pleadings, applications for relief, country evidence, hardship documentation, and witnesses — the record the judge actually decides on."
+    },
+    {
+      "title": "Fight the Case in Immigration Court",
+      "body": "We represent you at master calendar and individual hearings — in person or by video, as the court directs — and pursue appeals or motions when the fight isn't over."
+    }
+  ],
+  "fees_heading": "What Does a Deportation Lawyer Cost?",
+  "fees_body": "It depends on the stage and the relief being pursued — a bond motion is priced differently from a full cancellation case with a merits hearing. Every stage carries a flat fee quoted before it begins, and we'll tell you honestly at the consultation what the realistic total looks like for the whole fight. What we won't do is quote low and revise mid-case.",
+  "who_heading": "Who Our Deportation Defense Practice Is For",
+  "who_for": [
+    "You or a family member has a case in a Texas immigration court — Houston, Dallas, San Antonio, El Paso, Harlingen, or a detained court",
+    "You received a Notice to Appear and the first hearing is coming",
+    "Someone is detained in Texas and needs a bond fight now",
+    "You missed a hearing or carry an old removal order and want it examined for reopening",
+    "A criminal case — even an old or minor one — is colliding with your immigration status"
+  ],
+  "who_not": [
+    "You're outside the U.S. and were already removed — different tools apply (waivers, consular processing); we'll point you right",
+    "You want someone to promise a guaranteed outcome — no honest defense lawyer will",
+    "You only need visa or green card help with no proceedings involved — see our other services; this page is for defense"
+  ],
+  "ui": {
+    "fit_yes": "This Is Likely a Fit If…",
+    "fit_no": "It's Probably Not the Right Fit If…",
+    "why_h2": "Immigration Attorneys Who Pressure-Test Your Case Before the Government Does",
+    "process_h2": "How Our Deportation Defense Process Works",
+    "reviews_h2": "What Clients Say",
+    "faq_h2": "Deportation Defense Questions We Answer Every Week"
+  },
+  "faq": [
+    {
+      "q": "I got a Notice to Appear in Texas. What do I do first?",
+      "a": "Three things, fast: calendar every date on it, update your address with the court (form EOIR-33) so notices reach you, and get the charges analyzed by counsel before your first hearing. The first hearing (master calendar) is short but consequential — pleadings taken there frame the entire case. Do not ignore it and do not go unrepresented if you can avoid it."
+    },
+    {
+      "q": "Can you get someone out of immigration detention in Texas?",
+      "a": "Often, yes — through a bond hearing where we prove identity, community ties, a stable address, and that the person is neither a flight risk nor a danger. Some criminal history triggers mandatory detention, which we analyze immediately. Texas holds more ICE detainees than any other state and transfers happen fast, so speed matters most: the sooner documents and a sponsor are ready, the sooner the hearing and the stronger the showing."
+    },
+    {
+      "q": "What defenses exist against deportation?",
+      "a": "The main families: cancellation of removal (10 years' presence plus exceptional hardship to a qualifying relative for non-residents; a separate version for green card holders), asylum, withholding, and CAT protection for those who fear return, adjustment of status through a family petition, various waivers, and prosecutorial or procedural challenges to the government's case. Most people qualify for more than they think — screening for all of it is the first job."
+    },
+    {
+      "q": "I missed my hearing years ago and have a removal order. Is it fixable?",
+      "a": "Sometimes. A motion to reopen an in-absentia order can succeed where notice was defective or exceptional circumstances caused the absence — and other reopening paths exist for changed country conditions or ineffective prior counsel. These motions are technical and fact-heavy; bring every document you have, including the old notices, before anyone files anything."
+    },
+    {
+      "q": "Will a criminal charge get me deported?",
+      "a": "It depends on the exact statute of conviction — not the story, the statute. Some offenses are removability grounds or bar relief; many are survivable with the right analysis; and how a pending Texas criminal case is pled can decide the immigration outcome. If you have both a criminal case and immigration exposure, your criminal defense lawyer and immigration counsel need to talk before any plea."
+    },
+    {
+      "q": "Which Texas immigration courts do you handle?",
+      "a": "Immigration law is federal, so we can appear in any of them — the non-detained courts in Houston, Dallas, San Antonio, and El Paso, the border courts like Harlingen, and the detained courts that serve Texas facilities such as Conroe and Pearsall. Many hearings are also conducted by video. Tell us which court your notice names and we'll take it from there."
+    }
+  ],
+  "service_name": "Deportation & Removal Defense Services — Texas",
+  "testimonial_hint": "Use verbatim Google reviews from defense/detention clients (the firm has these)",
+  "final_heading": "Get a Deportation Defense Plan Before Your Next Hearing",
+  "final_sub": "Urgent or detained? Call now. Otherwise: one form, a fast reply, and a clear-eyed read on your options.",
+  "site_overrides": {
+    "response_promise": "Detained or facing a deadline? Call now — form submissions are answered within one business day"
+  }
+}
