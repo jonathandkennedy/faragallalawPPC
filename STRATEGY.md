@@ -46,14 +46,18 @@ story, and use volume clusters (family, local, citizenship) to fill capacity.
 | 27 | `/ice-detention-lawyer-texas/` | ICE detention — Texas (geo lander) | Texas slice of the detention cluster (TX holds more ICE detainees than any state); ice detention lawyer + facility/bond terms, geo-modified | Medium-high, urgent | **Texas** |
 | 28 | `/texas-deportation-defense-lawyer/` | Deportation defense — Texas (geo lander) | texas deportation lawyer / deportation lawyer houston-dallas-san antonio-el paso tail; TX courts run the busiest dockets | Medium | **Texas** |
 | 29–39 | eleven `/…/` sitelink pages | Conversion sitelinks (see below) | Not bid on directly — they receive sitelink clicks from all campaigns | — | Inherit campaign geo |
+| 40 | `/detenido-por-ice-texas/` | Detención ICE — Texas (Español) | Spanish Texas detention: detenido por ice texas / abogado de fianzas tail; ES detention CPCs price HIGHER than EN (localizador $16.43 vs $6.14) | Medium-high, urgent | **Texas** (ES) |
+| 41 | `/abogado-de-deportacion-texas/` | Deportación — Texas (Español) | Spanish Texas removal defense: abogado de deportacion texas/houston/dallas tail | Medium | **Texas** (ES) |
 
-### Texas landers (pages 27–28)
+### Texas landers (pages 27–28 EN, 40–41 ES)
 
-Client-supplied heading structures, implemented verbatim. These are **geo
-variants** of the national detention (24) and deportation (14) pages: run them
-in Texas-geo campaigns so ad → H1 message match is exact ("in Texas" in the
-headline), and keep the national pages for everywhere else. Don't run both
-into the same Texas auction — split by location targeting.
+Client-supplied heading structures, implemented verbatim (pages 40–41 carry
+faithful Spanish translations of the same heading set). These are **geo
+variants** of the national detention (24/25) and deportation (14/23) pages:
+run them in Texas-geo campaigns so ad → H1 message match is exact ("en Texas"
+in the headline), and keep the national pages for everywhere else. Don't run
+both into the same Texas auction — split by location targeting and by
+campaign language (ES campaigns → 40/41; EN → 27/28).
 
 ### The detention finding (Sept 2026 data)
 

@@ -1,0 +1,154 @@
+{
+  "slug": "abogado-de-deportacion-texas",
+  "campaign": "Deportación — Texas (Español)",
+  "priority": 41,
+  "lang": "es",
+  "section": "Texas landers — detention & removal",
+  "meta_title": "Abogado de Deportación en Texas | Faragalla Law",
+  "meta_description": "¿En proceso de deportación en una corte de Texas — Houston, Dallas, San Antonio, El Paso, Harlingen? Revisamos cada defensa y armamos el caso antes de su próxima audiencia. En español. Casos urgentes: llame ya.",
+  "eyebrow": "Defensa de Deportación — Texas",
+  "h1": "Abogado de Deportación en Texas: Detenga la Expulsión Antes de Su Próxima Audiencia",
+  "hero_sub": "¿En proceso de deportación? Lo que haga en las próximas semanas define todo.",
+  "bullets": [
+    "Casos en las cortes de Houston, Dallas, San Antonio, El Paso y Harlingen",
+    "Defensas: cancelación de deportación, asilo, ajuste, perdones",
+    "Detenidos y audiencias de fianza en todo Texas"
+  ],
+  "offer_name": "Evaluación de Defensa",
+  "cta_label": "Solicitar Mi Evaluación de Defensa",
+  "cta_short": "Mi Defensa",
+  "form_title": "Solicite una Evaluación de Su Caso con un Abogado de Deportación",
+  "form_sub": "Cuéntenos qué está pasando. Si hay un detenido o una fecha encima: llame ahora al número de arriba.",
+  "form_title_bottom": "Solicite Su Evaluación de Defensa",
+  "qualifiers": [
+    {
+      "name": "situacion",
+      "label": "¿Cuál es la situación?",
+      "options": [
+        "Recibí una Notificación de Comparecencia (NTA)",
+        "Un familiar está detenido",
+        "Tengo fecha próxima en una corte de Texas",
+        "Falté a una audiencia / tengo orden antigua",
+        "Tengo cita de control con ICE",
+        "Otra situación urgente"
+      ]
+    },
+    {
+      "name": "plazo",
+      "label": "¿Cuándo es la próxima fecha o plazo?",
+      "options": [
+        "Dentro de 2 semanas — urgente",
+        "De 2 a 8 semanas",
+        "En más de 2 meses",
+        "No hay fecha aún / no sé"
+      ]
+    }
+  ],
+  "problem_heading": "La Mayoría de los Casos de Deportación Se Pierden por Abandono, No por Falta de Defensa",
+  "problem_cards": [
+    {
+      "title": "Faltar a una Audiencia Se Convierte en Orden de Deportación Automática",
+      "body": "Si falta a una audiencia — aunque sea porque la notificación llegó a una dirección vieja — el juez puede ordenar la deportación ese mismo día, en ausencia. Las cortes de Texas están entre las más cargadas del país, y no esperan. Si ya pasó, una moción para reabrir todavía puede revertirlo, pero el reloj y los documentos lo son todo. Tráiganos la notificación, no el resumen."
+    },
+    {
+      "title": "Las Defensas Solo Funcionan Si Se Reclaman a Tiempo",
+      "body": "Cancelación de deportación, asilo y protecciones por miedo, ajuste por matrimonio o familia, y perdones — cada una tiene requisitos y plazos estrictos: años de presencia, familiares que califican, fechas límite. El juez no busca su defensa por usted. El trabajo de su abogado es identificar cada defensa que usted califica y armar el expediente para ganarla — antes de que el plazo para reclamarla se venza."
+    },
+    {
+      "title": "La Detención y la Fianza Se Deciden Rápido",
+      "body": "Que alguien pelee su caso libre bajo fianza o encerrado meses se decide muchas veces en una sola audiencia temprana — y en qué tan rápido llegan las pruebas de identidad, arraigo y patrocinio. Con más personas detenidas en los centros de Texas que en cualquier otro estado, las familias de aquí que se mueven los primeros días conservan opciones; las que esperan, las pierden."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "La Defensa de Deportación Es Nuestra Práctica, No un Extra",
+      "body": "El despacho lleva casos de corte junto con su práctica de inmigración familiar y de negocios — y eso importa, porque muchas veces la mejor defensa es un caso afirmativo (una petición de matrimonio, un perdón) corriendo en paralelo."
+    },
+    {
+      "title": "Cada Defensa Contra la Deportación, Revisada",
+      "body": "Años de presencia, familiares ciudadanos, miedo de regresar, peticiones familiares en paralelo, análisis de antecedentes penales, errores del gobierno en su caso — revisamos el mapa completo antes de elegir la estrategia. Ninguna opción se queda sin reclamar porque nadie preguntó."
+    },
+    {
+      "title": "Probabilidades Honestas en Lenguaje Claro",
+      "body": "Le decimos qué se puede ganar, qué no, y cuánto cuesta cada camino — incluso cuando lo honesto es ganar tiempo legalmente o cuando el error de un abogado anterior abre una puerta para reabrir."
+    },
+    {
+      "title": "Defensa de Deportación con Tarifa Fija",
+      "body": "La defensa se cotiza por etapas definidas — la fianza, las presentaciones, la audiencia final — cada una con tarifa fija, para que el costo nunca se convierta en sorpresa a mitad del caso."
+    }
+  ],
+  "process": [
+    {
+      "title": "Evaluación del Caso",
+      "body": "Envíe el formulario — o llame si algo es urgente o hay un detenido. Revisamos la notificación, las fechas y el historial, y respondemos rápido; los casos con detenidos o plazos saltan la fila."
+    },
+    {
+      "title": "Consulta de Estrategia",
+      "body": "Analizamos los cargos, revisamos cada defensa posible, pedimos el expediente del gobierno cuando hace falta, y definimos el plan de defensa — la fianza primero si hay un detenido."
+    },
+    {
+      "title": "Construcción del Expediente",
+      "body": "Preparamos las solicitudes de defensa, la evidencia del país, las pruebas de arraigo y sufrimiento, y los testigos — el expediente sobre el que el juez realmente decide."
+    },
+    {
+      "title": "Pelear el Caso en la Corte de Inmigración",
+      "body": "Lo representamos en las audiencias preliminares y en la audiencia final — en persona o por video, según lo ordene la corte — y seguimos con apelaciones o mociones cuando la pelea no termina ahí."
+    }
+  ],
+  "fees_heading": "¿Cuánto Cuesta un Abogado de Deportación?",
+  "fees_body": "Depende de la etapa y de la defensa: una moción de fianza se cotiza distinto que un caso completo de cancelación con audiencia final. Cada etapa tiene tarifa fija cotizada antes de empezar, y en la consulta le decimos con franqueza cómo se ve el costo total de la pelea completa. Lo que no hacemos es cotizar barato y subir el precio a mitad del caso.",
+  "who_heading": "Para Quién Es Nuestra Defensa de Deportación",
+  "who_for": [
+    "Usted o un familiar tiene caso en una corte de inmigración de Texas — Houston, Dallas, San Antonio, El Paso, Harlingen o una corte de detenidos",
+    "Recibió una Notificación de Comparecencia y la primera audiencia se acerca",
+    "Hay un familiar detenido en Texas y necesita pelear la fianza ya",
+    "Faltó a una audiencia o carga una orden antigua y quiere saber si se puede reabrir",
+    "Un caso penal — aunque sea viejo o menor — está chocando con su estatus migratorio"
+  ],
+  "who_not": [
+    "Si ya fue deportado y está fuera del país, aplican otras herramientas (perdones, proceso consular) — lo orientamos hacia la vía correcta",
+    "Si busca a alguien que le garantice el resultado — ningún abogado honesto lo hace",
+    "Si su asunto es un trámite sin corte de por medio, vea nuestros otros servicios; esta página es de defensa"
+  ],
+  "ui": {
+    "fit_yes": "Probablemente Es para Usted Si…",
+    "fit_no": "Probablemente No Es lo Indicado Si…",
+    "why_h2": "Abogados Que Someten Su Caso a Prueba Antes Que el Gobierno",
+    "process_h2": "Cómo Funciona Nuestro Proceso de Defensa",
+    "reviews_h2": "Lo Que Dicen Nuestros Clientes",
+    "faq_h2": "Preguntas de Defensa de Deportación Que Respondemos Cada Semana"
+  },
+  "faq": [
+    {
+      "q": "Recibí una Notificación de Comparecencia (NTA) en Texas. ¿Qué hago primero?",
+      "a": "Tres cosas, rápido: apunte cada fecha del documento, actualice su dirección con la corte (formulario EOIR-33) para que las notificaciones le lleguen, y haga analizar los cargos con un abogado antes de la primera audiencia. La primera audiencia es corta pero importante: lo que se responde ahí define el caso. No falte y no vaya solo si puede evitarlo."
+    },
+    {
+      "q": "¿Pueden sacar a mi familiar de un centro de detención en Texas?",
+      "a": "Muchas veces sí — con una audiencia de fianza donde se demuestra identidad, arraigo, un domicilio estable y que la persona no es peligro ni riesgo de fuga. Algunos antecedentes penales activan detención obligatoria, y eso se analiza de inmediato. Texas tiene más detenidos por ICE que cualquier otro estado y los traslados pasan rápido, así que la velocidad importa más que nada: mientras más rápido estén los documentos y el patrocinador, más pronto la audiencia y más fuerte el caso."
+    },
+    {
+      "q": "¿Qué defensas existen contra la deportación?",
+      "a": "Las principales familias: cancelación de deportación (10 años de presencia más sufrimiento extremo de un familiar ciudadano o residente — con una versión aparte para residentes), asilo y protecciones para quien teme regresar, ajuste de estatus por matrimonio o familia, varios perdones, y ataques al caso del gobierno cuando hay errores. La mayoría de las personas califica para más de lo que cree — revisarlo todo es el primer trabajo."
+    },
+    {
+      "q": "Falté a mi audiencia hace años y tengo orden de deportación. ¿Tiene arreglo?",
+      "a": "A veces. Una moción para reabrir puede prosperar cuando la notificación fue defectuosa o hubo circunstancias excepcionales — y existen otras vías por cambios en su país o por errores del abogado anterior. Son mociones técnicas donde cada documento cuenta: traiga todo lo que tenga, incluidas las notificaciones viejas, antes de que nadie presente nada."
+    },
+    {
+      "q": "¿Un cargo penal me hace deportable?",
+      "a": "Depende de la ley exacta de la condena — no de la historia, sino del estatuto. Algunos delitos son causa de deportación o bloquean defensas; muchos otros se superan con el análisis correcto; y cómo se negocia un caso penal pendiente en Texas puede decidir el resultado migratorio. Si tiene un caso penal abierto y exposición migratoria, su abogado penalista y nosotros debemos hablar antes de cualquier declaración de culpabilidad."
+    },
+    {
+      "q": "¿En cuáles cortes de inmigración de Texas llevan casos?",
+      "a": "La ley de inmigración es federal, así que podemos comparecer en cualquiera: las cortes de Houston, Dallas, San Antonio y El Paso, las cortes de la frontera como Harlingen, y las cortes de detenidos que atienden los centros de Texas, como Conroe y Pearsall. Muchas audiencias además se hacen por video. Díganos cuál corte aparece en su notificación y nosotros nos encargamos."
+    }
+  ],
+  "service_name": "Servicios de Defensa de Deportación — Texas (Español)",
+  "testimonial_hint": "Reseñas textuales de Google en español — casos de defensa/detención",
+  "final_heading": "Llegue a Su Próxima Audiencia con un Plan de Defensa",
+  "final_sub": "¿Detenido o con plazo encima? Llame ahora. Si no: un formulario, una respuesta rápida y una lectura honesta de sus opciones.",
+  "site_overrides": {
+    "response_promise": "¿Detenido o con fecha límite? Llame ahora — los formularios se responden dentro de un día hábil"
+  }
+}
