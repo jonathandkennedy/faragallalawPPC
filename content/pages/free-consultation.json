@@ -1,0 +1,42 @@
+{
+  "slug": "free-consultation",
+  "campaign": "Sitelink — Free Consultation",
+  "priority": 35,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "meta_title": "Free Consultation — Immigration Attorney | Faragalla Law",
+  "meta_description": "Speak with an immigration attorney about your case — confidential, no obligation. Request your free consultation and get a straight answer within one business day.",
+  "eyebrow": "Free Consultation",
+  "h1": "Free Consultation With an Immigration Attorney",
+  "hero_sub": "Confidential, no obligation, and in plain language: where your case stands, what's realistic, and what it would cost — with a flat-fee quote before you commit to anything.",
+  "bullets": [
+    "Confidential case review — nothing shared, no obligation",
+    "Visas, green cards, citizenship, and removal defense",
+    "Flat-fee quote up front if you decide to move forward"
+  ],
+  "offer_name": "Free Consultation",
+  "cta_label": "Request My Free Consultation",
+  "cta_short": "Free Consult",
+  "form_title": "Request Your Free Consultation",
+  "form_sub": "Tell us the basics and how to reach you. We respond within one business day — detained and deadline cases jump the queue.",
+  "qualifiers": [
+    {
+      "name": "case_type",
+      "label": "What is this about?",
+      "options": [
+        "Work or investor visa (E-2, TN, L-1, O-1, H-1B)",
+        "Green card — family or marriage",
+        "Green card — employment (NIW, EB-1, EB-5)",
+        "Citizenship / naturalization",
+        "Deportation, detention, or immigration court",
+        "Something else / not sure"
+      ]
+    }
+  ],
+  "service_name": "Free Immigration Consultation",
+  "site_overrides": {
+    "consultation": {
+      "line": "The initial consultation is free — no obligation, and a flat-fee quote before any work begins."
+    }
+  }
+}

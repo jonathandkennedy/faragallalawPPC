@@ -1,0 +1,62 @@
+{
+  "slug": "contact",
+  "campaign": "Sitelink — Contact Our Office",
+  "priority": 39,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "meta_title": "Contact Our Office | Faragalla Law",
+  "meta_description": "Reach Faragalla Law: call now or request a callback. Offices in Texas and Florida, serving clients nationwide — intake in English and Spanish.",
+  "eyebrow": "Contact Faragalla Law",
+  "h1": "Contact Our Office",
+  "hero_sub": "The fastest route is the phone. If you'd rather we reach out, send the form and we'll call you back — in English or Spanish.",
+  "call_first": "Call (866) 655-3729 Now",
+  "bullets": [
+    "Offices in Texas and Florida — serving clients nationwide",
+    "Intake and consultations in English and Spanish",
+    "We respond within one business day — urgent cases first"
+  ],
+  "offer_name": "Callback Request",
+  "cta_label": "Request My Callback",
+  "cta_short": "Get a Callback",
+  "form_title": "Request a Callback",
+  "form_sub": "Leave your number and the best time to reach you. Detained and deadline situations jump the queue.",
+  "qualifiers": [
+    {
+      "name": "topic",
+      "label": "What is this about?",
+      "options": [
+        "A visa or green card case",
+        "Citizenship",
+        "Someone detained or in immigration court",
+        "An existing case with the firm",
+        "Something else"
+      ]
+    },
+    {
+      "name": "best_time",
+      "label": "Best time to call you",
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Any time — call as soon as you can"
+      ]
+    }
+  ],
+  "problem_heading": "Ways to reach us",
+  "problem_cards": [
+    {
+      "title": "Call",
+      "body": "The number at the top of this page rings the firm directly — (866) 655-3729. If a case is urgent (someone detained, a hearing this week), call rather than write; calls come first."
+    },
+    {
+      "title": "Send the form",
+      "body": "The callback form above takes under a minute. Tell us the topic and the best time, and the office calls you back — within one business day, usually sooner."
+    },
+    {
+      "title": "En español",
+      "body": "Todo el proceso puede llevarse en su idioma — la llamada, la consulta y los documentos. Llame al mismo número o envíe el formulario y le llamamos en español."
+    }
+  ],
+  "service_name": "U.S. Immigration Legal Services"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "reviews",
+  "campaign": "Sitelink — Client Reviews",
+  "priority": 37,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "meta_title": "Client Reviews | Faragalla Law",
+  "meta_description": "See what clients say about Faragalla Law — read the firm's reviews on Google, unfiltered, then tell us about your own case.",
+  "eyebrow": "Client Reviews",
+  "h1": "What Clients Say About Faragalla Law",
+  "hero_sub": "Don't take our word for it — read the reviews clients left on Google, in their own words. Then tell us about your case.",
+  "reviews_button_label": "Read Our Reviews on Google",
+  "bullets": [
+    "4.8★ average rating on Google",
+    "Reviews from families, professionals, and business clients",
+    "Read them unfiltered — then tell us about your case"
+  ],
+  "offer_name": "Case Review",
+  "cta_label": "Tell Us About Your Case",
+  "cta_short": "Start My Case",
+  "form_title": "Ready to Talk? Tell Us About Your Case",
+  "form_sub": "One form, one business day, a straight answer on where your case stands and what it will take.",
+  "qualifiers": [
+    {
+      "name": "case_type",
+      "label": "What is this about?",
+      "options": [
+        "Work or investor visa (E-2, TN, L-1, O-1, H-1B)",
+        "Green card — family or marriage",
+        "Green card — employment (NIW, EB-1, EB-5)",
+        "Citizenship / naturalization",
+        "Deportation, detention, or immigration court",
+        "Something else / not sure"
+      ]
+    }
+  ],
+  "problem_heading": "Where our reviews come from",
+  "problem_cards": [
+    {
+      "title": "On Google, unfiltered",
+      "body": "Every review on the firm's Google profile was written by the client who lived the case — we don't edit them, and we can't. The button above takes you straight there."
+    },
+    {
+      "title": "From every kind of case",
+      "body": "Families who fought a detention or removal case, couples who filed for a green card, professionals and investors who moved their careers or companies to the U.S. — the reviews span the same case types you'll find across this site."
+    },
+    {
+      "title": "Then tell us about yours",
+      "body": "When you've read enough, the form below (or the phone number above) starts your own case review — one business day, a straight answer, and a flat-fee quote before anything begins."
+    }
+  ],
+  "service_name": "U.S. Immigration Legal Services"
+}

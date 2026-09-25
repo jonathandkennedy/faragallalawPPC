@@ -45,7 +45,7 @@ story, and use volume clusters (family, local, citizenship) to fill capacity.
 | 26 | `/ajuste-de-estatus/` | Ajuste de estatus (Español) | ajuste de estatus 1,000 @ $5.69 · ajuste de estatus por matrimonio 260 @ $4.80 | Medium | US national (ES) |
 | 27 | `/ice-detention-lawyer-texas/` | ICE detention — Texas (geo lander) | Texas slice of the detention cluster (TX holds more ICE detainees than any state); ice detention lawyer + facility/bond terms, geo-modified | Medium-high, urgent | **Texas** |
 | 28 | `/texas-deportation-defense-lawyer/` | Deportation defense — Texas (geo lander) | texas deportation lawyer / deportation lawyer houston-dallas-san antonio-el paso tail; TX courts run the busiest dockets | Medium | **Texas** |
-| 29–34 | six `/…/` sitelink pages | Conversion sitelinks (see below) | Not bid on directly — they receive sitelink clicks from all campaigns | — | Inherit campaign geo |
+| 29–39 | eleven `/…/` sitelink pages | Conversion sitelinks (see below) | Not bid on directly — they receive sitelink clicks from all campaigns | — | Inherit campaign geo |
 
 ### Texas landers (pages 27–28)
 
@@ -181,13 +181,16 @@ Campaign: NIW-US
   distinct final URLs per sitelink — anchors on the same URL get disapproved),
   call asset with tracked number, structured snippets (Services: E-2, TN, L-1…).
 
-## Sitelink conversion pages (29–34)
+## Sitelink conversion pages (29–39)
 
-Six slim, form-first pages built exclusively to serve as **sitelink assets**
-across all campaigns. Each has a distinct URL (Google's requirement), loads the
-form immediately below one screen of pitch, and carries the full tracking
-stack (GTM, Formspree with page name, CallRail, attribution fields). Don't bid
-keywords on these; attach them at account or campaign level.
+Eleven slim, form-first pages built to serve as **sitelink assets** across all
+campaigns (plus three service sitelinks that point at existing landers). Each
+has a distinct URL (Google's requirement), loads the form immediately below
+one screen of pitch, and carries the full tracking stack (GTM, Formspree with
+page name, CallRail, attribution fields). Don't bid keywords on these; attach
+them at account or campaign level.
+
+**Batch 1 — conversion actions (pages 29–34):**
 
 | Sitelink text (≤25 chars) | Final URL | Description lines (≤35 chars each) | Attach to |
 |---|---|---|---|
@@ -198,16 +201,40 @@ keywords on these; attach them at account or campaign level.
 | Find a Detainee | `/find-a-detainee/` | "Locator steps that work" / "Lawyer on record before transfer" | Detention campaigns + the 135k/mo locator campaign |
 | Our Flat Fees | `/fees/` | "No hourly billing" / "Know the cost before you start" | All campaigns |
 
+**Batch 2 — client-supplied set (new pages 35–39 + three mapped to existing
+landers). Description lines are the client's copy; two exceeded Google's
+35-char description limit and are trimmed here (originals noted):**
+
+| Sitelink text (≤25 chars) | Final URL | Description lines (≤35 chars each) | Notes |
+|---|---|---|---|
+| Free Consultation | `/free-consultation/` | "Speak with an immigration attorney" / "Confidential case review today" | ⚠️ see Free-consultation flag below |
+| Green Card Help | `/green-card-lawyer/` (existing lander) | "Family & marriage green cards" / "I-130, I-485 & consular processing" | Service sitelink → existing page |
+| Citizenship Help | `/citizenship-lawyer/` (existing lander) | "Naturalization & N-400 filings" / "Interview prep & eligibility check" | D2 trimmed from "Interview prep and eligibility review" (37 chars) |
+| Deportation Defense | `/deportation-defense-lawyer/` (existing lander) | "Removal hearings & ICE detention" / "Fast response for court notices" | Service sitelink → existing page (use `/texas-deportation-defense-lawyer/` on TX campaigns) |
+| Work Visa Attorney | `/work-visa-attorney/` | "H-1B, L-1, O-1 & employment cases" / "Employer and professional filings" | New router page with visa-type qualifier |
+| Client Reviews | `/reviews/` | "Real client results and ratings" / "See what families say about us" | Consider "Real client ratings on Google" for D1 — "results" claims are restricted by some state bars |
+| Meet Our Attorneys | `/attorney/` | "Licensed immigration counsel" / "USCIS & immigration court cases" | D2 trimmed from "Experience with USCIS & immigration court" (41 chars) |
+| Contact Our Office | `/contact/` | "Call or request a callback" / "Same-day responses when possible" | ⚠️ client copy said "Call, text, or request a callback" — don't advertise texting until an SMS line (e.g. CallRail SMS) actually exists |
+
 Notes:
-- "Case Review" — **not** "Free Case Review" — until the free-vs-paid
-  consultation question is settled (open launch item). If the firm confirms
-  free consultations, update the sitelink text, the page H1/offer, and
-  `site.json`'s consultation line together.
+- **Free-consultation flag (unresolved):** `/free-consultation/` is built to the
+  client's copy and its on-page microcopy says the initial consultation is
+  free. Site-wide, every other page still says "flat-rate strategy
+  consultations… any consultation fee confirmed when we reply." **Do not run
+  both messages at once.** If the firm confirms free consultations: update
+  `site.json → consultation.line`, rename `/case-review/` copy to "Free Case
+  Review," and keep this sitelink. If consultations are paid: retire this
+  sitelink/page and keep "Case Review."
+- Google shows max 4 sitelinks per ad on desktop (fewer on mobile) — attach
+  6–10 per campaign and let the system rotate; prioritize Case Review /
+  Speak to a Lawyer / Fees + the campaign-relevant service link.
 - `/se-habla-espanol/` doubles as the language sitelink on English campaigns —
   Spanish-speaking searchers often click English ads; give them a Spanish exit.
 - `/find-a-detainee/` is also a legitimate **landing page** for the helpful-first
   ad group of the `ice detainee locator` (135k/mo) campaign — it leads with
   locator instructions, which is what that searcher needs and what converts.
+- `/reviews/` currently routes to the firm's Google profile; once verbatim
+  review quotes are approved (launch item), add them to the page itself.
 
 ## Negative keywords (shared list, all campaigns)
 

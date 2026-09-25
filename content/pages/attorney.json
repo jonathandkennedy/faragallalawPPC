@@ -1,0 +1,53 @@
+{
+  "slug": "attorney",
+  "campaign": "Sitelink — Meet Our Attorneys",
+  "priority": 38,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "show_attorney": true,
+  "meta_title": "Meet the Attorney — Sam Faragalla | Faragalla Law",
+  "meta_description": "Meet Sam Faragalla — Fragomen-trained founder of Faragalla Law. Licensed counsel handling USCIS filings and immigration court cases for clients in all 50 states.",
+  "eyebrow": "Meet Your Attorney",
+  "h1": "The Attorney Behind Your Case",
+  "hero_sub": "Before you trust anyone with your future in this country, you should know who's doing the work. Meet the founder — then ask him about your case.",
+  "bullets": [
+    "Trained at Fragomen, the world's largest corporate immigration firm",
+    "USCIS petitions and immigration court cases nationwide",
+    "Consultations in English and Spanish"
+  ],
+  "offer_name": "Case Review",
+  "cta_label": "Ask About My Case",
+  "cta_short": "Ask About My Case",
+  "form_title": "Ask About Your Case",
+  "form_sub": "Tell us the basics and how to reach you. We respond within one business day.",
+  "qualifiers": [
+    {
+      "name": "case_type",
+      "label": "What is this about?",
+      "options": [
+        "Work or investor visa (E-2, TN, L-1, O-1, H-1B)",
+        "Green card — family or marriage",
+        "Green card — employment (NIW, EB-1, EB-5)",
+        "Citizenship / naturalization",
+        "Deportation, detention, or immigration court",
+        "Something else / not sure"
+      ]
+    }
+  ],
+  "problem_heading": "How the firm works",
+  "problem_cards": [
+    {
+      "title": "Big-firm training, boutique attention",
+      "body": "Corporate immigration firms teach a discipline: complete records, anticipated objections, no surprises. Faragalla Law applies that standard to individual and family cases — with the founder, not a case mill, on your file."
+    },
+    {
+      "title": "Federal practice, nationwide reach",
+      "body": "Immigration is federal law, which allows the firm to represent clients before USCIS and the immigration courts in all 50 states and abroad — with offices in Texas and Florida and clients worldwide."
+    },
+    {
+      "title": "Straight answers, flat fees",
+      "body": "You'll hear what's realistic before you pay for anything — including when the honest advice is to wait, strengthen the case, or not file at all. When we do take the case, the fee is flat and quoted up front."
+    }
+  ],
+  "service_name": "U.S. Immigration Legal Services"
+}

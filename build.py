@@ -770,6 +770,12 @@ def render_sitelink_page(site_base, page):
         call_first = (f'<p class="hero__callfirst"><a class="btn btn--call-big" href="tel:{e(site["phone_tel"])}" '
                       f'data-call-location="hero">{ICON_PHONE} {e(page["call_first"])}</a></p>')
 
+    # big link button to the firm's Google reviews profile (reviews sitelink page)
+    if page.get("reviews_button_label"):
+        call_first += (f'<p class="hero__callfirst"><a class="btn btn--call-big" '
+                       f'href="{e(site["google_reviews_url"])}" target="_blank" rel="noopener">'
+                       f'{e(page["reviews_button_label"])}</a></p>')
+
     cards = ""
     if page.get("problem_cards"):
         card_html = "\n        ".join(
@@ -784,6 +790,9 @@ def render_sitelink_page(site_base, page):
       </div>
     </div>
   </section>"""
+
+    if page.get("show_attorney"):
+        cards = render_attorney(site, ui) + ("\n  " + cards if cards else "")
 
     return f"""<!doctype html>
 <html lang="{lang}">

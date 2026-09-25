@@ -1,6 +1,6 @@
 # Faragalla Law — PPC Landing Page Hub
 
-A self-contained hub of 34 campaign landing pages for faragallalaw.com paid
+A self-contained hub of 39 campaign landing pages for faragallalaw.com paid
 traffic (the `results.goldbergloren.com` pattern: one focused, noindexed page
 per campaign, no site navigation, one offer per page), in three sections:
 
@@ -11,10 +11,11 @@ per campaign, no site navigation, one offer per page), in three sections:
 - **2 Texas landers** — ICE detention and deportation defense geo variants
   built to client-supplied heading structures (run in Texas-geo campaigns;
   the national versions cover everywhere else).
-- **6 sitelink conversion pages** — slim, form-first pages with distinct URLs
+- **11 sitelink conversion pages** — slim, form-first pages with distinct URLs
   for Google Ads sitelink assets (case review, callback, Se Habla Español,
-  bond eligibility, find-a-detainee, flat fees); see the sitelink table in
-  STRATEGY.md for link texts and descriptions.
+  bond eligibility, find-a-detainee, flat fees, free consultation, work
+  visas, reviews, attorney bio, contact); see the sitelink tables in
+  STRATEGY.md for link texts, descriptions, and the free-consultation flag.
 
 - **Campaign strategy, keyword data, ad structure:** [STRATEGY.md](STRATEGY.md)
 - **Raw keyword research exports:** `research/keywords-us.tsv`, `research/keywords-canada.tsv`
@@ -47,7 +48,7 @@ public/                   generated output — the deployable site
   index.html              internal hub directory (never an ad destination)
   thank-you.html          conversion page (fires generate_lead)
   gracias.html            Spanish conversion page (same event)
-  <campaign>/index.html   34 landing pages (24 EN + 10 ES)
+  <campaign>/index.html   39 landing pages (29 EN + 10 ES)
 research/                 keyword research exports + US-vs-Canada analysis (Aug 2026)
 ```
 
@@ -97,6 +98,12 @@ campaign_page, form_location).
   Sam Faragalla's actual likeness (no AI/stock imagery on a law firm page).
 - [ ] **Consultation offer** (`site.json → consultation.line`): state plainly
   whether the consultation is free or paid, its length, and what it includes.
+  **Now urgent:** the client-supplied `/free-consultation/` sitelink page
+  advertises a free consultation while every other page says "flat-rate…
+  any consultation fee confirmed." Do not send traffic to both messages —
+  resolve free-vs-paid, then either update `consultation.line` site-wide
+  (free) or retire `/free-consultation/` (paid). See the sitelink notes in
+  STRATEGY.md.
 - [ ] **Verify all claims** with the firm: 27+ years / 2,000+ cases / 4.8
   rating (`site.json → stats`), Fragomen background, NY bar admission,
   "respond within one business day", flat-fee statements on every page, office

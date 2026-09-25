@@ -1,0 +1,62 @@
+{
+  "slug": "work-visa-attorney",
+  "campaign": "Sitelink — Work Visa Attorney",
+  "priority": 36,
+  "section": "Sitelink conversion pages",
+  "template": "sitelink",
+  "meta_title": "Work Visa Attorney — H-1B, L-1, O-1, TN, E-2 | Faragalla Law",
+  "meta_description": "Employment immigration for employers and professionals: H-1B, L-1, O-1, TN, and E-2 cases, prepared to corporate standards. Tell us the role and we'll tell you the right visa.",
+  "eyebrow": "Employment Immigration Attorneys",
+  "h1": "Work Visa Attorneys for Employers and Professionals",
+  "hero_sub": "H-1B, L-1, O-1, TN, E-2 — the right visa depends on the role, the person, and the timeline. Tell us the situation and we'll tell you which category actually fits, what it takes, and the flat fee.",
+  "bullets": [
+    "Employer petitions and professional / founder cases",
+    "Fragomen-trained preparation, corporate standards",
+    "Honest category advice before any filing"
+  ],
+  "offer_name": "Work Visa Assessment",
+  "cta_label": "Request My Work Visa Assessment",
+  "cta_short": "Visa Review",
+  "form_title": "Request Your Work Visa Assessment",
+  "form_sub": "Tell us who the visa is for and the situation. We reply within one business day with the right category and next steps.",
+  "qualifiers": [
+    {
+      "name": "visa_type",
+      "label": "Which visa — if you know?",
+      "options": [
+        "H-1B",
+        "L-1 (intracompany transfer)",
+        "O-1 (extraordinary ability)",
+        "TN (Canadian / Mexican professionals)",
+        "E-2 (investor)",
+        "Not sure — tell me which fits"
+      ]
+    },
+    {
+      "name": "who",
+      "label": "Who is this for?",
+      "options": [
+        "I'm an employer sponsoring someone",
+        "I'm the professional / employee",
+        "I'm a founder or investor",
+        "An immigration lawyer referring a case"
+      ]
+    }
+  ],
+  "problem_heading": "One team for both sides of the petition",
+  "problem_cards": [
+    {
+      "title": "For employers",
+      "body": "Petitions prepared to the corporate standards founding attorney Sam Faragalla trained on at Fragomen — position analysis, compliant filings, RFE-resistant records, and realistic timelines your HR team can plan around."
+    },
+    {
+      "title": "For professionals and founders",
+      "body": "If your employer won't sponsor or you're building your own company, we tell you which categories don't need one — O-1, E-2, TN, and self-petitioned green cards (NIW, EB-1) — and whether your profile supports them."
+    },
+    {
+      "title": "Category-honest from the first call",
+      "body": "The most expensive mistake in employment immigration is filing the wrong category. We map the role and the person to the visa that can actually be approved — and tell you plainly when the answer is to wait or build the profile first."
+    }
+  ],
+  "service_name": "Employment-Based Immigration Services"
+}
