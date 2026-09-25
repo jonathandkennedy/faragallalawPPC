@@ -285,10 +285,75 @@ Hidden fields captured on every lead: `utm_source/medium/campaign/term/content`,
 `first_touch` (JSON, persisted in localStorage), `referrer`, `device`,
 `campaign_page`, `form_location`.
 
-Setup order:
-1. Create GTM container → set `gtm_id` in `content/site.json` → rebuild.
-2. GA4 + Google Ads conversion tags triggered on `generate_lead` (destination
-   thank-you view), secondary on `phone_click`.
+### GTM container setup — exact configuration (GTM-T88G9RDN)
+
+The container is installed on all 41 pages + thank-you pages (head snippet +
+noscript). A Tag Assistant scan (Sept 2026) shows it already loads: GA4
+`G-4CYD6L8T7D`, Google Ads conversion + remarketing `AW-11003861805`, and one
+**Floodlight tag with an undefined advertiser ID**. Do the following in the
+container, in order — ~15 minutes of work:
+
+**0. Clean up**
+- Open the Floodlight tag → its advertiser ID is undefined. Unless someone
+  confirms the firm runs Campaign Manager/DV360, **delete it**.
+- Confirm a **Conversion Linker** tag exists, firing on All Pages. If not,
+  add one (Tags → New → Conversion Linker → trigger: All Pages). Google Ads
+  conversions undercount without it.
+
+**1. Variables** (Variables → User-Defined → New → Data Layer Variable):
+- `DLV - form_location` → data layer variable name `form_location`
+- `DLV - link_location` → `link_location`
+- `DLV - from_page` → `from_page`
+- Also enable built-ins: Page Path, Page URL, Referrer.
+
+**2. Triggers** (Triggers → New → Custom Event; event name must match exactly):
+- `CE - generate_lead` → event name `generate_lead`
+- `CE - lead_form_submit` → `lead_form_submit`
+- `CE - phone_click` → `phone_click`
+- `CE - lead_form_error` → `lead_form_error`
+
+**3. GA4 event tags** (the Google tag `G-4CYD6L8T7D` already fires on all
+pages — leave it; dataLayer events do NOT forward to GA4 by themselves):
+- Tag "GA4 - generate_lead": type GA4 Event, measurement ID `G-4CYD6L8T7D`,
+  event name `generate_lead`, event parameter `from_page` = `{{DLV - from_page}}`,
+  trigger `CE - generate_lead`.
+- Tag "GA4 - lead_form_submit": event name `lead_form_submit`, param
+  `form_location` = `{{DLV - form_location}}`, trigger `CE - lead_form_submit`.
+- Tag "GA4 - phone_click": event name `phone_click`, param `link_location` =
+  `{{DLV - link_location}}`, trigger `CE - phone_click`.
+- Then in **GA4 Admin → Key events**: mark `generate_lead` as a key event,
+  and confirm the property is linked to Google Ads account `11003861805`.
+
+**4. Google Ads conversion tags** (account `AW-11003861805`):
+- In **Google Ads** (not GTM): Tools → Conversions → New → Website → create
+  action "Lead — hub form" (category: Submit lead form, count: One, value:
+  none for now). Copy its Conversion ID + **Conversion Label**.
+- In GTM: Tag "AW - Lead form" → type Google Ads Conversion Tracking →
+  Conversion ID `11003861805` + the new label → trigger `CE - generate_lead`.
+- Optional but recommended: second action "Lead — phone click" (category:
+  Phone lead), tagged the same way on trigger `CE - phone_click`, and set to
+  **Secondary** in Google Ads so it observes without double-counting against
+  CallRail's call conversions.
+- Don't retrigger the old page's existing conversion tag — a fresh action
+  keeps hub data clean from day one.
+
+**5. Remarketing** — the existing remarketing tag stays on All Pages. Useful
+audiences: all hub visitors (30d), Spanish-page visitors (Page Path matches
+regex `abogado|detenido|espanol|residencia|ajuste|ciudadania|papeles|mexicanos|gracias`),
+detention/deportation visitors for urgency copy.
+
+**6. Test before publishing the container**: GTM Preview → open a deployed
+page → submit a test lead (name it "TEST" so intake ignores it) and click a
+tel: link. In Tag Assistant debug you should see `lead_form_submit`,
+`generate_lead` (on the thank-you page), and `phone_click` each firing their
+tags; check GA4 DebugView too. Then Publish. Google Ads shows the conversion
+within a few hours ("Unverified" at first is normal).
+
+Setup order (account level):
+1. ~~Create GTM container → set `gtm_id` in `site.json`~~ — **DONE
+   (GTM-T88G9RDN on every page).**
+2. ~~GA4 + Google Ads conversion tags~~ — configure per the section above
+   (GA4 `G-4CYD6L8T7D`, Ads `AW-11003861805`).
 3. **Call tracking**: CallRail (or similar) number pool; swap
    `phone_display`/`phone_tel` in `site.json` to the tracking number. Count
    calls ≥60s as conversions. Canadian callers: make sure the pool has a number
