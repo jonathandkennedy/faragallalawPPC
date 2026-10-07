@@ -57,9 +57,84 @@
     setVal('device', window.matchMedia('(max-width: 899px)').matches ? 'mobile' : 'desktop');
   }
 
+  /* ---- Page name (campaign) for analytics events, read from the baked hidden field ---- */
+  function pageName() {
+    var el = document.querySelector('.lp-form [name="page_name"]');
+    return el ? el.value : '';
+  }
+
+  /* ---- User-provided data for Google enhanced conversions.
+     Stored in sessionStorage on submit; the thank-you page attaches it to the
+     generate_lead push, where GTM's user-provided-data variable reads and
+     Google hashes it client-side. ---- */
+  function userData(form) {
+    var val = function (name) {
+      var el = form.querySelector('[name="' + name + '"]');
+      return el ? el.value.trim() : '';
+    };
+    var data = {};
+    if (val('email')) data.email = val('email');
+    var phone = val('phone').replace(/[^\d+]/g, '');
+    if (phone) {
+      if (phone.charAt(0) !== '+') {
+        if (phone.length === 10) phone = '+1' + phone;          // US/CA 10-digit
+        else if (phone.length === 11 && phone.charAt(0) === '1') phone = '+' + phone;
+        else phone = '+' + phone;
+      }
+      data.phone_number = phone;
+    }
+    var name = val('name');
+    if (name) {
+      var parts = name.split(/\s+/);
+      data.address = {
+        first_name: parts[0],
+        last_name: parts.length > 1 ? parts.slice(1).join(' ') : ''
+      };
+    }
+    return data;
+  }
+
+  /* ---- Urgent selection → surface the phone number immediately ---- */
+  var URGENT_RX = /urgent|urgente|emergencia|detained|detenido|detention facility|centro de detención|acaban de llevar|picked up|fear of arrest|temor de arresto/i;
+
+  function watchUrgency(form) {
+    var note = form.getAttribute('data-urgent-note');
+    var tel = form.getAttribute('data-phone-tel');
+    var display = form.getAttribute('data-phone-display');
+    if (!note || !tel) return;
+
+    form.querySelectorAll('select').forEach(function (sel) {
+      sel.addEventListener('change', function () {
+        var chosen = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : '';
+        var existing = sel.parentNode.querySelector('.urgent-note');
+        if (URGENT_RX.test(chosen)) {
+          if (existing) return;
+          var div = document.createElement('div');
+          div.className = 'urgent-note';
+          var span = document.createElement('span');
+          span.textContent = note + ' ';
+          var a = document.createElement('a');
+          a.href = 'tel:' + tel;
+          a.textContent = display || tel;
+          a.setAttribute('data-call-location', 'urgent-note');
+          a.addEventListener('click', function () {
+            window.dataLayer.push({ event: 'phone_click', link_location: 'urgent-note', page_path: window.location.pathname, page_name: pageName() });
+          });
+          div.appendChild(span);
+          div.appendChild(a);
+          sel.parentNode.appendChild(div);
+          window.dataLayer.push({ event: 'urgent_selected', form_location: form.getAttribute('data-form-location') || 'unknown', page_path: window.location.pathname, page_name: pageName() });
+        } else if (existing) {
+          existing.remove();
+        }
+      });
+    });
+  }
+
   /* ---- Form submit: POST, then redirect to thank-you (the real conversion page) ---- */
   function handleForm(form) {
     fillHidden(form);
+    watchUrgency(form);
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -77,10 +152,15 @@
 
       fillHidden(form); // refresh in case params arrived late
 
+      var ud = userData(form);
+      try { sessionStorage.setItem('fl_lead_user_data', JSON.stringify(ud)); } catch (err) {}
+
       window.dataLayer.push({
         event: 'lead_form_submit',
         form_location: location_id,
-        page_path: window.location.pathname
+        page_path: window.location.pathname,
+        page_name: pageName(),
+        user_data: ud
       });
 
       if (btn) { btn.disabled = true; btn.setAttribute('data-label', btn.textContent); btn.textContent = msgSending; }
@@ -121,7 +201,8 @@
         window.dataLayer.push({
           event: 'phone_click',
           link_location: a.getAttribute('data-call-location') || 'page',
-          page_path: window.location.pathname
+          page_path: window.location.pathname,
+          page_name: pageName()
         });
       });
     });

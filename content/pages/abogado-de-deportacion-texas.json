@@ -146,6 +146,10 @@
   ],
   "service_name": "Servicios de Defensa de Deportación — Texas (Español)",
   "testimonial_hint": "Reseñas textuales de Google en español — casos de defensa/detención",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "Llegue a Su Próxima Audiencia con un Plan de Defensa",
   "final_sub": "¿Detenido o con plazo encima? Llame ahora. Si no: un formulario, una respuesta rápida y una lectura honesta de sus opciones.",
   "site_overrides": {

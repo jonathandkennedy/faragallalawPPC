@@ -5,8 +5,8 @@
   "meta_title": "E-2 Visa Lawyer for Canadian Citizens | Faragalla Law",
   "meta_description": "Canadian citizen buying or starting a U.S. business? Faragalla Law assesses your investment, ownership structure, and source of funds before you pursue an E-2 visa. Request an eligibility review.",
   "eyebrow": "E-2 Visa Lawyer for Canadian Entrepreneurs",
-  "h1": "Planning to Buy or Start a U.S. Business? Explore Your E-2 Visa Options.",
-  "hero_sub": "Faragalla Law helps Canadian citizens assess their investment, ownership structure, source of funds, and business plan before pursuing an E-2 treaty investor visa.",
+  "h1": "The E-2 Visa for Canadian Citizens: Turn a U.S. Business Investment Into Your Visa.",
+  "hero_sub": "Buying or starting a U.S. business? Faragalla Law assesses your investment amount, ownership structure, source of funds, and business plan against the E-2 standard — and tells you where you stand in one business day.",
   "bullets": [
     "Canadian citizens investing in an active U.S. business",
     "Startups, acquisitions, franchises, and expansions",
@@ -21,12 +21,33 @@
     {
       "name": "citizenship",
       "label": "Are you a Canadian citizen?",
-      "options": ["Yes — Canadian citizen", "No — citizen of another treaty country", "No — not sure if my country qualifies"]
+      "options": [
+        "Yes — Canadian citizen",
+        "No — citizen of another treaty country",
+        "No — not sure if my country qualifies"
+      ]
+    },
+    {
+      "name": "investment",
+      "label": "How much are you planning to invest?",
+      "options": [
+        "Under US$50,000",
+        "US$50,000–$100,000",
+        "US$100,000–$250,000",
+        "Over US$250,000",
+        "Not decided yet"
+      ]
     },
     {
       "name": "stage",
       "label": "Where are you in the process?",
-      "options": ["Researching my options", "Identified a business to buy or start", "Funds committed / purchase in progress", "Already own a U.S. business", "Renewing or fixing a denied E-2"]
+      "options": [
+        "Researching my options",
+        "Identified a business to buy or start",
+        "Funds committed / purchase in progress",
+        "Already own a U.S. business",
+        "Renewing or fixing a denied E-2"
+      ]
     }
   ],
   "problem_heading": "The E-2 visa rewards preparation — and punishes guesswork",

@@ -135,6 +135,10 @@
   ],
   "service_name": "Deportation & Removal Defense Services",
   "testimonial_hint": "Use verbatim Google reviews from defense/detention clients (the firm has these)",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "Get a defense plan before the next hearing",
   "final_sub": "Urgent or detained? Call now. Otherwise: one form, a fast reply, and a clear-eyed read on your options.",
   "site_overrides": {

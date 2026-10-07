@@ -48,6 +48,8 @@ story, and use volume clusters (family, local, citizenship) to fill capacity.
 | 29–39 | eleven `/…/` sitelink pages | Conversion sitelinks (see below) | Not bid on directly — they receive sitelink clicks from all campaigns | — | Inherit campaign geo |
 | 40 | `/detenido-por-ice-texas/` | Detención ICE — Texas (Español) | Spanish Texas detention: detenido por ice texas / abogado de fianzas tail; ES detention CPCs price HIGHER than EN (localizador $16.43 vs $6.14) | Medium-high, urgent | **Texas** (ES) |
 | 41 | `/abogado-de-deportacion-texas/` | Deportación — Texas (Español) | Spanish Texas removal defense: abogado de deportacion texas/houston/dallas tail | Medium | **Texas** (ES) |
+| 42 | `/abogado-de-inmigracion-dallas/` | Abogado — Dallas (Español) | [abogado de inmigracion dallas] already spends ~$184 @ QS 5 landing on the national page — set as keyword-level final URL like Houston | Medium | **DFW** (ES) |
+| 43 | `/abogado-de-inmigracion-san-antonio/` | Abogado — San Antonio (Español) | [abogado de inmigracion san antonio] ~$214 @ QS 3 — same keyword-level final URL treatment | Medium | **San Antonio** (ES) |
 
 ### Texas landers (pages 27–28 EN, 40–41 ES)
 
@@ -337,6 +339,22 @@ pages — leave it; dataLayer events do NOT forward to GA4 by themselves):
 - Don't retrigger the old page's existing conversion tag — a fresh action
   keeps hub data clean from day one.
 
+**4b. Enhanced conversions (site side is DONE — wire the GTM side).** On
+submit, `lp.js` stores the lead's name/email/phone and the thank-you page
+attaches them to the `generate_lead` push as `user_data` —
+`user_data.email`, `user_data.phone_number` (E.164, +1-normalized),
+`user_data.address.first_name` / `.last_name`. In GTM:
+- Variables → New → **User-Provided Data** → "Manual configuration": Email =
+  Data Layer Variable `user_data.email`, Phone = DLV `user_data.phone_number`,
+  First name = DLV `user_data.address.first_name`, Last name = DLV
+  `user_data.address.last_name` (create those four DLVs).
+- Open the **"Lead Form (Ads)"** conversion tag → Include user-provided data
+  → select that variable.
+- In Google Ads: Tools → Conversions → the lead action → Enhanced
+  conversions → turn on, source "Google Tag Manager". Google hashes
+  client-side; diagnostics clears in ~48h. This addresses the Oct 7
+  "enhanced conversions setup is not active" urgent flag.
+
 **5. Remarketing** — the existing remarketing tag stays on All Pages. Useful
 audiences: all hub visitors (30d), Spanish-page visitors (Page Path matches
 regex `abogado|detenido|espanol|residencia|ajuste|ciudadania|papeles|mexicanos|gracias`),
@@ -354,7 +372,27 @@ Setup order (account level):
    (GTM-T88G9RDN on every page).**
 2. ~~GA4 + Google Ads conversion tags~~ — configure per the section above
    (GA4 `G-4CYD6L8T7D`, Ads `AW-11003861805`).
-3. **Call tracking**: CallRail (or similar) number pool; swap
+3. **Call tracking — DECISION NEEDED (vendor conflict).** The pages
+   currently load a **CallRail** swap.js (`site.json → callrail_swap_url`,
+   from the original landing page), but the Oct 7 account audit shows the
+   firm's platform is **CallTrackingMetrics** (CTM) — its "CTM Call" import
+   has never recorded a website call and all "Calls from website" actions
+   are inactive, so lander calls are invisible to Smart Bidding. Pick ONE:
+   - **Option A — CTM (auditor-preferred):** get the CTM tracking script for
+     results.faragallalaw.com with a Google Ads number pool (captures
+     gclid), put its URL in `site.json → callrail_swap_url` (the field is
+     just "the call-tracking script slot" — any vendor's swap script works),
+     rebuild, deploy. Then set CTM → Google Ads import (calls ≥60s) and flip
+     "CTM Call" to Primary / Phone call lead.
+   - **Option B — Google forwarding number (fastest):** add Google's website
+     call-tracking snippet via GTM (no page change needed — tag type "Google
+     Ads Calls from Website", it swaps the visible (866) 655-3729 for paid
+     visitors), and flip the existing "Calls From Website" action (60s,
+     $100) back to Primary.
+   - Either way: ONE website-call action Primary, 60s minimum — never both,
+     or calls double-count. If CTM wins, remove the CallRail script so two
+     DNI scripts don't fight over the same number text.
+   Original guidance (number pool; swap
    `phone_display`/`phone_tel` in `site.json` to the tracking number. Count
    calls ≥60s as conversions. Canadian callers: make sure the pool has a number
    Canadians can dial without international friction (or use a toll-free).

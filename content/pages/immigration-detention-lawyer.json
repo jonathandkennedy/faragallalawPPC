@@ -21,12 +21,24 @@
     {
       "name": "relationship",
       "label": "Who is detained?",
-      "options": ["My spouse or partner", "My parent or my child", "Sibling or other family member", "A friend or community member", "I'm at risk myself (check-in / fear of arrest)"]
+      "options": [
+        "My spouse or partner",
+        "My parent or my child",
+        "Sibling or other family member",
+        "A friend or community member",
+        "I'm at risk myself (check-in / fear of arrest)"
+      ]
     },
     {
       "name": "situation",
       "label": "Where do things stand?",
-      "options": ["Just picked up — within the last few days", "In a detention facility now", "Detained with a court date coming", "I can't find where they're being held", "Not sure — need help figuring it out"]
+      "options": [
+        "Just picked up — within the last few days",
+        "In a detention facility now",
+        "Detained with a court date coming",
+        "I can't find where they're being held",
+        "Not sure — need help figuring it out"
+      ]
     }
   ],
   "problem_heading": "Detention cases are won by families who move in the first week",
@@ -123,6 +135,10 @@
   ],
   "service_name": "Immigration Detention & Bond Representation",
   "testimonial_hint": "Use verbatim Google reviews from detention/bond clients (the firm has detention defense reviews)",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "Get someone fighting for them today",
   "final_sub": "Call now if it's urgent. Otherwise send what you know — name, A-number, facility — and we'll start locating and moving on bond.",
   "site_overrides": {

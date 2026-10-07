@@ -1,12 +1,12 @@
 {
-  "slug": "abogado-de-inmigracion-houston",
-  "campaign": "Abogado de Inmigración — Houston (Español)",
-  "priority": 18,
+  "slug": "abogado-de-inmigracion-dallas",
+  "campaign": "Abogado de Inmigración — Dallas (Español)",
+  "priority": 42,
   "lang": "es",
-  "meta_title": "Abogado de Inmigración en Houston | Faragalla Law",
-  "meta_description": "Abogados de inmigración en Houston para residencias, visas de trabajo, ciudadanía y defensa de deportación. Atención en español, tarifas fijas y una respuesta honesta sobre su caso.",
-  "eyebrow": "Abogados de Inmigración en Houston",
-  "h1": "Un Abogado de Inmigración en Houston Que Le Dice la Verdad Sobre Su Caso.",
+  "meta_title": "Abogado de Inmigración en Dallas, TX | Faragalla Law",
+  "meta_description": "Abogados de inmigración en Dallas para residencias, visas de trabajo, ciudadanía y defensa de deportación. Atención en español, tarifas fijas y una respuesta honesta sobre su caso.",
+  "eyebrow": "Abogados de Inmigración en Dallas",
+  "h1": "Un Abogado de Inmigración en Dallas Que Le Dice la Verdad Sobre Su Caso.",
   "hero_sub": "Residencias, visas de trabajo, peticiones familiares, ciudadanía y defensa. En Faragalla Law usted recibe primero una evaluación honesta — y después una tarifa fija y un plan claro, en español.",
   "bullets": [
     "Residencias por matrimonio y peticiones familiares",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Los plazos mandan en inmigración",
-      "body": "Las fechas de corte, los plazos para responder a USCIS, los vencimientos de permisos y las ventanas para quitar condiciones no perdonan. Un caso que es sencillo este mes puede necesitar un perdón el mes que viene. Saber a tiempo dónde está parado cuesta solo un formulario."
+      "body": "Las fechas de la corte de inmigración de Dallas, los plazos para responder a USCIS, los vencimientos de permisos y las ventanas para quitar condiciones no perdonan. Un caso que es sencillo este mes puede necesitar un perdón el mes que viene — y si hay un detenido, centros como Prairieland (Alvarado) quedan a menos de una hora de la ciudad. Saber a tiempo dónde está parado cuesta solo un formulario."
     },
     {
       "title": "Lo que se declara hoy lo persigue mañana",
@@ -64,7 +64,7 @@
     },
     {
       "title": "Formación de firma grande, trato personal",
-      "body": "El abogado fundador Sam Faragalla se formó en Fragomen, una de las firmas de inmigración corporativa más grandes del mundo, y aplica ese estándar a las familias de Houston."
+      "body": "El abogado fundador Sam Faragalla se formó en Fragomen, una de las firmas de inmigración corporativa más grandes del mundo, y aplica ese estándar a las familias de Dallas."
     },
     {
       "title": "Primero la verdad, después el contrato",
@@ -95,7 +95,7 @@
   ],
   "fees_heading": "¿Cuánto cuesta su trámite?",
   "fees_body": "Cada asunto estándar — peticiones familiares, residencias, permisos, ciudadanía — se cotiza con una tarifa fija en la consulta, con las tarifas del gobierno detalladas por separado para que usted pueda presupuestar el caso completo. Los casos con complicaciones cuestan más que los casos limpios, y le diremos con franqueza cuál es el suyo antes de que gaste un dólar.",
-  "who_heading": "A quiénes ayudamos en Houston",
+  "who_heading": "A quiénes ayudamos en Dallas",
   "who_for": [
     "Familias con peticiones de matrimonio, perdones y ajustes de estatus",
     "Trabajadores y empleadores con visas y residencias por empleo",
@@ -109,7 +109,7 @@
   ],
   "faq": [
     {
-      "q": "¿Cuánto cobra un abogado de inmigración en Houston?",
+      "q": "¿Cuánto cobra un abogado de inmigración en Dallas?",
       "a": "Depende del trámite: una petición sencilla cuesta mucho menos que un perdón o una defensa en corte. Lo que sí podemos prometer es la estructura: una tarifa fija cotizada en la consulta que cubre el trabajo definido, con las tarifas del gobierno detalladas por separado. Usted nunca descubrirá el precio a mitad del caso."
     },
     {
@@ -129,12 +129,12 @@
       "a": "A veces sí — depende de cómo entró, quién es su familiar peticionario y su historial completo. Los cónyuges de ciudadanos que entraron legalmente muchas veces pueden ajustar estatus aunque se hayan quedado de más; otras situaciones requieren un perdón antes de salir a la entrevista consular. Es exactamente el tipo de análisis que debe hacerse antes de presentar cualquier cosa — un trámite equivocado puede activar un castigo de 3 o 10 años."
     },
     {
-      "q": "¿Atienden casos fuera de Houston?",
-      "a": "Sí. La ley de inmigración es federal, así que representamos clientes en todo Texas, en todo el país y en el extranjero. Las consultas están disponibles por teléfono y video, y la mayoría de los trámites ante USCIS no requieren visitas a una oficina local."
+      "q": "¿Atienden casos fuera de Dallas?",
+      "a": "Sí. La ley de inmigración es federal, así que representamos clientes en Fort Worth, Arlington, Garland, Irving y todo el norte de Texas — y en todo el país. Las consultas están disponibles por teléfono y video, y la mayoría de los trámites ante USCIS no requieren visitas a una oficina local."
     }
   ],
-  "service_name": "Servicios Legales de Inmigración — Houston, TX (Español)",
-  "testimonial_hint": "Reseñas textuales de Google de clientes hispanohablantes de Houston",
+  "service_name": "Servicios Legales de Inmigración — Dallas, TX (Español)",
+  "testimonial_hint": "Reseñas textuales de Google de clientes hispanohablantes de Dallas",
   "final_heading": "Reciba una respuesta clara sobre su caso",
   "final_sub": "Un formulario. Un día hábil. Una respuesta honesta sobre sus opciones, el costo y el calendario."
 }

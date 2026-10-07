@@ -19,11 +19,21 @@
   
   <script src="/assets/js/lp.js" defer></script>
   <script>
-    window.dataLayer.push({
-      event: 'generate_lead',
-      page_path: '/thank-you.html',
-      from_page: new URLSearchParams(location.search).get('from') || 'direct'
-    });
+    window.dataLayer = window.dataLayer || [];
+    (function () {
+      var push = {
+        event: 'generate_lead',
+        page_path: '/thank-you.html',
+        from_page: new URLSearchParams(location.search).get('from') || 'direct'
+      };
+      /* user-provided data stored by lp.js on submit — powers GTM enhanced conversions */
+      try {
+        var ud = JSON.parse(sessionStorage.getItem('fl_lead_user_data') || 'null');
+        sessionStorage.removeItem('fl_lead_user_data');
+        if (ud) push.user_data = ud;
+      } catch (e) {}
+      window.dataLayer.push(push);
+    })();
   </script>
 </head>
 <body>
@@ -54,7 +64,7 @@
     </div>
     <div class="ty-callout">
       <strong>Need to talk sooner?</strong>
-      <a href="tel:+18666553729" data-call-location="thankyou">(866) 655-3729</a>
+      <p class="ty-callout__btn"><a class="btn btn--call-big" href="tel:+18666553729" data-call-location="thankyou"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z" fill="currentColor"/></svg> (866) 655-3729</a></p>
       and mention that you&#x27;ve already submitted the form.
     </div>
     <p class="lp-form__microcopy">We use your contact details only to respond to your inquiry. Submitting this form does not create an attorney-client relationship.</p>

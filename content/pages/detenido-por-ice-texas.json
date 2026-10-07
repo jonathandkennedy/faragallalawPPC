@@ -24,12 +24,25 @@
     {
       "name": "parentesco",
       "label": "¿Quién está detenido?",
-      "options": ["Mi esposo(a) o pareja", "Mi padre, madre o hijo(a)", "Hermano(a) u otro familiar", "Un(a) amigo(a) o miembro de la comunidad", "Yo mismo(a) estoy en riesgo (cita con ICE / temor de arresto)"]
+      "options": [
+        "Mi esposo(a) o pareja",
+        "Mi padre, madre o hijo(a)",
+        "Hermano(a) u otro familiar",
+        "Un(a) amigo(a) o miembro de la comunidad",
+        "Yo mismo(a) estoy en riesgo (cita con ICE / temor de arresto)"
+      ]
     },
     {
       "name": "situacion",
       "label": "¿Cómo está la situación?",
-      "options": ["Se lo acaban de llevar — en los últimos días", "Está en un centro de detención en Texas", "Detenido y con fecha de corte próxima", "No sé dónde lo tienen", "Lo trasladaron a Texas desde otro estado", "No estoy seguro(a) — necesito ayuda para entender"]
+      "options": [
+        "Se lo acaban de llevar — en los últimos días",
+        "Está en un centro de detención en Texas",
+        "Detenido y con fecha de corte próxima",
+        "No sé dónde lo tienen",
+        "Lo trasladaron a Texas desde otro estado",
+        "No estoy seguro(a) — necesito ayuda para entender"
+      ]
     }
   ],
   "problem_heading": "Las Familias Que Actúan la Primera Semana Ganan los Casos de Detención de ICE",
@@ -134,6 +147,10 @@
   ],
   "service_name": "Representación de Detención de ICE y Fianzas — Texas (Español)",
   "testimonial_hint": "Reseñas textuales de Google en español — casos de detención/fianza",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "Ponga a un Abogado de Detención a Trabajar en Esto Hoy",
   "final_sub": "Si es urgente, llame ahora. Si no: envíe lo que sepa — nombre, número A, centro — y empezamos a localizarlo y a mover la fianza.",
   "site_overrides": {

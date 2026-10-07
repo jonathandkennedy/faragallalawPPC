@@ -136,6 +136,10 @@
   ],
   "service_name": "Representación de Detención y Fianzas Migratorias (Español)",
   "testimonial_hint": "Reseñas textuales de Google en español — casos de detención/fianza",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "Que alguien pelee por su familiar desde hoy",
   "final_sub": "Si es urgente, llame ahora. Si no: envíe lo que sepa — nombre, número A, centro — y empezamos a localizarlo y a mover la fianza.",
   "site_overrides": {

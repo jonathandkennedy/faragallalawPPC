@@ -64,6 +64,7 @@ UI_EN = {
     "select_one": "Select one…",
     "msg_sending": "Sending your request…",
     "msg_error": "Something went wrong sending the form. Please call us instead — the number is at the top of the page.",
+    "urgent_note": "Marked urgent? Don't wait for a reply — call now for the fastest response:",
     "see_privacy": "See our",
     "privacy_policy": "Privacy Policy",
     "back_to_top": "back to top",
@@ -123,6 +124,7 @@ UI_ES = {
     "select_one": "Seleccione una opción…",
     "msg_sending": "Enviando su solicitud…",
     "msg_error": "Ocurrió un error al enviar el formulario. Por favor llámenos — el número está en la parte superior de la página.",
+    "urgent_note": "¿Es urgente? No espere la respuesta — llame ahora para la atención más rápida:",
     "see_privacy": "Consulte nuestra",
     "privacy_policy": "Política de Privacidad",
     "back_to_top": "volver arriba",
@@ -285,7 +287,8 @@ def render_form(site, page, ui, location):
 
     return f"""<form class="lp-form" method="POST" action="{e(action)}" name="lead-{slug}"
       data-form-location="{location}" data-endpoint="{e(endpoint)}" data-thankyou="{ui['thankyou_path']}"
-      data-msg-sending="{e(ui['msg_sending'])}" data-msg-error="{e(ui['msg_error'])}"{netlify_attrs}>
+      data-msg-sending="{e(ui['msg_sending'])}" data-msg-error="{e(ui['msg_error'])}"
+      data-urgent-note="{e(ui['urgent_note'])}" data-phone-tel="{e(site['phone_tel'])}" data-phone-display="{e(site['phone_display'])}"{netlify_attrs}>
       <input type="hidden" name="form-name" value="lead-{slug}">
       <input type="hidden" name="campaign_page" value="{slug}">
       {hidden}
@@ -714,11 +717,21 @@ def render_thank_you(site, ty, lang):
 <head>
   {head}
   <script>
-    window.dataLayer.push({{
-      event: 'generate_lead',
-      page_path: '{ty['path']}',
-      from_page: new URLSearchParams(location.search).get('from') || 'direct'
-    }});
+    window.dataLayer = window.dataLayer || [];
+    (function () {{
+      var push = {{
+        event: 'generate_lead',
+        page_path: '{ty['path']}',
+        from_page: new URLSearchParams(location.search).get('from') || 'direct'
+      }};
+      /* user-provided data stored by lp.js on submit — powers GTM enhanced conversions */
+      try {{
+        var ud = JSON.parse(sessionStorage.getItem('fl_lead_user_data') || 'null');
+        sessionStorage.removeItem('fl_lead_user_data');
+        if (ud) push.user_data = ud;
+      }} catch (e) {{}}
+      window.dataLayer.push(push);
+    }})();
   </script>
 </head>
 <body>
@@ -747,7 +760,7 @@ def render_thank_you(site, ty, lang):
     </div>
     <div class="ty-callout">
       <strong>{e(ty['callout_strong'])}</strong>
-      <a href="tel:{e(site['phone_tel'])}" data-call-location="thankyou">{e(site['phone_display'])}</a>
+      <p class="ty-callout__btn"><a class="btn btn--call-big" href="tel:{e(site['phone_tel'])}" data-call-location="thankyou">{ICON_PHONE} {e(site['phone_display'])}</a></p>
       {e(ty['callout_rest'])}
     </div>
     <p class="lp-form__microcopy">{e(site['form_microcopy_privacy'])}</p>
@@ -950,6 +963,18 @@ def main():
     # organic exclusion is handled by the per-page meta noindex.
     (PUBLIC / "robots.txt").write_text("User-agent: *\nAllow: /\n", encoding="utf-8")
     print("  built /robots.txt")
+
+    # Blocking check: no template placeholder may ever ship (launch checklist)
+    bad = []
+    for f in PUBLIC.rglob("*.html"):
+        txt = f.read_text(encoding="utf-8")
+        if "PASTE VERBATIM" in txt or "PEGUE AQU" in txt or "[PLACEHOLDER" in txt:
+            bad.append(str(f.relative_to(PUBLIC)))
+    if bad:
+        print("\nERROR — template placeholders rendered to output (build blocked):")
+        for b in bad:
+            print(f"  - {b}")
+        raise SystemExit(1)
 
     print(f"\nDone — {len(pages)} campaign pages + thank-you pages + index in public/")
 

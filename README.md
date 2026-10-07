@@ -1,6 +1,6 @@
 # Faragalla Law — PPC Landing Page Hub
 
-A self-contained hub of 41 campaign landing pages for faragallalaw.com paid
+A self-contained hub of 43 campaign landing pages for faragallalaw.com paid
 traffic (the `results.goldbergloren.com` pattern: one focused, noindexed page
 per campaign, no site navigation, one offer per page), in three sections:
 
@@ -49,7 +49,7 @@ public/                   generated output — the deployable site
   index.html              internal hub directory (never an ad destination)
   thank-you.html          conversion page (fires generate_lead)
   gracias.html            Spanish conversion page (same event)
-  <campaign>/index.html   41 landing pages (29 EN + 12 ES)
+  <campaign>/index.html   43 landing pages (29 EN + 14 ES)
 research/                 keyword research exports + US-vs-Canada analysis (Aug 2026)
 ```
 
@@ -127,6 +127,26 @@ campaign_page, form_location).
   Profile" source link under the testimonials. Sanity check after deploy:
   click it once and confirm it opens the firm's profile with reviews.
 
+**From the Oct 7, 2026 Google Ads audit (fix list PDF):**
+- [ ] **REDEPLOY — the live site is stale.** The audit saw placeholder
+  reviews on /deportation-defense-lawyer/ and /e2-visa-canadian-citizens/;
+  the repo replaced every placeholder with verbatim reviews on 2026-10-07
+  and `build.py` now *fails the build* if a placeholder would render.
+  Deploying current `main` closes audit item P0-1.
+- [ ] **Call-tracking vendor decision (P0-2)**: pages load CallRail swap.js
+  but the account runs CallTrackingMetrics — pick CTM DNI or Google
+  forwarding numbers (see STRATEGY.md "Call tracking — DECISION NEEDED").
+- [ ] **Enhanced conversions (P0-3)**: site side done (user_data on the
+  thank-you `generate_lead` push); finish the GTM variable + tag toggle per
+  STRATEGY.md step 4b.
+- [ ] **Urgency ops (P1-5)**: pages now surface "call now" the moment an
+  urgent option is selected, but the firm must confirm after-hours call
+  answering (Texas campaigns run 24/7) and set up a Formspree auto-reply
+  (dashboard feature) so urgent submitters get an instant acknowledgment.
+- [ ] Dallas + San Antonio Spanish landers built (P1-6) — set them as
+  keyword-level final URLs for [abogado de inmigracion dallas] / [... san
+  antonio] in the account.
+
 **Plumbing:**
 - [x] ~~`site.json → gtm_id`~~ — **SET (2026-08-21): `GTM-T88G9RDN`
   (GTM account 6249382821), rendered on every page (head snippet + noscript
@@ -156,7 +176,7 @@ campaign_page, form_location).
 - [ ] Real-device pass: iPhone Safari + Android Chrome — sticky bar doesn't
   cover the form's submit button, tel: links dial, forms submit.
 
-**Spanish pages (all 12) extra blockers:**
+**Spanish pages (all 14) extra blockers:**
 - [x] ~~Confirm Spanish-speaking intake~~ — **CONFIRMED (2026-08-21): intake
   operates in both English and Spanish.** Pages and footers now state it
   (`site.json → languages_line`).
