@@ -86,11 +86,15 @@ campaign_page, form_location).
 ## 🚨 Launch checklist — do not send paid traffic until every box is checked
 
 **Blockers (legal/trust):**
-- [ ] **Testimonials**: replace both placeholder quotes on every page with
-  verbatim Google reviews (with client permission), matched to each page's
-  practice area. Edit `testimonial_placeholder_lines` handling per page or the
-  quotes in `build.py::render_testimonials`. Fabricated/paraphrased reviews
-  violate bar advertising rules.
+- [x] ~~Testimonials~~ — **SET (2026-10-07): two verbatim 5-star Google
+  reviews (Gursharan Clare — E-2 from Canada; Randa Nassar —
+  citizenship/green card) in `site.json → testimonials`, rendered on all 30
+  full-template pages and `/reviews/`.** Transcribed exactly, including the
+  reviewers' own spelling. Family/citizenship pages lead with the relevant
+  review via `testimonial_ids`. Remaining: confirm with the firm that
+  reproducing these public reviews is OK (the on-page line says "with
+  permission"), and add a detention/bond review for the detention pages
+  when one exists — add to the `testimonials` array and reference by id.
 - [x] ~~Attorney photo~~ — **SET (2026-09-03): client-supplied headshot,
   background removed, at `assets/img/sam-faragalla.webp`** (37KB WebP with
   alpha, localized alt text, lazy-loaded). Rendered on all 28 full-template

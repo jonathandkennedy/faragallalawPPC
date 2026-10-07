@@ -576,6 +576,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 .quote blockquote { margin: 0 0 10px; font-size: 15.5px; color: var(--ink); }
 
+.quote blockquote p { margin: 0 0 10px; }
+
+.quote blockquote p:last-child { margin-bottom: 0; }
+
 .quote figcaption { font-size: 13.5px; color: var(--muted); font-weight: 600; }
 
 .quotes__source {

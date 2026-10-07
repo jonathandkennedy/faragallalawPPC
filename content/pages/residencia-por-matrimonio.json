@@ -135,6 +135,10 @@
   ],
   "service_name": "Servicios de Residencia por Matrimonio (Español)",
   "testimonial_hint": "Reseñas textuales de Google en español — casos de matrimonio/familia",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "Empiecen su caso con el expediente bien hecho",
   "final_sub": "Un formulario. Un día hábil. Un plan claro para su historia específica."
 }

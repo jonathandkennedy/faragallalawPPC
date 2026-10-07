@@ -54,7 +54,24 @@
   "gtm_note": "SET 2026-08-21 per client: container GTM-T88G9RDN (GTM account 6249382821). Pages render the head snippet + noscript iframe. Next: in this container, add GA4 + Google Ads conversion triggers on the generate_lead and phone_click dataLayer events, scoped by hostname if the container also serves faragallalaw.com. Verify with GTM preview mode.",
   "disclaimer_footer": "Attorney Advertising. This website is for informational purposes only and does not constitute legal advice. Submitting a form or calling the firm does not create an attorney-client relationship. Prior results do not guarantee a similar outcome. No attorney-client relationship exists until a written engagement agreement is signed.",
   "form_microcopy_privacy": "We use your contact details only to respond to your inquiry. Submitting this form does not create an attorney-client relationship.",
-  "testimonials_note": "LAUNCH BLOCKER — replace every placeholder testimonial with a verbatim client review (with permission) from the firm's Google profile, matched to each page's practice area. Fabricated or paraphrased reviews violate bar advertising rules.",
+  "testimonials_note": "Two verbatim 5-star Google reviews set 2026-10-07 (Gursharan Clare — E-2 from Canada; Randa Nassar — citizenship/green card). Transcribed exactly, including the reviewer's own spelling. Still wanted: Spanish-language reviews for the ES pages and a detention/bond review for the detention pages. Confirm with the firm that reviewers' public Google reviews may be reproduced (the on-page line states 'with permission').",
+  "testimonials": [
+    {
+      "id": "gursharan",
+      "name": "Gursharan Clare",
+      "text": [
+        "I had a great experience working with Sam on my E-2 visa from Canada. After dealing with two unresponsive attorneys, Sam was a huge relief—always responsive, professional, and reliable. He consistently answered my calls or followed up within a few hours. His fees were reasonable, and the level of service was truly five-star.",
+        "Thank you, Sam, for your outstanding support and guidance throughout the process. I highly recommend him to anyone in need of an immigration attorney."
+      ]
+    },
+    {
+      "id": "randa",
+      "name": "Randa Nassar",
+      "text": [
+        "I have had a very positive experience with Faragalla Law. They are very friendly and knowledgeable of the US Immigration policies and procedures. They always keep me informed of the progress with applying for the Citizenship and/or Green Card extensions. The Lawyer, Sam Faragalla always makes himself available to speak with me and gives me proper advice on the entire process. His Paralegal Jahy Khier always answers the call to help or answer the questions and give me great advice. The other secretaries always take messages and pass it on to the correct parties. I highly recommend this firm for all your immigration work in the USA because you will be in good hands."
+      ]
+    }
+  ],
   "testimonial_placeholder_lines": [
     "[PASTE VERBATIM GOOGLE REVIEW — pick one about this visa type. See README launch checklist.]",
     "[PASTE VERBATIM GOOGLE REVIEW — second review for this practice area.]"

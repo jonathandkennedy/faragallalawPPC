@@ -134,6 +134,10 @@
   ],
   "service_name": "Citizenship & Naturalization Services",
   "testimonial_hint": "Use verbatim Google reviews from citizenship/naturalization clients — the firm has these",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "File your citizenship case with nothing left to chance",
   "final_sub": "One form. One business day. A clear read on your eligibility and any issues to resolve first."
 }

@@ -22,12 +22,24 @@
     {
       "name": "base",
       "label": "¿Cuál es la base de su ajuste?",
-      "options": ["Matrimonio o petición familiar", "Visa K-1 — ya casados, sigue la residencia", "Empleo (petición del empleador)", "Asilo aprobado hace un año o más", "No estoy seguro(a) — esa es mi pregunta"]
+      "options": [
+        "Matrimonio o petición familiar",
+        "Visa K-1 — ya casados, sigue la residencia",
+        "Empleo (petición del empleador)",
+        "Asilo aprobado hace un año o más",
+        "No estoy seguro(a) — esa es mi pregunta"
+      ]
     },
     {
       "name": "entrada",
       "label": "¿Cómo entró a EE. UU.?",
-      "options": ["Con visa — todavía vigente", "Con visa — ya vencida", "Con permiso / parole", "Sin inspección", "Prefiero hablarlo en privado"]
+      "options": [
+        "Con visa — todavía vigente",
+        "Con visa — ya vencida",
+        "Con permiso / parole",
+        "Sin inspección",
+        "Prefiero hablarlo en privado"
+      ]
     }
   ],
   "problem_heading": "Los ajustes se atoran por detalles que se podían saber antes de presentar",
@@ -124,6 +136,10 @@
   ],
   "service_name": "Servicios de Ajuste de Estatus / I-485 (Español)",
   "testimonial_hint": "Reseñas textuales de Google en español — casos de residencia/ajuste",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "Presente su ajuste una sola vez, completo y correcto",
   "final_sub": "Un formulario. Un día hábil. Su lectura de elegibilidad y el plan completo de presentación."
 }

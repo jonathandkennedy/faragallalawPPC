@@ -21,12 +21,23 @@
     {
       "name": "basis",
       "label": "What's your likely basis?",
-      "options": ["Marriage or family in the U.S.", "My employer will sponsor me", "My own achievements (self-petition)", "Investment (EB-5)", "Not sure — that's the question"]
+      "options": [
+        "Marriage or family in the U.S.",
+        "My employer will sponsor me",
+        "My own achievements (self-petition)",
+        "Investment (EB-5)",
+        "Not sure — that's the question"
+      ]
     },
     {
       "name": "location",
       "label": "Where are you now?",
-      "options": ["In the U.S. with valid status", "In the U.S. — status expired or complicated", "Outside the U.S.", "Prefer to discuss"]
+      "options": [
+        "In the U.S. with valid status",
+        "In the U.S. — status expired or complicated",
+        "Outside the U.S.",
+        "Prefer to discuss"
+      ]
     }
   ],
   "problem_heading": "Green card cases fail on category choice more than on merit",
@@ -123,6 +134,10 @@
   ],
   "service_name": "Green Card & Permanent Residence Services",
   "testimonial_hint": "Use verbatim Google reviews from green card clients — family or employment",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "Find your strongest path to permanent residence",
   "final_sub": "One form. One business day. The right category, the right sequence, a real timeline."
 }

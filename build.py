@@ -461,14 +461,29 @@ def render_fees(page, ui):
 
 
 def render_testimonials(site, page, ui):
-    quotes = "\n        ".join(
-        f"""<figure class="quote">
+    reviews = page.get("testimonials") or site.get("testimonials") or []
+    if reviews and page.get("testimonial_ids"):
+        by_id = {r["id"]: r for r in reviews}
+        reviews = [by_id[i] for i in page["testimonial_ids"] if i in by_id]
+    if reviews:
+        label = ui["google_review_label"].rstrip(" —")
+        quotes = "\n        ".join(
+            f"""<figure class="quote">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <blockquote>{''.join(f'<p>{e(p)}</p>' for p in r['text'])}</blockquote>
+          <figcaption>{e(r['name'])} — {e(label)}</figcaption>
+        </figure>"""
+            for r in reviews
+        )
+    else:
+        quotes = "\n        ".join(
+            f"""<figure class="quote">
           <div class="stars" aria-hidden="true">★★★★★</div>
           <blockquote>{e(line)}</blockquote>
-          <figcaption>{e(ui['google_review_label'])} {e(page['testimonial_hint'])}</figcaption>
+          <figcaption>{e(ui['google_review_label'])} {e(page.get('testimonial_hint', ''))}</figcaption>
         </figure>"""
-        for line in site["testimonial_placeholder_lines"]
-    )
+            for line in site["testimonial_placeholder_lines"]
+        )
     gbp_link = f'<a href="{e(site["google_reviews_url"])}" target="_blank" rel="noopener">{e(ui["gbp_label"])}</a>'
     source = e(ui["reviews_source"]).replace("{gbp_link}", gbp_link)
     return f"""<section class="section section--alt">
@@ -793,6 +808,9 @@ def render_sitelink_page(site_base, page):
 
     if page.get("show_attorney"):
         cards = render_attorney(site, ui) + ("\n  " + cards if cards else "")
+
+    if page.get("show_testimonials"):
+        cards = render_testimonials(site, page, ui) + ("\n  " + cards if cards else "")
 
     return f"""<!doctype html>
 <html lang="{lang}">

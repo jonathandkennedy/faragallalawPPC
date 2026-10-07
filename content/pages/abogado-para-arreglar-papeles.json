@@ -138,6 +138,10 @@
   ],
   "service_name": "Servicios de Residencia y Ajuste de Estatus (Español)",
   "testimonial_hint": "Reseñas textuales de Google en español — casos de residencia/perdones",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "Sepa de una vez si su caso tiene vía — y cuál es",
   "final_sub": "Un formulario confidencial. Un día hábil. La verdad sobre sus opciones, dicha con respeto."
 }

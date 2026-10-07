@@ -4,6 +4,7 @@
   "priority": 37,
   "section": "Sitelink conversion pages",
   "template": "sitelink",
+  "show_testimonials": true,
   "meta_title": "Client Reviews | Faragalla Law",
   "meta_description": "See what clients say about Faragalla Law — read the firm's reviews on Google, unfiltered, then tell us about your own case.",
   "eyebrow": "Client Reviews",

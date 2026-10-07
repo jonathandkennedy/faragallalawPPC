@@ -21,12 +21,24 @@
     {
       "name": "basis",
       "label": "Your basis for adjusting",
-      "options": ["Marriage or family petition", "Employment (I-140 approved or pending)", "K-1 — married, ready for the next stage", "Asylum granted a year ago or more", "Other / not sure — that's the question"]
+      "options": [
+        "Marriage or family petition",
+        "Employment (I-140 approved or pending)",
+        "K-1 — married, ready for the next stage",
+        "Asylum granted a year ago or more",
+        "Other / not sure — that's the question"
+      ]
     },
     {
       "name": "entry",
       "label": "How did you enter the U.S.?",
-      "options": ["With a visa — still in status", "With a visa — overstayed", "Visa Waiver / ESTA", "Entered without inspection", "Prefer to discuss"]
+      "options": [
+        "With a visa — still in status",
+        "With a visa — overstayed",
+        "Visa Waiver / ESTA",
+        "Entered without inspection",
+        "Prefer to discuss"
+      ]
     }
   ],
   "problem_heading": "Adjustment cases stall on details that were knowable before filing",
@@ -123,6 +135,10 @@
   ],
   "service_name": "Adjustment of Status (I-485) Services",
   "testimonial_hint": "Use verbatim Google reviews from green card / adjustment clients",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "File your adjustment once, completely, correctly",
   "final_sub": "One form. One business day. Your eligibility read and the full filing plan."
 }

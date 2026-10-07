@@ -136,6 +136,10 @@
   ],
   "service_name": "Servicios de Ciudadanía y Naturalización (Español)",
   "testimonial_hint": "Reseñas textuales de Google en español — casos de ciudadanía",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
   "final_heading": "Presente su ciudadanía sin dejar nada al azar",
   "final_sub": "Un formulario. Un día hábil. Su fecha real de elegibilidad y cualquier detalle a resolver primero."
 }
