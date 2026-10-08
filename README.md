@@ -133,9 +133,12 @@ campaign_page, form_location).
   the repo replaced every placeholder with verbatim reviews on 2026-10-07
   and `build.py` now *fails the build* if a placeholder would render.
   Deploying current `main` closes audit item P0-1.
-- [ ] **Call-tracking vendor decision (P0-2)**: pages load CallRail swap.js
-  but the account runs CallTrackingMetrics — pick CTM DNI or Google
-  forwarding numbers (see STRATEGY.md "Call tracking — DECISION NEEDED").
+- [ ] **Call tracking (P0-2) — decided: CallRail (Oct 8).** Snippet already
+  on every page. Remaining work is dashboard-side: CallRail number pool
+  swapping (866) 655-3729 with Google Ads source, CallRail→Google Ads
+  integration at 60s minimum, the CallRail action set Primary (CTM and
+  Google website-call actions stay secondary), then a test call after
+  deploy. Step-by-step in STRATEGY.md "Call tracking — DECIDED".
 - [ ] **Enhanced conversions (P0-3)**: site side done (user_data on the
   thank-you `generate_lead` push); finish the GTM variable + tag toggle per
   STRATEGY.md step 4b.

@@ -372,30 +372,37 @@ Setup order (account level):
    (GTM-T88G9RDN on every page).**
 2. ~~GA4 + Google Ads conversion tags~~ — configure per the section above
    (GA4 `G-4CYD6L8T7D`, Ads `AW-11003861805`).
-3. **Call tracking — DECISION NEEDED (vendor conflict).** The pages
-   currently load a **CallRail** swap.js (`site.json → callrail_swap_url`,
-   from the original landing page), but the Oct 7 account audit shows the
-   firm's platform is **CallTrackingMetrics** (CTM) — its "CTM Call" import
-   has never recorded a website call and all "Calls from website" actions
-   are inactive, so lander calls are invisible to Smart Bidding. Pick ONE:
-   - **Option A — CTM (auditor-preferred):** get the CTM tracking script for
-     results.faragallalaw.com with a Google Ads number pool (captures
-     gclid), put its URL in `site.json → callrail_swap_url` (the field is
-     just "the call-tracking script slot" — any vendor's swap script works),
-     rebuild, deploy. Then set CTM → Google Ads import (calls ≥60s) and flip
-     "CTM Call" to Primary / Phone call lead.
-   - **Option B — Google forwarding number (fastest):** add Google's website
-     call-tracking snippet via GTM (no page change needed — tag type "Google
-     Ads Calls from Website", it swaps the visible (866) 655-3729 for paid
-     visitors), and flip the existing "Calls From Website" action (60s,
-     $100) back to Primary.
-   - Either way: ONE website-call action Primary, 60s minimum — never both,
-     or calls double-count. If CTM wins, remove the CallRail script so two
-     DNI scripts don't fight over the same number text.
-   Original guidance (number pool; swap
-   `phone_display`/`phone_tel` in `site.json` to the tracking number. Count
-   calls ≥60s as conversions. Canadian callers: make sure the pool has a number
-   Canadians can dial without international friction (or use a toll-free).
+3. **Call tracking — DECIDED Oct 8, 2026: CallRail.** The swap.js for
+   CallRail company 854671427 is already on all 43 pages; no code change
+   needed. What makes lander calls visible to Google Ads (all of it inside
+   CallRail + Google Ads dashboards):
+   1. **In CallRail, verify what (866) 655-3729 is** (Tracking → Numbers).
+      If it's the firm's real business line, fine. If it's already a single
+      static CallRail tracker, also fine — either way it's the number the
+      pages display and the one the pool must swap.
+   2. **Create a Website (pool) tracking setup** for
+      results.faragallalaw.com: Dynamic Number Insertion, source Google
+      Ads/paid, with (866) 655-3729 set as the number to swap. A pool (not
+      a single number) is what captures per-visitor sessions, gclid, and
+      keyword. Keep the pool toll-free — Canadian E-2 visitors must be able
+      to dial it without friction.
+   3. **Connect CallRail → Google Ads** (Integrations → Google Ads, account
+      11003861805): enable reporting calls as conversions, minimum duration
+      60 seconds. Auto-tagging is already on in the account.
+   4. **In Google Ads** (Tools → Conversions): set the CallRail-created
+      action to Primary, category Phone call lead, count One, value $100.
+      Leave "CTM Call" and the Google "Calls From Website …" actions
+      Secondary/inactive forever — exactly ONE website-call action may be
+      primary or calls double-count. "Calls from ads" (SERP call asset) is
+      a different channel and stays as is.
+   5. **Deploy latest main, then verify the swap**: open a lander with
+      ?gclid=test (or use CallRail's DNI checker in settings) and watch
+      (866) 655-3729 swap to a pool number; make one test call over 60s and
+      confirm it lands in CallRail with the session attached, then shows in
+      Google Ads within a day.
+   6. Tell whoever runs the CallTrackingMetrics account that website call
+      tracking is CallRail now, so nobody re-enables the dead CTM import.
+
 4. Import *qualified* lead status back into Google Ads (offline conversion via
    gclid — the hidden fields make this possible) so smart bidding optimizes
    toward signed consults, not raw form fills.
