@@ -934,6 +934,15 @@ def main():
     # assets
     shutil.copytree(ROOT / "assets", PUBLIC / "assets")
 
+    # static/: files served verbatim from the site root (e.g. Google Search
+    # Console HTML verification). Never rename these — Google re-checks them.
+    static_dir = ROOT / "static"
+    if static_dir.exists():
+        for f in sorted(static_dir.iterdir()):
+            if f.is_file():
+                shutil.copy2(f, PUBLIC / f.name)
+                print(f"  copied static/{f.name} -> /{f.name}")
+
     # campaign pages
     for page in pages:
         out = PUBLIC / page["slug"]

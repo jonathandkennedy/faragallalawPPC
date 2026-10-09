@@ -43,6 +43,8 @@ content/pages/*.json      one file per campaign: all copy, FAQs, form qualifiers
                           "section" (hub-index grouping), "template": "sitelink" (slim
                           form-first layout), "call_first" (big call button above the form),
                           and "form_title_bottom" (final-CTA form heading override)
+static/                   files copied verbatim to the site root on every build
+                          (Google Search Console verification file lives here — never delete)
 assets/css/lp.css         design system (mobile-first, system fonts, WCAG-checked buttons)
 assets/js/lp.js           ~3KB runtime: UTM/gclid capture, form submit, dataLayer events
 public/                   generated output — the deployable site
