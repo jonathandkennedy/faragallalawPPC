@@ -112,7 +112,7 @@ campaign_page, form_location).
   (free) or retire `/free-consultation/` (paid). See the sitelink notes in
   STRATEGY.md.
 - [ ] **Verify all claims** with the firm: 27+ years / 2,000+ cases / 4.8
-  rating (`site.json → stats`), Fragomen background, NY bar admission,
+  rating (`site.json → stats`), Baker McKenzie background, NY bar admission,
   "respond within one business day", flat-fee statements on every page, office
   line. Remove anything the firm can't substantiate.
 - [ ] **Office addresses**: several state bars require a physical address on

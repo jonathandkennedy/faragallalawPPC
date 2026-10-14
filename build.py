@@ -174,7 +174,7 @@ SITE_ES = {
     ],
     "attorney": {
         "title": "Fundador y Abogado Principal de Inmigración",
-        "bio_short": "Sam Faragalla se formó en Fragomen, una de las firmas de inmigración corporativa más grandes del mundo, antes de fundar Faragalla Law. El despacho representa a familias, trabajadores, empresarios e inversionistas en asuntos migratorios en todo Estados Unidos.",
+        "bio_short": "Sam Faragalla se formó en Baker McKenzie, una de las firmas de abogados más grandes del mundo, antes de fundar Faragalla Law. El despacho representa a familias, trabajadores, empresarios e inversionistas en asuntos migratorios en todo Estados Unidos.",
         "license_line": "Licenciado para ejercer la abogacía en Nueva York. La ley de inmigración es federal, lo que permite al despacho representar clientes en los 50 estados y en el extranjero.",
     },
     "testimonial_placeholder_lines": [

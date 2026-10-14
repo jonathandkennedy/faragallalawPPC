@@ -7,7 +7,7 @@ Volumes are monthly averages; CPCs are Google's top-of-page estimates in USD.
 ## The core insight
 
 Faragalla Law's positioning — **a boutique specializing in E-2 and TN visas for
-Canadians, with Fragomen-trained counsel** — maps directly onto the highest-CPC,
+Canadians, with Baker McKenzie-trained counsel** — maps directly onto the highest-CPC,
 lowest-competition corner of immigration PPC. High CPCs in legal are a proxy for
 case value: advertisers only sustain $50–70 clicks when a signed case is worth
 $5k–15k+. The plan: dominate the specialty clusters where the firm has a real
@@ -179,7 +179,7 @@ Campaign: NIW-US
   Conversions → tCPA once ~30 conversions accrue.
 - Ad copy: mirror the page's offer. Example RSA pins for E-2:
   - H1 pin: "E-2 Visa Lawyer for Canadians" / "Canadian E-2 Visa Attorneys"
-  - H2: "Flat Fees, Quoted Up Front" / "Fragomen-Trained Counsel" / "We Reply Within 1 Business Day"
+  - H2: "Flat Fees, Quoted Up Front" / "Baker McKenzie-Trained Counsel" / "We Reply Within 1 Business Day"
   - Desc: "Buying or starting a U.S. business? Get your investment, ownership and source of funds assessed before you file. Request an E-2 eligibility review."
   - Never use: "guaranteed", "approval", "98% success" (bar-rule risk; the
     landing pages deliberately avoid outcome promises — ads must match).
