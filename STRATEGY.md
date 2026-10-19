@@ -276,7 +276,12 @@ hostage by a blocked tag (verified in-browser: exactly 1501ms worst case,
 near-instant when the tag loads). In Google Ads: mark the Qualified Lead
 action **Primary**, the Unqualified action **Secondary**, and demote the
 old thank-you-pageview lead action to Secondary. **Never also wire these
-two labels in GTM — that would double-count.** If container access ever
+two labels in GTM — that would double-count.** Non-detention pages (E-2,
+TN, citizenship, …) have a third slot wired and waiting: create a "Lead —
+website form" conversion action in Google Ads, paste its label into
+`AW_LABELS.lead_generic` in `assets/js/lp.js`, rebuild, deploy — every
+other page then fires it on successful submit. While the label is empty,
+nothing loads and nothing fires on those pages. If container access ever
 arrives, GA4 `lead_qualified`/`lead_unqualified` event tags are still
 worth adding for reporting (key event: lead_qualified only).
 - Calls: in CallRail, tag calls `Qualified` when the caller confirms the

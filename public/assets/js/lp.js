@@ -16,7 +16,11 @@
   var AW_ID = 'AW-11003861805';
   var AW_LABELS = {
     lead_qualified:   'y59cCKiB2KIdEK22hv8o',
-    lead_unqualified: '0Ut9CKuB2KIdEK22hv8o'
+    lead_unqualified: '0Ut9CKuB2KIdEK22hv8o',
+    /* Non-detention pages (E-2, TN, citizenship, …): create a "Lead — website
+       form" conversion action in Google Ads and paste its label here. Empty
+       label = no-op: submits redirect instantly and nothing fires. */
+    lead_generic:     ''
   };
   var AW_TIMEOUT_MS = 1500; // never hold the redirect longer than this if the tag is blocked
 
@@ -171,7 +175,7 @@
   function handleForm(form) {
     fillHidden(form);
     watchUrgency(form);
-    if (form.querySelector('[name="retainer_ability"]')) loadGtag();
+    if (form.querySelector('[name="retainer_ability"]') || AW_LABELS.lead_generic) loadGtag();
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -254,7 +258,7 @@
         if (retainer) qs.set('qual', '1');
         if (attribution.last && attribution.last.gclid) qs.set('gclid', attribution.last.gclid);
         var go = function () { window.location.assign(thankYou + '?' + qs.toString()); };
-        if (retainer) fireAdsConversion('lead_qualified', go); else go();
+        fireAdsConversion(retainer ? 'lead_qualified' : 'lead_generic', go);
       }).catch(function () {
         if (btn) { btn.disabled = false; btn.textContent = btn.getAttribute('data-label'); }
         if (status) {
