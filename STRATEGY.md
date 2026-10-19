@@ -241,6 +241,12 @@ Notes:
   Speak to a Lawyer / Fees + the campaign-relevant service link.
 - `/se-habla-espanol/` doubles as the language sitelink on English campaigns —
   Spanish-speaking searchers often click English ads; give them a Spanish exit.
+- Detention pages now carry the **official-locator deflection** at three
+  depths: the hero note, a line under every lead form, and links inside
+  the locator FAQ — all pointing to locator.ice.gov/odls/#/search and
+  usa.gov/detained-by-ice. Hero bullets lead with the $2,500 fee; the
+  "we locate your family member" promise (the locator-searcher bait) is
+  demoted to last.
 - `/find-a-detainee/` is also a legitimate **landing page** for the helpful-first
   ad group of the `ice detainee locator` (135k/mo) campaign — it leads with
   locator instructions, which is what that searcher needs and what converts.
@@ -277,11 +283,14 @@ near-instant when the tag loads). In Google Ads: mark the Qualified Lead
 action **Primary**, the Unqualified action **Secondary**, and demote the
 old thank-you-pageview lead action to Secondary. **Never also wire these
 two labels in GTM — that would double-count.** Non-detention pages (E-2,
-TN, citizenship, …) have a third slot wired and waiting: create a "Lead —
-website form" conversion action in Google Ads, paste its label into
-`AW_LABELS.lead_generic` in `assets/js/lp.js`, rebuild, deploy — every
-other page then fires it on successful submit. While the label is empty,
-nothing loads and nothing fires on those pages. If container access ever
+TN, citizenship, …) fire the third action "Lead - website form (results
+LP, non-detention)" — `AW-11003861805/GEUYCM3K46IdEK22hv8o`, Primary,
+$100 — on successful submit (label set Oct 19). All three actions fire
+client-side from `lp.js`; the three never overlap (retainer pages fire
+qualified/unqualified, everything else fires generic). After the new
+actions show Recording in Google Ads (~3h after the first live submits),
+demote the old "Lead Form (Ads)" thank-you-pageview action to Secondary —
+not before. If container access ever
 arrives, GA4 `lead_qualified`/`lead_unqualified` event tags are still
 worth adding for reporting (key event: lead_qualified only).
 - Calls: in CallRail, tag calls `Qualified` when the caller confirms the

@@ -76,6 +76,10 @@ UI_EN = {
     "notyet_b2": "Get them this message: don't sign anything, and ask to speak with a lawyer.",
     "notyet_b3": "When the family has the retainer together, call",
     "notyet_b3_rest": " and we move the same day.",
+    "locator_line_pre": "Just looking for someone in detention? Search free at",
+    "locator_line_locator": "ICE's official detainee locator",
+    "locator_line_mid": "or see the government guide at",
+    "locator_line_post": "You don't need a lawyer to search.",
     "see_privacy": "See our",
     "privacy_policy": "Privacy Policy",
     "back_to_top": "back to top",
@@ -142,6 +146,10 @@ UI_ES = {
     "notyet_b2": "Hágale llegar este mensaje: que no firme nada y que pida hablar con un abogado.",
     "notyet_b3": "Cuando la familia reúna el anticipo, llame al",
     "notyet_b3_rest": " y nos movemos el mismo día.",
+    "locator_line_pre": "¿Solo busca localizar a alguien detenido? Búsquelo gratis en el",
+    "locator_line_locator": "localizador oficial de ICE",
+    "locator_line_mid": "o vea la guía del gobierno en",
+    "locator_line_post": "No necesita abogado para buscar.",
     "see_privacy": "Consulte nuestra",
     "privacy_policy": "Política de Privacidad",
     "back_to_top": "volver arriba",
@@ -332,7 +340,32 @@ def render_form(site, page, ui, location):
       <button class="btn btn--primary btn--block" type="submit">{e(page['cta_label'])}</button>
       <p class="lp-form__microcopy">{e(site['response_promise'])}. {e(site['consultation']['line'])}
       {e(site['form_microcopy_privacy'])} {e(ui['see_privacy'])} <a href="{e(site['privacy_url'])}" target="_blank" rel="noopener">{e(ui['privacy_policy']).replace(' ', '&nbsp;')}</a>.</p>
-    </form>{notyet_panel(site, page, ui)}"""
+    </form>{notyet_panel(site, page, ui)}{locator_line(page, ui)}"""
+
+
+LOCATOR_URL = "https://locator.ice.gov/odls/#/search"
+GUIDE_URL = "https://www.usa.gov/detained-by-ice"
+
+
+def link_official(escaped_text):
+    """Turn plain mentions of the official resources into links (post-escape)."""
+    return (escaped_text
+            .replace("locator.ice.gov",
+                     f'<a href="{LOCATOR_URL}" target="_blank" rel="noopener">locator.ice.gov</a>')
+            .replace("usa.gov/detained-by-ice",
+                     f'<a href="{GUIDE_URL}" target="_blank" rel="noopener">usa.gov/detained-by-ice</a>'))
+
+
+def locator_line(page, ui):
+    """Small line under the form pointing locator-searchers to the free
+    official tools (detention pages only)."""
+    if not any(q.get("name") == "retainer_ability" for q in page.get("qualifiers", [])):
+        return ""
+    return (f'\n    <p class="form-card__locator">{e(ui["locator_line_pre"])} '
+            f'<a href="{LOCATOR_URL}" target="_blank" rel="noopener">{e(ui["locator_line_locator"])}</a> '
+            f'{e(ui["locator_line_mid"])} '
+            f'<a href="{GUIDE_URL}" target="_blank" rel="noopener">usa.gov/detained-by-ice</a>. '
+            f'{e(ui["locator_line_post"])}</p>')
 
 
 def notyet_panel(site, page, ui):
@@ -347,7 +380,7 @@ def notyet_panel(site, page, ui):
     <div class="lp-form__notyet" hidden>
       <p class="lp-form__notyet-lead">{e(ui['notyet_lead'])}</p>
       <ul>
-        <li>{e(ui['notyet_b1'])} <a href="https://locator.ice.gov" target="_blank" rel="noopener">locator.ice.gov</a></li>
+        <li>{e(ui['notyet_b1'])} <a href="{LOCATOR_URL}" target="_blank" rel="noopener">locator.ice.gov</a></li>
         <li>{e(ui['notyet_b2'])}</li>
         <li>{e(ui['notyet_b3'])} <a href="tel:{e(site['phone_tel'])}" data-call-location="notyet">{e(site['phone_display'])}</a>{e(ui['notyet_b3_rest'])}</li>
       </ul>
@@ -396,9 +429,7 @@ def render_hero(site, page, ui):
     fee_bar = f'<p class="fee-bar">{md(page["fee_bar"])}</p>' if page.get("fee_bar") else ""
     hero_note = ""
     if page.get("hero_note"):
-        note = md(page["hero_note"]).replace(
-            "locator.ice.gov",
-            '<a href="https://locator.ice.gov" target="_blank" rel="noopener">locator.ice.gov</a>')
+        note = link_official(md(page["hero_note"]))
         hero_note = f'<p class="hero__note">{note}</p>'
     return f"""<section class="hero" id="top">
     <div class="container hero__grid">
@@ -602,7 +633,7 @@ def render_faq(page, ui):
     items = "\n        ".join(
         f"""<details>
           <summary>{e(f['q'])}</summary>
-          <div><p>{e(f['a'])}</p></div>
+          <div><p>{link_official(e(f['a']))}</p></div>
         </details>"""
         for f in page["faq"]
     )

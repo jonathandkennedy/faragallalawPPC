@@ -17,10 +17,9 @@
   var AW_LABELS = {
     lead_qualified:   'y59cCKiB2KIdEK22hv8o',
     lead_unqualified: '0Ut9CKuB2KIdEK22hv8o',
-    /* Non-detention pages (E-2, TN, citizenship, …): create a "Lead — website
-       form" conversion action in Google Ads and paste its label here. Empty
-       label = no-op: submits redirect instantly and nothing fires. */
-    lead_generic:     ''
+    /* "Lead - website form (results LP, non-detention)" — all non-detention
+       pages, Primary, $100. Created Oct 19 in Ads 465-923-1250. */
+    lead_generic:     'GEUYCM3K46IdEK22hv8o'
   };
   var AW_TIMEOUT_MS = 1500; // never hold the redirect longer than this if the tag is blocked
 
@@ -42,7 +41,7 @@
     if (!label || typeof window.gtag !== 'function') { finish(); return; }
     window.gtag('event', 'conversion', {
       send_to: AW_ID + '/' + label,
-      value: eventName === 'lead_qualified' ? 100 : 0,
+      value: eventName === 'lead_unqualified' ? 0 : 100,
       currency: 'USD',
       event_callback: finish
     });
