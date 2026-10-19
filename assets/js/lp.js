@@ -163,6 +163,29 @@
         user_data: ud
       });
 
+      /* Lead qualification (detention pages): classify on retainer ability.
+         Smart Bidding is fed lead_qualified only — see STRATEGY.md. */
+      var selVal = function (names) {
+        for (var i = 0; i < names.length; i++) {
+          var el = form.querySelector('[name="' + names[i] + '"]');
+          if (el && el.value) return el.value;
+        }
+        return '';
+      };
+      var retainer = selVal(['retainer_ability']);
+      var isNotYet = retainer === 'not_yet';
+      if (retainer) {
+        window.dataLayer.push({
+          event: isNotYet ? 'lead_unqualified' : 'lead_qualified',
+          lead_language: document.documentElement.lang || 'en',
+          lead_page: window.location.pathname,
+          retainer_ability: retainer,
+          detained_state: selVal(['detained_state']),
+          who_detained: selVal(['relationship', 'parentesco']),
+          situation: selVal(['situation', 'situacion'])
+        });
+      }
+
       if (btn) { btn.disabled = true; btn.setAttribute('data-label', btn.textContent); btn.textContent = msgSending; }
       if (status) { status.className = 'lp-form__status lp-form__status--sending'; status.textContent = msgSending; }
 
@@ -179,8 +202,18 @@
         body: body
       }).then(function (res) {
         if (!res.ok) throw new Error('HTTP ' + res.status);
+        if (isNotYet) {
+          // No thank-you redirect for unqualified leads: show the inline
+          // "not yet" guidance (locator, sign-nothing, call when ready).
+          var panel = form.parentNode.querySelector('.lp-form__notyet');
+          form.hidden = true;
+          if (status) status.textContent = '';
+          if (panel) { panel.hidden = false; panel.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
+          return;
+        }
         var qs = new URLSearchParams();
         qs.set('from', window.location.pathname);
+        if (retainer) qs.set('qual', '1');
         if (attribution.last && attribution.last.gclid) qs.set('gclid', attribution.last.gclid);
         window.location.assign(thankYou + '?' + qs.toString());
       }).catch(function () {

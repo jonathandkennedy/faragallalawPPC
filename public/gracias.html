@@ -57,6 +57,12 @@
     </div>
     <h1>Recibimos su solicitud.</h1>
     <p class="ty-lead">Respondemos dentro de un día hábil — generalmente antes. Esto es exactamente lo que sigue.</p>
+    <p class="ty-ready" hidden>Le llamaremos hoy. Tenga a la mano el número A, el nombre del centro y la tarjeta con la que va a pagar el anticipo.</p>
+    <script>
+      if (new URLSearchParams(location.search).get('qual') === '1') {
+        document.currentScript.previousElementSibling.hidden = false;
+      }
+    </script>
     <div class="ty-steps">
       <div class="card"><h3><span>1.</span> Revisamos su información</h3><p>Un miembro del equipo, supervisado por un abogado, lee sus respuestas y dirige su caso a la vía de evaluación correcta.</p></div>
       <div class="card"><h3><span>2.</span> Recibirá respuesta dentro de un día hábil</h3><p>Le enviaremos por correo las opciones de consulta, los detalles y cualquier cosa que necesitemos de usted — revise su carpeta de spam por si acaso.</p></div>

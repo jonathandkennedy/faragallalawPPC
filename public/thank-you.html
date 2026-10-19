@@ -57,6 +57,12 @@
     </div>
     <h1>Your request was received.</h1>
     <p class="ty-lead">We respond within one business day — usually sooner. Here&#x27;s exactly what happens next.</p>
+    <p class="ty-ready" hidden>We&#x27;ll call you today. Have the A-number, facility name, and the card you&#x27;ll use for the retainer ready.</p>
+    <script>
+      if (new URLSearchParams(location.search).get('qual') === '1') {
+        document.currentScript.previousElementSibling.hidden = false;
+      }
+    </script>
     <div class="ty-steps">
       <div class="card"><h3><span>1.</span> We review your submission</h3><p>An attorney-supervised team member reads your answers and matches your case to the right review track.</p></div>
       <div class="card"><h3><span>2.</span> You get a reply within one business day</h3><p>We email you consultation options, the consultation details, and anything we need from you — check your spam folder just in case.</p></div>

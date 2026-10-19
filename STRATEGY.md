@@ -49,6 +49,11 @@ story, and use volume clusters (family, local, citizenship) to fill capacity.
 | 40 | `/detenido-por-ice-texas/` | Detención ICE — Texas (Español) | Spanish Texas detention: detenido por ice texas / abogado de fianzas tail; ES detention CPCs price HIGHER than EN (localizador $16.43 vs $6.14) | Medium-high, urgent | **Texas** (ES) |
 | 41 | `/abogado-de-deportacion-texas/` | Deportación — Texas (Español) | Spanish Texas removal defense: abogado de deportacion texas/houston/dallas tail | Medium | **Texas** (ES) |
 | 42 | `/abogado-de-inmigracion-dallas/` | Abogado — Dallas (Español) | [abogado de inmigracion dallas] already spends ~$184 @ QS 5 landing on the national page — set as keyword-level final URL like Houston | Medium | **DFW** (ES) |
+| 44 | `/fianza-de-inmigracion/` | Fianza de inmigración (Español) | fianza de inmigración / fianza de ice / abogado para fianza — dedicated page fixes the 2/10 QS of the Fianza ad group | Medium-high, urgent | US national (ES) |
+| 45 | `/immigration-bond-lawyer/` | Immigration bond (EN) | immigration bond lawyer / ice bond hearing lawyer — full ad destination (the /bond-eligibility/ sitelink stays a sitelink) | Medium-high, urgent | US national |
+| 46 | `/ice-detention-lawyer-louisiana/` | ICE detention — Louisiana | Winn, Jena, Pine Prairie, Jackson Parish — LA holds more detainees than any state but TX | Medium-high, urgent | **Louisiana** |
+| 47 | `/ice-detention-lawyer-georgia-florida/` | ICE detention — GA & FL | Stewart, Folkston, Krome, Broward, Baker | Medium-high, urgent | **GA + FL** |
+| 48 | `/detenido-por-ice-otros-estados/` | Detención — otros estados (ES) | transfer-chasing families: LA/AZ/GA/FL/CA/NJ facilities named | Medium-high, urgent | US national (ES) |
 | 43 | `/abogado-de-inmigracion-san-antonio/` | Abogado — San Antonio (Español) | [abogado de inmigracion san antonio] ~$214 @ QS 3 — same keyword-level final URL treatment | Medium | **San Antonio** (ES) |
 
 ### Texas landers (pages 27–28 EN, 40–41 ES)
@@ -241,6 +246,41 @@ Notes:
   locator instructions, which is what that searcher needs and what converts.
 - `/reviews/` currently routes to the firm's Google profile; once verbatim
   review quotes are approved (launch item), add them to the page itself.
+
+## Detention lead qualification (Oct 19 handoff — implemented site-side)
+
+All nine detention pages (24/25 national, the four geo landers, both bond
+pages) now carry the qualification layer: the **$2,500-down / cards-accepted
+fee bar** above the fold, the same line in the sticky bar, the rewritten
+"What it costs, straight" section, required form fields
+`retainer_ability` (pay_now / credit_card / not_yet) and `detained_state`,
+the before-you-call checklist, and the locator deflection line
+(locator.ice.gov). A `not_yet` answer still submits to Formspree (we keep
+the email) but shows an inline guidance state instead of the thank-you
+redirect, and fires `lead_unqualified`; every other answer fires
+`lead_qualified` (with lead_language, lead_page, retainer_ability,
+detained_state, who_detained, situation) and redirects with `qual=1`, which
+reveals the "have the card ready" line on the thank-you page.
+
+**Omitted pending client confirmation (add the same day they confirm):**
+payment-plan option + copy, Zelle/bank-transfer as payment methods, the
+split-payment line, and the retainer-scope sentence should be re-verified.
+
+**GTM / Google Ads side (do after deploy):**
+- GA4: `lead_qualified` + `lead_unqualified` event tags (custom-event
+  triggers, same pattern as the existing events); mark ONLY
+  `lead_qualified` as a key event.
+- Google Ads: import `lead_qualified` as a conversion action, **Primary**;
+  demote the thank-you-pageview lead action to Secondary.
+- Calls: in CallRail, tag calls `Qualified` when the caller confirms the
+  retainer and import that as the primary call conversion; otherwise set
+  the call conversion threshold to ≥120s and make it primary with any-call
+  secondary. Intake must ask the retainer question in the first 60 seconds
+  for the duration threshold to mean anything.
+- Ad copy must stay consistent with the pages: "Desde $2,500 de Anticipo" /
+  "From $2,500 Down", "Aceptamos Tarjeta de Crédito" / "Credit Cards
+  Accepted". If the client ever changes the number, pages and ads change
+  the same day.
 
 ## Negative keywords (shared list, all campaigns)
 

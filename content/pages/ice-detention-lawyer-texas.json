@@ -2,12 +2,12 @@
   "slug": "ice-detention-lawyer-texas",
   "campaign": "ICE Detention — Texas",
   "priority": 27,
-  "section": "Texas landers — detention & removal",
-  "meta_title": "ICE Detention Lawyers in Texas — Bond & Release | Faragalla Law",
+  "section": "Detention & removal — geo landers",
+  "meta_title": "ICE Detention Lawyer Texas | Faragalla Law",
   "meta_description": "Is a loved one in ICE detention in Texas? We locate them, get on record fast, and fight the bond hearing with a full evidence package. You can hire us from outside, whatever your own status. Call now.",
-  "eyebrow": "ICE Detention & Bond Attorneys — Texas",
-  "h1": "ICE Detention Lawyers in Texas: Get Your Loved One Released on Bond",
-  "hero_sub": "Is a loved one locked up by ICE? The first days decide the most.",
+  "eyebrow": "ICE Detention Lawyer — Texas",
+  "h1": "ICE Detention Lawyer in Texas — Bond Hearings at Conroe, Dilley, Pearsall & More",
+  "hero_sub": "Is a loved one locked up by ICE? Get a detention lawyer moving today — the first days decide the most.",
   "bullets": [
     "We locate detainees in Texas facilities and get on record fast",
     "Bond hearings argued with a full evidence package — not a plea",
@@ -41,6 +41,66 @@
         "I can't find where they're being held",
         "They were transferred to Texas from another state",
         "Not sure — need help figuring it out"
+      ]
+    },
+    {
+      "name": "retainer_ability",
+      "label": "Can you cover the $2,500 retainer to open the case?",
+      "options": [
+        {
+          "label": "Yes — I can pay today",
+          "value": "pay_now"
+        },
+        {
+          "label": "Yes — with a credit card",
+          "value": "credit_card"
+        },
+        {
+          "label": "Not yet",
+          "value": "not_yet"
+        }
+      ]
+    },
+    {
+      "name": "detained_state",
+      "label": "Which state are they being held in?",
+      "options": [
+        {
+          "label": "Texas",
+          "value": "TX"
+        },
+        {
+          "label": "Louisiana",
+          "value": "LA"
+        },
+        {
+          "label": "Georgia",
+          "value": "GA"
+        },
+        {
+          "label": "Florida",
+          "value": "FL"
+        },
+        {
+          "label": "Arizona",
+          "value": "AZ"
+        },
+        {
+          "label": "California",
+          "value": "CA"
+        },
+        {
+          "label": "New Jersey / New York",
+          "value": "NJ_NY"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        },
+        {
+          "label": "Don't know",
+          "value": "unknown"
+        }
       ]
     }
   ],
@@ -95,8 +155,14 @@
       "body": "Release is the beginning, not the end — the removal case continues in immigration court. We screen every form of relief and keep defending, with your family member home while we fight."
     }
   ],
-  "fees_heading": "What Does an ICE Detention Lawyer Cost?",
-  "fees_body": "The bond stage — locating your loved one, entering appearance, building the evidence package, and the hearing — is one flat fee, quoted on the first call. The removal defense that continues after release is quoted separately by stage. The bond itself is set by the judge (the legal minimum is $1,500; grants commonly run higher) and is refunded at the end of the case when your loved one attends every hearing. We itemize all of it so a family in crisis can plan.",
+  "fees_heading": "What it costs, straight",
+  "fees_body": [
+    "**To open the case: $2,500 down.** The retainer covers the first stage — locating your loved one, filing the G-28 to get on record, and preparing the bond request.",
+    "**How to pay:** credit or debit card. You do not need immigration status to hire us.",
+    "**Not included:** the bond itself, set by the judge (legal minimum $1,500, often higher). That is paid directly to ICE by someone with lawful status and refunded at the end of the case if your loved one attends every hearing.",
+    "**After bond:** the removal defense is quoted separately, stage by stage, flat fee. No blank checks.",
+    "**If the family can't put the retainer together today,** we'll say so respectfully: we can't open the case yet. Keep this page; when you're ready, call and we move the same day."
+  ],
   "who_heading": "Is This the Right Help for Someone Detained by ICE?",
   "who_for": [
     "Your spouse, parent, child, or other loved one was picked up by ICE in Texas",
@@ -154,5 +220,17 @@
   "final_sub": "Call now if it's urgent. Otherwise send what you know — name, A-number, facility — and we'll start locating and moving on bond.",
   "site_overrides": {
     "response_promise": "A loved one in detention is a call-now situation — forms are answered within one business day, calls come first"
-  }
+  },
+  "fee_bar": "**Detention cases start at $2,500 down** · Credit and debit cards accepted · Attorney fee is separate from the bond the judge sets.",
+  "fee_bar_short": "From $2,500 · Cards accepted",
+  "call_checklist": {
+    "heading": "Have this ready before you call",
+    "items": [
+      "Your loved one's full name and country of birth (and A-number if you have it)",
+      "Where they're held or when they were picked up",
+      "Who the sponsor with lawful status will be",
+      "**The card or payment method for the $2,500 retainer** — so we can open the case on the first call"
+    ]
+  },
+  "hero_note": "Just trying to find where someone is held? The official locator is locator.ice.gov. This page is for hiring a lawyer."
 }

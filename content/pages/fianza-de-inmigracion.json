@@ -1,0 +1,224 @@
+{
+  "slug": "fianza-de-inmigracion",
+  "campaign": "Fianza de Inmigración (Español)",
+  "priority": 44,
+  "lang": "es",
+  "meta_title": "Abogado de Fianza de Inmigración | Fianza de ICE | Faragalla Law",
+  "meta_description": "¿Su familiar está detenido y necesita fianza? El juez decide con un expediente: lazos, domicilio, trabajo, patrocinador. Lo armamos en días y pedimos la audiencia más pronta. Desde $2,500 de anticipo. Aceptamos tarjeta.",
+  "eyebrow": "Abogado de Fianza de Inmigración",
+  "h1": "Fianza de Inmigración: Un Abogado Que Prepara la Audiencia para Que el Juez Diga Sí",
+  "hero_sub": "El juez decide la fianza con un expediente: lazos familiares, domicilio, trabajo, patrocinador. Nosotros lo armamos en días y pedimos la audiencia más pronta posible. Desde $2,500 de anticipo. Aceptamos tarjeta.",
+  "bullets": [
+    "Audiencia de fianza solicitada en cuanto entramos al caso",
+    "Expediente completo: cartas, domicilio, patrocinador, trabajo",
+    "Le decimos de frente si la fianza es realista o si hay detención obligatoria"
+  ],
+  "offer_name": "Ayuda con la Fianza",
+  "cta_label": "Pedir Ayuda con la Fianza",
+  "cta_short": "Ayuda con Fianza",
+  "form_title": "Pida Ayuda con la Fianza de Su Familiar",
+  "form_sub": "¿Es urgente? Llame ahora al número de arriba. Si no: envíe lo que sepa — número A, centro, antecedentes — y nos ponemos en marcha.",
+  "fee_bar": "**Casos de detención desde $2,500 de anticipo** · Aceptamos tarjetas de crédito y débito · Lo que pague es para su abogado; la fianza del juez es aparte.",
+  "fee_bar_short": "Desde $2,500 · Aceptamos tarjeta",
+  "hero_note": "¿Solo busca dónde está su familiar? El localizador oficial es locator.ice.gov. Esta página es para contratar abogado.",
+  "qualifiers": [
+    {
+      "name": "parentesco",
+      "label": "¿Quién está detenido?",
+      "options": [
+        "Mi esposo(a) o pareja",
+        "Mi padre, madre o hijo(a)",
+        "Hermano(a) u otro familiar",
+        "Un(a) amigo(a) o miembro de la comunidad",
+        "Yo mismo(a) estoy en riesgo (cita con ICE / temor de arresto)"
+      ]
+    },
+    {
+      "name": "situacion",
+      "label": "¿Cómo está la situación?",
+      "options": [
+        "Se lo acaban de llevar — en los últimos días",
+        "Está en un centro de detención en Texas",
+        "Detenido y con fecha de corte próxima",
+        "No sé dónde lo tienen",
+        "Lo trasladaron a Texas desde otro estado",
+        "No estoy seguro(a) — necesito ayuda para entender"
+      ]
+    },
+    {
+      "name": "retainer_ability",
+      "label": "¿Puede cubrir el anticipo de $2,500 para abrir el caso?",
+      "options": [
+        {
+          "label": "Sí — puedo pagarlo hoy",
+          "value": "pay_now"
+        },
+        {
+          "label": "Sí — con tarjeta de crédito",
+          "value": "credit_card"
+        },
+        {
+          "label": "Todavía no",
+          "value": "not_yet"
+        }
+      ]
+    },
+    {
+      "name": "detained_state",
+      "label": "¿En qué estado está detenido?",
+      "options": [
+        {
+          "label": "Texas",
+          "value": "TX"
+        },
+        {
+          "label": "Louisiana",
+          "value": "LA"
+        },
+        {
+          "label": "Georgia",
+          "value": "GA"
+        },
+        {
+          "label": "Florida",
+          "value": "FL"
+        },
+        {
+          "label": "Arizona",
+          "value": "AZ"
+        },
+        {
+          "label": "California",
+          "value": "CA"
+        },
+        {
+          "label": "New Jersey / New York",
+          "value": "NJ_NY"
+        },
+        {
+          "label": "Otro estado",
+          "value": "other"
+        },
+        {
+          "label": "No sé",
+          "value": "unknown"
+        }
+      ]
+    }
+  ],
+  "problem_heading": "Cómo funciona una fianza de inmigración",
+  "problem_cards": [
+    {
+      "title": "La decide el juez de inmigración, no ICE",
+      "body": "ICE puede fijar un monto inicial o negar la libertad por completo — pero eso no es la última palabra. Un juez de inmigración puede revisar la decisión en una audiencia de redeterminación de fianza. Por eso el primer paso del abogado es entrar al caso (G-28) y pedir esa audiencia lo antes posible."
+    },
+    {
+      "title": "Qué pesa en la decisión",
+      "body": "El juez pesa los lazos familiares, un domicilio estable, el historial de trabajo, las raíces en la comunidad, cualquier antecedente y si hay un patrocinador con estatus legal que se haga responsable. Las familias que llegan con cartas y documentos ganan fianzas; las que llegan solo con angustia, normalmente no."
+    },
+    {
+      "title": "Cuánto suele ser",
+      "body": "El mínimo legal es $1,500; los jueces comúnmente fijan varios miles según el caso. Se paga completa a ICE por una persona con estatus legal y se devuelve al final del caso si su familiar asiste a todas sus audiencias. El trabajo del abogado es que el monto sea el más bajo realista — y que la respuesta sea sí."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Hecho para la familia que está afuera",
+      "body": "Usted es quien puede actuar. Trabajamos a través de usted: usted nos contrata — sin importar su propio estatus — nosotros entramos al expediente ante el centro y la corte, y le informamos cada paso, en español."
+    },
+    {
+      "title": "La audiencia se gana antes de la audiencia",
+      "body": "Cartas de apoyo, comprobante de domicilio, prueba de trabajo, el patrocinador preparado para responder al juez — armamos el expediente completo en días, para que esté listo en cuanto la corte dé fecha."
+    },
+    {
+      "title": "La verdad desde la primera revisión",
+      "body": "Alguna detención es obligatoria por ley y ningún abogado honesto le dirá lo contrario. Le decimos de frente si la fianza es realista, qué se necesita y cuáles son las alternativas."
+    },
+    {
+      "title": "Tarifas fijas por etapa",
+      "body": "La etapa de fianza se cotiza con tarifa fija antes de empezar. La defensa que sigue se cotiza aparte — una familia en crisis nunca firma un cheque en blanco."
+    }
+  ],
+  "process": [
+    {
+      "title": "Localizarlo y entrar al caso (G-28)",
+      "body": "Con el nombre, el país de nacimiento y de preferencia el número A, encontramos el centro, presentamos el G-28 y hacemos contacto — normalmente dentro de un día hábil."
+    },
+    {
+      "title": "Pedir la audiencia más pronta",
+      "body": "Solicitamos la audiencia de redeterminación de fianza en cuanto estamos en el expediente — cada día antes cuenta, sobre todo si hay riesgo de traslado."
+    },
+    {
+      "title": "Armar el expediente de libertad",
+      "body": "Analizamos la elegibilidad (incluyendo detención obligatoria), definimos al patrocinador y reunimos cartas, domicilio, lazos y trabajo — el expediente sobre el que el juez decide."
+    },
+    {
+      "title": "Preparar al patrocinador y ganar la audiencia",
+      "body": "Preparamos al patrocinador y a su familiar para responder al juez, presentamos el expediente y peleamos por la libertad con la fianza más baja realista."
+    }
+  ],
+  "fees_heading": "Cuánto cuesta, sin rodeos",
+  "fees_body": [
+    "**Para abrir el caso: $2,500 de anticipo.** Ese anticipo cubre la etapa inicial — localizar a su familiar, presentar el G-28 para entrar al caso, y preparar la solicitud de fianza.",
+    "**Cómo se paga:** tarjeta de crédito o débito. No necesita tener estatus migratorio para contratarnos.",
+    "**Lo que NO está incluido:** la fianza que fije el juez (mínimo legal $1,500; con frecuencia más). Esa se paga directamente a ICE por una persona con estatus legal, y se devuelve al final del caso si su familiar asiste a todas sus audiencias.",
+    "**Después de la fianza:** la defensa del caso de deportación se cotiza aparte, por etapas, con tarifa fija. Nunca firma un cheque en blanco.",
+    "**Si hoy no puede reunir el anticipo**, lo decimos con respeto: no podemos tomar el caso todavía. Guarde esta página; cuando la familia lo tenga, llame y nos movemos ese mismo día.",
+    "El anticipo de $2,500 es por el trabajo del abogado. La fianza que fije el juez es dinero aparte que se paga a ICE y se devuelve al final."
+  ],
+  "who_heading": "¿Esta página es para su situación?",
+  "who_for": [
+    "Su familiar está detenido y quiere pedir la fianza",
+    "Ya le negaron la fianza y hay un cambio de circunstancias — se puede pedir una nueva audiencia",
+    "La fianza quedó fijada muy alta y quiere pedir una reducción",
+    "No sabe dónde lo tienen — localizarlo es el primer paso"
+  ],
+  "who_not": [
+    "Solo busca ayuda económica para pagar la fianza — no somos fiadores ni prestamistas, y un abogado no reduce el monto que usted ya debe pagar a ICE",
+    "La persona ya salió bajo fianza — entonces lo que sigue es la defensa del caso; vea nuestra página de deportación",
+    "Ningún abogado puede garantizar honestamente la fianza — quien se la garantice, le está vendiendo algo"
+  ],
+  "call_checklist": {
+    "heading": "Antes de llamar, tenga esto listo",
+    "items": [
+      "Nombre completo y país de nacimiento de su familiar (y el número A si lo tiene)",
+      "Dónde está detenido o cuándo se lo llevaron",
+      "Quién va a ser el patrocinador con estatus legal",
+      "**La tarjeta o forma de pago para el anticipo de $2,500** — así abrimos el caso en la primera llamada"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Cuánto cuesta el abogado y cómo pago?",
+      "a": "Para abrir el caso se necesitan $2,500 de anticipo, que cubren la etapa inicial: localizar a su familiar, entrar al caso con el G-28 y preparar la solicitud de fianza. Aceptamos tarjeta de crédito o débito, y usted no necesita estatus migratorio para contratarnos. La fianza que fije el juez es dinero aparte que se paga a ICE."
+    },
+    {
+      "q": "¿Quién puede pagar la fianza a ICE?",
+      "a": "La fianza se paga completa en una oficina de fianzas de ICE, y quien la paga debe demostrar que está legalmente en EE. UU. Si usted no tiene estatus, prepare a un familiar o amigo que sí lo tenga — es el detalle que más familias descubren tarde. El dinero se le devuelve a esa misma persona al final del caso."
+    },
+    {
+      "q": "¿Se devuelve la fianza?",
+      "a": "Sí — al final del caso, si su familiar asiste a todas sus audiencias y cumple las condiciones, ICE devuelve la fianza a la persona que la pagó. El trámite de devolución toma tiempo, pero el dinero no se pierde por perder el caso: se pierde por faltar a la corte."
+    },
+    {
+      "q": "¿Qué pasa si tiene antecedentes?",
+      "a": "Depende del antecedente exacto: algunos activan detención obligatoria sin derecho a fianza, y eso lo analizamos de inmediato — es lo primero que una familia necesita saber antes de gastar un dólar. Muchos antecedentes menores o viejos no la impiden, pero hay que presentarlos bien ante el juez, no esconderlos."
+    },
+    {
+      "q": "¿Cuánto tarda la audiencia de fianza?",
+      "a": "La fianza se puede pedir en la primera audiencia o por escrito, y las cortes suelen programarla en días o pocas semanas — varía según la corte. Lo que la familia controla es estar lista: el patrocinador, el domicilio y las cartas. Por eso armamos el expediente desde el primer día."
+    }
+  ],
+  "service_name": "Representación de Fianzas de Inmigración (Español)",
+  "testimonial_hint": "Reseñas textuales de Google en español — casos de detención/fianza",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
+  "final_heading": "Pida la audiencia de fianza con el expediente listo",
+  "final_sub": "Si es urgente, llame ahora. Si no: envíe lo que sepa — nombre, número A, centro — y empezamos a armar la fianza hoy.",
+  "form_title_bottom": "Pida Ayuda con la Fianza",
+  "site_overrides": {
+    "response_promise": "Un familiar detenido es motivo para llamar ya — los formularios se responden dentro de un día hábil, las llamadas primero"
+  }
+}

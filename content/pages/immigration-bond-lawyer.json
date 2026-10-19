@@ -1,0 +1,223 @@
+{
+  "slug": "immigration-bond-lawyer",
+  "campaign": "Immigration Bond Lawyer",
+  "priority": 45,
+  "meta_title": "Immigration Bond Lawyer | ICE Bond Hearing Attorney | Faragalla Law",
+  "meta_description": "Is your loved one detained and waiting on bond? Immigration judges grant bond on a record — ties, address, work, sponsor. We build it in days and request the earliest hearing. From $2,500 down. Cards accepted.",
+  "eyebrow": "Immigration Bond Lawyer",
+  "h1": "Immigration Bond Lawyer: We Build the Package That Gets Bond Granted",
+  "hero_sub": "Immigration judges grant bond on a record — family ties, address, work history, a ready sponsor. We assemble it in days and request the earliest hearing. From $2,500 down. Cards accepted.",
+  "bullets": [
+    "Bond hearing requested the moment we're on record",
+    "Full release package: sponsor letters, address proof, employment, ties",
+    "Straight answer on whether bond is realistic or detention is mandatory"
+  ],
+  "offer_name": "Bond Help",
+  "cta_label": "Get Help With Bond",
+  "cta_short": "Bond Help",
+  "form_title": "Get Help With Your Loved One's Bond",
+  "form_sub": "Urgent? Call the number above right now. Otherwise: send what you know — A-number, facility, any record — and we'll move.",
+  "fee_bar": "**Detention cases start at $2,500 down** · Credit and debit cards accepted · Attorney fee is separate from the bond the judge sets.",
+  "fee_bar_short": "From $2,500 · Cards accepted",
+  "hero_note": "Just trying to find where someone is held? The official locator is locator.ice.gov. This page is for hiring a lawyer.",
+  "qualifiers": [
+    {
+      "name": "relationship",
+      "label": "Who is detained?",
+      "options": [
+        "My spouse or partner",
+        "My parent or my child",
+        "Sibling or other family member",
+        "A friend or community member",
+        "I'm at risk myself (check-in / fear of arrest)"
+      ]
+    },
+    {
+      "name": "situation",
+      "label": "Where do things stand?",
+      "options": [
+        "Just picked up — within the last few days",
+        "In a Texas detention facility now",
+        "Detained with a court date coming",
+        "I can't find where they're being held",
+        "They were transferred to Texas from another state",
+        "Not sure — need help figuring it out"
+      ]
+    },
+    {
+      "name": "retainer_ability",
+      "label": "Can you cover the $2,500 retainer to open the case?",
+      "options": [
+        {
+          "label": "Yes — I can pay today",
+          "value": "pay_now"
+        },
+        {
+          "label": "Yes — with a credit card",
+          "value": "credit_card"
+        },
+        {
+          "label": "Not yet",
+          "value": "not_yet"
+        }
+      ]
+    },
+    {
+      "name": "detained_state",
+      "label": "Which state are they being held in?",
+      "options": [
+        {
+          "label": "Texas",
+          "value": "TX"
+        },
+        {
+          "label": "Louisiana",
+          "value": "LA"
+        },
+        {
+          "label": "Georgia",
+          "value": "GA"
+        },
+        {
+          "label": "Florida",
+          "value": "FL"
+        },
+        {
+          "label": "Arizona",
+          "value": "AZ"
+        },
+        {
+          "label": "California",
+          "value": "CA"
+        },
+        {
+          "label": "New Jersey / New York",
+          "value": "NJ_NY"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        },
+        {
+          "label": "Don't know",
+          "value": "unknown"
+        }
+      ]
+    }
+  ],
+  "problem_heading": "How immigration bond works",
+  "problem_cards": [
+    {
+      "title": "The immigration judge decides — not ICE",
+      "body": "ICE can set an initial amount or refuse release entirely — but that isn't the last word. An immigration judge can review it at a bond redetermination hearing. That's why the lawyer's first move is getting on record (G-28) and requesting that hearing as fast as possible."
+    },
+    {
+      "title": "What the judge weighs",
+      "body": "Family ties, a stable address, work history, community roots, any record, and whether a sponsor with lawful status will take responsibility. Families who show up with letters and documents win bonds; families who show up with only worry usually don't."
+    },
+    {
+      "title": "What bond usually costs",
+      "body": "The legal minimum is $1,500; judges commonly set several thousand depending on the case. It's paid in full to ICE by someone with lawful status and refunded at the end of the case when your loved one attends every hearing. The lawyer's job is the lowest realistic number — and a yes."
+    }
+  ],
+  "why_points": [
+    {
+      "title": "Built for the family on the outside",
+      "body": "You're the one who can act. We work through you: you hire us — regardless of your own status — we get on record with the facility and the court, and we keep you informed at every step, in English or Spanish."
+    },
+    {
+      "title": "The hearing is won before the hearing",
+      "body": "Sponsor letters, address proof, employment records, a sponsor prepared to answer the judge — we assemble the full package in days, so it's ready the moment the court sets a date."
+    },
+    {
+      "title": "Straight answers from the first review",
+      "body": "Some detention is mandatory by law, and no honest lawyer pretends otherwise. We tell you up front whether bond is realistic, what it takes, and what the alternatives are."
+    },
+    {
+      "title": "Flat fees, stage by stage",
+      "body": "The bond stage is quoted as one flat fee before we start. The defense that follows is quoted separately — a family in crisis never signs a blank check."
+    }
+  ],
+  "process": [
+    {
+      "title": "Locate them and get on record (G-28)",
+      "body": "With a name, country of birth, and ideally the A-number, we find the facility, file the G-28 attorney appearance, and make contact — usually within a business day."
+    },
+    {
+      "title": "Request the earliest hearing",
+      "body": "We request the bond redetermination hearing the moment we're on the record — every earlier day counts, especially when a transfer is a risk."
+    },
+    {
+      "title": "Build the release package",
+      "body": "We analyze eligibility (including mandatory detention), identify the sponsor, and assemble letters, address proof, ties, and employment — the record the judge decides on."
+    },
+    {
+      "title": "Prepare the sponsor and win the hearing",
+      "body": "We prepare the sponsor and your loved one to answer the judge, present the package, and argue for release at the lowest realistic bond."
+    }
+  ],
+  "fees_heading": "What it costs, straight",
+  "fees_body": [
+    "**To open the case: $2,500 down.** The retainer covers the first stage — locating your loved one, filing the G-28 to get on record, and preparing the bond request.",
+    "**How to pay:** credit or debit card. You do not need immigration status to hire us.",
+    "**Not included:** the bond itself, set by the judge (legal minimum $1,500, often higher). That is paid directly to ICE by someone with lawful status and refunded at the end of the case if your loved one attends every hearing.",
+    "**After bond:** the removal defense is quoted separately, stage by stage, flat fee. No blank checks.",
+    "**If the family can't put the retainer together today,** we'll say so respectfully: we can't open the case yet. Keep this page; when you're ready, call and we move the same day.",
+    "The $2,500 retainer is for the attorney's work. The bond the judge sets is separate money paid to ICE and refunded at the end."
+  ],
+  "who_heading": "Is this the right page for your situation?",
+  "who_for": [
+    "Your loved one is detained and you want to request bond",
+    "Bond was denied and circumstances have changed — a new hearing can be requested",
+    "Bond was set too high and you want a redetermination",
+    "You don't know where they're being held — locating them is step one"
+  ],
+  "who_not": [
+    "You only need money to pay a bond that's already set — we are not a bondsman or a lender, and a lawyer can't reduce what you already owe ICE",
+    "They're already out on bond — what comes next is the defense; see our deportation defense page",
+    "No lawyer can honestly guarantee bond — anyone who does is selling you something"
+  ],
+  "call_checklist": {
+    "heading": "Have this ready before you call",
+    "items": [
+      "Your loved one's full name and country of birth (and A-number if you have it)",
+      "Where they're held or when they were picked up",
+      "Who the sponsor with lawful status will be",
+      "**The card or payment method for the $2,500 retainer** — so we can open the case on the first call"
+    ]
+  },
+  "faq": [
+    {
+      "q": "How much does the lawyer cost and how can I pay?",
+      "a": "Opening the case takes a $2,500 retainer, which covers the first stage: locating your loved one, getting on record with the G-28, and preparing the bond request. We accept credit and debit cards, and you don't need immigration status to hire us. The bond the judge sets is separate money paid to ICE."
+    },
+    {
+      "q": "Who can pay the bond to ICE?",
+      "a": "The bond is paid in full at an ICE bond office, and the person paying must show they're lawfully present in the U.S. If you don't have status yourself, line up a relative or friend who does — it's the detail most families discover too late. The money is refunded to that same person at the end of the case."
+    },
+    {
+      "q": "Is the bond refunded?",
+      "a": "Yes — at the end of the case, if your loved one attends every hearing and meets the conditions, ICE refunds the bond to the person who paid it. The refund process takes time, but the money isn't lost by losing the case: it's lost by missing court."
+    },
+    {
+      "q": "What if they have a criminal record?",
+      "a": "It depends on the exact record: some history triggers mandatory detention with no bond at all, and we analyze that immediately — it's the first thing a family needs to know before spending a dollar. Many minor or old records don't bar bond, but they have to be presented to the judge properly, not hidden."
+    },
+    {
+      "q": "How fast can the bond hearing happen?",
+      "a": "Bond can be requested at the first hearing or by written motion, and courts often schedule the hearing within days to a few weeks — it varies by court. What the family controls is readiness: the sponsor, the address proof, and the letters. That's why we start building the package on day one."
+    }
+  ],
+  "service_name": "Immigration Bond Representation",
+  "testimonial_hint": "Use verbatim Google reviews from detention/bond clients",
+  "testimonial_ids": [
+    "randa",
+    "gursharan"
+  ],
+  "final_heading": "Request the bond hearing with the package ready",
+  "final_sub": "Urgent? Call now. Otherwise: send what you know — name, A-number, facility — and we start building the bond case today.",
+  "form_title_bottom": "Get Help With Bond",
+  "site_overrides": {
+    "response_promise": "A loved one in detention is a call-now situation — forms are answered within one business day, calls come first"
+  }
+}

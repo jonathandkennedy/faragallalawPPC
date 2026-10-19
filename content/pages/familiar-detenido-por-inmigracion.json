@@ -3,15 +3,15 @@
   "campaign": "Familiar Detenido por Inmigración (Español)",
   "priority": 24,
   "lang": "es",
-  "meta_title": "¿Un Familiar Detenido por Inmigración? | Faragalla Law",
+  "meta_title": "Abogado para Detenidos por ICE | Fianza de Inmigración | Faragalla Law",
   "meta_description": "¿Su esposo, hijo o familiar está detenido por ICE? Lo localizamos, peleamos la fianza y tomamos el caso — rápido. Usted puede contratar abogado desde afuera, sin importar su propio estatus. Llame ya.",
-  "eyebrow": "Abogados para Familiares Detenidos por ICE",
-  "h1": "¿Un Ser Querido Detenido por Inmigración? Los Primeros Días Deciden Casi Todo.",
+  "eyebrow": "Abogado para Detenidos por ICE",
+  "h1": "¿Familiar Detenido por ICE? Abogado para Detenidos — Los Primeros Días Deciden Todo.",
   "hero_sub": "Usted puede actuar desde afuera: localizarlo, meter a un abogado al caso y pelear la fianza antes de que lo trasladen lejos. En Faragalla Law nos movemos de inmediato en casos de detención — llame ahora, o envíe el formulario y nosotros seguimos.",
   "bullets": [
     "Localizamos a su familiar y entramos al caso rápido",
     "Audiencias de fianza peleadas con un expediente completo",
-    "Usted puede contratarnos sin importar su propio estatus"
+    "Desde $2,500 de anticipo — aceptamos tarjeta. Usted puede contratarnos sin importar su propio estatus."
   ],
   "offer_name": "Respuesta de Detención",
   "cta_label": "Obtener Ayuda para Mi Familiar Ya",
@@ -39,6 +39,66 @@
         "Detenido y con fecha de corte próxima",
         "No sé dónde lo tienen",
         "No estoy seguro(a) — necesito ayuda para entender"
+      ]
+    },
+    {
+      "name": "retainer_ability",
+      "label": "¿Puede cubrir el anticipo de $2,500 para abrir el caso?",
+      "options": [
+        {
+          "label": "Sí — puedo pagarlo hoy",
+          "value": "pay_now"
+        },
+        {
+          "label": "Sí — con tarjeta de crédito",
+          "value": "credit_card"
+        },
+        {
+          "label": "Todavía no",
+          "value": "not_yet"
+        }
+      ]
+    },
+    {
+      "name": "detained_state",
+      "label": "¿En qué estado está detenido?",
+      "options": [
+        {
+          "label": "Texas",
+          "value": "TX"
+        },
+        {
+          "label": "Louisiana",
+          "value": "LA"
+        },
+        {
+          "label": "Georgia",
+          "value": "GA"
+        },
+        {
+          "label": "Florida",
+          "value": "FL"
+        },
+        {
+          "label": "Arizona",
+          "value": "AZ"
+        },
+        {
+          "label": "California",
+          "value": "CA"
+        },
+        {
+          "label": "New Jersey / New York",
+          "value": "NJ_NY"
+        },
+        {
+          "label": "Otro estado",
+          "value": "other"
+        },
+        {
+          "label": "No sé",
+          "value": "unknown"
+        }
       ]
     }
   ],
@@ -93,8 +153,14 @@
       "body": "Salir es el comienzo, no el final — el caso de deportación sigue en corte. Revisamos cada defensa posible y seguimos peleando, con su familiar en casa mientras tanto."
     }
   ],
-  "fees_heading": "¿Cuánto cuesta un caso de detención?",
-  "fees_body": "La etapa de fianza — localizar, entrar al caso, armar el expediente y la audiencia — es una sola tarifa fija, cotizada en la primera llamada. La defensa que continúa después se cotiza aparte, por etapas. La fianza en sí la fija el juez (el mínimo legal es $1,500; es común que sea más alta) y se devuelve al final del caso si su familiar asiste a todas sus audiencias. Le detallamos todo para que la familia pueda planificar.",
+  "fees_heading": "Cuánto cuesta, sin rodeos",
+  "fees_body": [
+    "**Para abrir el caso: $2,500 de anticipo.** Ese anticipo cubre la etapa inicial — localizar a su familiar, presentar el G-28 para entrar al caso, y preparar la solicitud de fianza.",
+    "**Cómo se paga:** tarjeta de crédito o débito. No necesita tener estatus migratorio para contratarnos.",
+    "**Lo que NO está incluido:** la fianza que fije el juez (mínimo legal $1,500; con frecuencia más). Esa se paga directamente a ICE por una persona con estatus legal, y se devuelve al final del caso si su familiar asiste a todas sus audiencias.",
+    "**Después de la fianza:** la defensa del caso de deportación se cotiza aparte, por etapas, con tarifa fija. Nunca firma un cheque en blanco.",
+    "**Si hoy no puede reunir el anticipo**, lo decimos con respeto: no podemos tomar el caso todavía. Guarde esta página; cuando la familia lo tenga, llame y nos movemos ese mismo día."
+  ],
   "who_heading": "¿Esta página es para su situación?",
   "who_for": [
     "Se llevaron a su esposo(a), padre, madre, hijo(a) u otro ser querido",
@@ -104,14 +170,15 @@
     "Tiene una cita de control con ICE y la familia quiere abogado listo antes"
   ],
   "who_not": [
+    "Solo quiere localizar a la persona o enviarle dinero — para eso use locator.ice.gov y el sistema de depósitos del centro. No hace falta abogado para eso.",
     "Si está preso por cargos penales (cárcel del condado, no ICE), primero manda el abogado penalista — pero llámenos de todas formas: puede venir una retención migratoria y el acuerdo penal importa muchísimo",
     "Si ya fue deportado y está fuera del país, aplican otras herramientas (perdones, proceso consular) — lo orientamos a la vía correcta",
     "Ningún abogado puede garantizar honestamente la libertad — quien se la garantice, le está vendiendo algo"
   ],
   "faq": [
     {
-      "q": "¿Cómo encuentro a alguien detenido por ICE?",
-      "a": "Use el Localizador de Detenidos de ICE en internet (locator.ice.gov): busque con el número A y el país de nacimiento, o con nombre, fecha de nacimiento y país. El número A — 9 dígitos que aparecen en cualquier papel de inmigración — es la llave de todo; busque documentos viejos. Las personas recién detenidas pueden tardar en aparecer, y a los detenidos los trasladan sin aviso. Si no lo encuentra, eso es exactamente lo primero que hacemos nosotros."
+      "q": "¿Cuánto cuesta el abogado y cómo puedo pagar?",
+      "a": "Para abrir el caso de detención se necesitan $2,500 de anticipo, que cubren la etapa inicial: localizar a su familiar, entrar al caso con el G-28 y preparar la solicitud de fianza. Aceptamos tarjeta de crédito o débito, y usted no necesita estatus migratorio para contratarnos. La fianza que fije el juez es dinero aparte que se paga a ICE — se devuelve al final si su familiar asiste a todas sus audiencias."
     },
     {
       "q": "¿Puede salir bajo fianza?",
@@ -132,6 +199,10 @@
     {
       "q": "Yo no tengo papeles. ¿Es seguro contratar abogado o visitar el centro?",
       "a": "Contratar abogado es seguro — trabajamos para su familiar, no para el gobierno, y lo que usted nos cuente buscando ayuda legal es confidencial. Dos precauciones prácticas: quien pague la fianza debe tener estatus legal (planee quién será), y visitar un centro generalmente exige identificación — muchas familias mandan de visita a un pariente con papeles mientras usted sigue al frente de todo a través de nosotros."
+    },
+    {
+      "q": "¿Cómo encuentro a alguien detenido por ICE?",
+      "a": "Use el Localizador de Detenidos de ICE en internet (locator.ice.gov): busque con el número A y el país de nacimiento, o con nombre, fecha de nacimiento y país. El número A — 9 dígitos que aparecen en cualquier papel de inmigración — es la llave de todo; busque documentos viejos. Las personas recién detenidas pueden tardar en aparecer, y a los detenidos los trasladan sin aviso. Si no lo encuentra, eso es exactamente lo primero que hacemos nosotros."
     }
   ],
   "service_name": "Representación de Detención y Fianzas Migratorias (Español)",
@@ -144,5 +215,17 @@
   "final_sub": "Si es urgente, llame ahora. Si no: envíe lo que sepa — nombre, número A, centro — y empezamos a localizarlo y a mover la fianza.",
   "site_overrides": {
     "response_promise": "Un familiar detenido es motivo para llamar ya — los formularios se responden dentro de un día hábil, las llamadas primero"
-  }
+  },
+  "fee_bar": "**Casos de detención desde $2,500 de anticipo** · Aceptamos tarjetas de crédito y débito · Lo que pague es para su abogado; la fianza del juez es aparte.",
+  "fee_bar_short": "Desde $2,500 · Aceptamos tarjeta",
+  "call_checklist": {
+    "heading": "Antes de llamar, tenga esto listo",
+    "items": [
+      "Nombre completo y país de nacimiento de su familiar (y el número A si lo tiene)",
+      "Dónde está detenido o cuándo se lo llevaron",
+      "Quién va a ser el patrocinador con estatus legal",
+      "**La tarjeta o forma de pago para el anticipo de $2,500** — así abrimos el caso en la primera llamada"
+    ]
+  },
+  "hero_note": "¿Solo busca dónde está su familiar? El localizador oficial es locator.ice.gov. Esta página es para contratar abogado."
 }

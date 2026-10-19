@@ -2,15 +2,15 @@
   "slug": "immigration-detention-lawyer",
   "campaign": "Immigration Detention & Bond (family)",
   "priority": 15,
-  "meta_title": "Loved One Detained by ICE? Detention & Bond Lawyers | Faragalla Law",
+  "meta_title": "ICE Detention Lawyer | Immigration Detention Attorney | Faragalla Law",
   "meta_description": "Is a loved one in ICE detention? We locate them, fight for bond, and take over the case — fast. You can hire a lawyer for them from the outside. Call now; every day matters.",
-  "eyebrow": "Immigration Detention & Bond Attorneys",
-  "h1": "Is a Loved One Locked Up by ICE? The First Days Decide the Most.",
+  "eyebrow": "ICE Detention Lawyer",
+  "h1": "ICE Detention Lawyer — Loved One Detained by ICE? The First Days Decide the Most.",
   "hero_sub": "You can act from the outside: locate them, get a lawyer into the facility, and fight for bond before they're transferred somewhere far away. Faragalla Law moves on detention cases immediately — call now, or send the form and we'll take it from there.",
   "bullets": [
     "We locate detained family members and get attorney access fast",
     "Bond hearings fought with a full release package — not a plea",
-    "You can hire counsel for them regardless of your own status"
+    "From $2,500 down — cards accepted. You can hire counsel for them regardless of your own status."
   ],
   "offer_name": "Detention Response",
   "cta_label": "Get Help for My Loved One Now",
@@ -38,6 +38,66 @@
         "Detained with a court date coming",
         "I can't find where they're being held",
         "Not sure — need help figuring it out"
+      ]
+    },
+    {
+      "name": "retainer_ability",
+      "label": "Can you cover the $2,500 retainer to open the case?",
+      "options": [
+        {
+          "label": "Yes — I can pay today",
+          "value": "pay_now"
+        },
+        {
+          "label": "Yes — with a credit card",
+          "value": "credit_card"
+        },
+        {
+          "label": "Not yet",
+          "value": "not_yet"
+        }
+      ]
+    },
+    {
+      "name": "detained_state",
+      "label": "Which state are they being held in?",
+      "options": [
+        {
+          "label": "Texas",
+          "value": "TX"
+        },
+        {
+          "label": "Louisiana",
+          "value": "LA"
+        },
+        {
+          "label": "Georgia",
+          "value": "GA"
+        },
+        {
+          "label": "Florida",
+          "value": "FL"
+        },
+        {
+          "label": "Arizona",
+          "value": "AZ"
+        },
+        {
+          "label": "California",
+          "value": "CA"
+        },
+        {
+          "label": "New Jersey / New York",
+          "value": "NJ_NY"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        },
+        {
+          "label": "Don't know",
+          "value": "unknown"
+        }
       ]
     }
   ],
@@ -92,8 +152,14 @@
       "body": "Release is the beginning, not the end — the removal case continues in court. We screen every form of relief and keep defending, with your family member home while we fight."
     }
   ],
-  "fees_heading": "What does a detention case cost?",
-  "fees_body": "The bond stage — locating, entering appearance, building the package, and the hearing — is one flat fee, quoted on the first call. The removal defense that continues after release is quoted separately by stage. The bond itself is set by the judge (the legal minimum is $1,500; grants commonly run higher) and is refunded at the end of the case when your loved one attends every hearing. We itemize all of it so a family in crisis can plan.",
+  "fees_heading": "What it costs, straight",
+  "fees_body": [
+    "**To open the case: $2,500 down.** The retainer covers the first stage — locating your loved one, filing the G-28 to get on record, and preparing the bond request.",
+    "**How to pay:** credit or debit card. You do not need immigration status to hire us.",
+    "**Not included:** the bond itself, set by the judge (legal minimum $1,500, often higher). That is paid directly to ICE by someone with lawful status and refunded at the end of the case if your loved one attends every hearing.",
+    "**After bond:** the removal defense is quoted separately, stage by stage, flat fee. No blank checks.",
+    "**If the family can't put the retainer together today,** we'll say so respectfully: we can't open the case yet. Keep this page; when you're ready, call and we move the same day."
+  ],
   "who_heading": "Is this the right page for your situation?",
   "who_for": [
     "Your spouse, parent, child, or other loved one was picked up by ICE",
@@ -103,14 +169,15 @@
     "They have an ICE check-in coming and the family wants counsel ready first"
   ],
   "who_not": [
+    "You only need to locate someone or send them money — use locator.ice.gov and the facility's deposit system. You don't need a lawyer for that.",
     "If they're in criminal custody (county jail on charges, not an ICE hold), a criminal defense lawyer leads first — but call us anyway: an immigration hold may follow and the plea deal matters enormously",
     "If they were already deported and are outside the U.S., different tools apply (waivers, consular processing) — we'll point you to the right path",
     "No lawyer can honestly guarantee release — anyone who does is selling you something"
   ],
   "faq": [
     {
-      "q": "How do I find someone detained by ICE?",
-      "a": "Use ICE's Online Detainee Locator (locator.ice.gov): search by A-number and country of birth, or by name, date of birth, and country. The A-number — a 9-digit number on any immigration paperwork — is the key that unlocks everything, so look for old documents. People booked in the last day or two may not appear yet, and detainees are moved between facilities without notice. If you can't find them, that's exactly the first thing we do."
+      "q": "How much does the lawyer cost and how can I pay?",
+      "a": "Opening a detention case takes a $2,500 retainer, which covers the first stage: locating your loved one, getting on record with the G-28, and preparing the bond request. We accept credit and debit cards, and you don't need immigration status to hire us. The bond the judge sets is separate money paid to ICE — refunded at the end if your loved one attends every hearing."
     },
     {
       "q": "Can my loved one get out on bond?",
@@ -131,6 +198,10 @@
     {
       "q": "I don't have papers myself. Is it safe for me to hire a lawyer or visit?",
       "a": "Hiring a lawyer is safe — we work for your family member, not the government, and what you tell us in seeking legal help is confidential. Two practical cautions: the person who pays the bond must have lawful status (plan who that will be), and visiting a facility generally requires ID, so many families send a documented relative or friend to visit while staying fully involved through us."
+    },
+    {
+      "q": "How do I find someone detained by ICE?",
+      "a": "Use ICE's Online Detainee Locator (locator.ice.gov): search by A-number and country of birth, or by name, date of birth, and country. The A-number — a 9-digit number on any immigration paperwork — is the key that unlocks everything, so look for old documents. People booked in the last day or two may not appear yet, and detainees are moved between facilities without notice. If you can't find them, that's exactly the first thing we do."
     }
   ],
   "service_name": "Immigration Detention & Bond Representation",
@@ -143,5 +214,17 @@
   "final_sub": "Call now if it's urgent. Otherwise send what you know — name, A-number, facility — and we'll start locating and moving on bond.",
   "site_overrides": {
     "response_promise": "A loved one in detention is a call-now situation — forms are answered within one business day, calls come first"
-  }
+  },
+  "fee_bar": "**Detention cases start at $2,500 down** · Credit and debit cards accepted · Attorney fee is separate from the bond the judge sets.",
+  "fee_bar_short": "From $2,500 · Cards accepted",
+  "call_checklist": {
+    "heading": "Have this ready before you call",
+    "items": [
+      "Your loved one's full name and country of birth (and A-number if you have it)",
+      "Where they're held or when they were picked up",
+      "Who the sponsor with lawful status will be",
+      "**The card or payment method for the $2,500 retainer** — so we can open the case on the first call"
+    ]
+  },
+  "hero_note": "Just trying to find where someone is held? The official locator is locator.ice.gov. This page is for hiring a lawyer."
 }

@@ -3,12 +3,12 @@
   "campaign": "Detención ICE — Texas (Español)",
   "priority": 40,
   "lang": "es",
-  "section": "Texas landers — detention & removal",
-  "meta_title": "Abogados de Detención de ICE en Texas — Fianzas | Faragalla Law",
+  "section": "Detention & removal — geo landers",
+  "meta_title": "Detenido por ICE en Texas | Faragalla Law",
   "meta_description": "¿Un ser querido detenido por ICE en Texas? Lo localizamos, entramos al caso rápido y peleamos la audiencia de fianza con un expediente completo. Usted puede contratarnos desde afuera, sin importar su propio estatus. Llame ya.",
-  "eyebrow": "Abogados de Detención de ICE y Fianzas — Texas",
-  "h1": "Abogados de Detención de ICE en Texas: Saque a Su Ser Querido Bajo Fianza",
-  "hero_sub": "¿Un ser querido encerrado por ICE? Los primeros días deciden casi todo.",
+  "eyebrow": "Abogado para Detenidos por ICE — Texas",
+  "h1": "Detenido por ICE en Texas — Abogados para Detenidos y Fianza",
+  "hero_sub": "¿Un ser querido encerrado por ICE? Ponga a un abogado a trabajar hoy — los primeros días deciden casi todo.",
   "bullets": [
     "Localizamos detenidos en los centros de Texas y entramos al caso rápido",
     "Audiencias de fianza peleadas con un expediente completo — no con súplicas",
@@ -42,6 +42,66 @@
         "No sé dónde lo tienen",
         "Lo trasladaron a Texas desde otro estado",
         "No estoy seguro(a) — necesito ayuda para entender"
+      ]
+    },
+    {
+      "name": "retainer_ability",
+      "label": "¿Puede cubrir el anticipo de $2,500 para abrir el caso?",
+      "options": [
+        {
+          "label": "Sí — puedo pagarlo hoy",
+          "value": "pay_now"
+        },
+        {
+          "label": "Sí — con tarjeta de crédito",
+          "value": "credit_card"
+        },
+        {
+          "label": "Todavía no",
+          "value": "not_yet"
+        }
+      ]
+    },
+    {
+      "name": "detained_state",
+      "label": "¿En qué estado está detenido?",
+      "options": [
+        {
+          "label": "Texas",
+          "value": "TX"
+        },
+        {
+          "label": "Louisiana",
+          "value": "LA"
+        },
+        {
+          "label": "Georgia",
+          "value": "GA"
+        },
+        {
+          "label": "Florida",
+          "value": "FL"
+        },
+        {
+          "label": "Arizona",
+          "value": "AZ"
+        },
+        {
+          "label": "California",
+          "value": "CA"
+        },
+        {
+          "label": "New Jersey / New York",
+          "value": "NJ_NY"
+        },
+        {
+          "label": "Otro estado",
+          "value": "other"
+        },
+        {
+          "label": "No sé",
+          "value": "unknown"
+        }
       ]
     }
   ],
@@ -96,8 +156,14 @@
       "body": "Salir es el comienzo, no el final — el caso de deportación sigue en la corte de inmigración. Revisamos cada defensa posible y seguimos peleando, con su familiar en casa mientras tanto."
     }
   ],
-  "fees_heading": "¿Cuánto Cuesta un Abogado de Detención de ICE?",
-  "fees_body": "La etapa de fianza — localizar a su familiar, entrar al caso, armar el expediente y la audiencia — es una sola tarifa fija, cotizada en la primera llamada. La defensa que continúa después se cotiza aparte, por etapas. La fianza en sí la fija el juez (el mínimo legal es $1,500; es común que sea más alta) y se devuelve al final del caso si su familiar asiste a todas sus audiencias. Le detallamos todo para que la familia pueda planificar.",
+  "fees_heading": "Cuánto cuesta, sin rodeos",
+  "fees_body": [
+    "**Para abrir el caso: $2,500 de anticipo.** Ese anticipo cubre la etapa inicial — localizar a su familiar, presentar el G-28 para entrar al caso, y preparar la solicitud de fianza.",
+    "**Cómo se paga:** tarjeta de crédito o débito. No necesita tener estatus migratorio para contratarnos.",
+    "**Lo que NO está incluido:** la fianza que fije el juez (mínimo legal $1,500; con frecuencia más). Esa se paga directamente a ICE por una persona con estatus legal, y se devuelve al final del caso si su familiar asiste a todas sus audiencias.",
+    "**Después de la fianza:** la defensa del caso de deportación se cotiza aparte, por etapas, con tarifa fija. Nunca firma un cheque en blanco.",
+    "**Si hoy no puede reunir el anticipo**, lo decimos con respeto: no podemos tomar el caso todavía. Guarde esta página; cuando la familia lo tenga, llame y nos movemos ese mismo día."
+  ],
   "who_heading": "¿Es Esta la Ayuda Correcta para Alguien Detenido por ICE?",
   "who_for": [
     "Se llevaron a su esposo(a), padre, madre, hijo(a) u otro ser querido en Texas",
@@ -155,5 +221,17 @@
   "final_sub": "Si es urgente, llame ahora. Si no: envíe lo que sepa — nombre, número A, centro — y empezamos a localizarlo y a mover la fianza.",
   "site_overrides": {
     "response_promise": "Un familiar detenido es motivo para llamar ya — los formularios se responden dentro de un día hábil, las llamadas primero"
-  }
+  },
+  "fee_bar": "**Casos de detención desde $2,500 de anticipo** · Aceptamos tarjetas de crédito y débito · Lo que pague es para su abogado; la fianza del juez es aparte.",
+  "fee_bar_short": "Desde $2,500 · Aceptamos tarjeta",
+  "call_checklist": {
+    "heading": "Antes de llamar, tenga esto listo",
+    "items": [
+      "Nombre completo y país de nacimiento de su familiar (y el número A si lo tiene)",
+      "Dónde está detenido o cuándo se lo llevaron",
+      "Quién va a ser el patrocinador con estatus legal",
+      "**La tarjeta o forma de pago para el anticipo de $2,500** — así abrimos el caso en la primera llamada"
+    ]
+  },
+  "hero_note": "¿Solo busca dónde está su familiar? El localizador oficial es locator.ice.gov. Esta página es para contratar abogado."
 }

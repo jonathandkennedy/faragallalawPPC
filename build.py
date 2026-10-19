@@ -26,6 +26,12 @@ def e(text):
     return html.escape(str(text), quote=True)
 
 
+def md(text):
+    """Escaped text with **bold** spans (used for fee copy)."""
+    import re as _re
+    return _re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", e(text))
+
+
 def load():
     site = json.loads((CONTENT / "site.json").read_text(encoding="utf-8"))
     pages = []
@@ -65,6 +71,11 @@ UI_EN = {
     "msg_sending": "Sending your request…",
     "msg_error": "Something went wrong sending the form. Please call us instead — the number is at the top of the page.",
     "urgent_note": "Marked urgent? Don't wait for a reply — call now for the fastest response:",
+    "notyet_lead": "Thank you. Since the retainer isn't possible yet, we can't open the case today — but here's what you can do right now:",
+    "notyet_b1": "Find where they're being held with the official locator:",
+    "notyet_b2": "Get them this message: don't sign anything, and ask to speak with a lawyer.",
+    "notyet_b3": "When the family has the retainer together, call",
+    "notyet_b3_rest": " and we move the same day.",
     "see_privacy": "See our",
     "privacy_policy": "Privacy Policy",
     "back_to_top": "back to top",
@@ -109,6 +120,7 @@ TY_EN = {
         ("Worth gathering meanwhile",
          "Your passport, any prior U.S. visa or immigration paperwork, and — for business cases — basic numbers on your investment or company. Don't worry if something is missing; we'll tell you exactly what matters for your case."),
     ],
+    "ready_line": "We'll call you today. Have the A-number, facility name, and the card you'll use for the retainer ready.",
     "callout_strong": "Need to talk sooner?",
     "callout_rest": "and mention that you've already submitted the form.",
     "meta_description": "Your request was received. Here's what happens next.",
@@ -125,6 +137,11 @@ UI_ES = {
     "msg_sending": "Enviando su solicitud…",
     "msg_error": "Ocurrió un error al enviar el formulario. Por favor llámenos — el número está en la parte superior de la página.",
     "urgent_note": "¿Es urgente? No espere la respuesta — llame ahora para la atención más rápida:",
+    "notyet_lead": "Gracias. Como todavía no puede cubrir el anticipo, no podemos abrir el caso hoy — pero esto es lo que sí puede hacer ahora mismo:",
+    "notyet_b1": "Encuentre dónde lo tienen con el localizador oficial:",
+    "notyet_b2": "Hágale llegar este mensaje: que no firme nada y que pida hablar con un abogado.",
+    "notyet_b3": "Cuando la familia reúna el anticipo, llame al",
+    "notyet_b3_rest": " y nos movemos el mismo día.",
     "see_privacy": "Consulte nuestra",
     "privacy_policy": "Política de Privacidad",
     "back_to_top": "volver arriba",
@@ -197,6 +214,7 @@ TY_ES = {
         ("Mientras tanto, vale la pena reunir",
          "Su pasaporte, cualquier documento migratorio anterior y cualquier notificación que haya recibido del gobierno. No se preocupe si le falta algo; le diremos exactamente qué importa en su caso."),
     ],
+    "ready_line": "Le llamaremos hoy. Tenga a la mano el número A, el nombre del centro y la tarjeta con la que va a pagar el anticipo.",
     "callout_strong": "¿Necesita hablar antes?",
     "callout_rest": "y mencione que ya envió el formulario.",
     "meta_description": "Recibimos su solicitud. Esto es lo que sigue.",
@@ -276,7 +294,11 @@ def render_form(site, page, ui, location):
 
     qualifiers = ""
     for q in page.get("qualifiers", []):
-        opts = "".join(f"<option>{e(o)}</option>" for o in q["options"])
+        opts = "".join(
+            f'<option value="{e(o["value"])}">{e(o["label"])}</option>' if isinstance(o, dict)
+            else f"<option>{e(o)}</option>"
+            for o in q["options"]
+        )
         qualifiers += f"""
       <div>
         <label for="{location}-{q['name']}">{e(q['label'])}</label>
@@ -310,7 +332,42 @@ def render_form(site, page, ui, location):
       <button class="btn btn--primary btn--block" type="submit">{e(page['cta_label'])}</button>
       <p class="lp-form__microcopy">{e(site['response_promise'])}. {e(site['consultation']['line'])}
       {e(site['form_microcopy_privacy'])} {e(ui['see_privacy'])} <a href="{e(site['privacy_url'])}" target="_blank" rel="noopener">{e(ui['privacy_policy']).replace(' ', '&nbsp;')}</a>.</p>
-    </form>"""
+    </form>{notyet_panel(site, page, ui)}"""
+
+
+def notyet_panel(site, page, ui):
+    """Inline post-submit state for leads who can't cover the retainer yet.
+    Rendered hidden next to the form; lp.js reveals it instead of redirecting."""
+    has_retainer_q = any(
+        q.get("name") == "retainer_ability" for q in page.get("qualifiers", [])
+    )
+    if not has_retainer_q:
+        return ""
+    return f"""
+    <div class="lp-form__notyet" hidden>
+      <p class="lp-form__notyet-lead">{e(ui['notyet_lead'])}</p>
+      <ul>
+        <li>{e(ui['notyet_b1'])} <a href="https://locator.ice.gov" target="_blank" rel="noopener">locator.ice.gov</a></li>
+        <li>{e(ui['notyet_b2'])}</li>
+        <li>{e(ui['notyet_b3'])} <a href="tel:{e(site['phone_tel'])}" data-call-location="notyet">{e(site['phone_display'])}</a>{e(ui['notyet_b3_rest'])}</li>
+      </ul>
+    </div>"""
+
+
+def render_checklist(page, ui):
+    cl = page.get("call_checklist")
+    if not cl:
+        return ""
+    items = "\n        ".join(f"<li>{md(i)}</li>" for i in cl["items"])
+    return f"""<section class="section section--alt">
+    <div class="container container--slim">
+      <h2>{e(cl['heading'])}</h2>
+      <ol class="call-checklist">
+        {items}
+      </ol>
+    </div>
+  </section>
+  """
 
 
 def render_header(site, page, ui):
@@ -336,15 +393,24 @@ def render_hero(site, page, ui):
         f"<li>{ICON_CHECK}<span>{e(b)}</span></li>" for b in page["bullets"]
     )
     stats = site["stats"]
+    fee_bar = f'<p class="fee-bar">{md(page["fee_bar"])}</p>' if page.get("fee_bar") else ""
+    hero_note = ""
+    if page.get("hero_note"):
+        note = md(page["hero_note"]).replace(
+            "locator.ice.gov",
+            '<a href="https://locator.ice.gov" target="_blank" rel="noopener">locator.ice.gov</a>')
+        hero_note = f'<p class="hero__note">{note}</p>'
     return f"""<section class="hero" id="top">
     <div class="container hero__grid">
       <div>
         <p class="hero__eyebrow">{e(page['eyebrow'])}</p>
         <h1>{e(page['h1'])}</h1>
         <p class="hero__sub">{e(page['hero_sub'])}</p>
+        {fee_bar}
         <ul class="hero__bullets">
           {bullets}
         </ul>
+        {hero_note}
         <div class="hero__cta-wrap">
           <a class="btn btn--primary" href="#lead-form" data-jump-form>{e(page['cta_label'])}</a>
           <p class="hero__call">{e(ui['or_call'])} <a href="tel:{e(site['phone_tel'])}" data-call-location="hero">{e(site['phone_display'])}</a></p>
@@ -454,11 +520,16 @@ def render_process(site, page, ui):
 
 
 def render_fees(page, ui):
+    body = page["fees_body"]
+    if isinstance(body, list):
+        paras = "\n      ".join(f'<p class="section__lead fees-p">{md(p)}</p>' for p in body)
+    else:
+        paras = f'<p class="section__lead" style="margin-bottom:0">{e(body)}</p>'
     return f"""<section class="section">
     <div class="container">
       <p class="section__kicker">{e(ui['k_fees'])}</p>
       <h2>{e(page['fees_heading'])}</h2>
-      <p class="section__lead" style="margin-bottom:0">{e(page['fees_body'])}</p>
+      {paras}
     </div>
   </section>"""
 
@@ -582,8 +653,9 @@ def render_footer(site, ui):
 
 
 def render_stickybar(site, page, ui):
+    fee = f'<div class="stickybar__fee">{e(page["fee_bar_short"])}</div>' if page.get("fee_bar_short") else ""
     return f"""<div class="stickybar" role="navigation" aria-label="{e(ui['quick_actions'])}">
-    <a class="btn btn--call" href="tel:{e(site['phone_tel'])}" data-call-location="stickybar">{ICON_PHONE} {e(ui['call_now'])}</a>
+    {fee}<a class="btn btn--call" href="tel:{e(site['phone_tel'])}" data-call-location="stickybar">{ICON_PHONE} {e(ui['call_now'])}</a>
     <a class="btn btn--primary" href="#lead-form" data-jump-form>{e(page['cta_short'])}</a>
   </div>"""
 
@@ -689,7 +761,7 @@ def render_page(site_base, page):
   {render_fees(page, ui)}
   {render_testimonials(site, page, ui)}
   {render_attorney(site, ui)}
-  {render_faq(page, ui)}
+  {render_checklist(page, ui)}{render_faq(page, ui)}
   {render_final(site, page, ui)}
   </main>
   {render_footer(site, ui)}
@@ -755,6 +827,12 @@ def render_thank_you(site, ty, lang):
     </div>
     <h1>{e(ty['h1'])}</h1>
     <p class="ty-lead">{lead}</p>
+    <p class="ty-ready" hidden>{e(ty['ready_line'])}</p>
+    <script>
+      if (new URLSearchParams(location.search).get('qual') === '1') {{
+        document.currentScript.previousElementSibling.hidden = false;
+      }}
+    </script>
     <div class="ty-steps">
       {steps}
     </div>
@@ -859,7 +937,7 @@ def render_sitelink_page(site_base, page):
 
 
 DEFAULT_SECTION = "Campaign landing pages"
-SECTION_ORDER = [DEFAULT_SECTION, "Texas landers — detention & removal", "Sitelink conversion pages"]
+SECTION_ORDER = [DEFAULT_SECTION, "Detention & removal — geo landers", "Sitelink conversion pages"]
 
 
 def render_index(site, pages):

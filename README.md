@@ -1,6 +1,6 @@
 # Faragalla Law — PPC Landing Page Hub
 
-A self-contained hub of 43 campaign landing pages for faragallalaw.com paid
+A self-contained hub of 48 campaign landing pages for faragallalaw.com paid
 traffic (the `results.goldbergloren.com` pattern: one focused, noindexed page
 per campaign, no site navigation, one offer per page), in three sections:
 
@@ -8,10 +8,13 @@ per campaign, no site navigation, one offer per page), in three sections:
   anchor, arreglar papeles, ajuste de estatus, residencia por matrimonio,
   deportación, familiar detenido, ciudadanía, Houston, and E-2 para
   mexicanos), all sharing the Spanish thank-you page `/gracias.html`.
-- **4 Texas landers** — ICE detention and deportation defense geo variants
-  built to client-supplied heading structures, each in English and Spanish
-  (run in Texas-geo campaigns split by language; the national versions cover
-  everywhere else).
+- **7 detention & removal geo landers** — Texas detention + deportation in
+  English and Spanish, Louisiana, Georgia/Florida, and a Spanish
+  "otros estados" transfer page, plus two national bond landers
+  (/fianza-de-inmigracion/, /immigration-bond-lawyer/). All nine detention
+  pages carry the $2,500-retainer qualification layer from the Oct 19
+  campaign handoff (fee bar, retainer + state form fields,
+  lead_qualified/lead_unqualified events, not-yet inline state).
 - **11 sitelink conversion pages** — slim, form-first pages with distinct URLs
   for Google Ads sitelink assets (case review, callback, Se Habla Español,
   bond eligibility, find-a-detainee, flat fees, free consultation, work
@@ -51,7 +54,7 @@ public/                   generated output — the deployable site
   index.html              internal hub directory (never an ad destination)
   thank-you.html          conversion page (fires generate_lead)
   gracias.html            Spanish conversion page (same event)
-  <campaign>/index.html   43 landing pages (29 EN + 14 ES)
+  <campaign>/index.html   48 landing pages (32 EN + 16 ES)
 research/                 keyword research exports + US-vs-Canada analysis (Aug 2026)
 ```
 
@@ -129,6 +132,15 @@ campaign_page, form_location).
   Profile" source link under the testimonials. Sanity check after deploy:
   click it once and confirm it opens the firm's profile with reviews.
 
+**From the Oct 19, 2026 detention handoff — [CONFIRM WITH CLIENT] before these lines can be added:**
+- [ ] Payment plans on the balance (option + copy omitted until confirmed)
+- [ ] Zelle / bank transfer as accepted payment methods (pages say cards only)
+- [ ] Family members splitting the payment (line omitted)
+- [ ] Retainer scope: $2,500 covers locate + G-28 + bond request — confirm
+  that's right for detention/bond matters specifically
+- [ ] Still open: free vs. flat-rate consultation (contradicts
+  /free-consultation/ sitelink)
+
 **From the Oct 7, 2026 Google Ads audit (fix list PDF):**
 - [ ] **REDEPLOY — the live site is stale.** The audit saw placeholder
   reviews on /deportation-defense-lawyer/ and /e2-visa-canadian-citizens/;
@@ -181,7 +193,7 @@ campaign_page, form_location).
 - [ ] Real-device pass: iPhone Safari + Android Chrome — sticky bar doesn't
   cover the form's submit button, tel: links dial, forms submit.
 
-**Spanish pages (all 14) extra blockers:**
+**Spanish pages (all 16) extra blockers:**
 - [x] ~~Confirm Spanish-speaking intake~~ — **CONFIRMED (2026-08-21): intake
   operates in both English and Spanish.** Pages and footers now state it
   (`site.json → languages_line`).
