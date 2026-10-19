@@ -9,6 +9,42 @@
   var TRACK_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'gbraid', 'wbraid', 'msclkid', 'fbclid'];
   var STORE_KEY = 'fl_attribution';
 
+  /* ---- Google Ads conversions (direct gtag, no GTM dependency) ----
+     Fired only after Formspree accepts the POST. Qualified = Primary bidding
+     signal; not_yet = Secondary (observation only). Labels live in Google Ads
+     465-923-1250 → Goals → Conversions. */
+  var AW_ID = 'AW-11003861805';
+  var AW_LABELS = {
+    lead_qualified:   'y59cCKiB2KIdEK22hv8o',
+    lead_unqualified: '0Ut9CKuB2KIdEK22hv8o'
+  };
+  var AW_TIMEOUT_MS = 1500; // never hold the redirect longer than this if the tag is blocked
+
+  function loadGtag() {
+    if (window.gtag) return;
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', AW_ID, { send_page_view: false }); // GTM already reports page views
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + AW_ID;
+    document.head.appendChild(s);
+  }
+
+  function fireAdsConversion(eventName, done) {
+    var label = AW_LABELS[eventName];
+    var fired = false;
+    var finish = function () { if (!fired) { fired = true; if (done) done(); } };
+    if (!label || typeof window.gtag !== 'function') { finish(); return; }
+    window.gtag('event', 'conversion', {
+      send_to: AW_ID + '/' + label,
+      value: eventName === 'lead_qualified' ? 100 : 0,
+      currency: 'USD',
+      event_callback: finish
+    });
+    setTimeout(finish, AW_TIMEOUT_MS);
+  }
+
   function safeStorage(fn, fallback) {
     try { return fn(); } catch (e) { return fallback; }
   }
@@ -135,6 +171,7 @@
   function handleForm(form) {
     fillHidden(form);
     watchUrgency(form);
+    if (form.querySelector('[name="retainer_ability"]')) loadGtag();
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -205,6 +242,7 @@
         if (isNotYet) {
           // No thank-you redirect for unqualified leads: show the inline
           // "not yet" guidance (locator, sign-nothing, call when ready).
+          fireAdsConversion('lead_unqualified');
           var panel = form.parentNode.querySelector('.lp-form__notyet');
           form.hidden = true;
           if (status) status.textContent = '';
@@ -215,7 +253,8 @@
         qs.set('from', window.location.pathname);
         if (retainer) qs.set('qual', '1');
         if (attribution.last && attribution.last.gclid) qs.set('gclid', attribution.last.gclid);
-        window.location.assign(thankYou + '?' + qs.toString());
+        var go = function () { window.location.assign(thankYou + '?' + qs.toString()); };
+        if (retainer) fireAdsConversion('lead_qualified', go); else go();
       }).catch(function () {
         if (btn) { btn.disabled = false; btn.textContent = btn.getAttribute('data-label'); }
         if (status) {

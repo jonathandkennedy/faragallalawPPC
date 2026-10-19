@@ -266,12 +266,19 @@ reveals the "have the card ready" line on the thank-you page.
 payment-plan option + copy, Zelle/bank-transfer as payment methods, the
 split-payment line, and the retainer-scope sentence should be re-verified.
 
-**GTM / Google Ads side (do after deploy):**
-- GA4: `lead_qualified` + `lead_unqualified` event tags (custom-event
-  triggers, same pattern as the existing events); mark ONLY
-  `lead_qualified` as a key event.
-- Google Ads: import `lead_qualified` as a conversion action, **Primary**;
-  demote the thank-you-pageview lead action to Secondary.
+**Google Ads conversions — now fired DIRECTLY from the page (Oct 19):**
+GTM container access wasn't available, so `lp.js` loads gtag on detention
+pages and fires the conversions itself after Formspree accepts the POST:
+`AW-11003861805/y59cCKiB2KIdEK22hv8o` (lead_qualified, $100) and
+`AW-11003861805/0Ut9CKuB2KIdEK22hv8o` (lead_unqualified, $0). A 1500ms
+event-callback failsafe guarantees the thank-you redirect is never held
+hostage by a blocked tag (verified in-browser: exactly 1501ms worst case,
+near-instant when the tag loads). In Google Ads: mark the Qualified Lead
+action **Primary**, the Unqualified action **Secondary**, and demote the
+old thank-you-pageview lead action to Secondary. **Never also wire these
+two labels in GTM — that would double-count.** If container access ever
+arrives, GA4 `lead_qualified`/`lead_unqualified` event tags are still
+worth adding for reporting (key event: lead_qualified only).
 - Calls: in CallRail, tag calls `Qualified` when the caller confirms the
   retainer and import that as the primary call conversion; otherwise set
   the call conversion threshold to ≥120s and make it primary with any-call
